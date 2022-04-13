@@ -1,2 +1,46 @@
 .footer
 	background-color $footer-bg
+	padding-bottom 80px
+	padding-top 41px
+	color $basic-white-color
+	border-top 13px solid #fff
+	
+
+.ano-footer__title
+	margin-bottom 15px
+	font-size 14px
+	font-family $FuturaDemi
+	position relative
+	&.active
+		.ano-footer__title-icons 
+			span
+				&:first-child
+					display none
+				&:last-child
+					display block
+	
+.ano-footer-menu
+	li
+		font-size 12px
+		line-height 1.33
+	a
+		color $basic-white-color
+		&:hover
+			color $accent-color
+			
+.ano-footer__title-icons
+	display none
+	position absolute
+	right 15px
+	top 50%
+	transform translateY(-65%)
+	font-size 28px
+	font-family $FuturaMed
+	letter-spacing .84px
+	color $basic-white-color
+	span
+		&:last-child
+			top -1px
+			position relative
+			display none
+	

@@ -1,2 +1,141 @@
-.header
+.lus-header
 	background-color $header-bg
+	margin-bottom 40px
+	.container
+		max-width 1100px
+		
+	&__top
+		display flex
+		flex-wrap nowrap
+		justify-content space-between
+		align-items center
+		padding-top 12px
+		padding-bottom 10px
+		>div:not(.lus-header-logo)
+			flex 1
+			
+	&__bot
+		display flex
+		align-items center
+	&__line
+		height 3px
+		width 100%
+		background-color $custom-color
+		
+	&-nav__menu
+		padding 0 10px
+		margin-bottom 0
+		display flex
+		li
+			position relative
+			text-transform uppercase
+			margin-right 25px
+			font 12px $FuturaDemi
+			&:after
+				content '|'
+				position absolute
+				right -14px
+				top 0
+				color $nav-link-color
+			&:last-child
+				margin-right 0
+				&:after
+					display none
+				
+		a
+			color $nav-link-color
+			&:hover
+				color $accent-color
+			
+	&-logo
+		font 48px $Rage
+		height 40px
+		flex-grow 0
+		padding-left 10px
+		padding-right 10px
+		overflow hidden
+		a
+			display inline-block
+			height 100%
+			color $custom-color
+			
+.lus-header--fix
+	display none
+	position fixed
+	top 0
+	left 0
+	height 100vh
+	width 100%
+	overflow auto
+	background-color #fff
+	z-index 5
+	&.active
+		display block
+	
+	.lus-header
+		&__top
+			justify-content center
+			position relative
+		&__bot
+			background-color $custom-color
+			flex-direction column
+			height calc(100% - 62px)
+			justify-content flex-start
+			
+		&-nav
+			width 100%
+			overflow hidden
+			&__menu
+				display block
+				text-align center
+				padding 0
+				margin-bottom 35px
+				li
+					padding 15px
+					border-bottom 1px solid $basic-white-color
+					margin-right 0
+				a
+					color $basic-white-color
+					&:hover
+						color $accent-color
+			
+
+.lus-toggle--active 
+	position absolute
+	left 0
+	top 17px
+	
+	.lus-toggle__icon 
+		span
+			&:first-child
+				top 11px
+				transform rotate(45deg)
+			&:nth-child(2)
+				opacity 0
+			&:last-child
+				top -1px
+				width 100%
+				transform rotate(-45deg)
+				
+.lus-toggle__icon
+	display flex
+	flex-direction column
+	cursor pointer
+	width 16px
+	min-height 20px
+	span
+		display block
+		position relative
+		top 0
+		width 100%
+		height 2px
+		margin-bottom 4px
+		background-color #555
+		transition all .3s ease
+		&:last-child
+			margin-bottom 0
+			width 50%
+	&:hover
+		span
+			&:last-child
+				width 100%

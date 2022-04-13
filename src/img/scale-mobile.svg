@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="325" height="15" viewBox="0 0 325 15">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.025" y1="0.5" x2="0.99" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f84481"/>
+      <stop offset="1" stop-color="#fcae77"/>
+    </linearGradient>
+  </defs>
+  <g id="scale-mobile" transform="translate(-26 -417)">
+    <text id="HIGH" transform="translate(41 429)" fill="#9a9a9a" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-14.08" y="0">HIGH</tspan></text>
+    <text id="LOW" transform="translate(338 429)" fill="#9a9a9a" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-12.372" y="0">LOW</tspan></text>
+    <rect id="Rectangle_144" data-name="Rectangle 144" width="248" height="9" transform="translate(66.5 420.893)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

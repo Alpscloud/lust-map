@@ -1,0 +1,460 @@
+.data-section
+	margin-bottom 80px
+	
+
+	.jump-to
+		display inline-block
+		position relative
+		color inherit
+		cursor pointer
+		span
+			position relative
+			display inline-block
+			z-index 2
+		&:before
+			content ''
+			position absolute
+			display block
+			bottom 0
+			left -5px
+			width calc(100% + 10px)
+			height 10px
+			background-color #f83c7f
+			transition all .3s
+			z-index 1
+		&:hover
+			&:before
+				height 20px
+				
+	.map-col
+		.control-row
+			position relative
+			display flex
+			justify-content space-between
+			flex-wrap nowrap
+			padding-left 39px
+			z-index 3
+			margin-bottom 30px
+			
+		.languages
+			display flex
+			justify-content flex-start
+			margin-right 25px
+			flex-wrap nowrap
+			
+			img
+				display block
+				width 26px
+				height auto
+				margin-right 10px
+			
+			.language-link
+				position relative
+				display flex
+				justify-content flex-start
+				align-items flex-start
+				font 11px $FuturaDemi
+				color $basic-black-color
+				&:first-child
+					margin-right 15px
+					
+			span.language-link
+				span
+					position relative
+					display inline-block
+					&:after
+						pseudo()
+						display block
+						position absolute
+						top 100%
+						left 0
+						width 100%
+						height 2px
+						background-color currentColor
+					
+			a.language-link
+				color #9a9a9a
+				
+	.info-trigger
+		flex-col-center()
+		flex none
+		width 39px
+		height 39px
+		color $basic-white-color
+		font 12px $FuturaDemi
+		background-color $basic-black-color
+		&:hover
+			cursor pointer
+			background-color $accent-color
+			color $basic-black-color
+					
+				
+	.control-row
+		.links-contain
+			align-items center
+			display flex
+			justify-content space-between
+			flex-wrap nowrap
+			
+
+			
+	img.logo
+		max-width none
+		width 138%
+		margin-bottom -20%
+		display block
+		position relative
+		horisontal-center()
+	
+.info-section
+	text-align center
+	margin-bottom 50px
+	
+	.site-width
+		position relative
+		max-width 745px
+		width 100%
+		text-align left
+		margin 0 auto
+		
+
+		
+p.intro-para
+	font-size 18px
+
+
+.data-section
+	.map-col
+		padding-top 20px
+		.internal-map-contain
+			display block
+			position relative
+			overflow hidden
+			padding-right 40px
+			
+		.scale-visual
+			position absolute
+			vertical-center()
+			right 5px
+			z-index 2
+			
+			
+		.map-visual
+			
+			svg
+				display block
+				width 100%
+				max-width 612px
+				height auto
+				margin 0 auto
+				
+			
+
+.select2-search--dropdown
+	display none
+
+
+.select2-results__options
+	padding 0
+	margin 0
+	
+	li
+		list-style-type none
+		padding 10px 20px !important
+		font-size 16px
+		font-family $Futura
+		color #fff
+		background $accent-color
+		margin 0 !important
+	
+
+
+
+.select2-container--default .select2-results__option--highlighted[aria-selected]
+	background-color $basic-black-color
+	
+
+
+.dd-contain
+	position relative
+	display inline-block
+	> span:first-child
+		display block
+		padding-left 5px
+		font-size 11px
+		font-weight bold
+		color #9A9A9A
+
+	.select2-container
+		width auto !important
+
+	.select2-container--default .select2-selection--single,
+	.select2-container .select2-selection--single
+		background-color transparent
+		border 0
+		border-radius 0
+
+
+	.select2-selection__arrow
+		display none
+	
+
+	.select2-container--default .select2-selection--single .select2-selection__rendered,
+	.select2-selection__rendered
+		display block
+		padding-top 4px
+		font-weight normal
+		padding 0
+		font-size 28px
+		line-height 1.4
+		font-family $Futura
+		text-transform none
+		color $basic-black-color
+	
+
+	.select2-selection
+		display block
+		height 100% !important
+	
+
+	.selection
+		position relative
+		display block
+		height 40px
+		margin-top 1px
+		background transparent
+		border-top 0
+		border-left 0
+		border-right 0
+		min-width 160px
+		
+
+		&:after
+			content ''
+			position relative
+			display block
+			width 100%
+			height 1px
+			background transparent linear-gradient(90deg, #F84481 0%, #FCAE77 100%) 0% 0% no-repeat padding-box
+		
+
+		.select2-selection__rendered
+			padding-right 24px !important
+			padding-left 4px !important
+
+			&:after
+				content ''
+				position absolute
+				display block
+				height 36px
+				right 0
+				bottom 13px
+				width 12px
+				height 8px
+				background url(../img/arw-down.svg) center center no-repeat
+
+		&:focus 
+			outline none
+			border 0
+			
+.data-section
+	.data-col
+		.invert-trigger
+			cursor pointer
+			path
+				transition stroke .17s ease-in-out
+			&:hover
+				path
+					stroke $basic-black-color
+		
+
+.data-section
+	.expand-control
+		display flex
+		flex-direction row
+		justify-content center
+		align-items center
+		align-content center
+		flex-wrap nowrap
+		padding 25px 0
+		
+		&:before,
+		&:after
+			content ''
+			flex-shrink 1
+			position relative
+			display block
+			width 145px
+			height 1px
+			background-color #d3d3d3
+
+			
+
+		.expand-toggle
+			display flex
+			flex-direction row
+			justify-content center
+			align-items center
+			align-content center
+			font-family $FuturaMed
+			flex-wrap nowrap
+			flex-shrink 0
+			width 127px
+			height 38px
+			padding 10px 15px
+			margin 0 15px
+			font-size 12px
+			text-transform uppercase
+			color $basic-white-color
+			background-color $basic-black-color
+		
+
+			&:hover
+				color $basic-white-color
+				background-color $accent-color
+				cursor pointer
+			
+
+			img
+				display block
+				margin-right 15px
+				flex none
+				width 18px
+
+			span
+				display block
+				text-align center
+				flex-grow 1
+				
+
+	.table-container
+		position relative
+		height 267px
+		overflow-y hidden
+		overflow-x auto
+		transition all 0.5s ease
+		&.expand,
+		&.overlay-active
+			height 2031px
+			
+		&.country-overlay-open .bg-fade
+			display none
+		
+			
+		.bg-fade
+			position absolute
+			top 0
+			right 0
+			display block
+			width 146px
+			height 100%
+			background transparent linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1)) 0% 0% no-repeat padding-box
+			z-index 10
+			pointer-events none
+			transition: opacity 0.3s
+
+			&.hidden
+				opacity 0
+				
+	.table-contain
+		min-width 100%
+		opacity 0
+		position absolute
+		top 100%
+		left 0
+		overflow-x auto
+		overflow-y hidden
+		transition all 0.5s linear
+		
+		h2
+			font 22px adobe-caslon-pro,serif
+			font-weight 400
+			line-height 1.2
+			margin-bottom 0.5rem
+
+		&.active
+			opacity 1
+			top 0
+			
+		table
+			width 100%
+			min-width 1000px
+
+			td
+				padding 9px 10px 12px
+				vertical-align middle
+				text-align center
+				&:nth-child(2)
+					text-align left
+				// &:nth-child(1),
+				// &:nth-child(3),
+				// &:nth-child(4),
+				// &:nth-child(5),
+				// &:nth-child(6)
+				// 	text-align center
+				// &:nth-child(7),
+				// &:nth-child(8),
+				// &:nth-child(9)
+				// 	width 200px
+				// &:nth-child(11)
+				// 	width 280px
+				
+
+			tr
+				&:first-child
+					font-size 12px
+					line-height 1.2
+					font-family $FuturaDemi
+					color #9a9a9a
+					text-align center
+					&:hover
+						color #9a9a9a
+						background $basic-white-color
+				&:nth-child(1n+2)
+					cursor pointer
+					font 14px $FuturaDemi
+				&:nth-child(even)
+					background-color #efefef
+				&:hover
+					color $basic-white-color
+					background transparent linear-gradient(90deg, #F84481 0%, #FCAE77 100%) 0% 0% no-repeat padding-box
+					
+
+	
+
+
+
+
+.info-section
+	padding-bottom 50px
+	h2
+		display inline-block
+		position relative
+		font-size 38px
+		line-height 1.2
+		margin-bottom 0
+		font-family adobe-caslon-pro,serif
+		&:after
+			content ''
+			position relative
+			display block
+			width 100%
+			height 1px
+			margin 20px 0 30px
+			background transparent linear-gradient(90deg,#f84481 0,#fcae77 100%) 0 0 no-repeat padding-box
+			
+	p
+		margin-bottom 40px
+
+	img
+		display block
+		margin-bottom 40px
+		
+	a
+		color inherit
+		&:hover
+			color #0056b3
+			text-decoration underline
+		
+
+

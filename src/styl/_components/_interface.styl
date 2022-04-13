@@ -1,0 +1,26 @@
+.scroll-indicator
+	position fixed
+	bottom 40px
+	horisontal-center()
+	transition all 0.5s ease
+	pointer-events none
+	z-index 10
+
+	#Ellipse_18
+		animation MoveUpDown 2.5s linear infinite
+	
+
+	&.hidden
+		opacity 0
+		animation none
+
+
+
+@keyframes MoveUpDown 
+	0%, 90%, 100% 
+		transform translate(668px, 855px)
+	
+	40%, 50% 
+		transform translate(668px, 869px)
+	
+	

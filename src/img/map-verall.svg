@@ -1,0 +1,354 @@
+<svg class="overall-table" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+	<style type="text/css">
+		.st0{fill:#FAF0F3;}
+		.st1{display:none;}
+		.st2{display:inline;fill:#F84D80;}
+		.st3{display:inline;fill:#F9677E;}
+		.st4{display:inline;fill:#FA7D7C;}
+		.st5{display:inline;fill:#FB8B7A;}
+		.st6{display:inline;fill:#F95180;}
+		.st7{display:inline;fill:#F95A7F;}
+		.st8{display:inline;fill:#FA6C7D;}
+		.st9{display:inline;fill:#FB8F7A;}
+		.st10{display:inline;fill:#FA867B;}
+		.st11{display:inline;fill:#FCAE77;}
+		.st12{display:inline;fill:#FB937A;}
+		.st13{display:inline;fill:#FCAA77;}
+		.st14{display:inline;fill:#FA757C;}
+		.st15{display:inline;fill:#F9567F;}
+		.st16{display:inline;fill:#FB9879;}
+		.st17{display:inline;fill:#FBA178;}
+		.st18{display:inline;fill:#FA827B;}
+		.st19{display:inline;fill:#F9637E;}
+		.st20{display:inline;fill:#FB9C79;}
+		.st21{display:inline;fill:#FA707D;}
+		.st22{display:inline;fill:#F95F7E;}
+		.st23{display:inline;fill:#F84881;}
+		.st24{display:inline;fill:#FCA578;}
+		.st25{display:inline;fill:#FA797C;}
+		.st26{display:inline;fill:#F84481;}
+		.st27{display:inline;fill:#FCA178;}
+		.st28{display:inline;fill:#F95F7F;}
+		.st29{display:inline;fill:#FB867B;}
+		.st30{display:inline;fill:#FA747C;}
+		.st31{display:inline;fill:#FA7E7C;}
+		.st32{display:inline;fill:#F84E80;}
+		.st33{display:inline;fill:#FB917A;}
+		.st34{display:inline;fill:#FB9B79;}
+		.st35{display:inline;fill:#FCA478;}
+		.st36{display:inline;fill:#F9617E;}
+		.st37{display:inline;fill:#F9577F;}
+		.st38{display:inline;fill:#FB877B;}
+		.st39{display:inline;fill:#F96B7D;}
+		.st40{fill:#F84481;}
+		.st41{fill:#FCAE77;}
+		.st42{display:inline;}
+		.st43{font-family:'MyriadPro-Regular';}
+		.st44{font-size:12px;}
+		.st45{display:inline;fill:none;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;}
+	</style>
+	<g id="Map">
+		<g id="Background" transform="translate(-654 -275.277)">
+			<path id="Path_116" class="st0" data-target="europe" d="M1543.8,632.8l-29.8,6.4l-4.9,12.7l37.2,6.8L1543.8,632.8z"/>
+			<g id="Group_101" transform="translate(631 -98.383)">
+				<path id="Path_47" class="st0" data-target="europe" d="M989.3,977l-60.2,17.4l-18.2-72.7l71.5,2.4L989.3,977z"/>
+				<path id="Path_48" class="st0" data-target="europe" d="M859.3,963.5l59.6,8.2l13.2,58l-68.2,21L859.3,963.5z"/>
+				<path id="Path_49" class="st0" data-target="north-america" d="M658.4,768.2l170,15.1l-17.6,94.5l-111.1,18.7L658.4,768.2z"/>
+				<path id="Path_50" class="st0" data-target="australia" d="M1304.5,1123.8l-111.3-11.2l13-62.8l74.5-22.9L1304.5,1123.8z"/>
+				<path id="Path_51" class="st0" data-target="north-america" d="M829.5,777l-172.9-16.1l-26.8-84.1l228.9,32.8L829.5,777z"/>
+				<path id="Path_52" class="st0" data-target="europe" d="M842.8,987.7l12.7-15.2l3.3,65.4l-19.7-7L842.8,987.7z"/>
+				<path id="Path_53" class="st0" data-target="europe" d="M946,806.2l-22.6,1.7l-19.8,84.7l41.6,2.5L946,806.2z"/>
+				<path id="Path_54" class="st0" data-target="europe" d="M979,906.5l-21-5.9l-6.4,16.1l28.4,2L979,906.5z"/>
+				<path id="Path_55" class="st0" data-target="europe" d="M1041.6,864.9l-11.7-35.7h-18.1l-0.5,41.6L1041.6,864.9z"/>
+				<path id="Path_115" class="st0" data-target="europe" d="M902.7,866.6l7-36.9l-15.8-8.8L873.3,857L902.7,866.6z"/>
+				<path id="Path_56" class="st0" data-target="europe" d="M1150.6,798.4l-29.8,6.4l-4.9,12.7l37.2,6.8L1150.6,798.4z"/>
+				<path id="Path_57" class="st0" data-target="australia" d="M1335.5,1112.1l-35,32.8l15.3,12.1l19.8-19.8L1335.5,1112.1z"/>
+				<path id="Path_58" class="st0" data-target="europe" d="M1106.6,819.5l49.4,12.7l4.9,12.7l-56.7,0.5L1106.6,819.5z"/>
+				<path id="Path_59" class="st0" data-target="europe" d="M1051.9,861l77.8-181.4l-51.8-9.3l-42.5,152.1L1051.9,861z"/>
+				<path id="Path_60" class="st0" data-target="europe" d="M977.5,881.1l-15.6,1.5l-3.4,11.7l20.1,6.4L977.5,881.1z"/>
+				<path id="Path_61" class="st0" data-target="europe" d="M1129.2,875.2h-70.9l-4,37.2l62.9,23.2L1129.2,875.2z"/>
+				<path id="Path_62" class="st0" data-target="europe" d="M1158.5,769.6l-58.2,22l32.8-110l17.6,9.8L1158.5,769.6z"/>
+				<path id="Path_63" class="st0" data-target="europe" d="M1086.2,930.7l-26.5-10.5l-1.5,22.5l22.5,4.4L1086.2,930.7z"/>
+				<path id="Path_64" class="st0" data-target="europe" d="M1067.5,972l-29.8,3.4l6.8,13.2l22-2L1067.5,972z"/>
+				<path id="Path_65" class="st0" data-target="europe" d="M1019.1,959.8l42.5-10.3l10.8,16.6l-38.1,4.9L1019.1,959.8z"/>
+				<path id="Path_66" class="st0" data-target="europe" d="M1080.7,961.8l42.1-1.5V974l-50.4,12.7L1080.7,961.8z"/>
+				<path id="Path_67" class="st0" data-target="europe" d="M1121.8,942.7l-29.8-9.8l-8.3,22.5l30.3-0.5L1121.8,942.7z"/>
+				<path id="Path_68" class="st0" data-target="europe" d="M1164.8,1036.1l-58.7,35.2l15.6,38.1l16.1-5.9L1164.8,1036.1z"/>
+				<path id="Path_69" class="st0" data-target="europe" d="M1070.4,1069.4l10.3-7.3l-51.3-85.1l-34.7,12.7L1070.4,1069.4z"/>
+				<path id="Path_70" class="st0" data-target="europe" d="M997.1,982.8l29.8-9.8l-13.7-10.8l-19.1,3.4L997.1,982.8z"/>
+				<path id="Path_71" class="st0" data-target="europe" d="M993.5,958.9l52.8-11.1l5.5-79.4l-69,12.3L993.5,958.9z"/>
+			</g>
+			<path id="Path_117_2_" data-target="south-america" class="st0" data-target="europe" d="M1414.1,993.7l30.6-130.1l-103.8-30.7l45.3,190.8L1414.1,993.7z"/>
+		</g>
+		<g id="overall" class="">
+			<ellipse id="newyork" class="st2" cx="797.7" cy="415.3" rx="7.6" ry="7.6"/>
+			<ellipse id="montreal" class="st3" cx="802.4" cy="383.2" rx="7.6" ry="7.6"/>
+			<ellipse id="toronto" class="st4" cx="766.5" cy="385.4" rx="7.6" ry="7.6"/>
+			<ellipse id="reykjavik" class="st5" cx="870.9" cy="372.1" rx="7.6" ry="7.6"/>
+			<ellipse id="london" class="st6" cx="907.7" cy="503.7" rx="7.6" ry="7.6"/>
+			<ellipse id="amsterdam" class="st7" cx="943.9" cy="513.9" rx="7.6" ry="7.6"/>
+			<ellipse id="melbourne" class="st8" cx="1252.3" cy="738.5" rx="7.6" ry="7.6"/>
+			<ellipse id="philadelphia" class="st9" cx="794.8" cy="433.3" rx="7.6" ry="7.6"/>
+			<ellipse id="washingtondc" class="st10" cx="790.1" cy="450.7" rx="7.6" ry="7.6"/>
+			<ellipse id="orlando" class="st11" cx="782.5" cy="478.3" rx="7.6" ry="7.6"/>
+			<ellipse id="atlanta" class="st12" cx="764" cy="472.3" rx="7.6" ry="7.6"/>
+			<ellipse id="houston" class="st13" cx="728.2" cy="485.9" rx="7.6" ry="7.6"/>
+			<ellipse id="vancouver" class="st14" cx="629.5" cy="320.8" rx="7.6" ry="7.6"/>
+			<ellipse id="sanfrancisco" class="st15" cx="652.4" cy="429.4" rx="7.6" ry="7.6"/>
+			<ellipse id="palmsprings" class="st16" cx="663.8" cy="441.2" rx="7.6" ry="7.6"/>
+			<ellipse id="keywest" class="st17" cx="780.7" cy="512.7" rx="7.6" ry="7.6"/>
+			<ellipse id="miami" class="st18" cx="783.2" cy="494.9" rx="7.6" ry="7.6"/>
+			<ellipse id="sydney" class="st19" cx="1266.9" cy="717.3" rx="7.6" ry="7.6"/>
+			<ellipse id="brussels" class="st20" cx="942.8" cy="536" rx="7.6" ry="7.6"/>
+			<ellipse id="paris" class="st21" cx="925.7" cy="562" rx="7.6" ry="7.6"/>
+			<ellipse id="madrid" class="st22" cx="869.7" cy="628.3" rx="7.6" ry="7.6"/>
+			<ellipse id="cologne" class="st23" cx="997.3" cy="536.1" rx="7.6" ry="7.6"/>
+			<ellipse id="dublin" class="st24" cx="871.9" cy="471.3" rx="7.6" ry="7.6"/>
+			<ellipse id="santiago" class="st25" cx="716.6" cy="690.3" rx="7.6" ry="7.6"/>
+			<ellipse id="berlin" class="st26" cx="1009.9" cy="517.3" rx="7.6" ry="7.6"/>
+		</g>
+		<g id="lgbt-events" class="st1">
+			<ellipse id="newyork_1_" class="st8" cx="797.7" cy="415.3" rx="7.6" ry="7.6"/>
+			<ellipse id="montreal_1_" class="st12" cx="802.4" cy="383.2" rx="7.6" ry="7.6"/>
+			<ellipse id="toronto_1_" class="st25" cx="766.5" cy="385.4" rx="7.6" ry="7.6"/>
+			<ellipse id="reykjavik_1_" class="st11" cx="870.9" cy="372.1" rx="7.6" ry="7.6"/>
+			<ellipse id="london_1_" class="st25" cx="907.7" cy="503.7" rx="7.6" ry="7.6"/>
+			<ellipse id="amsterdam_1_" class="st27" cx="943.9" cy="513.9" rx="7.6" ry="7.6"/>
+			<ellipse id="melbourne_1_" class="st11" cx="1252.3" cy="738.5" rx="7.6" ry="7.6"/>
+			<ellipse id="philadelphia_1_" class="st27" cx="794.8" cy="433.3" rx="7.6" ry="7.6"/>
+			<ellipse id="washingtondc_1_" class="st12" cx="790.1" cy="450.7" rx="7.6" ry="7.6"/>
+			<ellipse id="orlando_1_" class="st27" cx="782.5" cy="478.3" rx="7.6" ry="7.6"/>
+			<ellipse id="atlanta_1_" class="st12" cx="764" cy="472.3" rx="7.6" ry="7.6"/>
+			<ellipse id="houston_1_" class="st11" cx="728.2" cy="485.9" rx="7.6" ry="7.6"/>
+			<ellipse id="vancouver_1_" class="st11" cx="629.5" cy="320.8" rx="7.6" ry="7.6"/>
+			<ellipse id="sanfrancisco_1_" class="st28" cx="652.4" cy="429.4" rx="7.6" ry="7.6"/>
+			<ellipse id="palmsprings_1_" class="st11" cx="663.8" cy="441.2" rx="7.6" ry="7.6"/>
+			<ellipse id="keywest_1_" class="st11" cx="780.7" cy="512.7" rx="7.6" ry="7.6"/>
+			<ellipse id="miami_1_" class="st12" cx="783.2" cy="494.9" rx="7.6" ry="7.6"/>
+			<ellipse id="sydney_1_" class="st29" cx="1266.9" cy="717.3" rx="7.6" ry="7.6"/>
+			<ellipse id="brussels_1_" class="st11" cx="942.8" cy="536" rx="7.6" ry="7.6"/>
+			<ellipse id="paris_1_" class="st11" cx="925.7" cy="562" rx="7.6" ry="7.6"/>
+			<ellipse id="madrid_1_" class="st11" cx="869.7" cy="628.3" rx="7.6" ry="7.6"/>
+			<ellipse id="cologne_1_" class="st26" cx="997.3" cy="536.1" rx="7.6" ry="7.6"/>
+			<ellipse id="dublin_1_" class="st11" cx="871.9" cy="471.3" rx="7.6" ry="7.6"/>
+			<ellipse id="santiago_1_" class="st11" cx="716.6" cy="690.3" rx="7.6" ry="7.6"/>
+			<ellipse id="berlin_1_" class="st6" cx="1009.9" cy="517.3" rx="7.6" ry="7.6"/>
+		</g>
+		<g id="gay-pride" class="st1">
+			<ellipse id="newyork_2_" class="st25" cx="797.7" cy="415.3" rx="7.6" ry="7.6"/>
+			<ellipse id="montreal_2_" class="st12" cx="802.4" cy="383.2" rx="7.6" ry="7.6"/>
+			<ellipse id="toronto_2_" class="st12" cx="766.5" cy="385.4" rx="7.6" ry="7.6"/>
+			<ellipse id="reykjavik_2_" class="st11" cx="870.9" cy="372.1" rx="7.6" ry="7.6"/>
+			<ellipse id="london_2_" class="st12" cx="907.7" cy="503.7" rx="7.6" ry="7.6"/>
+			<ellipse id="amsterdam_2_" class="st12" cx="943.9" cy="513.9" rx="7.6" ry="7.6"/>
+			<ellipse id="melbourne_2_" class="st12" cx="1252.3" cy="738.5" rx="7.6" ry="7.6"/>
+			<ellipse id="philadelphia_2_" class="st11" cx="794.8" cy="433.3" rx="7.6" ry="7.6"/>
+			<ellipse id="washingtondc_2_" class="st11" cx="790.1" cy="450.7" rx="7.6" ry="7.6"/>
+			<ellipse id="orlando_2_" class="st11" cx="782.5" cy="478.3" rx="7.6" ry="7.6"/>
+			<ellipse id="atlanta_2_" class="st12" cx="764" cy="472.3" rx="7.6" ry="7.6"/>
+			<ellipse id="houston_2_" class="st12" cx="728.2" cy="485.9" rx="7.6" ry="7.6"/>
+			<ellipse id="vancouver_2_" class="st11" cx="629.5" cy="320.8" rx="7.6" ry="7.6"/>
+			<ellipse id="sanfrancisco_2_" class="st12" cx="652.4" cy="429.4" rx="7.6" ry="7.6"/>
+			<ellipse id="palmsprings_2_" class="st11" cx="663.8" cy="441.2" rx="7.6" ry="7.6"/>
+			<ellipse id="keywest_2_" class="st11" cx="780.7" cy="512.7" rx="7.6" ry="7.6"/>
+			<ellipse id="miami_2_" class="st12" cx="783.2" cy="494.9" rx="7.6" ry="7.6"/>
+			<ellipse id="sydney_2_" class="st12" cx="1266.9" cy="717.3" rx="7.6" ry="7.6"/>
+			<ellipse id="brussels_2_" class="st11" cx="942.8" cy="536" rx="7.6" ry="7.6"/>
+			<ellipse id="paris_2_" class="st12" cx="925.7" cy="562" rx="7.6" ry="7.6"/>
+			<ellipse id="madrid_2_" class="st26" cx="869.7" cy="628.3" rx="7.6" ry="7.6"/>
+			<ellipse id="cologne_2_" class="st28" cx="997.3" cy="536.1" rx="7.6" ry="7.6"/>
+			<ellipse id="dublin_2_" class="st11" cx="871.9" cy="471.3" rx="7.6" ry="7.6"/>
+			<ellipse id="santiago_2_" class="st11" cx="716.6" cy="690.3" rx="7.6" ry="7.6"/>
+			<ellipse id="berlin_2_" class="st12" cx="1009.9" cy="517.3" rx="7.6" ry="7.6"/>
+		</g>
+		<g id="gay-bars" class="st1">
+			<ellipse id="newyork_3_" class="st26" cx="797.7" cy="415.3" rx="7.6" ry="7.6"/>
+			<ellipse id="montreal_3_" class="st12" cx="802.4" cy="383.2" rx="7.6" ry="7.6"/>
+			<ellipse id="toronto_3_" class="st4" cx="766.5" cy="385.4" rx="7.6" ry="7.6"/>
+			<ellipse id="reykjavik_3_" class="st11" cx="870.9" cy="372.1" rx="7.6" ry="7.6"/>
+			<ellipse id="london_3_" class="st2" cx="907.7" cy="503.7" rx="7.6" ry="7.6"/>
+			<ellipse id="amsterdam_3_" class="st14" cx="943.9" cy="513.9" rx="7.6" ry="7.6"/>
+			<ellipse id="melbourne_3_" class="st13" cx="1252.3" cy="738.5" rx="7.6" ry="7.6"/>
+			<ellipse id="philadelphia_3_" class="st8" cx="794.8" cy="433.3" rx="7.6" ry="7.6"/>
+			<ellipse id="washingtondc_3_" class="st15" cx="790.1" cy="450.7" rx="7.6" ry="7.6"/>
+			<ellipse id="orlando_3_" class="st9" cx="782.5" cy="478.3" rx="7.6" ry="7.6"/>
+			<ellipse id="atlanta_3_" class="st3" cx="764" cy="472.3" rx="7.6" ry="7.6"/>
+			<ellipse id="houston_3_" class="st19" cx="728.2" cy="485.9" rx="7.6" ry="7.6"/>
+			<ellipse id="vancouver_3_" class="st16" cx="629.5" cy="320.8" rx="7.6" ry="7.6"/>
+			<ellipse id="sanfrancisco_3_" class="st23" cx="652.4" cy="429.4" rx="7.6" ry="7.6"/>
+			<ellipse id="palmsprings_3_" class="st21" cx="663.8" cy="441.2" rx="7.6" ry="7.6"/>
+			<ellipse id="keywest_3_" class="st5" cx="780.7" cy="512.7" rx="7.6" ry="7.6"/>
+			<ellipse id="miami_3_" class="st25" cx="783.2" cy="494.9" rx="7.6" ry="7.6"/>
+			<ellipse id="sydney_3_" class="st20" cx="1266.9" cy="717.3" rx="7.6" ry="7.6"/>
+			<ellipse id="brussels_3_" class="st10" cx="942.8" cy="536" rx="7.6" ry="7.6"/>
+			<ellipse id="paris_3_" class="st12" cx="925.7" cy="562" rx="7.6" ry="7.6"/>
+			<ellipse id="madrid_3_" class="st22" cx="869.7" cy="628.3" rx="7.6" ry="7.6"/>
+			<ellipse id="cologne_3_" class="st18" cx="997.3" cy="536.1" rx="7.6" ry="7.6"/>
+			<ellipse id="dublin_3_" class="st24" cx="871.9" cy="471.3" rx="7.6" ry="7.6"/>
+			<ellipse id="santiago_3_" class="st17" cx="716.6" cy="690.3" rx="7.6" ry="7.6"/>
+			<ellipse id="berlin_3_" class="st6" cx="1009.9" cy="517.3" rx="7.6" ry="7.6"/>
+		</g>
+		<g id="nudism" class="st1">
+			<ellipse id="newyork_4_" class="st12" cx="797.7" cy="415.3" rx="7.6" ry="7.6"/>
+			<ellipse id="montreal_4_" class="st11" cx="802.4" cy="383.2" rx="7.6" ry="7.6"/>
+			<ellipse id="toronto_4_" class="st12" cx="766.5" cy="385.4" rx="7.6" ry="7.6"/>
+			<ellipse id="reykjavik_4_" class="st11" cx="870.9" cy="372.1" rx="7.6" ry="7.6"/>
+			<ellipse id="london_4_" class="st12" cx="907.7" cy="503.7" rx="7.6" ry="7.6"/>
+			<ellipse id="amsterdam_4_" class="st11" cx="943.9" cy="513.9" rx="7.6" ry="7.6"/>
+			<ellipse id="melbourne_4_" class="st11" cx="1252.3" cy="738.5" rx="7.6" ry="7.6"/>
+			<ellipse id="philadelphia_4_" class="st11" cx="794.8" cy="433.3" rx="7.6" ry="7.6"/>
+			<ellipse id="washingtondc_4_" class="st11" cx="790.1" cy="450.7" rx="7.6" ry="7.6"/>
+			<ellipse id="orlando_4_" class="st11" cx="782.5" cy="478.3" rx="7.6" ry="7.6"/>
+			<ellipse id="atlanta_4_" class="st11" cx="764" cy="472.3" rx="7.6" ry="7.6"/>
+			<ellipse id="houston_4_" class="st11" cx="728.2" cy="485.9" rx="7.6" ry="7.6"/>
+			<ellipse id="vancouver_4_" class="st11" cx="629.5" cy="320.8" rx="7.6" ry="7.6"/>
+			<ellipse id="sanfrancisco_4_" class="st28" cx="652.4" cy="429.4" rx="7.6" ry="7.6"/>
+			<ellipse id="palmsprings_4_" class="st11" cx="663.8" cy="441.2" rx="7.6" ry="7.6"/>
+			<ellipse id="keywest_4_" class="st12" cx="780.7" cy="512.7" rx="7.6" ry="7.6"/>
+			<ellipse id="miami_4_" class="st11" cx="783.2" cy="494.9" rx="7.6" ry="7.6"/>
+			<ellipse id="sydney_4_" class="st28" cx="1266.9" cy="717.3" rx="7.6" ry="7.6"/>
+			<ellipse id="brussels_4_" class="st11" cx="942.8" cy="536" rx="7.6" ry="7.6"/>
+			<ellipse id="paris_4_" class="st25" cx="925.7" cy="562" rx="7.6" ry="7.6"/>
+			<ellipse id="madrid_4_" class="st11" cx="869.7" cy="628.3" rx="7.6" ry="7.6"/>
+			<ellipse id="cologne_4_" class="st25" cx="997.3" cy="536.1" rx="7.6" ry="7.6"/>
+			<ellipse id="dublin_4_" class="st11" cx="871.9" cy="471.3" rx="7.6" ry="7.6"/>
+			<ellipse id="santiago_4_" class="st11" cx="716.6" cy="690.3" rx="7.6" ry="7.6"/>
+			<ellipse id="berlin_4_" class="st26" cx="1009.9" cy="517.3" rx="7.6" ry="7.6"/>
+		</g>
+		<g id="contraception" class="st1">
+			<ellipse id="newyork_5_" class="st30" cx="797.7" cy="415.3" rx="7.6" ry="7.6"/>
+			<ellipse id="montreal_5_" class="st26" cx="802.4" cy="383.2" rx="7.6" ry="7.6"/>
+			<ellipse id="toronto_5_" class="st30" cx="766.5" cy="385.4" rx="7.6" ry="7.6"/>
+			<ellipse id="reykjavik_5_" class="st31" cx="870.9" cy="372.1" rx="7.6" ry="7.6"/>
+			<ellipse id="london_5_" class="st32" cx="907.7" cy="503.7" rx="7.6" ry="7.6"/>
+			<ellipse id="amsterdam_5_" class="st33" cx="943.9" cy="513.9" rx="7.6" ry="7.6"/>
+			<ellipse id="melbourne_5_" class="st34" cx="1252.3" cy="738.5" rx="7.6" ry="7.6"/>
+			<ellipse id="philadelphia_5_" class="st30" cx="794.8" cy="433.3" rx="7.6" ry="7.6"/>
+			<ellipse id="washingtondc_5_" class="st30" cx="790.1" cy="450.7" rx="7.6" ry="7.6"/>
+			<ellipse id="orlando_5_" class="st30" cx="782.5" cy="478.3" rx="7.6" ry="7.6"/>
+			<ellipse id="atlanta_5_" class="st30" cx="764" cy="472.3" rx="7.6" ry="7.6"/>
+			<ellipse id="houston_5_" class="st30" cx="728.2" cy="485.9" rx="7.6" ry="7.6"/>
+			<ellipse id="vancouver_5_" class="st26" cx="629.5" cy="320.8" rx="7.6" ry="7.6"/>
+			<ellipse id="sanfrancisco_5_" class="st30" cx="652.4" cy="429.4" rx="7.6" ry="7.6"/>
+			<ellipse id="palmsprings_5_" class="st30" cx="663.8" cy="441.2" rx="7.6" ry="7.6"/>
+			<ellipse id="keywest_5_" class="st30" cx="780.7" cy="512.7" rx="7.6" ry="7.6"/>
+			<ellipse id="miami_5_" class="st30" cx="783.2" cy="494.9" rx="7.6" ry="7.6"/>
+			<ellipse id="sydney_5_" class="st34" cx="1266.9" cy="717.3" rx="7.6" ry="7.6"/>
+			<ellipse id="brussels_5_" class="st35" cx="942.8" cy="536" rx="7.6" ry="7.6"/>
+			<ellipse id="paris_5_" class="st36" cx="925.7" cy="562" rx="7.6" ry="7.6"/>
+			<ellipse id="madrid_5_" class="st11" cx="869.7" cy="628.3" rx="7.6" ry="7.6"/>
+			<ellipse id="cologne_5_" class="st37" cx="997.3" cy="536.1" rx="7.6" ry="7.6"/>
+			<ellipse id="dublin_5_" class="st38" cx="871.9" cy="471.3" rx="7.6" ry="7.6"/>
+			<ellipse id="santiago_5_" class="st39" cx="716.6" cy="690.3" rx="7.6" ry="7.6"/>
+			<ellipse id="berlin_5_" class="st37" cx="1009.9" cy="517.3" rx="7.6" ry="7.6"/>
+		</g>
+		<g id="sexworklegality" class="st1">
+			<ellipse id="newyork_6_" class="st11" cx="797.7" cy="415.3" rx="7.6" ry="7.6"/>
+			<ellipse id="montreal_6_" class="st12" cx="802.4" cy="383.2" rx="7.6" ry="7.6"/>
+			<ellipse id="toronto_6_" class="st12" cx="766.5" cy="385.4" rx="7.6" ry="7.6"/>
+			<ellipse id="reykjavik_6_" class="st12" cx="870.9" cy="372.1" rx="7.6" ry="7.6"/>
+			<ellipse id="london_6_" class="st25" cx="907.7" cy="503.7" rx="7.6" ry="7.6"/>
+			<ellipse id="amsterdam_6_" class="st26" cx="943.9" cy="513.9" rx="7.6" ry="7.6"/>
+			<ellipse id="melbourne_6_" class="st26" cx="1252.3" cy="738.5" rx="7.6" ry="7.6"/>
+			<ellipse id="philadelphia_6_" class="st11" cx="794.8" cy="433.3" rx="7.6" ry="7.6"/>
+			<ellipse id="washingtondc_6_" class="st11" cx="790.1" cy="450.7" rx="7.6" ry="7.6"/>
+			<ellipse id="orlando_6_" class="st11" cx="782.5" cy="478.3" rx="7.6" ry="7.6"/>
+			<ellipse id="atlanta_6_" class="st11" cx="764" cy="472.3" rx="7.6" ry="7.6"/>
+			<ellipse id="houston_6_" class="st11" cx="728.2" cy="485.9" rx="7.6" ry="7.6"/>
+			<ellipse id="vancouver_6_" class="st12" cx="629.5" cy="320.8" rx="7.6" ry="7.6"/>
+			<ellipse id="sanfrancisco_6_" class="st11" cx="652.4" cy="429.4" rx="7.6" ry="7.6"/>
+			<ellipse id="palmsprings_6_" class="st11" cx="663.8" cy="441.2" rx="7.6" ry="7.6"/>
+			<ellipse id="keywest_6_" class="st11" cx="780.7" cy="512.7" rx="7.6" ry="7.6"/>
+			<ellipse id="miami_6_" class="st11" cx="783.2" cy="494.9" rx="7.6" ry="7.6"/>
+			<ellipse id="sydney_6_" class="st28" cx="1266.9" cy="717.3" rx="7.6" ry="7.6"/>
+			<ellipse id="brussels_6_" class="st25" cx="942.8" cy="536" rx="7.6" ry="7.6"/>
+			<ellipse id="paris_6_" class="st12" cx="925.7" cy="562" rx="7.6" ry="7.6"/>
+			<ellipse id="madrid_6_" class="st25" cx="869.7" cy="628.3" rx="7.6" ry="7.6"/>
+			<ellipse id="cologne_6_" class="st26" cx="997.3" cy="536.1" rx="7.6" ry="7.6"/>
+			<ellipse id="dublin_6_" class="st12" cx="871.9" cy="471.3" rx="7.6" ry="7.6"/>
+			<ellipse id="santiago_6_" class="st26" cx="716.6" cy="690.3" rx="7.6" ry="7.6"/>
+			<ellipse id="berlin_6_" class="st26" cx="1009.9" cy="517.3" rx="7.6" ry="7.6"/>
+		</g>
+		<g id="antidiscrimination" class="st1">
+			<ellipse id="newyork_7_" class="st11" cx="797.7" cy="415.3" rx="7.6" ry="7.6"/>
+			<ellipse id="montreal_7_" class="st26" cx="802.4" cy="383.2" rx="7.6" ry="7.6"/>
+			<ellipse id="toronto_7_" class="st11" cx="766.5" cy="385.4" rx="7.6" ry="7.6"/>
+			<ellipse id="reykjavik_7_" class="st26" cx="870.9" cy="372.1" rx="7.6" ry="7.6"/>
+			<ellipse id="london_7_" class="st26" cx="907.7" cy="503.7" rx="7.6" ry="7.6"/>
+			<ellipse id="amsterdam_7_" class="st26" cx="943.9" cy="513.9" rx="7.6" ry="7.6"/>
+			<ellipse id="melbourne_7_" class="st26" cx="1252.3" cy="738.5" rx="7.6" ry="7.6"/>
+			<ellipse id="philadelphia_7_" class="st11" cx="794.8" cy="433.3" rx="7.6" ry="7.6"/>
+			<ellipse id="washingtondc_7_" class="st11" cx="790.1" cy="450.7" rx="7.6" ry="7.6"/>
+			<ellipse id="orlando_7_" class="st11" cx="782.5" cy="478.3" rx="7.6" ry="7.6"/>
+			<ellipse id="atlanta_7_" class="st11" cx="764" cy="472.3" rx="7.6" ry="7.6"/>
+			<ellipse id="houston_7_" class="st11" cx="728.2" cy="485.9" rx="7.6" ry="7.6"/>
+			<ellipse id="vancouver_7_" class="st26" cx="629.5" cy="320.8" rx="7.6" ry="7.6"/>
+			<ellipse id="sanfrancisco_7_" class="st11" cx="652.4" cy="429.4" rx="7.6" ry="7.6"/>
+			<ellipse id="palmsprings_7_" class="st11" cx="663.8" cy="441.2" rx="7.6" ry="7.6"/>
+			<ellipse id="keywest_7_" class="st11" cx="780.7" cy="512.7" rx="7.6" ry="7.6"/>
+			<ellipse id="miami_7_" class="st11" cx="783.2" cy="494.9" rx="7.6" ry="7.6"/>
+			<ellipse id="sydney_7_" class="st26" cx="1266.9" cy="717.3" rx="7.6" ry="7.6"/>
+			<ellipse id="brussels_7_" class="st26" cx="942.8" cy="536" rx="7.6" ry="7.6"/>
+			<ellipse id="paris_7_" class="st26" cx="925.7" cy="562" rx="7.6" ry="7.6"/>
+			<ellipse id="madrid_7_" class="st26" cx="869.7" cy="628.3" rx="7.6" ry="7.6"/>
+			<ellipse id="cologne_7_" class="st26" cx="997.3" cy="536.1" rx="7.6" ry="7.6"/>
+			<ellipse id="dublin_7_" class="st11" cx="871.9" cy="471.3" rx="7.6" ry="7.6"/>
+			<ellipse id="santiago_7_" class="st26" cx="716.6" cy="690.3" rx="7.6" ry="7.6"/>
+			<ellipse id="berlin_7_" class="st26" cx="1009.9" cy="517.3" rx="7.6" ry="7.6"/>
+		</g>
+		<g id="genderright" class="st1">
+			<ellipse id="newyork_8_" class="st26" cx="797.7" cy="415.3" rx="7.6" ry="7.6"/>
+			<ellipse id="montreal_8_" class="st26" cx="802.4" cy="383.2" rx="7.6" ry="7.6"/>
+			<ellipse id="toronto_8_" class="st11" cx="766.5" cy="385.4" rx="7.6" ry="7.6"/>
+			<ellipse id="reykjavik_8_" class="st11" cx="870.9" cy="372.1" rx="7.6" ry="7.6"/>
+			<ellipse id="london_8_" class="st26" cx="907.7" cy="503.7" rx="7.6" ry="7.6"/>
+			<ellipse id="amsterdam_8_" class="st26" cx="943.9" cy="513.9" rx="7.6" ry="7.6"/>
+			<ellipse id="melbourne_8_" class="st26" cx="1252.3" cy="738.5" rx="7.6" ry="7.6"/>
+			<ellipse id="philadelphia_8_" class="st26" cx="794.8" cy="433.3" rx="7.6" ry="7.6"/>
+			<ellipse id="washingtondc_8_" class="st26" cx="790.1" cy="450.7" rx="7.6" ry="7.6"/>
+			<ellipse id="orlando_8_" class="st26" cx="782.5" cy="478.3" rx="7.6" ry="7.6"/>
+			<ellipse id="atlanta_8_" class="st11" cx="764" cy="472.3" rx="7.6" ry="7.6"/>
+			<ellipse id="houston_8_" class="st11" cx="728.2" cy="485.9" rx="7.6" ry="7.6"/>
+			<ellipse id="vancouver_8_" class="st26" cx="629.5" cy="320.8" rx="7.6" ry="7.6"/>
+			<ellipse id="sanfrancisco_8_" class="st26" cx="652.4" cy="429.4" rx="7.6" ry="7.6"/>
+			<ellipse id="palmsprings_8_" class="st26" cx="663.8" cy="441.2" rx="7.6" ry="7.6"/>
+			<ellipse id="keywest_8_" class="st26" cx="780.7" cy="512.7" rx="7.6" ry="7.6"/>
+			<ellipse id="miami_8_" class="st11" cx="783.2" cy="494.9" rx="7.6" ry="7.6"/>
+			<ellipse id="sydney_8_" class="st26" cx="1266.9" cy="717.3" rx="7.6" ry="7.6"/>
+			<ellipse id="brussels_8_" class="st11" cx="942.8" cy="536" rx="7.6" ry="7.6"/>
+			<ellipse id="paris_8_" class="st11" cx="925.7" cy="562" rx="7.6" ry="7.6"/>
+			<ellipse id="madrid_8_" class="st26" cx="869.7" cy="628.3" rx="7.6" ry="7.6"/>
+			<ellipse id="cologne_8_" class="st26" cx="997.3" cy="536.1" rx="7.6" ry="7.6"/>
+			<ellipse id="dublin_8_" class="st26" cx="871.9" cy="471.3" rx="7.6" ry="7.6"/>
+			<ellipse id="santiago_8_" class="st11" cx="716.6" cy="690.3" rx="7.6" ry="7.6"/>
+			<ellipse id="berlin_8_" class="st26" cx="1009.9" cy="517.3" rx="7.6" ry="7.6"/>
+		</g>
+		<g id="gaymarriage" class="st1">
+			<ellipse id="newyork_9_" class="st40" cx="797.7" cy="415.3" rx="7.6" ry="7.6"/>
+			<ellipse id="montreal_9_" class="st40" cx="802.4" cy="383.2" rx="7.6" ry="7.6"/>
+			<ellipse id="toronto_9_" class="st40" cx="766.5" cy="385.4" rx="7.6" ry="7.6"/>
+			<ellipse id="reykjavik_9_" class="st40" cx="870.9" cy="372.1" rx="7.6" ry="7.6"/>
+			<ellipse id="london_9_" class="st40" cx="907.7" cy="503.7" rx="7.6" ry="7.6"/>
+			<ellipse id="amsterdam_9_" class="st40" cx="943.9" cy="513.9" rx="7.6" ry="7.6"/>
+			<ellipse id="melbourne_9_" class="st40" cx="1252.3" cy="738.5" rx="7.6" ry="7.6"/>
+			<ellipse id="philadelphia_9_" class="st40" cx="794.8" cy="433.3" rx="7.6" ry="7.6"/>
+			<ellipse id="washingtondc_9_" class="st40" cx="790.1" cy="450.7" rx="7.6" ry="7.6"/>
+			<ellipse id="orlando_9_" class="st40" cx="782.5" cy="478.3" rx="7.6" ry="7.6"/>
+			<ellipse id="atlanta_9_" class="st40" cx="764" cy="472.3" rx="7.6" ry="7.6"/>
+			<ellipse id="houston_9_" class="st40" cx="728.2" cy="485.9" rx="7.6" ry="7.6"/>
+			<ellipse id="vancouver_9_" class="st40" cx="629.5" cy="320.8" rx="7.6" ry="7.6"/>
+			<ellipse id="sanfrancisco_9_" class="st40" cx="652.4" cy="429.4" rx="7.6" ry="7.6"/>
+			<ellipse id="palmsprings_9_" class="st40" cx="663.8" cy="441.2" rx="7.6" ry="7.6"/>
+			<ellipse id="keywest_9_" class="st40" cx="780.7" cy="512.7" rx="7.6" ry="7.6"/>
+			<ellipse id="miami_9_" class="st40" cx="783.2" cy="494.9" rx="7.6" ry="7.6"/>
+			<ellipse id="sydney_9_" class="st40" cx="1266.9" cy="717.3" rx="7.6" ry="7.6"/>
+			<ellipse id="brussels_9_" class="st40" cx="942.8" cy="536" rx="7.6" ry="7.6"/>
+			<ellipse id="paris_9_" class="st40" cx="925.7" cy="562" rx="7.6" ry="7.6"/>
+			<ellipse id="madrid_9_" class="st40" cx="869.7" cy="628.3" rx="7.6" ry="7.6"/>
+			<ellipse id="cologne_9_" class="st40" cx="997.3" cy="536.1" rx="7.6" ry="7.6"/>
+			<ellipse id="dublin_9_" class="st40" cx="871.9" cy="471.3" rx="7.6" ry="7.6"/>
+			<ellipse id="santiago_9_" class="st41" cx="716.6" cy="690.3" rx="7.6" ry="7.6"/>
+			<ellipse id="berlin_9_" class="st40" cx="1009.9" cy="517.3" rx="7.6" ry="7.6"/>
+		</g>
+	</g>
+</svg>

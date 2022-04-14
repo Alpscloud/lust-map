@@ -36,16 +36,20 @@
 					<div class="columns">
 						<div class="col map-col" data-aos="fade-in">
 
-							<div class="languages">
-								<span class="language-link">
-									<img src="img/flag-uk.svg" alt="">
-									<span>EN</span>
-								</span>
+							<div class="links-contain">
+								<div class="languages">
+									<span class="language-link">
+										<img src="img/flag-uk.svg" alt="">
+										<span>EN</span>
+									</span>
 
-								<a href="" class="language-link">
-									<img src="img/flag-germany.svg" alt="">
-									<span>DE</span>
-								</a>
+									<a href="" class="language-link">
+										<img src="img/flag-germany.svg" alt="">
+										<span>DE</span>
+									</a>
+								</div>
+
+								<a class="info-trigger">i</a>
 							</div>
 
 							<div class="mobile-show">
@@ -92,14 +96,15 @@
 							</div>
 
 							<div class="internal-map-contain">
+								<img src="img/scale.svg" alt="" class="scale-visual mobile-hide">
+								<img src="img/scale-mobile.svg" alt="" class="scale-visual mobile-show">
+
 								<div class="map-visual">
 									{% include '../parts/components/map.svg' %}
 								</div>
 
-								<img src="img/scale.svg" alt="" class="scale-visual mobile-hide">
-								<img src="img/scale-mobile.svg" alt="" class="scale-visual mobile-show">
+								
 
-								<a class="country-close-trigger"></a>
 							</div>
 						</div>
 
@@ -116,6 +121,12 @@
 
 								{% include '../parts/components/table/table-overall.html' %}
 
+
+								<!-- Info -->
+								{% include '../parts/components/info/berlin.html' %}
+								{% include '../parts/components/info/hamburg.html' %}
+								{% include '../parts/components/info/munich.html' %}
+								{% include '../parts/components/info/cologne.html' %}
 
 
 								<div class="bg-fade"></div>
@@ -201,9 +212,63 @@
 
 
 				</div>
+
+
 			</section>
 		</div>
 		<!-- //Main -->
+
+		<div class="info-overlay">
+			<div class="info-bg overlay-close-trigger"></div>
+			<div class="overlay-content"> 
+				<a class="overlay-close overlay-close-trigger"></a> 
+				<img src="img/logo.svg" alt="German Most Sexually Liberated Cities">
+				<h3>Methodology</h3>
+				<p>In order to compile a ranking of the cities that are most sexually liberal, all cities that host three or more LGBT events per year were examined for various factors. This includes the number of gay bars and sex shops, dealing with sex work, the number and size of the annual LGBT events as well as thelegal situation regarding contraceptives, changing the legal gender, same-sex marriages, pre-exposure prophylaxis ( PrEP) and and sexual discrimination. The selection of cities is based on the well-documented article “<a href="https://en.wikipedia.org/wiki/List_of_LGBT_events">List of LGBT events</a>” in the online encyclopedia Wikipedia.</p>
+				<p>The investigation was completed on September 23, 2021.</p>
+				<h3>Factors, definitions and sources</h3>
+				<p>Research field 1: Public space</p>
+				<p>Gay bars: Information on the number of gay bars in European cities was the <a href="https://www.patroc.de/gay/europa/">queer travel portal Patroc</a> taken from. The recommendation for the remaining cities portal Yelp was used. Sincefor Chile, China, Croatia, Greece, Nepal, Iceland, Serbia, South Korea, Thailand, Venezuela and the Canary Islands no data was available from Yelp , gay bars for the respective cities were searched manually using Google Maps.</p>
+				<p>Sex shops: Information about the number of sex shops was taken from the recommendation <a href="https://www.yelp.de/berlin">portal Yelp</a>. Since no data was available on Yelp for Chile, China, Croatia, Greece, Nepal, Iceland, Serbia, South Korea, Thailand, Venezuela and the Canary Islands , sex shops for the respective cities were searched manually using Google Maps.</p>
+				<p>Research field 2: Queer events</p>
+				<p>Number of events: Information on the number of events aimed at lesbian, gay, bisexual and / or trans people was taken from the well-documented article “<a href="https://en.wikipedia.org/wiki/List_of_LGBT_events">List of LGBT events</a>” in the online encyclopedia Wikipedia. The first 62 cities with three or more annual LGBT events were considered.</p>
+				<p>Largest Events: Information on the largest events aimed at lesbian, gay, bisexual and / or transgender people was taken from the well-documented article List of <a href="https://en.wikipedia.org/wiki/List_of_largest_LGBT_events">largest LGBT events</a> in the online encyclopedia Wikipedia.</p>
+				<p>Research field 3: Legal situation</p>
+				<p>Changing the legal gender: Information on the legality to change the legal gender was obtained from the information portal for LGBTQ + rightsfor the respective country <a href="https://www.equaldex.com/">Equaldex taken</a>.</p>
+				<p>Same-sex marriages: Information about whether same-sex marriages are legal, were for the country in the information portal for LGBTQ + Rights <a href="https://www.equaldex.com/">Equaldex</a> were taken.</p>
+				<p>Sexual discrimination: Information on whether sexual discrimination is punishable was obtained from the informationfor LGBTQ + Rightsfor the respective country portal <a href="https://www.equaldex.com/">Equaldex</a> were taken.</p>
+				<p>Sex work: Information on whether sex work is legal was taken from the well-documented article “<a href="https://en.wikipedia.org/wiki/Prostitution_by_region">Prostitution by region</a>” in the online encyclopedia Wikipedia.</p>
+				<p>Pre-exposure prophylaxis (PrEP): PrEP is an HIV prevention strategy for people who are HIV negative but have an increased risk of contracting HIV. Information on whether pre-exposure prophylaxis is officially approved in European countries and the United Kingdom was taken from the <a href="https://www.ecdc.europa.eu/sites/default/files/documents/HIV-Pre-Exposure-Prophylaxis-in-the-EU-EEA-UK.pdf">Operational Guidelines</a> of the European Center for Disease Prevention and Control. For the remaining countries, the well-documented article “<a href="https://en.wikipedia.org/wiki/Pre-exposure_prophylaxis#/media/File:Truvada.JPG">Pre-exposure prophylaxis</a>” in the online encyclopedia Wikipedia was used.</p>
+				<p>Contraceptives: The use of contraceptives serves as an indicator of public or legal acceptance of birth control and the associated acceptance of extramarital intercourse. Information on the use of contraceptives by women or their sexual partners was taken from the UN report “<a href="https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2021_wcu_fp-indicators_documentation.pdf">World Contraceptive Use 2021</a>” .</p>
+				<h3>Calculation and scoring</h3>
+				<p>In order to calculate a ranking list, all results of the influencing factors examined were standardized on a scale from 0 to 100. The city that performed best in the respective influencing factor received the number of points 100. The city that did the worst in the respective influencing factor received the number of points 0. All other cities ranked in between according to their results and also received a number of points between 0 and 100.</p>
+				<p>Then all points from all influencing factors of an examination field were added. The total gave the examination field result. Finally, all three examination field results were added up and this final result also standardized on a point scale between 0 and 100. The calculation was made using an ordinary normalization formula.</p>
+			</div>
+		</div>
+
+
+
+		<div class="fullscreen">
+			<div class="fullscreen-control">
+				<button class="btn-back" type="button">
+					<svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M24.0835 10.4165H5.30516L11.0527 3.5132C11.3214 3.18986 11.4507 2.773 11.4121 2.35432C11.3735 1.93565 11.1702 1.54945 10.8468 1.2807C10.5235 1.01195 10.1066 0.882649 9.68795 0.921251C9.26928 0.959852 8.88308 1.16319 8.61433 1.48653L0.697663 10.9865C0.644401 11.0621 0.596772 11.1415 0.555163 11.224C0.555163 11.3032 0.555163 11.3507 0.44433 11.4299C0.372563 11.6114 0.334986 11.8047 0.333496 11.9999C0.334986 12.1951 0.372563 12.3883 0.44433 12.5699C0.44433 12.649 0.444329 12.6965 0.555163 12.7757C0.596772 12.8583 0.644401 12.9376 0.697663 13.0132L8.61433 22.5132C8.7632 22.6919 8.94962 22.8357 9.16034 22.9342C9.37105 23.0327 9.60089 23.0836 9.8335 23.0832C10.2034 23.0839 10.562 22.9551 10.8468 22.719C11.0072 22.5861 11.1397 22.4229 11.2368 22.2387C11.334 22.0544 11.3938 21.8529 11.4129 21.6455C11.4321 21.4381 11.4101 21.229 11.3483 21.0301C11.2864 20.8313 11.186 20.6465 11.0527 20.4865L5.30516 13.5832H24.0835C24.5034 13.5832 24.9062 13.4164 25.2031 13.1195C25.5 12.8225 25.6668 12.4198 25.6668 11.9999C25.6668 11.5799 25.5 11.1772 25.2031 10.8803C24.9062 10.5834 24.5034 10.4165 24.0835 10.4165Z" fill="#333333"/>
+					</svg>
+				</button>
+
+				<div class="lus-header-logo"> 
+					<a href="https://lustmag.com/"> Lust </a>
+				</div>
+			</div>
+			<div class="fullscreen-container">
+				<div>
+					<img src="img/map-lg.svg" alt="">
+				</div>
+			</div>
+		</div>
+
+
+
 
 		<!-- Footer -->
 		{% include '../parts/sections/footer.html' %}

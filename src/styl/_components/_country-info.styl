@@ -1,0 +1,156 @@
+.country-info
+	position absolute
+	top 0
+	right 100%
+	width 100%
+	padding 50px 40px
+	background-color $light-grey-bg
+	overflow-y auto
+	overflow-x hidden
+	transition all 0.3s ease
+	z-index 15
+
+	&.active
+		right 0
+	
+
+	.title-row
+		display flex
+		flex-direction row
+		justify-content space-between
+		align-items flex-start
+		align-content flex-start
+		flex-wrap nowrap
+	
+
+	.country-close-trigger
+		position relative
+		display block
+		width 39px
+		height 39px
+		margin-left 25px
+		background $basic-black-color url('../img/icon-close.svg') center center no-repeat
+		cursor pointer
+
+		&:hover
+			background-color $accent-color
+			
+		
+	
+
+	h2
+		position relative
+		padding-top 4px
+		font-size 44px
+
+		&:after
+			content ''
+			position relative
+			display block
+			width 73px
+			height 2px
+			margin 15px 0 20px
+			background-color #707070
+		
+	
+
+
+	.stats
+		display flex
+		flex-direction row
+		justify-content flex-start
+		align-items flex-start
+		align-content flex-start
+		flex-wrap wrap
+		
+
+		.stat
+			width calc(33% - 10px)
+			margin-bottom 25px
+
+			&:nth-child(3n+2),
+			&:nth-child(3n+3)
+				margin-left 15px
+			
+
+			&:nth-child(1n+7) .stat-value
+				font-size 16px
+			
+		
+
+		.stat-label
+			display block
+			margin-bottom 10px
+			color #9A9A9A
+			font-size 12px
+			line-height 14px
+			font-weight bold
+		
+
+		.stat-value
+			display block
+			color $accent-color
+			font-size 26px
+			font-weight bold
+			//word-break: break-all
+			hyphens auto
+		
+
+		.stat-small
+			display inline-block
+			transform translateY(-8px)
+			font-size 14px
+		
+	
+
+	&.large-lang
+		.stats
+			.stat-value
+				font-size 22px
+			
+
+			.stat-small
+				font-size 12px
+				transform translateY(-5px)
+			
+		
+	
+
+
+	// @include query('max-small')
+	// 	padding: 50px 20px
+
+	// 	.title-row
+	// 		.country-close-trigger
+	// 			position: absolute
+	// 			top: 0
+	// 			right: 0
+			
+		
+
+	// 	&.large-lang
+	// 		.stat
+	// 			width: calc(50% - 10px)
+
+	// 			&:nth-child(3n+2),
+	// 			&:nth-child(3n+3)
+	// 				margin-left: auto
+				
+
+	// 			&:nth-child(even)
+	// 				margin-left: 20px
+				
+			
+		
+	
+
+	// @include query('tablet')
+	// 	.stat
+	// 		width: calc(33% - 10px)
+
+	// 		&:nth-child(3n+2),
+	// 		&:nth-child(3n+3)
+	// 			margin-left: 15px
+			
+		
+	

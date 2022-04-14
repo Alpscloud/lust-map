@@ -9,7 +9,7 @@
 +min-screen-height(minHeight)
 */
 
-+min-screen(768px)
++min-screen(1050px)
 	.data-section
 	
 		.columns
@@ -29,7 +29,7 @@
 				width 55%
 				.scale-visual
 					width auto
-					height 288px
+					height 355px
 					max-height 60%
 	
 			&.data-col
@@ -50,7 +50,7 @@
 			top 0
 			left 0
 			
-			> .languages
+			> .links-contain
 				display none
 				
 
@@ -64,10 +64,73 @@
 		display none !important
 		
 
-+max-screen(767px)
++max-screen(1050px)
 	.site-width
 		padding-left 25px
 		padding-right 25px
+	
+	.data-section
+		.map-col
+			> .links-contain
+				display flex
+				align-items center
+				justify-content flex-end
+				
+	.data-section 
+		img.logo
+			width 120vw
+			max-width none
+			margin-bottom 0
+			
+	.data-section 
+		.data-col
+			padding 20px 0 0
+		.map-col 
+			padding-top 0
+			.mobile-show
+				margin-bottom 40px
+				
+
+				
+			.control-row
+				padding-left 0
+				
+				.links-contain
+					display none
+				
+			.internal-map-contain
+				padding-right 0
+				
+			.scale-visual
+				position relative
+				transform none
+				top auto
+				right auto
+				
+	.lus-header
+		margin-bottom 35px
+		
+	.info-overlay
+		p
+			font-size 16px
+			
+
+	.scroll-indicator
+		bottom 10px
+		
+	.country-info
+		padding 50px 20px
+		
+		.title-row 
+			.country-close-trigger
+				position absolute
+				top 0
+				right 0
+				
+			
+		
+	.mobile-hide
+		display none !important
 		
 +max-screen(575px)
 	.ano-footer

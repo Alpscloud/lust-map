@@ -209,33 +209,33 @@ $(document).ready(function() {
 	});
 
 
-	if (html < 768) {
+	// if (html < 768) {
 
-		var fullscreenHeight = $('.fullscreen-container img').innerHeight();
+		//var fullscreenHeight = $('.fullscreen-container img').innerHeight();
 
 		//console.log($('.fullscreen-container div').prop('scrollHeight') / 2)
 	
 
-		$('.fullscreen-container div').scrollTop(300);
+		// $('.fullscreen-container div').scrollTop(300);
 
 
-		$('.map-visual').on('click', function(e) {
-			var self = $(this);
+		// $('.map-visual').on('click', function(e) {
+		// 	var self = $(this);
 
-			var target = $(e.target);
+		// 	var target = $(e.target);
 
 
-			if (target.hasClass('noclick')) {
-				return;
-			} else {
-				$('html').addClass('is-fixed');
-				$('.fullscreen').addClass('active');
-			}
+		// 	if (target.hasClass('noclick')) {
+		// 		return;
+		// 	} else {
+		// 		$('html').addClass('is-fixed');
+		// 		$('.fullscreen').addClass('active');
+		// 	}
 
 			
-		});
+		// });
 
-	}
+	// }
 
 
 	$('.btn-back').on('click', function(e) {

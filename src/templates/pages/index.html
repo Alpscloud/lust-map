@@ -34,7 +34,7 @@
 			<section class="data-section">
 				<div class="site-width container">
 					<div class="columns">
-						<div class="col map-col" data-aos="fade-in">
+						<div class="col map-col" >
 
 							<div class="links-contain">
 								<div class="languages">
@@ -53,7 +53,7 @@
 							</div>
 
 							<div class="mobile-show">
-								<img src="img/logo.svg" class="logo" alt="World's Most Sexually Liberated Cities">
+								<img src="img/logo-new.svg" class="logo" alt="World's Most Sexually Liberated Cities">
 
 								<p class="intro-para" data-aos="fade-right">Wie sexpositiv ist Deutschland? Wir haben deutsche Großstädte hinsichtlich ihrer sexuellen Freizügigkeit untersucht und die sexpositivsten Städte in einem Ranking zusammengefasst. <a class="jump-to" data-target="info-section"><span>more</span></a>
 								</p>
@@ -63,17 +63,18 @@
 								<div class="dd-contain">
 									<span>Showing</span>
 									<select class="table-control">
-										<option value="overall" selected>Cities</option>
+										<option value="overall" selected>Population</option>
 										<option value="swingerclubs">Swingerclubs</option>
-										<option value="gaypride">Gay Pride Events</option>
+										<option value="gayprides">Gay Pride Events</option>
 										<option value="lgbtevents">LGBT events</option>
 										<option value="lgbtbars">LGBT Bars / Clubs</option>
 										<option value="brothels">Brothels</option>
+										<option value="sexshops">Sex shops</option>
 										<option value="sexworkers">Sex workers</option>
 										<option value="sexworkorg">Sexwork Organisations</option>
 										<option value="sexhealth">Sex. Health Organisations</option>
-										<option value="hiv">HIV / STD Doctors and Clinics/option>
-										<option value="finalranking">Final Ranking (out of 50)</option>
+										<option value="hiv">HIV / STD Doctors and Clinics</option>
+										<!-- <option value="finalranking">Final Ranking (out of 50)</option> -->
 									</select>
 								</div>
 
@@ -95,11 +96,21 @@
 							</div>
 
 							<div class="internal-map-contain">
-								<img src="img/scale.svg" alt="" class="scale-visual mobile-hide">
-								<img src="img/scale-mobile.svg" alt="" class="scale-visual mobile-show">
+								<div class="scale-visual">
+									<span class="scale-visual__text">High</span>
+									<span class="scale-visual__line"></span>
+									<span class="scale-visual__text">Low</span>
+								</div>
 
 								<div class="map-visual">
-									{% include '../parts/components/maps/desktop.svg' %}
+									{% include '../parts/components/maps/desktop.html' %}
+
+									<div class="map-scale">
+										<a class="overlay-close overlay-close-trigger"></a> 
+										<div class="map-scale-container">
+											{% include '../parts/components/maps/mobile.html' %}
+										</div>
+									</div>
 								</div>
 
 								
@@ -109,7 +120,7 @@
 
 						<div class="col data-col">
 							<div class="intro-contain mobile-hide">
-								<img src="img/logo.svg" class="logo" alt="World's Most Sexually Liberated Cities">
+								<img src="img/logo-new.svg" class="logo" alt="World's Most Sexually Liberated Cities">
 
 								<p data-aos="fade-right" class="intro-para" data-aos-anchor=".data-col">
 									The well-being of sex workers varies greatly from country to country. To find out how your country compares, simply interact with the map below or scroll down for our key findings and methodology. <a class="jump-to" data-target="info-section"><span>more</span></a>
@@ -119,13 +130,20 @@
 							<div class="table-container" data-aos="fade-right" data-aos-anchor=".data-col">
 
 								{% include '../parts/components/table/table-overall.html' %}
+								{% include '../parts/components/table/table-swingerclubs.html' %}
+								{% include '../parts/components/table/table-gayprides.html' %}
+								{% include '../parts/components/table/table-lgbtevents.html' %}
+								{% include '../parts/components/table/table-lgbtbars.html' %}
+								{% include '../parts/components/table/table-brothels.html' %}
+								{% include '../parts/components/table/table-sexshops.html' %}
+								{% include '../parts/components/table/table-sexworkers.html' %}
+								{% include '../parts/components/table/table-sexworkorg.html' %}
+								{% include '../parts/components/table/table-sexhealth.html' %}
+								{% include '../parts/components/table/table-hiv.html' %}
 
 
 								<!-- Info -->
-								{% include '../parts/components/info/berlin.html' %}
-								{% include '../parts/components/info/hamburg.html' %}
-								{% include '../parts/components/info/munich.html' %}
-								{% include '../parts/components/info/cologne.html' %}
+								{% include '../parts/components/info/info.html' %}
 
 
 								<div class="bg-fade"></div>
@@ -221,7 +239,7 @@
 			<div class="info-bg overlay-close-trigger"></div>
 			<div class="overlay-content"> 
 				<a class="overlay-close overlay-close-trigger"></a> 
-				<img src="img/logo.svg" alt="German Most Sexually Liberated Cities">
+				<img src="img/logo-new.svg" alt="German Most Sexually Liberated Cities">
 				<h3>Methodology</h3>
 				<p>In order to compile a ranking of the cities that are most sexually liberal, all cities that host three or more LGBT events per year were examined for various factors. This includes the number of gay bars and sex shops, dealing with sex work, the number and size of the annual LGBT events as well as thelegal situation regarding contraceptives, changing the legal gender, same-sex marriages, pre-exposure prophylaxis ( PrEP) and and sexual discrimination. The selection of cities is based on the well-documented article “<a href="https://en.wikipedia.org/wiki/List_of_LGBT_events">List of LGBT events</a>” in the online encyclopedia Wikipedia.</p>
 				<p>The investigation was completed on September 23, 2021.</p>

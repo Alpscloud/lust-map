@@ -129,6 +129,17 @@ $(document).ready(function() {
 	var cities = {
 
 		Berlin: {
+			finalRanking: 8,
+			sexShops: 32,
+			swingerClubs: 8,
+			gayPrides: 6,
+			lbgtEvents: 40,
+			lgbtBars: 45,
+			brothels: 222,
+			sexWorkers: 418,
+			sexWorkOrg: 6,
+			sexHealth: 11,
+			hiv: 24,
 			population: 3600000,
 			en: {
 				title: 'Berlin',
@@ -145,6 +156,17 @@ $(document).ready(function() {
 		},
 
 		Hamburg: {
+			finalRanking: 22,
+			sexShops: 16,
+			swingerClubs: 8,
+			gayPrides: 6,
+			lbgtEvents: 16,
+			lgbtBars: 17,
+			brothels: 71,
+			sexWorkers: 226,
+			sexWorkOrg: 7,
+			sexHealth: 8,
+			hiv: 6,
 			population: 1852000,
 			en: {
 				title: 'Hamburg',
@@ -157,6 +179,17 @@ $(document).ready(function() {
 		},
 
 		Munich: {
+			finalRanking: 11,
+			sexShops: 13,
+			swingerClubs: 3,
+			gayPrides: 7,
+			lbgtEvents: 12,
+			lgbtBars: 14,
+			brothels: 86,
+			sexWorkers: 388,
+			sexWorkOrg: 2,
+			sexHealth: 8,
+			hiv: 8,
 			population: 1488000,
 			en: {
 				title: 'Munich',
@@ -169,6 +202,17 @@ $(document).ready(function() {
 		},
 
 		Cologne: {
+			finalRanking: 1,
+			sexShops: 19,
+			swingerClubs: 6,
+			gayPrides:9,
+			lbgtEvents: 14,
+			lgbtBars: 25,
+			brothels: 43,
+			sexWorkers: 587,
+			sexWorkOrg: 5,
+			sexHealth: 4,
+			hiv: 7,
 			population: 1083000,
 			en: {
 				title: 'Cologne',
@@ -181,6 +225,17 @@ $(document).ready(function() {
 		},
 
 		Frankfurt: {
+			finalRanking: 9,
+			sexShops: 6,
+			swingerClubs: 4,
+			gayPrides: 5,
+			lbgtEvents: 5,
+			lgbtBars: 13,
+			brothels: 37,
+			sexWorkers: 362,
+			sexWorkOrg: 1,
+			sexHealth: 2,
+			hiv: 4,
 			population: 764000,
 			en: {
 				title: 'Frankfurt am Main',
@@ -193,6 +248,17 @@ $(document).ready(function() {
 		},
 
 		Stuttgart: {
+			finalRanking: 10,
+			sexShops: 6,
+			swingerClubs: 3,
+			gayPrides: 4,
+			lbgtEvents: 4,
+			lgbtBars: 8,
+			brothels: 56,
+			sexWorkers: 296,
+			sexWorkOrg: 2,
+			sexHealth: 4,
+			hiv: 2,
 			population: 630000,
 			en: {
 				title: 'Stuttgart',
@@ -205,6 +271,17 @@ $(document).ready(function() {
 		},
 
 		Dusseldorf: {
+			finalRanking: 26,
+			sexShops: 4,
+			swingerClubs: 1,
+			gayPrides: 1,
+			lbgtEvents: 5,
+			lgbtBars: 6,
+			brothels: 37,
+			sexWorkers: 464,
+			sexWorkOrg: 0,
+			sexHealth: 4,
+			hiv: 2,
 			population: 620000,
 			en: {
 				title: 'Düsseldorf',
@@ -217,6 +294,17 @@ $(document).ready(function() {
 		},
 
 		Leipzig: {
+			finalRanking: 30,
+			sexShops: 3,
+			swingerClubs: 2,
+			gayPrides: 2,
+			lbgtEvents: 3,
+			lgbtBars: 6,
+			brothels: 28,
+			sexWorkers: 217,
+			sexWorkOrg: 1,
+			sexHealth: 4,
+			hiv: 1,
 			population: 597000,
 			en: {
 				title: 'Leipzig',
@@ -229,6 +317,17 @@ $(document).ready(function() {
 		},
 
 		Dortmund: {
+			finalRanking: 33,
+			sexShops: 4,
+			swingerClubs: 5,
+			gayPrides: 1,
+			lbgtEvents: 2,
+			lgbtBars: 2,
+			brothels: 19,
+			sexWorkers: 310,
+			sexWorkOrg: 2,
+			sexHealth: 6,
+			hiv: 1,
 			population: 587000,
 			en: {
 				title: 'Dortmund',
@@ -241,6 +340,17 @@ $(document).ready(function() {
 		},
 
 		Essen: {
+			finalRanking: 35,
+			sexShops: 2,
+			swingerClubs: 4,
+			gayPrides: 1,
+			lbgtEvents: 1,
+			lgbtBars: 4,
+			brothels: 24,
+			sexWorkers: 455,
+			sexWorkOrg: 4,
+			sexHealth: 4,
+			hiv: 1,
 			population: 582000,
 			en: {
 				title: 'Essen',
@@ -253,6 +363,17 @@ $(document).ready(function() {
 		},
 
 		Bremen: {
+			finalRanking: 15,
+			sexShops: 5,
+			swingerClubs: 2,
+			gayPrides: 1,
+			lbgtEvents: 3,
+			lgbtBars: 3,
+			brothels: 20,
+			sexWorkers: 246,
+			sexWorkOrg: 2,
+			sexHealth: 6,
+			hiv: 3,
 			population: 566000,
 			en: {
 				title: 'Bremen',
@@ -265,6 +386,17 @@ $(document).ready(function() {
 		},
 
 		Dresden: {
+			finalRanking: 17,
+			sexShops: 5,
+			swingerClubs: 5,
+			gayPrides: 3,
+			lbgtEvents: 3,
+			lgbtBars: 8,
+			brothels: 31,
+			sexWorkers: 114,
+			sexWorkOrg: 1,
+			sexHealth: 6,
+			hiv: 1,
 			population: 556000,
 			en: {
 				title: 'Dresden',
@@ -277,6 +409,17 @@ $(document).ready(function() {
 		},
 
 		Hannover: {
+			finalRanking: 13,
+			sexShops: 3,
+			swingerClubs: 5,
+			gayPrides: 3,
+			lbgtEvents: 1,
+			lgbtBars: 4,
+			brothels: 45,
+			sexWorkers: 272,
+			sexWorkOrg: 4,
+			sexHealth: 4,
+			hiv: 2,
 			population: 534000,
 			en: {
 				title: 'Hannover',
@@ -289,6 +432,17 @@ $(document).ready(function() {
 		},
 
 		Nuremberg: {
+			finalRanking: 24,
+			sexShops: 3,
+			swingerClubs: 3,
+			gayPrides: 1,
+			lbgtEvents: 2,
+			lgbtBars: 5,
+			brothels: 4,
+			sexWorkers: 309,
+			sexWorkOrg: 3,
+			sexHealth: 5,
+			hiv: 1,
 			population: 515000,
 			en: {
 				title: 'Nuremberg',
@@ -301,6 +455,17 @@ $(document).ready(function() {
 		},
 
 		Duisburg: {
+			finalRanking: 47,
+			sexShops: 1,
+			swingerClubs: 1,
+			gayPrides: 1,
+			lbgtEvents: 0,
+			lgbtBars: 5,
+			brothels: 18,
+			sexWorkers: 324,
+			sexWorkOrg: 1,
+			sexHealth: 2,
+			hiv: 0,
 			population: 495000,
 			en: {
 				title: 'Duisburg',
@@ -313,6 +478,17 @@ $(document).ready(function() {
 		},
 
 		Bochum: {
+			finalRanking: 32,
+			sexShops: 2,
+			swingerClubs: 1,
+			gayPrides: 1,
+			lbgtEvents: 1,
+			lgbtBars: 5,
+			brothels: 6,
+			sexWorkers: 355,
+			sexWorkOrg: 1,
+			sexHealth: 6,
+			hiv: 0,
 			population: 364000,
 			en: {
 				title: 'Bochum',
@@ -325,6 +501,17 @@ $(document).ready(function() {
 		},
 
 		Wuppertal: {
+			finalRanking: 29,
+			sexShops: 1,
+			swingerClubs: 1,
+			gayPrides: 1,
+			lbgtEvents: 0,
+			lgbtBars: 5,
+			brothels: 14,
+			sexWorkers: 230,
+			sexWorkOrg: 0,
+			sexHealth: 3,
+			hiv: 1,
 			population: 355000,
 			en: {
 				title: 'Wuppertal',
@@ -337,6 +524,17 @@ $(document).ready(function() {
 		},
 
 		Bielefeld: {
+			finalRanking: 42,
+			sexShops: 2,
+			swingerClubs: 1,
+			gayPrides: 1,
+			lbgtEvents: 0,
+			lgbtBars: 2,
+			brothels: 6,
+			sexWorkers: 233,
+			sexWorkOrg: 1,
+			sexHealth: 3,
+			hiv: 0,
 			population: 333000,
 			en: {
 				title: 'Bielefeld',
@@ -349,6 +547,17 @@ $(document).ready(function() {
 		},
 
 		Bonn: {
+			finalRanking: 23,
+			sexShops: 1,
+			swingerClubs: 0,
+			gayPrides: 1,
+			lbgtEvents: 2,
+			lgbtBars: 2,
+			brothels: 9,
+			sexWorkers: 182,
+			sexWorkOrg: 0,
+			sexHealth: 3,
+			hiv: 2,
 			population: 330000,
 			en: {
 				title: 'Bonn',
@@ -361,6 +570,17 @@ $(document).ready(function() {
 		},
 
 		Muenster: {
+			finalRanking: 28,
+			sexShops: 1,
+			swingerClubs: 1,
+			gayPrides: 1,
+			lbgtEvents: 1,
+			lgbtBars: 1,
+			brothels: 13,
+			sexWorkers: 152,
+			sexWorkOrg: 1,
+			sexHealth: 5,
+			hiv: 1,
 			population: 316000,
 			en: {
 				title: 'Muenster',
@@ -373,6 +593,17 @@ $(document).ready(function() {
 		},
 
 		Mannheim: {
+			finalRanking: 2,
+			sexShops: 3,
+			swingerClubs: 1,
+			gayPrides:2,
+			lbgtEvents: 6,
+			lgbtBars: 13,
+			brothels: 3,
+			sexWorkers: 329,
+			sexWorkOrg: 0,
+			sexHealth: 4,
+			hiv: 2,
 			population: 309000,
 			en: {
 				title: 'Mannheim',
@@ -385,6 +616,17 @@ $(document).ready(function() {
 		},
 
 		Karlsruhe: {
+			finalRanking: 18,
+			sexShops: 5,
+			swingerClubs: 2,
+			gayPrides: 2,
+			lbgtEvents: 0,
+			lgbtBars: 1,
+			brothels: 28,
+			sexWorkers: 311,
+			sexWorkOrg: 0,
+			sexHealth: 3,
+			hiv: 0,
 			population: 308000,
 			en: {
 				title: 'Karlsruhe',
@@ -397,6 +639,17 @@ $(document).ready(function() {
 		},
 
 		Augsburg: {
+			finalRanking: 14,
+			sexShops: 5,
+			swingerClubs: 1,
+			gayPrides: 1,
+			lbgtEvents: 3,
+			lgbtBars: 3,
+			brothels: 25,
+			sexWorkers: 152,
+			sexWorkOrg: 1,
+			sexHealth: 4,
+			hiv: 0,
 			population: 295000,
 			en: {
 				title: 'Augsburg',
@@ -409,6 +662,17 @@ $(document).ready(function() {
 		},
 
 		Wiesbaden: {
+			finalRanking: 7,
+			sexShops: 3,
+			swingerClubs: 1,
+			gayPrides: 1,
+			lbgtEvents: 0,
+			lgbtBars: 1,
+			brothels: 15,
+			sexWorkers: 241,
+			sexWorkOrg: 1,
+			sexHealth: 2,
+			hiv: 2,
 			population: 278000,
 			en: {
 				title: 'Wiesbaden',
@@ -421,6 +685,17 @@ $(document).ready(function() {
 		},
 
 		Mönchengladbach: {
+			finalRanking: 34,
+			sexShops: 1,
+			swingerClubs: 2,
+			gayPrides: 1,
+			lbgtEvents: 0,
+			lgbtBars: 4,
+			brothels: 17,
+			sexWorkers: 265,
+			sexWorkOrg: 0,
+			sexHealth: 2,
+			hiv: 0,
 			population: 259000,
 			en: {
 				title: 'Mönchengladbach',
@@ -433,6 +708,17 @@ $(document).ready(function() {
 		},
 
 		Gelsenkirchen: {
+			finalRanking: 27,
+			sexShops: 2,
+			swingerClubs: 1,
+			gayPrides: 0,
+			lbgtEvents: 0,
+			lgbtBars: 2,
+			brothels: 12,
+			sexWorkers: 260,
+			sexWorkOrg: 0,
+			sexHealth: 0,
+			hiv: 1,
 			population: 259000,
 			en: {
 				title: 'Gelsenkirchen',
@@ -445,6 +731,17 @@ $(document).ready(function() {
 		},
 
 		Aachen: {
+			finalRanking: 25,
+			sexShops: 2,
+			swingerClubs: 0,
+			gayPrides: 1,
+			lbgtEvents: 0,
+			lgbtBars: 2,
+			brothels: 5,
+			sexWorkers: 140,
+			sexWorkOrg: 0,
+			sexHealth: 2,
+			hiv: 1,
 			population: 248000,
 			en: {
 				title: 'Aachen',
@@ -457,6 +754,17 @@ $(document).ready(function() {
 		},
 
 		Braunschweig: {
+			finalRanking: 21,
+			sexShops: 1,
+			swingerClubs: 0,
+			gayPrides: 1,
+			lbgtEvents: 0,
+			lgbtBars: 4,
+			brothels: 9,
+			sexWorkers: 139,
+			sexWorkOrg: 0,
+			sexHealth: 3,
+			hiv: 1,
 			population: 248000,
 			en: {
 				title: 'Braunschweig',
@@ -469,6 +777,17 @@ $(document).ready(function() {
 		},
 
 		Keel: {
+			finalRanking: 20,
+			sexShops: 2,
+			swingerClubs: 0,
+			gayPrides: 1,
+			lbgtEvents: 1,
+			lgbtBars: 3,
+			brothels: 9,
+			sexWorkers: 80,
+			sexWorkOrg: 4,
+			sexHealth: 3,
+			hiv: 0,
 			population: 246000,
 			en: {
 				title: 'Keel',
@@ -481,6 +800,17 @@ $(document).ready(function() {
 		},
 
 		Chemnitz: {
+			finalRanking: 6,
+			sexShops: 4,
+			swingerClubs: 4,
+			gayPrides: 1,
+			lbgtEvents: 1,
+			lgbtBars: 1,
+			brothels: 22,
+			sexWorkers: 115,
+			sexWorkOrg: 2,
+			sexHealth: 3,
+			hiv: 1,
 			population: 244000,
 			en: {
 				title: 'Chemnitz',
@@ -493,6 +823,17 @@ $(document).ready(function() {
 		},
 
 		Halle: {
+			finalRanking: 45,
+			sexShops: 1,
+			swingerClubs: 0,
+			gayPrides: 1,
+			lbgtEvents: 1,
+			lgbtBars: 1,
+			brothels: 7,
+			sexWorkers: 79,
+			sexWorkOrg: 0,
+			sexHealth: 3,
+			hiv: 0,
 			population: 237000,
 			en: {
 				title: 'Halle (Saale)',
@@ -505,6 +846,17 @@ $(document).ready(function() {
 		},
 
 		Magdeburg: {
+			finalRanking: 5,
+			sexShops: 4,
+			swingerClubs: 0,
+			gayPrides: 1,
+			lbgtEvents: 1,
+			lgbtBars: 2,
+			brothels: 7,
+			sexWorkers: 139,
+			sexWorkOrg: 3,
+			sexHealth: 4,
+			hiv: 1,
 			population: 235000,
 			en: {
 				title: 'Magdeburg',
@@ -517,6 +869,17 @@ $(document).ready(function() {
 		},
 
 		Freiburg: {
+			finalRanking: 3,
+			sexShops: 1,
+			swingerClubs: 0,
+			gayPrides: 2,
+			lbgtEvents: 4,
+			lgbtBars: 2,
+			brothels: 19,
+			sexWorkers: 155,
+			sexWorkOrg: 3,
+			sexHealth: 4,
+			hiv: 2,
 			population: 230000,
 			en: {
 				title: 'Freiburg',
@@ -529,6 +892,17 @@ $(document).ready(function() {
 		},
 
 		Krefeld: {
+			finalRanking: 41,
+			sexShops: 1,
+			swingerClubs: 1,
+			gayPrides: 0,
+			lbgtEvents: 1,
+			lgbtBars: 3,
+			brothels: 5,
+			sexWorkers: 146,
+			sexWorkOrg: 0,
+			sexHealth: 3,
+			hiv: 0,
 			population: 226000,
 			en: {
 				title: 'Krefeld',
@@ -541,6 +915,17 @@ $(document).ready(function() {
 		},
 
 		Mainz: {
+			finalRanking: 16,
+			sexShops: 2,
+			swingerClubs: 1,
+			gayPrides: 1,
+			lbgtEvents: 0,
+			lgbtBars: 2,
+			brothels: 8,
+			sexWorkers: 208,
+			sexWorkOrg: 0,
+			sexHealth: 1,
+			hiv: 1,
 			population: 217000,
 			en: {
 				title: 'Mainz',
@@ -553,6 +938,17 @@ $(document).ready(function() {
 		},
 
 		Lübeck: {
+			finalRanking: 37,
+			sexShops: 1,
+			swingerClubs: 0,
+			gayPrides: 1,
+			lbgtEvents: 0,
+			lgbtBars: 1,
+			brothels: 10,
+			sexWorkers: 85,
+			sexWorkOrg: 1,
+			sexHealth: 4,
+			hiv: 0,
 			population: 215000,
 			en: {
 				title: 'Lübeck',
@@ -565,6 +961,17 @@ $(document).ready(function() {
 		},
 
 		Erfurt: {
+			finalRanking: 36,
+			sexShops: 1,
+			swingerClubs: 0,
+			gayPrides: 0,
+			lbgtEvents: 0,
+			lgbtBars: 4,
+			brothels: 9,
+			sexWorkers: 136,
+			sexWorkOrg: 1,
+			sexHealth: 2,
+			hiv: 0,
 			population: 213000,
 			en: {
 				title: 'Erfurt',
@@ -577,6 +984,17 @@ $(document).ready(function() {
 		},
 
 		Oberhausen: {
+			finalRanking: 39,
+			sexShops: 2,
+			swingerClubs: 0,
+			gayPrides: 0,
+			lbgtEvents: 0,
+			lgbtBars: 2,
+			brothels: 7,
+			sexWorkers: 314,
+			sexWorkOrg: 0,
+			sexHealth: 2,
+			hiv: 0,
 			population: 209000,
 			en: {
 				title: 'Oberhausen',
@@ -589,6 +1007,17 @@ $(document).ready(function() {
 		},
 
 		Rostock: {
+			finalRanking: 12,
+			sexShops: 3,
+			swingerClubs: 0,
+			gayPrides: 1,
+			lbgtEvents: 0,
+			lgbtBars: 3,
+			brothels: 4,
+			sexWorkers: 39,
+			sexWorkOrg: 2,
+			sexHealth: 5,
+			hiv: 0,
 			population: 209000,
 			en: {
 				title: 'Rostock',
@@ -601,6 +1030,17 @@ $(document).ready(function() {
 		},
 
 		Kassel: {
+			finalRanking: 38,
+			sexShops: 1,
+			swingerClubs: 0,
+			gayPrides: 1,
+			lbgtEvents: 1,
+			lgbtBars: 1,
+			brothels: 11,
+			sexWorkers: 174,
+			sexWorkOrg: 2,
+			sexHealth: 1,
+			hiv: 0,
 			population: 201000,
 			en: {
 				title: 'Kassel',
@@ -613,6 +1053,17 @@ $(document).ready(function() {
 		},
 
 		Hagen: {
+			finalRanking: 43,
+			sexShops: 1,
+			swingerClubs: 1,
+			gayPrides: 0,
+			lbgtEvents: 0,
+			lgbtBars: 0,
+			brothels: 5,
+			sexWorkers: 90,
+			sexWorkOrg: 1,
+			sexHealth: 3,
+			hiv: 0,
 			population: 188000,
 			en: {
 				title: 'Hagen',
@@ -625,6 +1076,17 @@ $(document).ready(function() {
 		},
 
 		Potsdam: {
+			finalRanking: 40,
+			sexShops: 1,
+			swingerClubs: 0,
+			gayPrides: 1,
+			lbgtEvents: 0,
+			lgbtBars: 1,
+			brothels: 0,
+			sexWorkers: 163,
+			sexWorkOrg: 0,
+			sexHealth: 4,
+			hiv: 0,
 			population: 182000,
 			en: {
 				title: 'Potsdam',
@@ -637,6 +1099,17 @@ $(document).ready(function() {
 		},
 
 		Saarbrücken: {
+			finalRanking: 19,
+			sexShops: 1,
+			swingerClubs: 0,
+			gayPrides: 1,
+			lbgtEvents: 0,
+			lgbtBars: 2,
+			brothels: 21,
+			sexWorkers: 243,
+			sexWorkOrg: 1,
+			sexHealth: 3,
+			hiv: 0,
 			population: 179000,
 			en: {
 				title: 'Saarbrücken',
@@ -649,6 +1122,17 @@ $(document).ready(function() {
 		},
 
 		Hamm: {
+			finalRanking: 46,
+			sexShops: 0,
+			swingerClubs: 0,
+			gayPrides: 1,
+			lbgtEvents: 0,
+			lgbtBars: 1,
+			brothels: 8,
+			sexWorkers: 114,
+			sexWorkOrg: 0,
+			sexHealth: 2,
+			hiv: 0,
 			population: 178000,
 			en: {
 				title: 'Hamm',
@@ -661,6 +1145,17 @@ $(document).ready(function() {
 		},
 
 		Ludwigshafen: {
+			finalRanking: 44,
+			sexShops: 1,
+			swingerClubs: 2,
+			gayPrides: 0,
+			lbgtEvents: 0,
+			lgbtBars: 0,
+			brothels: 5,
+			sexWorkers: 214,
+			sexWorkOrg: 0,
+			sexHealth: 3,
+			hiv: 0,
 			population: 172000,
 			en: {
 				title: 'Ludwigshafen',
@@ -673,6 +1168,17 @@ $(document).ready(function() {
 		},
 
 		Mülheim: {
+			finalRanking: 50,
+			sexShops: 0,
+			swingerClubs: 0,
+			gayPrides: 0,
+			lbgtEvents: 0,
+			lgbtBars: 0,
+			brothels: 1,
+			sexWorkers: 381,
+			sexWorkOrg: 0,
+			sexHealth: 1,
+			hiv: 0,
 			population: 171000,
 			en: {
 				title: 'Mülheim an der Ruhr',
@@ -685,6 +1191,17 @@ $(document).ready(function() {
 		},
 
 		Oldenburg: {
+			finalRanking: 31,
+			sexShops: 1,
+			swingerClubs: 1,
+			gayPrides: 1,
+			lbgtEvents: 0,
+			lgbtBars: 0,
+			brothels: 9,
+			sexWorkers: 215,
+			sexWorkOrg: 0,
+			sexHealth: 4,
+			hiv: 0,
 			population: 169000,
 			en: {
 				title: 'Oldenburg',
@@ -697,6 +1214,17 @@ $(document).ready(function() {
 		},
 
 		Osnabrück: {
+			finalRanking: 4,
+			sexShops: 2,
+			swingerClubs: 0,
+			gayPrides: 2,
+			lbgtEvents: 1,
+			lgbtBars: 3,
+			brothels: 6,
+			sexWorkers: 176,
+			sexWorkOrg: 0,
+			sexHealth: 2,
+			hiv: 1,
 			population: 164000,
 			en: {
 				title: 'Osnabrück',
@@ -709,6 +1237,17 @@ $(document).ready(function() {
 		},
 
 		Leverkusen: {
+			finalRanking: 48,
+			sexShops: 1,
+			swingerClubs: 0,
+			gayPrides: 0,
+			lbgtEvents: 0,
+			lgbtBars: 0,
+			brothels: 2,
+			sexWorkers: 88,
+			sexWorkOrg: 0,
+			sexHealth: 2,
+			hiv: 0,
 			population: 163000,
 			en: {
 				title: 'Leverkusen',
@@ -721,6 +1260,17 @@ $(document).ready(function() {
 		},
 
 		Solingen: {
+			finalRanking: 49,
+			sexShops: 0,
+			swingerClubs: 1,
+			gayPrides: 0,
+			lbgtEvents: 0,
+			lgbtBars: 0,
+			brothels: 4,
+			sexWorkers: 79,
+			sexWorkOrg: 0,
+			sexHealth: 1,
+			hiv: 0,
 			population: 159000,
 			en: {
 				title: 'Solingen',
@@ -781,14 +1331,27 @@ $(document).ready(function() {
 		var cityInfo = $('.country-info');
 
 		cityInfo.find('h2').text('');
-		cityInfo.find('.stat-value').text('');
+		//cityInfo.find('.stat-value').text('');
 		cityInfo.find('.country-info-text').empty();
+
+
 		
 		var title;
 		var population = cities[city].population;
+		var finalRanking = cities[city].finalRanking;
+		var sexShops = cities[city].sexShops;
+		var swingerClubs = cities[city].swingerClubs;
+		var gayPrides = cities[city].gayPrides;
+		var lbgtEvents = cities[city].lbgtEvents;
+		var lgbtBars = cities[city].lgbtBars;
+		var brothels = cities[city].brothels;
+		var sexWorkers = cities[city].sexWorkers;
+		var sexWorkOrg = cities[city].sexWorkOrg;
+		var sexHealth = cities[city].sexHealth;
+		var hiv = cities[city].hiv;
 		var text;
 
-		var stat = ''
+		var stat = '';
 
 		if (lang == 'de') {
 			title = cities[city].de.title;
@@ -800,8 +1363,20 @@ $(document).ready(function() {
 
 
 		cityInfo.find('h2').text(title);
-		cityInfo.find('.stat-value').text(population);
 		cityInfo.find('.country-info-text').html(text);
+
+		cityInfo.find('.stat-value[data-population]').text(population);
+		cityInfo.find('.stat-value[data-finalranking]').text(finalRanking);
+		cityInfo.find('.stat-value[data-sexshops]').text(sexShops);
+		cityInfo.find('.stat-value[data-swingerclubs]').text(swingerClubs);
+		cityInfo.find('.stat-value[data-gayprides]').text(gayPrides);
+		cityInfo.find('.stat-value[data-lgbtevents]').text(lbgtEvents);
+		cityInfo.find('.stat-value[data-lgbtbars]').text(lgbtBars);
+		cityInfo.find('.stat-value[data-brothels]').text(brothels);
+		cityInfo.find('.stat-value[data-sexworkers]').text(sexWorkers);
+		cityInfo.find('.stat-value[data-sexworkorg]').text(sexWorkOrg);
+		cityInfo.find('.stat-value[data-sexhealth]').text(sexHealth);
+		cityInfo.find('.stat-value[data-hiv]').text(hiv);
 		
 		
 	}
@@ -904,29 +1479,7 @@ $(document).ready(function() {
 
 		var tapped=false;
 
-		// $(".map-desktop rect.st0").on("touchstart",function(e){
-		// 	var self = $(this);
-
-		// 	var target = $(e.target);
-
-		// 	if(!tapped){
-
-		// 		tapped=setTimeout(function(){
-		// 			tapped=null;
-
-		// 		},300); 
-
-		// 	} else {  
-
-		// 		clearTimeout(tapped); 
-		// 		tapped=null;
-
-		// 		$('.map-scale').toggleClass('active');
-				
-		// 	}
-		// 	e.preventDefault()
-		// });
-
+		
 		$('.map-desktop').on('click', function(e) {
 			e.preventDefault();
 			$('.map-scale').addClass('active');
@@ -957,6 +1510,10 @@ $(document).ready(function() {
 
 		$(this).next('.ano-footer-menu').stop().slideToggle(150);
 	});
+
+	setTimeout(function(){
+		$('body').addClass('is-loaded');
+	}, 1200);
 
 
 

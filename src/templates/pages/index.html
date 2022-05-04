@@ -63,7 +63,7 @@
 								<div class="dd-contain">
 									<span>Showing</span>
 									<select class="table-control">
-										<option value="overall" selected>Population</option>
+										<option value="finalranking" selected>Final Ranking (out of 50)</option>
 										<option value="swingerclubs">Swingerclubs</option>
 										<option value="gayprides">Gay Pride Events</option>
 										<option value="lgbtevents">LGBT events</option>
@@ -74,7 +74,8 @@
 										<option value="sexworkorg">Sexwork Organisations</option>
 										<option value="sexhealth">Sex. Health Organisations</option>
 										<option value="hiv">HIV / STD Doctors and Clinics</option>
-										<!-- <option value="finalranking">Final Ranking (out of 50)</option> -->
+										<option value="overall" >Population</option>
+										
 									</select>
 								</div>
 
@@ -129,17 +130,18 @@
 
 							<div class="table-container" data-aos="fade-right" data-aos-anchor=".data-col">
 
-								{% include '../parts/components/table/table-overall.html' %}
-								{% include '../parts/components/table/table-swingerclubs.html' %}
-								{% include '../parts/components/table/table-gayprides.html' %}
-								{% include '../parts/components/table/table-lgbtevents.html' %}
-								{% include '../parts/components/table/table-lgbtbars.html' %}
-								{% include '../parts/components/table/table-brothels.html' %}
-								{% include '../parts/components/table/table-sexshops.html' %}
-								{% include '../parts/components/table/table-sexworkers.html' %}
-								{% include '../parts/components/table/table-sexworkorg.html' %}
-								{% include '../parts/components/table/table-sexhealth.html' %}
-								{% include '../parts/components/table/table-hiv.html' %}
+								{% include '../parts/components/table/en/table-finalranking.html' %}
+								{% include '../parts/components/table/en/table-overall.html' %}
+								{% include '../parts/components/table/en/table-swingerclubs.html' %}
+								{% include '../parts/components/table/en/table-gayprides.html' %}
+								{% include '../parts/components/table/en/table-lgbtevents.html' %}
+								{% include '../parts/components/table/en/table-lgbtbars.html' %}
+								{% include '../parts/components/table/en/table-brothels.html' %}
+								{% include '../parts/components/table/en/table-sexshops.html' %}
+								{% include '../parts/components/table/en/table-sexworkers.html' %}
+								{% include '../parts/components/table/en/table-sexworkorg.html' %}
+								{% include '../parts/components/table/en/table-sexhealth.html' %}
+								{% include '../parts/components/table/en/table-hiv.html' %}
 
 
 								<!-- Info -->
@@ -283,6 +285,16 @@
 				</div>
 			</div>
 		</div>
+
+
+
+		<!-- Preloader -->
+		<!-- <div class="preloader__wrapper">
+			<div class="preloader"><span></span></div>
+			<div class="preloader__section preloader__section--left"></div> 
+			<div class="preloader__section preloader__section--right"></div>
+		</div> -->		
+		<!--// Preloader -->
 
 
 

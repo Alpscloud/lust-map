@@ -17,6 +17,22 @@ $(document).ready(function() {
 		}, 200);
 	});
 
+	var activeSelect = $('.table-control').val();
+
+
+	$('g[data-'+activeSelect+']').addClass('active-'+activeSelect+'');
+
+
+	var tableOffset = $('.table-container').offset().top;
+
+
+	function scrollToTable() {
+
+		if (html > 1050) {return;}
+		
+		$('html, body').animate({scrollTop: tableOffset}, 200);
+	}
+
 
 	$(window).scroll(function(){
 		var scrolled = $(window).scrollTop();
@@ -1317,6 +1333,9 @@ $(document).ready(function() {
 
 		}
 
+
+		scrollToTable();
+
 	});
 
 
@@ -1426,7 +1445,11 @@ $(document).ready(function() {
 		$('.table-container').scrollLeft(0).addClass('country-overlay-open');
 		$('.expand-control').css('display','none');
 
+		scrollToTable();
+
 	});
+
+
 
 
 
@@ -1443,6 +1466,12 @@ $(document).ready(function() {
 
 		closeCityInformation();
 	});
+
+
+	
+
+	
+
 
 
 	$('.table-control').on('change', function(e){

@@ -30,7 +30,7 @@ $(document).ready(function() {
 
 		if (html > 1050) {return;}
 		
-		$('html, body').animate({scrollTop: tableOffset}, 200);
+		$('html, body').animate({scrollTop: tableOffset}, 600);
 	}
 
 
@@ -156,7 +156,7 @@ $(document).ready(function() {
 			sexWorkOrg: 6,
 			sexHealth: 11,
 			hiv: 24,
-			population: 3600000,
+			population: '3,600,000',
 			en: {
 				title: 'Berlin',
 				text: "If you ask yourself the question of the most sex -positive city in Germany, you will surely think of Berlin. Because the German capital has been internationally known for its lavish festivals and social freedoms since the 1920s. At the turn of the millennium, Berlin was the venue for the Loveparade, which was considered the biggest party in the world with over a million participants. Numerous world -famous technoclubs are there, especially the Berghain or Watergate. In Berlin there has always been a huge homosexual scene and at least 45 LGBTIQ* localities. There are at least 32 sex shops in the city and there are 40 annual LGBTQI events in Berlin. Of course, this incomparable offer regularly attracts a large number of international guests. In addition, a very differentiated BDSM and fetish scene in Berlin is present. Nobody in Berlin has to hide if he or she wants to open his or her sexuality openly, which is clearly part of the city's special flair. Social openness is particularly pronounced there, which is also expressed in the fact that the world's largest erotic fair takes place every year with the 'Venus'. In addition, prostitution is completely legal in the city and widespread, sexual minorities are protected by anti-discrimination laws. All points counted together and measured by the residents, Berlin ends up in 8th place in our ranking."
@@ -183,7 +183,7 @@ $(document).ready(function() {
 			sexWorkOrg: 7,
 			sexHealth: 8,
 			hiv: 6,
-			population: 1852000,
+			population: '1,852,000',
 			en: {
 				title: 'Hamburg',
 				text: 'Hamburg is the second largest city in Germany and full of historical and cultural places that are worth a visit. In addition to the World Heritage Site Speicherstadt, the brand new Elbphilharmonie and the Hamburger Michel, a detour to the Reeperbahn in the St.Pauli district is particularly worthwhile. There, strip club is lined up on a table dance bar, burlesque theater on old harbor pub, exclusive noble bordell and cheap hourly hotel. It is not for nothing that the Reeperbahn bears the leg frame of the "sinful mile in Germany" and is an expression of the sex-positive lifestyle of the Hamburgers. No wonder that Hamburg also makes some good points in our ranking - especially with regard to the number of local sex shops and erotic establishments.'
@@ -206,7 +206,7 @@ $(document).ready(function() {
 			sexWorkOrg: 2,
 			sexHealth: 8,
 			hiv: 8,
-			population: 1488000,
+			population: '1,488,000',
 			en: {
 				title: 'Munich',
 				text: 'If you think of a city like Munich, you will probably first think about the beautiful buildings and squares that you can admire on site. Whether Viktualienmarkt, Frauenkirche, Nymphenburg Castle or the Allianz Arena - the city is fully with architectural masterpieces. The 375 hectare English garden, which is one of the largest parks in the world, invites its visitors to linger. The Oktoberfest, which is at least as famous as the Carnival in Rio, should not be missing in a text about the Bavarian capital. But also beyond pretzels, beer gardens and the like can be experienced in Munich - even in sexual terms. Our ranking shows that the Munich and Munichers love to try sexually and reinvent themselves. With 13 sex shops and 3 swinger clubs you also have many options.'
@@ -229,7 +229,7 @@ $(document).ready(function() {
 			sexWorkOrg: 5,
 			sexHealth: 4,
 			hiv: 7,
-			population: 1083000,
+			population: '1,083,000',
 			en: {
 				title: 'Cologne',
 				text: "Cologne is world famous for its carnival and its cathedral, the highest church building in the world. Anyone who would derive a contradiction from this has not yet understood the Cologne Way-of-Life. But that doesn't matter, because not everyone immediately understands the local language of Kölsch, which does not always have to be due to the locals. Cologne is definitely one of the most liberal cities in Germany, maybe even the world and our ranking seems to underline this. In hardly any city in our ranking there are more annual LGBTQI events and localities than in Cologne. Anyway, there is the impression in Cologne that it is actually celebrated all year round. Anyone who has fallen for the charm of the city will find it difficult to break away from it. Cologne sometimes leads the role of a hidden champion, such as behind Berlin and Hamburg, in public perception. But international stars and artists also increasingly discover the city and lay their center of life there. The city on the Rhine is a real model for liberality and openness, also and especially in the sexual sense. The Cologne team are very proud of their free life culture and are happy about like -minded visitors who share their values. Instead of insisting on equalization, one knows traditionally in 'Kölle': every Jeck is different."
@@ -252,7 +252,7 @@ $(document).ready(function() {
 			sexWorkOrg: 1,
 			sexHealth: 2,
 			hiv: 4,
-			population: 764000,
+			population: '764,000',
 			en: {
 				title: 'Frankfurt am Main',
 				text: "Frankfurt am Main is more than just a banking and financial metropolis in Germany. Whether new old town, Kaiserdom, Römerberg, Paulskirche or museum bank, Frankfurt offers its visitors a lot of historical insights and cultural facets. The annual Frankfurt Book Fair also magically attracts hundreds of thousands of visitors from all over the world. No wonder that a small sex -positive scene has long developed in the big city on the Main, which gives the city a good 9th place in our ranking. The data show that Frankfurt convinces especially because of its 4 swinger clubs and its colorful LGBTIQ* scene life-there are 13 gay-lesbian locations on site. So if you are looking for sex -positive adventures, you will certainly find it in Frankfurt."
@@ -275,7 +275,7 @@ $(document).ready(function() {
 			sexWorkOrg: 2,
 			sexHealth: 4,
 			hiv: 2,
-			population: 630000,
+			population: '630,000',
 			en: {
 				title: 'Stuttgart',
 				text: "Stuttgart is the capital of the state of Baden-Württemberg and known nationwide as a location of large car companies such as Porsche and Daimler. Art lovers also get their money's worth in the city. The municipal art museum with its large Otto dix collection captivates visitors from near and far. And as far as festivities are concerned, Stuttgart does not have to hide behind other major cities, because: what is his port birthday for Hamburg and his Oktoberfest is the can store Wasen, the second largest folk festival in the world. However, what many people do not know, even in terms of sex there is an extraordinary experience in Stuttgart. Our ranking shows: Whether sex shops, swinger clubs or brothels, the opportunities to enjoy sex-positive lifestyle on site are big."
@@ -298,7 +298,7 @@ $(document).ready(function() {
 			sexWorkOrg: 0,
 			sexHealth: 4,
 			hiv: 2,
-			population: 620000,
+			population: '620,000',
 			en: {
 				title: 'Düsseldorf',
 				text: "Düsseldorf as the state capital of NRW knows not only to inspire with her inviting Rhine promenade. Because it is considered an elegant city of the world nationwide, but also internationally. The eternal rivalry with the cheerful Cologne does not detract from the fact that one of the country's highest quality of life can be found in Düsseldorf. There are many reasons for this, because Düsseldorf is not only the seat of numerous companies from the fashion and beauty area. Nobody needs to hide there when it comes to sex and eroticism, Düsseldorf is a stronghold of high-class escorts in Germany. There is also around 37 brothels in the urban area, which can be seen as an expression of high demand. Düsseldorf knows how to please, visitors know why after a few days."
@@ -321,7 +321,7 @@ $(document).ready(function() {
 			sexWorkOrg: 1,
 			sexHealth: 4,
 			hiv: 1,
-			population: 597000,
+			population: '597,000',
 			en: {
 				title: 'Leipzig',
 				text: "Leipzig, the pearl of the east, cannot actually be tackled high enough out of sympathy. But the competition is strong, so it is with the many great cities that exist in Germany. Leipzig is considered the German metropolis of the hearts - and rightly so. Because there have become extremely pleasant lifestyles on different levels that are second to none. Yes, the air blows in Leipzig and it is not without reason that the city is called the small Berlin. The sex positiveness may be described there as big, in Leipzig there are numerous people who are very openly opposed to erotic experiences. From swingers to sex workers to the BDSM scene, sex-positive people get their money's worth in Leipzig."
@@ -344,7 +344,7 @@ $(document).ready(function() {
 			sexWorkOrg: 2,
 			sexHealth: 6,
 			hiv: 1,
-			population: 587000,
+			population: '587,000',
 			en: {
 				title: 'Dortmund',
 				text: "Of course, many people, not only in Germany, immediately think of football at Dortmund. Of course there is much more to explore in the attractive city. There are several sex shops and swinger clubs and numerous brothels and appointment apartments are also registered in Dortmund. So it quickly becomes clear that sex positivity is not just an empty phrase in this city. Shyness and uptight are actually very rare in Dortmund. So people who have set sex does not need to look for long to meet like -minded people. If you are looking for a wonderfully livable place that not always all have the same on the list, you have found a really lovable city with Dortmund."
@@ -367,7 +367,7 @@ $(document).ready(function() {
 			sexWorkOrg: 4,
 			sexHealth: 4,
 			hiv: 1,
-			population: 582000,
+			population: '582,000',
 			en: {
 				title: 'Essen',
 				text: "Essen in the Ruhr area is cheaply between Bochum, Mülheim and Duisburg. No matter where you want to go, you never really have it. As an old city of Ruhr, there is a relaxed tone and brakes are clearly outnumbered. When looking at the city from a sex -positive perspective, it is noticeable that there are few institutions such as sex shops, gaybars or brothels. But it is estimated that around 450 sex workers in the city pursue their acquisition is one of the highest values ​​in Germany, at least Top10. Only the strong competition and weaknesses in other areas ensure that food is not ranked much higher here. In any case, it can be summarized that food is ideal for open -minded people as a place of residence or tourist destination."
@@ -390,7 +390,7 @@ $(document).ready(function() {
 			sexWorkOrg: 2,
 			sexHealth: 6,
 			hiv: 3,
-			population: 566000,
+			population: '566,000',
 			en: {
 				title: 'Bremen',
 				text: "With its 566,000 inhabitants, Bremen is the eleventh largest city in Germany and the second largest city in the north. Located directly on the Weser, Bremen offers its visitors many excursion and sightseeing opportunities. Above all, of course, the Bremen city musicians. There is hardly anyone who has never heard of the world -famous bronze statue consisting of donkey, dog, cat and rooster. And Bremen is also a very versatile city in erotic terms. In addition to 5 sex shops and 2 swinger clubs, around 20 erotic establishments are also available to the population. Overall, this means a good 15th place in our ranking."
@@ -413,7 +413,7 @@ $(document).ready(function() {
 			sexWorkOrg: 1,
 			sexHealth: 6,
 			hiv: 1,
-			population: 556000,
+			population: '556,000',
 			en: {
 				title: 'Dresden',
 				text: "For many people, it is the most beautiful city in Germany: Dresden. The Saxon capital is also referred to by many as 'Elbflorenz'. Impressive buildings of the Baroque such as the Dresden Frauenkirche, Zwinger or Semperoper are not far apart and form the beautiful center of the old town. After the city was almost completely destroyed in World War II, it was extensively restored in the following decades, restored and is now considered one of the most beautiful places in the country. This also affects the Dresden attitude to life, which is becoming increasingly revealing and more sexual: with 5 sex shops, 5 swinger clubs and 8 LGBTIQ*localities, the city offers a lot of sexual adventures."
@@ -436,7 +436,7 @@ $(document).ready(function() {
 			sexWorkOrg: 4,
 			sexHealth: 4,
 			hiv: 2,
-			population: 534000,
+			population: '534,000',
 			en: {
 				title: 'Hannover',
 				text: "Hanover is the state capital of Lower Saxony and known for its many parking and green areas. In general, Hanover is a very life -friendly city. Neither too big nor too small, neither ultra hipp, nor old-fashioned and bourgeois, Hannover offers his more than 534,000 inhabitants many excursion and recreational opportunities. But sex -positive life is not neglected either. In our ranking, Hannover convinces due to his 5 swinger clubs and its LGBTIQ*-friendly localities. But even those looking for a quick, uncomplicated occasional sex will find what you are looking for on site: With 45 brothels and erotic establishments, the selection is extremely large. The topics of sexual health and security are also of particular importance: in Hanover there are 4 sex work organizations that work for the interests and matters of sex workers, as well as 4 organizations that provide information about sexual health."
@@ -459,7 +459,7 @@ $(document).ready(function() {
 			sexWorkOrg: 3,
 			sexHealth: 5,
 			hiv: 1,
-			population: 515000,
+			population: '515,000',
 			en: {
 				title: 'Nuremberg',
 				text: "With its 515,000 inhabitants, Nuremberg is the second largest city of Bavaria and a popular destination for visitors from all over the world. Historical buildings and sights determine the image of the old town of Nuremberg. The Kaiserburg forms the symbol of the city. It is one of the most important and at the same time the largest castle facilities in Germany. But of course Nuremberg was by no means in the Middle Ages, but a modern, life -friendly city that also knows the sex -positive lifestyle. With 3 sex shops and 3 swinger clubs, the Nuremberg women are spoiled for choice here. There are also 3 sex work organizations on site that stand up for the rights of sex workers. No wonder that Nuremberg occupies a place in the front half of the table in our ranking."
@@ -482,7 +482,7 @@ $(document).ready(function() {
 			sexWorkOrg: 1,
 			sexHealth: 2,
 			hiv: 0,
-			population: 495000,
+			population: '495,000',
 			en: {
 				title: 'Duisburg',
 				text: "Duisburg is one of several Ruhr cities in our ranking. The city with its almost 500,000 inhabitants white and only the small number of LGBT events, sex shops and swinger clubs transport them to a relatively far back. Because numerous brothels and probably over 300 sex workers fuel the lustful life in Duisburg. In addition to numerous outgoing options in nightlife and a very active cultural scene, there is definitely a sex -positive vibe in the city. So if you want to be a liberal time in the Ruhr area and not always in the same big cities, you can't really go wrong with a visit to Duisburg."
@@ -505,7 +505,7 @@ $(document).ready(function() {
 			sexWorkOrg: 1,
 			sexHealth: 6,
 			hiv: 0,
-			population: 364000,
+			population: '364,000',
 			en: {
 				title: 'Bochum',
 				text: "Bochum as a long -serving Ruhrstadt white to inspire. As in many places in NRW, there has been a relaxed attitude to life for decades that gives people space to develop. The location in the middle of the Ruhrpott, surrounded by numerous other attractive cities, leads to a very special mix of advantages that need to be enjoyed. There is also a lot of good things to report from Bochum in the sense of sex positivity. Because although the official figures on sex clubs, brothels etc. are quite manageable, more than 300 sex service providers are likely to work in the city. Bochum definitely makes it easily into our ranking and stands for fun in life and in everyday life, as a place that knows how to inspire."
@@ -528,7 +528,7 @@ $(document).ready(function() {
 			sexWorkOrg: 0,
 			sexHealth: 3,
 			hiv: 1,
-			population: 355000,
+			population: '355,000',
 			en: {
 				title: 'Wuppertal',
 				text: "Probably many people don't even know what kind of lively city of Wuppertal. Beautiful on the Wupper river and decorated with a lot of green, doesn't remind much of the city's industrial heritage anymore. A remnant of it and still a real eye -catcher is the Wuppertal suspension railway, which moves the Wuppertaler through the city. This railway may be seen as a symbol for creativity in Wuppertal no need to know any limits. This also applies in terms of sex positivity, because in this regard Wuppertal is known for his freedom of movement and liberality. If you are looking for an open environment, with which you can live out happily, you probably didn't make a wrong location with Wuppertal."
@@ -551,7 +551,7 @@ $(document).ready(function() {
 			sexWorkOrg: 1,
 			sexHealth: 3,
 			hiv: 0,
-			population: 333000,
+			population: '333,000',
 			en: {
 				title: 'Bielefeld',
 				text: "Bielefeld is located in the north of NRW, near the border with Lower Saxony almost exactly between Münster and Hanover. The city is largely considered an absolute insider tip regarding a sex -positive and liberal lifestyle. Not only the many tens of thousands of students who are regularly moving into the city can confirm this. There are a few brothels there with six, there are no LGBTQ bars and other establishments. This does not detract from the role of Bielefeld as a 'hidden champion' among the sex -positive cities. If you want to find your liberal happiness far from the roar and the arrogance of some other metropolises, you do everything right with a move to Bielefeld."
@@ -574,7 +574,7 @@ $(document).ready(function() {
 			sexWorkOrg: 0,
 			sexHealth: 3,
 			hiv: 2,
-			population: 330000,
+			population: '330,000',
 			en: {
 				title: 'Bonn',
 				text: "Bonn is a city in West Germany and was the capital of the Federal Republic of Germany from 1949 to 1990. Like hardly any other city, Bonn combines aspects of politics, culture and leisure. With the Beethoven House, the birthplace of Ludwig van Beethoven, a monument was set to the best-known German composer. The House of History has the history of the Federal Republic alive - more than 1 million objects are on display. As a university city, Bonn is particularly popular with young people. The Electoral Castle, which was the residence of the Cologne Elector until 1794, is now the seat of the University of Bonn with its almost 38,000 students. And where there are many young people, there is usually also a lively sex -positive life. So also in Bonn, where there are at least 9 erotic establishments and 1 sex shop."
@@ -597,7 +597,7 @@ $(document).ready(function() {
 			sexWorkOrg: 1,
 			sexHealth: 5,
 			hiv: 1,
-			population: 316000,
+			population: '316,000',
 			en: {
 				title: 'Muenster',
 				text: "Münster is a great city in North Rhine-Westphalia that should not be missing in this ranking. Because its location in the west of Germany makes it an important center for economy and culture in the larger area. The city has numerous architectural landmarks from the Middle Ages, which will contribute both from the rich inheritance of Münster as well as their pretty appearance. If you just want to live out freely and make contacts with open -minded people, you can't go wrong with Münster. Both supporters of the LGBT culture and people with unusual kinks meet there on like-minded people. Therefore, Münster has earned his place in this ranking."
@@ -620,7 +620,7 @@ $(document).ready(function() {
 			sexWorkOrg: 0,
 			sexHealth: 4,
 			hiv: 2,
-			population: 309000,
+			population: '309,000',
 			en: {
 				title: 'Mannheim',
 				text: "Urban, baroque and always worth a visit. Located between the Rhine and Neckar, Mannheim with its approximately 300,000 inhabitants is the second largest city of Baden-Württemberg. While the chess -like city center is reminiscent of modern metropolises such as New York City, the Mannheim city palace gives up old history. It is the largest baroque castle in Germany and now houses the internationally renowned University of Mannheim. In general, Mannheim is an extremely popular city among young people. So it is not surprising that she ends up in a sensational 2nd place in our ranking. While Cologne and Berlin are generally considered LGBTQIA+capitals, Mannheim proves that it has almost as much gay-lesbian life in terms of its population. And as far as the health education of the population is concerned, Mannheim plays very ahead: with 4 organizations and 2 medical houses that take care of the topics of sexual health, Mannheim cuts off above average in our ranking."
@@ -643,7 +643,7 @@ $(document).ready(function() {
 			sexWorkOrg: 0,
 			sexHealth: 3,
 			hiv: 0,
-			population: 308000,
+			population: '308,000',
 			en: {
 				title: 'Karlsruhe',
 				text: "With its 308,000 inhabitants, Karlsruhe is one of the largest cities in Baden-Württemberg. The city was founded in 1715 as one of the first baroque planned cities and is now 'residence of law': In addition to the German Federal Court of Justice, the Federal Constitutional Court has also been here since 1951. As a university city, Karlsruhe is particularly popular with young people and has also developed into an interesting hotspot for the creative and culture scene in recent years. Because of his many hours of sunshine, Karlsruhe is an extremely lifelong city. This is also expressed in our ranking: with 5 sex shops and 2 swinger clubs, it offers visitors and locals many opportunities for self -development."
@@ -666,7 +666,7 @@ $(document).ready(function() {
 			sexWorkOrg: 1,
 			sexHealth: 4,
 			hiv: 0,
-			population: 295000,
+			population: '295,000',
 			en: {
 				title: 'Augsburg',
 				text: "Augsburg is the third largest city in Bavaria with its 295,000 inhabitants. As a university city, it is particularly popular with young people and has great excursion destinations: whether old fugerei, the golden hall in the town hall or pearl tower, which offers a wonderful view of the city - Augsburg is always worth a visit. Of course, the world -famous Augsburg doll box should not be missing in our list. But how sex positive is Augsburg actually? Our ranking shows that with 14th place, the city ends up in a very good place in the front half of the table. The reason for this should be the 5 sex shops in particular as well as the large number of erotic establishments and brothels - measured by the population."
@@ -689,7 +689,7 @@ $(document).ready(function() {
 			sexWorkOrg: 1,
 			sexHealth: 2,
 			hiv: 2,
-			population: 278000,
+			population: '278,000',
 			en: {
 				title: 'Wiesbaden',
 				text: "As a Hessian capital, Wiesbaden is of particular importance and has a lot to offer. With its thermal and mineral springs, the city, which is also known as the 'Gate at the Rheingau', is one of the oldest European spa baths and attracts tourists from all over the world. There is a reason that Wiesbaden in our ranking is still in front of the large rival from Frankfurt: There are a lot of sex positive on the population. In addition to sex shops and swinger clubs, 15 erotic establishments invite you to linger. And great emphasis is also placed on health education in Wiesbaden: in addition to 2 organizations that take care of the sexual health of the population, there are also 2 medical houses that specialize in the treatment of STDs."
@@ -712,7 +712,7 @@ $(document).ready(function() {
 			sexWorkOrg: 0,
 			sexHealth: 2,
 			hiv: 0,
-			population: 259000,
+			population: '259,000',
 			en: {
 				title: 'Mönchengladbach',
 				text: "Mönchengladbach is another football town in our ranking and is located a little west of Düsseldorf. The way of life is considered open and cheerful there, conservative spoilers are rarely found there. But all the more sex -positive people who like to fall into life with like -minded people. Compared to many other cities in this ranking, Mönchengladbach does not achieve the best values ​​according to numbers, but this should not give the impression that it would be prudish there. On the contrary, Mönchengladbach offers a high quality of life that erotic and sexual freedoms like to grant. Typical for North Rhine-Westphalia, there is also a pronounced sex positiveism in this city, which tends to enjoy people."
@@ -735,7 +735,7 @@ $(document).ready(function() {
 			sexWorkOrg: 0,
 			sexHealth: 0,
 			hiv: 1,
-			population: 259000,
+			population: '259,000',
 			en: {
 				title: 'Gelsenkirchen',
 				text: "Gelsenkirchen is located in the middle of the Ruhr area in North Rhine -Westphalia and knows how to please in the immediate vicinity despite several larger cities. Like typical of the entire Rhein-Ruhr region, there is a liberal attitude to life that allows everyone and everyone to live in an individual way. The city is particularly blooming when it comes to sunbathing and the barbecue season is celebrated. The people there are considered open and friendly and many are not averse to erotic adventures. There should be around 260 sex workers in the city who offer their services to those who have no time for dating. In summary, it can be stated that Gelsenkirchen is always worth a visit, a shame that it is a little in the shadow of its larger neighbors."
@@ -758,7 +758,7 @@ $(document).ready(function() {
 			sexWorkOrg: 0,
 			sexHealth: 2,
 			hiv: 1,
-			population: 248000,
+			population: '248,000',
 			en: {
 				title: 'Aachen',
 				text: "In the far west of North Rhine-Westphalia, in the immediate vicinity of Belgium and the Netherlands, Aachen with around 248,000 inhabitants is located. Even if Aachen is only not far from metropolises such as Cologne or Düsseldorf, the city itself is also a popular travel destination. The Aachen Cathedral, the town hall and the beautiful old town are particularly popular with tourists. Aachen is primarily known throughout Germany because of its technical university. As a university city, the city enjoys an excellent reputation and attracts young people from all over the world. This is also reflected in the sex -positive lifestyle, which is not in masses here, but it is still increasingly to be discovered."
@@ -781,7 +781,7 @@ $(document).ready(function() {
 			sexWorkOrg: 0,
 			sexHealth: 3,
 			hiv: 1,
-			population: 248000,
+			population: '248,000',
 			en: {
 				title: 'Braunschweig',
 				text: "Anyone who thinks of Braunschweig will probably initially think of Volkswagen. Because here in 1938 the first of all works by Volkswagen AG was created. But Braunschweig, which, with its 250,000 inhabitants, belongs to the second largest university city of Lower Saxony, has much more to offer. The Magniviertel is one of the oldest quarters in the city and is a popular meeting and exit for the Braunschweiger. Exchange alleys and romantic cafes invite you to a cozy stroll, in the evening the pubs are very popular among students. In sexual terms, Braunschweig convinces primarily because of his very good health advice. 3 organizations and 1 medical center clarify on site about sexual health issues."
@@ -804,7 +804,7 @@ $(document).ready(function() {
 			sexWorkOrg: 4,
 			sexHealth: 3,
 			hiv: 0,
-			population: 246000,
+			population: '246,000',
 			en: {
 				title: 'Keel',
 				text: "Kiel is a city with a sea view. As the Schleswig-Holstein capital, it is also the northernmost capital of Germany. The Kiel Week, the largest sail event in the world, attracts visitors from all over the world. But of course not enough. The northern German port city offers many other excursion destinations that-how should it be otherwise-are all shaped by seafaring: the historic submarine, the lighthouse, the navalism and shipping museum. And even in sexual terms, Kiel gives some good reasons for a more than passable space in our ranking. With 4 sex work organizations, the rights and matters of the sex workers on site are particularly well represented."
@@ -827,7 +827,7 @@ $(document).ready(function() {
 			sexWorkOrg: 2,
 			sexHealth: 3,
 			hiv: 1,
-			population: 244000,
+			population: '244,000',
 			en: {
 				title: 'Chemnitz',
 				text: "Chemnitz, which was called Karl Marx Stadt from 1953 to 1990, is now a city of opposites. If large empty areas shaped the cityscape at the turning point, today's Chemnitz is a pulsating, livable city. Well -known architects were at work and created a strong structural connection between tradition and modernity: Bauhaus meets new objectivity. The Technical University is an intellectual center and attracts young people from near and far. The sex -positive attitude to life is correspondingly widespread. With 4 swinger clubs and 4 local sex shops, Chemnitz offers its 244,000 inhabitants an above -average number of erotic development options. And that's not all: 22 brothels offer a lot of uncomplicated, sexual contacts in the city. In our ranking, Chemnitz therefore ends up in a deserved 6th place."
@@ -850,7 +850,7 @@ $(document).ready(function() {
 			sexWorkOrg: 0,
 			sexHealth: 3,
 			hiv: 0,
-			population: 237000,
+			population: '237,000',
 			en: {
 				title: 'Halle (Saale)',
 				text: "Halle (Saale) is an often underestimated jewel of the East and is only a few kilometers northwest of Leipzig in Saxony-Anhalt. Lately, the city has recently known a wider audience by the fact that the headquarters of the National Academy of Sciences Leopoldina is located there. Numerous universities and the university also contribute to the city's academic reputation. And where the knowledge and research are at home, the air of freedom and liberality also blows. Therefore, Halle has made it clear into our ranking, if not in the front places. However, this does not detract from the attractiveness of Halle, if you have never been there, you should definitely dare to visit."
@@ -873,7 +873,7 @@ $(document).ready(function() {
 			sexWorkOrg: 3,
 			sexHealth: 4,
 			hiv: 1,
-			population: 235000,
+			population: '235,000',
 			en: {
 				title: 'Magdeburg',
 				text: "Magdeburg has been nicknamed Ottostadt since 2010. Because both Emperor Otto the Great as well as the inventor and diplomat Otto von Guericke left their mark in Magdeburg. Since reunification, the city has carried out an exciting change: the gray industrial city has become a green, lovable and lifelike city, which also gives the sex-positive lifestyle enough space. With 4 local sex shops there is a huge selection of erotic toys. And with 7 brothels and 3 organizations, the sex worker scene in Magdeburg is also strongly represented. But at least as much value as the sexual development is placed on the information: there are 4 institutions that provide information about sexual health questions. There is also a doctor's office that specializes in the treatment of venereal diseases / HIV. Our conclusion: Magdeburg is a real insider tip for all lovers of sex -positive lifestyle."
@@ -896,7 +896,7 @@ $(document).ready(function() {
 			sexWorkOrg: 3,
 			sexHealth: 4,
 			hiv: 2,
-			population: 230000,
+			population: '230,000',
 			en: {
 				title: 'Freiburg',
 				text: "Freiburg im Breisgau is one of the sunniest and greenest city in Germany. Perhaps this already explains the fact why many people feel so poodle here. The city is also considered a pioneer of the German environmental movement: Nowhere can you find so many solar systems on house roofs and public buildings and the beautiful old town has been car -free for a long time. All the reasons why Freiburg was recently recognized as a TroStelle 2022. We think: Completely. Because also what eroticism and sexuality affect, the small Black Forest metropolis is more than impressive. There are many sexual development opportunities for their 230,000 inhabitants, including 30,000 students. In our ranking, Freiburg convinces especially in the areas of sex work and health education."
@@ -919,7 +919,7 @@ $(document).ready(function() {
 			sexWorkOrg: 0,
 			sexHealth: 3,
 			hiv: 0,
-			population: 226000,
+			population: '226,000',
 			en: {
 				title: 'Krefeld',
 				text: "Krefeld lies on the left bank of the Rhine between Mönchengladbach and Duisburg. Due to the textile industrial history of the city, it is also called the 'velvet and silk city'. Krefeld is often known for the zoo. But not just there is colorful in the enclosures, the leisure life in the city can also convince. Although according to data there is only half as many sex workers as in similar food, Krefeld has honestly earned his place in this ranking thanks to his open and definitely sex -positive everyday culture. Around five brothels or brothel apartments in the city testify to an existing interest in erotic and sexual debauchery. Krefeld is always happy about liberal visitors."
@@ -942,7 +942,7 @@ $(document).ready(function() {
 			sexWorkOrg: 0,
 			sexHealth: 1,
 			hiv: 1,
-			population: 217000,
+			population: '217,000',
 			en: {
 				title: 'Mainz',
 				text: "Mainz-Rhineland-Palatinate state capital, colorful student city, located directly on the Rhine, home of the ZDF Mainzelmännchen, Carnival and Fastnachthehburg. Of course, the Mainz Cathedral, which had already been built 1000 AD and the world-famous Gutenberg Museum, should not be missing in a list of the city. Mainz is incredibly versatile - and also in sexual terms. In our ranking, the city lands in a very good 16th place and convinces primarily because of its comparatively large sex worker scene. Locals, like visitors, are also available 2 sex shops and 1 swinger club to try out and get to know each other sexually."
@@ -965,7 +965,7 @@ $(document).ready(function() {
 			sexWorkOrg: 1,
 			sexHealth: 4,
 			hiv: 0,
-			population: 215000,
+			population: '215,000',
 			en: {
 				title: 'Lübeck',
 				text: "Lübeck as the old capital of the Hanseatic League is a real northern light. The historic city looks back on a past in prosperity and with far -reaching influence. Numerous floods and floods over the centuries, but could not rob anything of Lübeck's glory. However, the second largest city of Schleswig-Holstein is by no means geared towards the past. Because despite the Nordic freshness in Lübeck, there is a free mood in Lübeck, which also does not exclude sex positivity and comes into its own, especially in summer. Then the Baltic Sea invites you to swim and later you can indulge in the promises of the night undisturbed. It was not enough for one of the front places in this ranking, but the fact that Lübeck was recorded here speaks volumes for the beautiful city."
@@ -988,7 +988,7 @@ $(document).ready(function() {
 			sexWorkOrg: 1,
 			sexHealth: 2,
 			hiv: 0,
-			population: 213000,
+			population: '213,000',
 			en: {
 				title: 'Erfurt',
 				text: "Connoisseurs already know about the qualities of Erfurt. A visit to the state capital of Thuringia is very recommended to everyone else. The historic old town is probably one of the most beautiful in Germany and sprays almost Italian flair with its winding little alleys. When it comes to sex and eroticism, like in many places in the east, nobody needs a leaf in front of your mouth. Conservative bourgeoisiness is rather not to be found when it comes to pleasure and love. With just over two hundred thousand residents, Erfurt is not a huge city. But in terms of size, over 130 sex workers in Erfurt are absolutely no bad value. Erfurt is certainly a city that has much more to offer than most people know."
@@ -1011,7 +1011,7 @@ $(document).ready(function() {
 			sexWorkOrg: 0,
 			sexHealth: 2,
 			hiv: 0,
-			population: 209000,
+			population: '209,000',
 			en: {
 				title: 'Oberhausen',
 				text: "There is an exuberant mood in Oberhausen in NRW. Sex positivity and freedom of movement are not new phenomena there. Because the time -honored Ruhrstadt always knows how to delight through its relaxed attitude to life. Typical for the 'pot' it is not far to the larger neighboring cities, so there is nothing missing in Oberhausen, not even when it comes to sex and eroticism. If you look at the absolute figures in our survey, Oberhausen hardly counts any establishments such as brothels or swinger clubs, but of course that's not the only parameter where sex positivity is measured. However, it can be said that with allegedly over 300 sex workers in Oberhausen, a red light scene large compared to the population is represented."
@@ -1034,7 +1034,7 @@ $(document).ready(function() {
 			sexWorkOrg: 2,
 			sexHealth: 5,
 			hiv: 0,
-			population: 209000,
+			population: '209,000',
 			en: {
 				title: 'Rostock',
 				text: "As the largest city in the state of Mecklenburg-Western Pomerania and due to its direct location on the Baltic Sea, the Hanseatic city of Rostock attracts visitors from near and far. Rostock is a city with a maritime flair and history. The historic old town was extensively restored and tastefully staged. As a university city, Rostock is now attracting a varied artistic and cultural milieu. If you want to relax directly on the water, you are the right place in nearby warning. Here are the most beautiful seaside resorts of the Baltic Sea coast. But even if you want to go on a sexual discovery tour, you will find it in Rostock. With 3 sex shops there is a large selection to spice up your own sex life. And with 5 organizations and institutions that are committed to the sexual education, the topic of health is not neglected."
@@ -1057,7 +1057,7 @@ $(document).ready(function() {
 			sexWorkOrg: 2,
 			sexHealth: 1,
 			hiv: 0,
-			population: 201000,
+			population: '201,000',
 			en: {
 				title: 'Kassel',
 				text: "Kassel is a city that should never be underestimated. Because even due to its geographical location, far east of the Ruhr area, far west of Leipzig, far north of Frankfurt, far south of Hanover, Kassel is the urban catchment area for an above -average area. So if you want to have enough of country life and ensure that you can find like -minded people for unusual projects, you are on your way to Kassel. In terms of eroticism and sexual freedom of movement, the city does not have to hide, even if it is not one of the centers in Germany when it comes to sex positivity. Nevertheless, Kassel rightly lands in this ranking and is always worth a visit."
@@ -1080,7 +1080,7 @@ $(document).ready(function() {
 			sexWorkOrg: 1,
 			sexHealth: 3,
 			hiv: 0,
-			population: 188000,
+			population: '188,000',
 			en: {
 				title: 'Hagen',
 				text: "The city of Hagen in NRW also successfully made it into our ranking. Located a little south of Dortmund, the loose and open way of life of the Ruhr area is to be felt there. No wonder that a sex -positive lifestyle can also be realized in Hagen. However, because the city does not yet have two hundred thousand residents, institutionalized places such as gaybars, brothels etc. are hardly available, which explains the placement in the back of this list. Nevertheless, it is definitely an award to be here at all and Hagen can do it with flying colors. By the way, there should be almost 100 sex workers in the city, so someone should say that nothing would be going on in Hagen."
@@ -1103,7 +1103,7 @@ $(document).ready(function() {
 			sexWorkOrg: 0,
 			sexHealth: 4,
 			hiv: 0,
-			population: 182000,
+			population: '182,000',
 			en: {
 				title: 'Potsdam',
 				text: "Potsdam lies beautifully surrounded by lots of water and can rightly be referred to as one of the most beautiful cities all over Germany. The partly pompous building structure and the direct closeness to Berlin make Potsdam a particularly livable city, where world's property can be easily combined with living in the countryside. Numerous castles and architectural remains of noble history decorate the largest city of Brandenburg's population. With regard to erotic liberality and sex positivity, Potsdam feels very far ahead, but cannot place itself in the top field due to the statistical numbers. Nevertheless, Potsdam naturally appears here in this ranking and surrounds its residents and visitors with a very special charm, which is difficult to find in Germany a second time."
@@ -1126,7 +1126,7 @@ $(document).ready(function() {
 			sexWorkOrg: 1,
 			sexHealth: 3,
 			hiv: 0,
-			population: 179000,
+			population: '179,000',
 			en: {
 				title: 'Saarbrücken',
 				text: "Saarbrücken is the state capital of the Saarland, the smallest federal state in Germany. But one thing is certain: Saarbrücken does not have to hide behind other major cities. Even though it cannot keep up with cities like Berlin or Hamburg with its 179,000 inhabitants, there is still a lot to discover in Saarbrücken. A baroque lock, a UNESCO World Heritage Site, and lots of royal architecture-a visit to Saarbrücken is full of surprises. And even in our ranking, the city surprisingly cuts off (sex) positively."
@@ -1149,7 +1149,7 @@ $(document).ready(function() {
 			sexWorkOrg: 0,
 			sexHealth: 2,
 			hiv: 0,
-			population: 178000,
+			population: '178,000',
 			en: {
 				title: 'Hamm',
 				text: "Hamm is located a few kilometers northeast of Dortmund in North Rhine-Westphalia. In the region, the city is primarily known for its zoo and the MaximilianSpark with its impressive elephant building. Hamm is still officially part of the Ruhr area and it is no wonder that there is the typical loose-liberal lifestyle of the Ruhr region there too. According to our statistics, there should be 5 brothels or brothel -like facilities there and just over 100 sex workers are probably active in the city. It seems as if the freedom -loving people are found in Hamm, who have become too loud and full in the larger Ruhr cities. So Hamm is a good example of the fact that it can also be sex positive in medium -sized cities."
@@ -1172,7 +1172,7 @@ $(document).ready(function() {
 			sexWorkOrg: 0,
 			sexHealth: 3,
 			hiv: 0,
-			population: 172000,
+			population: '172,000',
 			en: {
 				title: 'Ludwigshafen',
 				text: "You wouldn't have thought to find Ludwigshafen here in this ranking? You can see that after all, Ludwigshafen is the largest city in the Palatinate. And nobody has said that it would not be cheerful in the Palatinate. In addition, the neighboring town of Mannheim has surprisingly positioned itself very high in this comparison - and that also seems to be colored down at Ludwigshafen, albeit not too much. In LGBT culture does not seem to have very much pretended in the industrial city, but at least five brothels and probably over 200 sex workers raise the cut. In any case, Ludwigshafen is a good example of the fact that appearance often likes to be deceptive."
@@ -1195,7 +1195,7 @@ $(document).ready(function() {
 			sexWorkOrg: 0,
 			sexHealth: 1,
 			hiv: 0,
-			population: 171000,
+			population: '171,000',
 			en: {
 				title: 'Mülheim an der Ruhr',
 				text: "Mülheim an der Ruhr in North Rhine-Westphalia, as the name suggests, is located directly in the Ruhr area. The city worth living in is often wrong in the shade of its larger neighbors, but knows how to convince with their own stimuli. Numerous other Ruhr cities, which are represented in this ranking, prove that sex positivity in the Ruhr region is not a foreign word. Due to the smaller size of Mülheim, it is only enough for a positioning in the lower area of ​​this list, but this should not change anything about the sex -positive image of Mülheim, after all, it is already a considerable success to have made it into this TOP50 at all. So dear Mülheim: everything was done right."
@@ -1218,7 +1218,7 @@ $(document).ready(function() {
 			sexWorkOrg: 0,
 			sexHealth: 4,
 			hiv: 0,
-			population: 169000,
+			population: '169,000',
 			en: {
 				title: 'Oldenburg',
 				text: "The beautiful Oldenburg knows to delight - and this does not only apply to the beautiful old town with its lovable historical architecture. It is especially the warm people who make the city so worth living and contribute to a pleasantly liberal climate. You don't need to search for sex positiveness there because it simply belongs and because it is allowed. There is probably only one sex shop and only a swinger club but probably over 200 sex workers who are suitable for all those who have no time or desire to look for like-minded people on the dating market. It is also easy in Oldenburg to find companions for sex -positive projects of all kinds through the relevant dating apps."
@@ -1241,7 +1241,7 @@ $(document).ready(function() {
 			sexWorkOrg: 0,
 			sexHealth: 2,
 			hiv: 1,
-			population: 164000,
+			population: '164,000',
 			en: {
 				title: 'Osnabrück',
 				text: "Osnabrück is a city with historical importance: In 1648, the Westphalian peace was closed here after thirty years of war, one of the most important peace treaties in Europe. Osnabrück still bears the nickname 'Friedensstadt' today. The lively city center attracts visitors from near and far. For many, the fact that Osnabrück takes a top position in our ranking seems very surprising for many. As one of the most sex -positive cities in Germany, Osnabrück probably had no one on the bill. But a look at the data situation shows: Measured on the population, the city has a lot of sex-positive lifestyle to offer. In addition to LGBTIQ* and Gay Pride events and localities, Osnabrück convinces primarily because of a large sex worker scene. And the local sex shops also cause a lot of momentum in the bed of the Osnabrückers."
@@ -1264,7 +1264,7 @@ $(document).ready(function() {
 			sexWorkOrg: 0,
 			sexHealth: 2,
 			hiv: 0,
-			population: 163000,
+			population: '163,000',
 			en: {
 				title: 'Leverkusen',
 				text: "Leverkusen in North Rhine-Westphalia is close to Cologne and has always delighted everyone and everyone who is drawn to this city with a relaxed way of life. Typical for the area around the Rhine and Ruhr, conservative bourgeoisiness is a rarely seen property of people. This is exactly why Leverkusen should not be missing in this ranking, even if, according to points, it is not enough to placement above. But that will not bother anyone in Leverkusen, there you know what you have and do not have to compare yourself with others. It doesn't even seem so unlikely that there were already sex positivity in Leverkusen before the actual term came up."
@@ -1287,7 +1287,7 @@ $(document).ready(function() {
 			sexWorkOrg: 0,
 			sexHealth: 1,
 			hiv: 0,
-			population: 159000,
+			population: '159,000',
 			en: {
 				title: 'Solingen',
 				text: "Solingen in NRW is located in the Dreieck Düsseldorf/Wuppertal/Leverkusen, i.e. in the best location and neighborhood. Rhenish joie de vivre mixes there with the charming lightness of the Ruhr area. What more you want for a good life and no wonder that under such excellent conditions, sex -positive conditions can flourish. Therefore, Solingen clearly manages to our ranking, but because of the strong competition in the lower seats. But what should you also strive for the rank of a top dog if you already have everything you need for an entertaining and erotically balanced existence? Just. Feel free to go to Solingen and convince yourself."
@@ -1504,22 +1504,20 @@ $(document).ready(function() {
 
 
 		$('.map-scale-container').scrollTop((mapHeight - 450) / 2);
+		//$('.map-scale-container').addClass('is-hidden');
 
 
-		var tapped=false;
-
-		
-		$('.map-desktop').on('click', function(e) {
-			e.preventDefault();
-			$('.map-scale').addClass('active');
+	} else {
+			Draggable.create('.map-mobile', {
+			bounds: '.map-scale-container',
+			inertia: true
 		});
-
 	}
 
-	$('.map-visual').on('click', '.overlay-close', function(e) {
+	$('.js-zoom-map-btn').on('click', function(e) {
 		e.preventDefault();
-
-		$(this).parents('.map-scale').removeClass('active');
+		$(this).toggleClass('is-active');
+		$('.map-scale').toggleClass('active');
 	});
 
 
@@ -1539,6 +1537,12 @@ $(document).ready(function() {
 
 		$(this).next('.ano-footer-menu').stop().slideToggle(150);
 	});
+
+
+
+	var lazyLoadInstance = new LazyLoad({});
+
+
 
 	setTimeout(function(){
 		$('body').addClass('is-loaded');

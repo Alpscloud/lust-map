@@ -37,6 +37,15 @@
 	<!-- CONTENT WRAPPER -->
 	<div class="content__wrapper">
 
+		<!-- Preloader -->
+		<div class="preloader__wrapper">
+			<div class="preloader"><span></span></div>
+			<div class="preloader__section preloader__section--left"></div> 
+			<div class="preloader__section preloader__section--right"></div>
+		</div>		
+		<!--// Preloader -->
+
+
 		<!-- Header -->
 		<header class="lus-header">
 	<div class="container">
@@ -166,7 +175,7 @@
 							<div class="mobile-show">
 								<div class="logo-wrapper">	
 
-									<img src="img/logo-new.svg" class="logo" alt="World's Most Sexually Liberated Cities">
+									<img src="img/logo.png" class="logo" alt="World's Most Sexually Liberated Cities">
 								</div>
 
 								<p class="intro-para" data-aos="fade-right">Wie sexpositiv ist Deutschland? Wir haben deutsche Großstädte hinsichtlich ihrer sexuellen Freizügigkeit untersucht und die sexpositivsten Städte in einem Ranking zusammengefasst. <a class="jump-to" data-target="info-section"><span>more</span></a>
@@ -211,10 +220,24 @@
 							</div>
 
 							<div class="internal-map-contain">
+								<button class="btn-zoom js-zoom-map-btn" type="button">
+									
+									<svg  viewBox="0 0 36 36"  xmlns="http://www.w3.org/2000/svg" class="btn-zoom__ic btn-zoom__ic-plus">
+										<path d="M14.625 6.75H12.375V12.375H6.75V14.625H12.375V20.25H14.625V14.625H20.25V12.375H14.625V6.75Z" />
+										<path d="M33.7219 28.1532L28.0207 22.4519L23.6354 20.6402C25.0955 18.5638 25.8778 16.0867 25.875 13.5483C25.875 6.72472 20.3236 1.17334 13.5 1.17334C6.67638 1.17334 1.125 6.72472 1.125 13.5483C1.125 20.372 6.67638 25.9233 13.5 25.9233C16.0605 25.9263 18.5582 25.1304 20.6451 23.6468L22.4521 28.0202L28.1531 33.7219C28.8916 34.4604 29.8932 34.8752 30.9375 34.8752C31.9818 34.8752 32.9834 34.4604 33.7219 33.7219C34.4603 32.9834 34.8752 31.9819 34.8752 30.9375C34.8752 29.8932 34.4603 28.8916 33.7219 28.1532V28.1532ZM3.375 13.5483C3.375 7.96553 7.91719 3.42334 13.5 3.42334C19.0828 3.42334 23.625 7.96553 23.625 13.5483C23.625 19.1312 19.0828 23.6733 13.5 23.6733C7.91719 23.6733 3.375 19.1312 3.375 13.5483ZM32.1308 32.1308C31.814 32.4468 31.3849 32.6243 30.9375 32.6243C30.4901 32.6243 30.061 32.4468 29.7442 32.1308L24.3603 26.7469L22.6802 22.6804L26.7469 24.3603L32.1309 29.7443C32.4469 30.061 32.6243 30.4902 32.6243 30.9376C32.6243 31.385 32.4468 31.8141 32.1308 32.1308Z" />
+									</svg>
+
+
+									<svg  viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" class="btn-zoom__ic btn-zoom__ic-minus">
+										<path d="M6.77417 12.3267H20.2742V14.5767H6.77417V12.3267Z" />
+										<path d="M33.7219 28.105L28.0207 22.4038L23.6354 20.5921C25.0956 18.5156 25.8778 16.0384 25.875 13.5C25.875 6.67638 20.3236 1.125 13.5 1.125C6.67638 1.125 1.125 6.67638 1.125 13.5C1.125 20.3236 6.67638 25.875 13.5 25.875C16.0605 25.8779 18.5582 25.0821 20.6451 23.5985L22.4521 27.9719L28.1531 33.6734C28.5188 34.0391 28.9528 34.3291 29.4305 34.527C29.9083 34.7249 30.4203 34.8268 30.9374 34.8268C31.4545 34.8268 31.9665 34.725 32.4442 34.5271C32.922 34.3293 33.3561 34.0392 33.7217 33.6736C34.0873 33.308 34.3774 32.8739 34.5753 32.3962C34.7732 31.9185 34.8751 31.4064 34.8751 30.8894C34.8751 30.3723 34.7733 29.8602 34.5754 29.3825C34.3775 28.9048 34.0875 28.4707 33.7219 28.105V28.105ZM3.375 13.5C3.375 7.91719 7.91719 3.375 13.5 3.375C19.0828 3.375 23.625 7.91719 23.625 13.5C23.625 19.0828 19.0828 23.625 13.5 23.625C7.91719 23.625 3.375 19.0828 3.375 13.5ZM32.1308 32.0825C31.814 32.3985 31.3849 32.5759 30.9375 32.5759C30.4901 32.5759 30.061 32.3985 29.7442 32.0825L24.3603 26.6985L22.6802 22.632L26.7469 24.312L32.1309 29.696C32.4469 30.0127 32.6243 30.4419 32.6243 30.8893C32.6243 31.3366 32.4468 31.7658 32.1308 32.0825V32.0825Z" />
+									</svg>
+
+								</button>
 								<div class="scale-visual">
-									<span class="scale-visual__text">High</span>
+									<span class="scale-visual__text">MOST</span>
 									<span class="scale-visual__line"></span>
-									<span class="scale-visual__text">Low</span>
+									<span class="scale-visual__text">LEAST</span>
 								</div>
 
 								<div class="map-visual">
@@ -3386,7 +3409,7 @@
 </svg>
 
 									<div class="map-scale">
-										<a class="overlay-close overlay-close-trigger"></a> 
+									
 										<div class="map-scale-container">
 											
 <svg version="1.1" baseProfile="basic"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1884px" height="2414px" viewBox="0 0 1884 2414" xml:space="preserve" class="map-mobile">
@@ -28362,7 +28385,7 @@
 							<div class="intro-contain mobile-hide">
 								<div class="logo-wrapper">	
 
-									<img src="img/logo-new.svg" class="logo" alt="World's Most Sexually Liberated Cities">
+									<img src="img/logo.png" class="logo" alt="World's Most Sexually Liberated Cities">
 								</div>
 
 								<p data-aos="fade-right" class="intro-para" data-aos-anchor=".data-col">
@@ -28386,7 +28409,7 @@
 </svg>
 	</td>
 
-	<td>Final Ranking<br> (out of 50)</td>
+	
 
 	<td>City</td>
 
@@ -28412,35 +28435,40 @@
 
 	<td>HIV / STD Doctors<br> and Clinics</td>
 
+	<td>Final Ranking<br> (out of 50)</td>
+
 	
 </tr>
 
 
 			<tr data-country="Cologne">
 				<td class="rank">1</td>
-				<td>1</td>
+				
 				<td>Cologne</td>
 				
-				<td>1083000</td>
+				<td>1,083,000</td>
 <td>19</td>
 <td>6</td>	
 <td>9</td>
 <td>14</td>	
 <td>25</td>	
 <td>43</td>
-<td>587	</td>
+<td>587</td>
 <td>5	</td>
 <td>4</td>
 <td>7</td>
+<td>1</td>
+
+			
 				
 			</tr>
 
 			<tr data-country="Mannheim">
 				<td class="rank">2</td>
-				<td>2</td>
+				
 				<td>Mannheim</td>
 				
-				<td>309000</td>
+				<td>309,000</td>
 <td>3</td>
 <td>1</td>	
 <td>2</td>
@@ -28451,15 +28479,18 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
+<td>2</td>
+
+		
 				
 			</tr>
 
 			<tr data-country="Freiburg">
 				<td class="rank">3</td>
-				<td>3</td>
+				
 				<td>Freiburg</td>
 				
-				<td>230000</td>
+				<td>230,000</td>
 <td>1</td>
 <td>0</td>	
 <td>2</td>
@@ -28470,14 +28501,15 @@
 <td>3</td>
 <td>4</td>
 <td>2</td>
+				<td>3</td>
 			</tr>
 
 			<tr data-country="Osnabrück">
 				<td class="rank">4</td>
-				<td>4</td>
+				
 				<td>Osnabrück</td>
 				
-				<td>164000</td>
+				<td>164,000</td>
 <td>2</td>
 <td>0</td>	
 <td>2</td>
@@ -28488,15 +28520,17 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
+<td>4</td>
+		
 				
 			</tr>
 
 			<tr data-country="Magdeburg">
 				<td class="rank">5</td>
-				<td>5</td>
+				
 				<td>Magdeburg</td>
 				
-				<td>235000</td>
+				<td>235,000</td>
 <td>4</td>
 <td>0</td>	
 <td>1</td>
@@ -28507,15 +28541,17 @@
 <td>3</td>
 <td>4</td>
 <td>1</td>
+<td>5</td>
+		
 				
 			</tr>
 
 			<tr data-country="Chemnitz">
 				<td class="rank">6</td>
-				<td>6</td>
+				
 				<td>Chemnitz</td>
 				
-				<td>244000</td>
+				<td>244,000</td>
 <td>4</td>
 <td>4</td>	
 <td>1</td>
@@ -28526,15 +28562,17 @@
 <td>2</td>
 <td>3</td>
 <td>1</td>
+<td>6</td>
+		
 				
 			</tr>
 
 			<tr data-country="Wiesbaden">
 				<td class="rank">7</td>
-				<td>7</td>
+				
 				<td>Wiesbaden</td>
 				
-				<td>278000</td>
+				<td>278,000</td>
 <td>3</td>
 <td>1</td>	
 <td>1</td>
@@ -28545,14 +28583,16 @@
 <td>1</td>
 <td>2</td>
 <td>2</td>
+<td>7</td>
+			
 
 			</tr>
 
 			<tr data-country="Berlin">
 				<td class="rank">8</td>
-				<td>8</td>
+				
 				<td>Berlin</td>
-				<td>3600000</td>
+				<td>3,600,000</td>
 <td>32</td>
 <td>8</td>
 <td>6</td>
@@ -28563,15 +28603,17 @@
 <td>6</td>
 <td>11</td>
 <td>24</td>
+<td>8</td>
+			
 				
 			</tr>
 
 			<tr data-country="Frankfurt">
 				<td class="rank">9</td>
-				<td>9</td>
+				
 				<td>Frankfurt am Main</td>
 				
-				<td>764000</td>
+				<td>764,000</td>
 <td>6</td>
 <td>4</td>	
 <td>5</td>
@@ -28582,15 +28624,17 @@
 <td>1</td>
 <td>2</td>
 <td>4</td>
+<td>9</td>
+			
 				
 			</tr>
 
 			<tr data-country="Stuttgart">
 				<td class="rank">10</td>
-				<td>10</td>
+				
 				<td>Stuttgart</td>
 				
-				<td>630000</td>
+				<td>630,000</td>
 <td>6</td>
 <td>3</td>	
 <td>4</td>
@@ -28601,15 +28645,17 @@
 <td>2</td>
 <td>4</td>
 <td>2</td>
+<td>10</td>
+				
 				
 			</tr>
 
 			<tr data-country="Munich">
 				<td class="rank">11</td>
-				<td>11</td>
+				
 				<td>Munich</td>
 				
-				<td>1488000</td>
+				<td>1,488,000</td>
 <td>13</td>
 <td>3</td>	
 <td>7</td>
@@ -28620,15 +28666,17 @@
 <td>2	</td>
 <td>8</td>
 <td>8	</td>
+<td>11</td>
+		
 				
 			</tr>
 
 			<tr data-country="Rostock">
 				<td class="rank">12</td>
-				<td>12</td>
+				
 				<td>Rostock</td>
 				
-				<td>209000</td>
+				<td>209,000</td>
 <td>3</td>
 <td>0</td>	
 <td>1</td>
@@ -28639,6 +28687,8 @@
 <td>2</td>
 <td>5</td>
 <td>0</td>
+<td>12</td>
+		
 				
 			</tr>
 
@@ -28646,10 +28696,10 @@
 
 			<tr data-country="Hannover">
 				<td class="rank">13</td>
-				<td>13</td>
+				
 				<td>Hannover</td>
 				
-				<td>534000</td>
+				<td>534,000</td>
 <td>3</td>
 <td>5</td>	
 <td>3</td>
@@ -28660,15 +28710,17 @@
 <td>4</td>
 <td>4</td>
 <td>2</td>
+<td>13</td>
+				
 				
 			</tr>
 
 			<tr data-country="Augsburg">
 				<td class="rank">14</td>
-				<td>14</td>
+				
 				<td>Augsburg</td>
 				
-				<td>295000</td>
+				<td>295,000</td>
 <td>5</td>
 <td>1</td>	
 <td>1</td>
@@ -28679,15 +28731,17 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
+<td>14</td>
+				
 				
 			</tr>
 
 			<tr data-country="Bremen">
 				<td class="rank">15</td>
-				<td>15</td>
+				
 				<td>Bremen</td>
 				
-				<td>566000</td>
+				<td>566,000</td>
 <td>5</td>
 <td>2</td>	
 <td>1</td>
@@ -28698,15 +28752,17 @@
 <td>2</td>
 <td>6</td>
 <td>3</td>
+<td>15</td>
+			
 				
 			</tr>
 
 			<tr data-country="Mainz">
 				<td class="rank">16</td>
-				<td>16</td>
+				
 				<td>Mainz</td>
 				
-				<td>217000</td>
+				<td>217,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -28717,15 +28773,17 @@
 <td>0</td>
 <td>1</td>
 <td>1</td>
+<td>16</td>
+		
 				
 			</tr>
 
 			<tr data-country="Dresden">
 				<td class="rank">17</td>
-				<td>17</td>
+				
 				<td>Dresden</td>
 				
-				<td>556000</td>
+				<td>556,000</td>
 <td>5</td>
 <td>5</td>	
 <td>3</td>
@@ -28736,15 +28794,17 @@
 <td>1</td>
 <td>6</td>
 <td>1</td>
+<td>17</td>
+				
 				
 			</tr>
 
 			<tr data-country="Karlsruhe">
 				<td class="rank">18</td>
-				<td>18</td>
+				
 				<td>Karlsruhe</td>
 				
-				<td>308000</td>
+				<td>308,000</td>
 <td>5</td>
 <td>2</td>	
 <td>2</td>
@@ -28755,15 +28815,17 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>18</td>
+				
 				
 			</tr>
 
 			<tr data-country="Saarbrücken">
 				<td class="rank">19</td>
-				<td>19</td>
+				
 				<td>Saarbrücken</td>
 				
-				<td>179000</td>
+				<td>179,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -28774,15 +28836,17 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>19</td>
+			
 				
 			</tr>
 
 			<tr data-country="Keel">
 				<td class="rank">20</td>
-				<td>20</td>
+				
 				<td>Keel</td>
 				
-				<td>246000</td>
+				<td>246,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -28793,15 +28857,17 @@
 <td>4</td>
 <td>3</td>
 <td>0</td>
+<td>20</td>
+			
 				
 			</tr>
 
 			<tr data-country="Braunschweig">
 				<td class="rank">21</td>
-				<td>21</td>
+				
 				<td>Braunschweig</td>
 				
-				<td>248000</td>
+				<td>248,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -28812,34 +28878,38 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
+<td>21</td>
+				
 				
 			</tr>
 
 			<tr data-country="Hamburg">
 				<td class="rank">22</td>
-				<td>22</td>
+				
 				<td>Hamburg</td>
 				
-				<td>1852000</td>
+				<td>1,852,000</td>
 <td>16</td>
 <td>8</td>	
-<td>6	</td>
+<td>6</td>
 <td>16</td>	
 <td>17</td>	
-<td>71	</td>
-<td>226	</td>
-<td>7	</td>
+<td>71</td>
+<td>226</td>
+<td>7</td>
 <td>8</td>
-<td>6	</td>
+<td>6</td>
+<td>22</td>
+			
 				
 			</tr>
 
 			<tr data-country="Bonn">
 				<td class="rank">23</td>
-				<td>23</td>
+				
 				<td>Bonn</td>
 				
-				<td>330000</td>
+				<td>330,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -28850,16 +28920,18 @@
 <td>0</td>
 <td>3</td>
 <td>2</td>
+<td>23</td>
+				
 				
 			</tr>
 
 			
 			<tr data-country="Nuremberg">
 				<td class="rank">24</td>
-				<td>24</td>
+				
 				<td>Nuremberg</td>
 				
-				<td>515000</td>
+				<td>515,000</td>
 <td>3</td>
 <td>3</td>	
 <td>1</td>
@@ -28870,6 +28942,8 @@
 <td>3</td>
 <td>5</td>
 <td>1</td>
+<td>24</td>
+			
 				
 			</tr>
 
@@ -28877,10 +28951,10 @@
 
 			<tr data-country="Aachen">
 				<td class="rank">25</td>
-				<td>25</td>
+				
 				<td>Aachen</td>
 				
-				<td>248000</td>
+				<td>248,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -28891,15 +28965,17 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
+<td>25</td>
+			
 			</tr>
 
 
 			<tr data-country="Dusseldorf">
 				<td class="rank">26</td>
-				<td>26</td>
+				
 				<td>Dusseldorf</td>
 				
-				<td>620000</td>
+				<td>620,000</td>
 <td>4</td>
 <td>1</td>	
 <td>1</td>
@@ -28910,15 +28986,17 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
+<td>26</td>
+		
 				
 			</tr>
 
 			<tr data-country="Gelsenkirchen">
 				<td class="rank">27</td>
-				<td>27</td>
+
 				<td>Gelsenkirchen</td>
 				
-				<td>259000</td>
+				<td>259,000</td>
 <td>2</td>
 <td>1</td>	
 <td>0</td>
@@ -28929,15 +29007,17 @@
 <td>0</td>
 <td>0</td>
 <td>1</td>
+<td>27</td>
+		
 				
 			</tr>
 
 			<tr data-country="Muenster">
 				<td class="rank">28</td>
-				<td>28</td>
+				
 				<td>Muenster</td>
 				
-				<td>316000</td>
+				<td>316,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -28948,15 +29028,17 @@
 <td>1</td>
 <td>5</td>
 <td>1</td>
+<td>28</td>
+		
 				
 			</tr>
 
 			<tr data-country="Wuppertal">
 				<td class="rank">29</td>
-				<td>29</td>
+				
 				<td>Wuppertal</td>
 				
-				<td>355000</td>
+				<td>355,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -28967,15 +29049,17 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
+<td>29</td>
+		
 				
 			</tr>
 
 			<tr data-country="Leipzig">
 				<td class="rank">30</td>
-				<td>30</td>
+				
 				<td>Leipzig</td>
 				
-				<td>597000</td>
+				<td>597,000</td>
 <td>3</td>
 <td>2</td>	
 <td>2</td>
@@ -28986,14 +29070,16 @@
 <td>1</td>
 <td>4</td>
 <td>1</td>
+<td>30</td>
+	
 			</tr>
 
 			<tr data-country="Oldenburg">
 				<td class="rank">31</td>
-				<td>31</td>
+				
 				<td>Oldenburg</td>
 				
-				<td>169000</td>
+				<td>169,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -29004,15 +29090,17 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
+<td>31</td>
+			
 
 			</tr>
 
 			<tr data-country="Bochum">
 				<td class="rank">32</td>
-				<td>32</td>
+				
 				<td>Bochum</td>
 				
-				<td>364000</td>
+				<td>364,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -29023,15 +29111,17 @@
 <td>1</td>
 <td>6</td>
 <td>0</td>
+<td>32</td>
+				
 				
 			</tr>
 
 			<tr data-country="Dortmund">
 				<td class="rank">33</td>
-				<td>33</td>
+				
 				<td>Dortmund</td>
 				
-				<td>587000</td>
+				<td>587,000</td>
 <td>4</td>
 <td>5</td>	
 <td>1</td>
@@ -29042,15 +29132,17 @@
 <td>2</td>
 <td>6</td>
 <td>1</td>
+<td>33</td>
+				
 				
 			</tr>
 
 			<tr data-country="Mönchengladbach">
 				<td class="rank">34</td>
-				<td>34</td>
+				
 				<td>Mönchengladbach</td>
 				
-				<td>259000</td>
+				<td>259,000</td>
 <td>1</td>
 <td>2</td>	
 <td>1</td>
@@ -29061,16 +29153,18 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>34</td>
+		
 				
 			</tr>
 
 
 			<tr data-country="Essen">
 				<td class="rank">35</td>
-				<td>35</td>
+				
 				<td>Essen</td>
 				
-				<td>582000</td>
+				<td>582,000</td>
 <td>2</td>
 <td>4</td>	
 <td>1</td>
@@ -29081,15 +29175,17 @@
 <td>4</td>
 <td>4</td>
 <td>1</td>
+<td>35</td>
+		
 				
 			</tr>
 
 			<tr data-country="Erfurt">
 				<td class="rank">36</td>
-				<td>36</td>
+				
 				<td>Erfurt</td>
 				
-				<td>213000</td>
+				<td>213,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -29100,17 +29196,18 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
-				
+<td>36</td>
+			
 			</tr>
 
 			<!-- //top36 -->
 
 			<tr data-country="Lübeck">
 				<td class="rank">37</td>
-				<td>37</td>
+				
 				<td>Lübeck</td>
 				
-				<td>215000</td>
+				<td>215,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -29121,15 +29218,17 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
+<td>37</td>
+			
 				
 			</tr>
 
 			<tr data-country="Kassel">
 				<td class="rank">38</td>
-				<td>38</td>
+				
 				<td>Kassel</td>
 				
-				<td>201000</td>
+				<td>201,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -29140,15 +29239,17 @@
 <td>2</td>
 <td>1</td>
 <td>0</td>
+<td>38</td>
+			
 				
 			</tr>
 
 			<tr data-country="Oberhausen">
 				<td class="rank">39</td>
-				<td>39</td>
+				
 				<td>Oberhausen</td>
 				
-				<td>209000</td>
+				<td>209,000</td>
 <td>2</td>
 <td>0</td>	
 <td>0</td>
@@ -29159,15 +29260,17 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>39</td>
+		
 				
 			</tr>
 
 			<tr data-country="Potsdam">
 				<td class="rank">40</td>
-				<td>40</td>
+				
 				<td>Potsdam</td>
 				
-				<td>182000</td>
+				<td>182,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -29178,15 +29281,17 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
+<td>40</td>
+				
 				
 			</tr>
 
 			<tr data-country="Krefeld">
 				<td class="rank">41</td>
-				<td>41</td>
+				
 				<td>Krefeld</td>
 				
-				<td>226000</td>
+				<td>226,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -29197,15 +29302,17 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>41</td>
+		
 				
 			</tr>
 
 			<tr data-country="Bielefeld">
 				<td class="rank">42</td>
-				<td>42</td>
+				
 				<td>Bielefeld</td>
 				
-				<td>333000</td>
+				<td>333,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -29216,15 +29323,17 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>42</td>
+			
 				
 			</tr>
 
 			<tr data-country="Hagen">
 				<td class="rank">43</td>
-				<td>43</td>
+				
 				<td>Hagen</td>
 				
-				<td>188000</td>
+				<td>188,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -29235,15 +29344,17 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>43</td>
+			
 				
 			</tr>
 
 			<tr data-country="Ludwigshafen">
 				<td class="rank">44</td>
-				<td>44</td>
+				
 				<td>Ludwigshafen</td>
 				
-				<td>172000</td>
+				<td>172,000</td>
 <td>1</td>
 <td>2</td>	
 <td>0</td>
@@ -29254,15 +29365,17 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>44</td>
+			
 
 			</tr>
 
 			<tr data-country="Halle">
 				<td class="rank">45</td>
-				<td>45</td>
+				
 				<td>Halle (Saale)</td>
 				
-				<td>237000</td>
+				<td>237,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -29273,15 +29386,17 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>45</td>
+		
 				
 			</tr>
 
 			<tr data-country="Hamm">
 				<td class="rank">46</td>
-				<td>46</td>
+				
 				<td>Hamm</td>
 				
-				<td>178000</td>
+				<td>178,000</td>
 <td>0</td>
 <td>0</td>	
 <td>1</td>
@@ -29292,14 +29407,16 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>46</td>
+		
 			</tr>
 
 			<tr data-country="Duisburg">
 				<td class="rank">47</td>
-				<td>47</td>
+				
 				<td>Duisburg</td>
 				
-				<td>495000</td>
+				<td>495,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -29310,15 +29427,17 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
+<td>47</td>
+		
 				
 			</tr>
 
 			<tr data-country="Leverkusen">
 				<td class="rank">48</td>
-				<td>48</td>
+				
 				<td>Leverkusen</td>
 				
-				<td>163000</td>
+				<td>163,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -29329,6 +29448,8 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>48</td>
+
 				
 			</tr>
 
@@ -29336,10 +29457,10 @@
 
 			<tr data-country="Solingen">
 				<td class="rank">49</td>
-				<td>49</td>
+				
 				<td>Solingen</td>
 				
-				<td>159000</td>
+				<td>159,000</td>
 <td>0</td>
 <td>1</td>	
 <td>0</td>
@@ -29350,16 +29471,18 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>49</td>
+		
 
 			</tr>
 
 
 			<tr data-country="Mülheim">
 				<td class="rank">50</td>
-				<td>50</td>
+				
 				<td>Mülheim an der Ruhr</td>
 				
-				<td>171000</td>
+				<td>171,000</td>
 <td>0</td>
 <td>0</td>	
 <td>0</td>
@@ -29370,6 +29493,8 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>50</td>
+	
 				
 			</tr>
 
@@ -29391,7 +29516,7 @@
 </svg>
 	</td>
 
-	<td>Final Ranking<br> (out of 50)</td>
+	
 
 	<td>City</td>
 
@@ -29417,14 +29542,16 @@
 
 	<td>HIV / STD Doctors<br> and Clinics</td>
 
+	<td>Final Ranking<br> (out of 50)</td>
+
 	
 </tr>
 
 			<tr data-country="Berlin">
 				<td class="rank">1</td>
-				<td>8</td>
+		
 				<td>Berlin</td>
-				<td>3600000</td>
+				<td>3,600,000</td>
 <td>32</td>
 <td>8</td>
 <td>6</td>
@@ -29435,32 +29562,34 @@
 <td>6</td>
 <td>11</td>
 <td>24</td>
+<td>8</td>
 				
 			</tr>
 
 			<tr data-country="Hamburg">
 				<td class="rank">2</td>
-				<td>22</td>
+				
 				<td>Hamburg</td>
-				<td>1852000</td>
+				<td>1,852,000</td>
 <td>16</td>
 <td>8</td>	
-<td>6	</td>
+<td>6</td>
 <td>16</td>	
 <td>17</td>	
-<td>71	</td>
-<td>226	</td>
-<td>7	</td>
+<td>71</td>
+<td>226</td>
+<td>7</td>
 <td>8</td>
-<td>6	</td>
+<td>6</td>
+<td>22</td>
 				
 			</tr>
 
 			<tr data-country="Munich">
 				<td class="rank">3</td>
-				<td>11</td>
+		
 				<td>Munich</td>
-				<td>1488000</td>
+				<td>1,488,000</td>
 <td>13</td>
 <td>3</td>	
 <td>7</td>
@@ -29471,32 +29600,34 @@
 <td>2	</td>
 <td>8</td>
 <td>8	</td>
+<td>11</td>
 				
 			</tr>
 
 			<tr data-country="Cologne">
 				<td class="rank">4</td>
-				<td>1</td>
+			
 				<td>Cologne</td>
-				<td>1083000</td>
+				<td>1,083,000</td>
 <td>19</td>
 <td>6</td>	
 <td>9</td>
 <td>14</td>	
 <td>25</td>	
 <td>43</td>
-<td>587	</td>
+<td>587</td>
 <td>5	</td>
 <td>4</td>
 <td>7</td>
+<td>1</td>
 				
 			</tr>
 
 			<tr data-country="Frankfurt">
 				<td class="rank">5</td>
-				<td>9</td>
+	
 				<td>Frankfurt am Main</td>
-				<td>764000</td>
+				<td>764,000</td>
 <td>6</td>
 <td>4</td>	
 <td>5</td>
@@ -29507,13 +29638,14 @@
 <td>1</td>
 <td>2</td>
 <td>4</td>
+<td>9</td>
 			</tr>
 
 			<tr data-country="Stuttgart">
 				<td class="rank">6</td>
-				<td>10</td>
+	
 				<td>Stuttgart</td>
-				<td>630000</td>
+				<td>630,000</td>
 <td>6</td>
 <td>3</td>	
 <td>4</td>
@@ -29524,15 +29656,16 @@
 <td>2</td>
 <td>4</td>
 <td>2</td>
+<td>10</td>
 				
 			</tr>
 
 
 			<tr data-country="Dusseldorf">
 				<td class="rank">7</td>
-				<td>26</td>
+		
 				<td>Dusseldorf</td>
-				<td>620000</td>
+				<td>620,000</td>
 <td>4</td>
 <td>1</td>	
 <td>1</td>
@@ -29543,15 +29676,16 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
+<td>26</td>
 				
 			</tr>
 
 
 			<tr data-country="Leipzig">
 				<td class="rank">8</td>
-				<td>30</td>
+	
 				<td>Leipzig</td>
-				<td>597000</td>
+				<td>597,000</td>
 <td>3</td>
 <td>2</td>	
 <td>2</td>
@@ -29562,14 +29696,15 @@
 <td>1</td>
 <td>4</td>
 <td>1</td>
+<td>30</td>
 				
 			</tr>
 
 			<tr data-country="Dortmund">
 				<td class="rank">9</td>
-				<td>33</td>
+			
 				<td>Dortmund</td>
-				<td>587000</td>
+				<td>587,000</td>
 <td>4</td>
 <td>5</td>	
 <td>1</td>
@@ -29580,15 +29715,16 @@
 <td>2</td>
 <td>6</td>
 <td>1</td>
+<td>33</td>
 				
 			</tr>
 
 
 			<tr data-country="Essen">
 				<td class="rank">10</td>
-				<td>35</td>
+	
 				<td>Essen</td>
-				<td>582000</td>
+				<td>582,000</td>
 <td>2</td>
 <td>4</td>	
 <td>1</td>
@@ -29599,6 +29735,7 @@
 <td>4</td>
 <td>4</td>
 <td>1</td>
+<td>35</td>
 				
 				
 			</tr>
@@ -29606,9 +29743,9 @@
 
 			<tr data-country="Bremen">
 				<td class="rank">11</td>
-				<td>15</td>
+
 				<td>Bremen</td>
-				<td>566000</td>
+				<td>566,000</td>
 <td>5</td>
 <td>2</td>	
 <td>1</td>
@@ -29619,6 +29756,7 @@
 <td>2</td>
 <td>6</td>
 <td>3</td>
+<td>15</td>
 				
 			</tr>
 
@@ -29626,9 +29764,9 @@
 
 			<tr data-country="Dresden">
 				<td class="rank">12</td>
-				<td>17</td>
+
 				<td>Dresden</td>
-				<td>556000</td>
+				<td>556,000</td>
 <td>5</td>
 <td>5</td>	
 <td>3</td>
@@ -29639,15 +29777,16 @@
 <td>1</td>
 <td>6</td>
 <td>1</td>
+<td>17</td>
 				
 			</tr>
 
 
 			<tr data-country="Hannover">
 				<td class="rank">13</td>
-				<td>13</td>
+				
 				<td>Hannover</td>
-				<td>534000</td>
+				<td>534,000</td>
 <td>3</td>
 <td>5</td>	
 <td>3</td>
@@ -29658,15 +29797,16 @@
 <td>4</td>
 <td>4</td>
 <td>2</td>
+<td>13</td>
 				
 			</tr>
 
 
 			<tr data-country="Nuremberg">
 				<td class="rank">14</td>
-				<td>24</td>
+			
 				<td>Nuremberg</td>
-				<td>515000</td>
+				<td>515,000</td>
 <td>3</td>
 <td>3</td>	
 <td>1</td>
@@ -29677,15 +29817,16 @@
 <td>3</td>
 <td>5</td>
 <td>1</td>
+<td>24</td>
 				
 			</tr>
 
 
 			<tr data-country="Duisburg">
 				<td class="rank">15</td>
-				<td>47</td>
+		
 				<td>Duisburg</td>
-				<td>495000</td>
+				<td>495,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -29696,6 +29837,7 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
+<td>47</td>
 				
 			</tr>
 
@@ -29703,9 +29845,9 @@
 
 			<tr data-country="Bochum">
 				<td class="rank">16</td>
-				<td>32</td>
+	
 				<td>Bochum</td>
-				<td>364000</td>
+				<td>364,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -29716,15 +29858,16 @@
 <td>1</td>
 <td>6</td>
 <td>0</td>
+<td>32</td>
 				
 			</tr>
 
 
 			<tr data-country="Wuppertal">
 				<td class="rank">17</td>
-				<td>29</td>
+	
 				<td>Wuppertal</td>
-				<td>355000</td>
+				<td>355,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -29735,14 +29878,16 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
+<td>29</td>
 				
 			</tr>
 
 
 			<tr data-country="Bielefeld">
 				<td class="rank">18</td>
-				<td>42</td>
-				<td>333000</td>
+	
+				<td>Bielefeld</td>
+				<td>333,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -29753,15 +29898,16 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>42</td>
 				
 			</tr>
 
 
 			<tr data-country="Bonn">
 				<td class="rank">19</td>
-				<td>23</td>
+	
 				<td>Bonn</td>
-				<td>330000</td>
+				<td>330,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -29772,14 +29918,15 @@
 <td>0</td>
 <td>3</td>
 <td>2</td>
+<td>23</td>
 				
 			</tr>
 
 			<tr data-country="Muenster">
 				<td class="rank">20</td>
-				<td>28</td>
+		
 				<td>Muenster</td>
-				<td>316000</td>
+				<td>316,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -29790,15 +29937,16 @@
 <td>1</td>
 <td>5</td>
 <td>1</td>
+<td>28</td>
 				
 			</tr>
 
 
 			<tr data-country="Mannheim">
 				<td class="rank">21</td>
-				<td>2</td>
+
 				<td>Mannheim</td>
-				<td>309000</td>
+				<td>309,000</td>
 <td>3</td>
 <td>1</td>	
 <td>2</td>
@@ -29809,15 +29957,16 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
+<td>2</td>
 				
 			</tr>
 
 
 			<tr data-country="Karlsruhe">
 				<td class="rank">22</td>
-				<td>18</td>
+		
 				<td>Karlsruhe</td>
-				<td>308000</td>
+				<td>308,000</td>
 <td>5</td>
 <td>2</td>	
 <td>2</td>
@@ -29828,15 +29977,16 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>18</td>
 				
 			</tr>
 
 
 			<tr data-country="Augsburg">
 				<td class="rank">23</td>
-				<td>14</td>
+	
 				<td>Augsburg</td>
-				<td>295000</td>
+				<td>295,000</td>
 <td>5</td>
 <td>1</td>	
 <td>1</td>
@@ -29847,15 +29997,16 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
+<td>14</td>
 				
 			</tr>
 
 
 			<tr data-country="Wiesbaden">
 				<td class="rank">24</td>
-				<td>7</td>
+			
 				<td>Wiesbaden</td>
-				<td>278000</td>
+				<td>278,000</td>
 <td>3</td>
 <td>1</td>	
 <td>1</td>
@@ -29866,6 +30017,7 @@
 <td>1</td>
 <td>2</td>
 <td>2</td>
+<td>7</td>
 				
 			</tr>
 			
@@ -29874,9 +30026,9 @@
 
 			<tr data-country="Mönchengladbach">
 				<td class="rank">25</td>
-				<td>34</td>
+	
 				<td>Mönchengladbach</td>
-				<td>259000</td>
+				<td>259,000</td>
 <td>1</td>
 <td>2</td>	
 <td>1</td>
@@ -29887,15 +30039,16 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>34</td>
 				
 			</tr>
 
 
 			<tr data-country="Gelsenkirchen">
 				<td class="rank">26</td>
-				<td>27</td>
+		
 				<td>Gelsenkirchen</td>
-				<td>259000</td>
+				<td>259,000</td>
 <td>2</td>
 <td>1</td>	
 <td>0</td>
@@ -29906,14 +30059,15 @@
 <td>0</td>
 <td>0</td>
 <td>1</td>
+<td>27</td>
 				
 			</tr>
 
 			<tr data-country="Aachen">
 				<td class="rank">27</td>
-				<td>25</td>
+			
 				<td>Aachen</td>
-				<td>248000</td>
+				<td>248,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -29924,15 +30078,16 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
+<td>25</td>
 				
 			</tr>
 
 
 			<tr data-country="Braunschweig">
 				<td class="rank">28</td>
-				<td>21</td>
+
 				<td>Braunschweig</td>
-				<td>248000</td>
+				<td>248,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -29943,15 +30098,16 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
+<td>21</td>
 				
 			</tr>
 
 
 			<tr data-country="Keel">
 				<td class="rank">29</td>
-				<td>20</td>
+		
 				<td>Keel</td>
-				<td>246000</td>
+				<td>246,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -29962,15 +30118,16 @@
 <td>4</td>
 <td>3</td>
 <td>0</td>
+<td>20</td>
 				
 			</tr>
 
 
 			<tr data-country="Chemnitz">
 				<td class="rank">30</td>
-				<td>6</td>
+		
 				<td>Chemnitz</td>
-				<td>244000</td>
+				<td>244,000</td>
 <td>4</td>
 <td>4</td>	
 <td>1</td>
@@ -29981,15 +30138,16 @@
 <td>2</td>
 <td>3</td>
 <td>1</td>
+<td>6</td>
 				
 			</tr>
 
 
 			<tr data-country="Halle">
 				<td class="rank">31</td>
-				<td>45</td>
+		
 				<td>Halle (Saale)</td>
-				<td>237000</td>
+				<td>237,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -30000,15 +30158,16 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>45</td>
 				
 			</tr>
 
 
 			<tr data-country="Magdeburg">
 				<td class="rank">32</td>
-				<td>5</td>
+		
 				<td>Magdeburg</td>
-				<td>235000</td>
+				<td>235,000</td>
 <td>4</td>
 <td>0</td>	
 <td>1</td>
@@ -30019,15 +30178,16 @@
 <td>3</td>
 <td>4</td>
 <td>1</td>
+<td>5</td>
 				
 			</tr>
 
 
 			<tr data-country="Freiburg">
 				<td class="rank">33</td>
-				<td>3</td>
+
 				<td>Freiburg</td>
-				<td>230000</td>
+				<td>230,000</td>
 <td>1</td>
 <td>0</td>	
 <td>2</td>
@@ -30044,9 +30204,9 @@
 
 			<tr data-country="Krefeld">
 				<td class="rank">34</td>
-				<td>41</td>
+			
 				<td>Krefeld</td>
-				<td>226000</td>
+				<td>226,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -30057,15 +30217,16 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>41</td>
 				
 			</tr>
 
 
 			<tr data-country="Mainz">
 				<td class="rank">35</td>
-				<td>16</td>
+			
 				<td>Mainz</td>
-				<td>217000</td>
+				<td>217,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -30076,6 +30237,7 @@
 <td>0</td>
 <td>1</td>
 <td>1</td>
+<td>16</td>
 				
 			</tr>
 
@@ -30083,9 +30245,9 @@
 
 			<tr data-country="Lübeck">
 				<td class="rank">36</td>
-				<td>37</td>
+	
 				<td>Lübeck</td>
-				<td>215000</td>
+				<td>215,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -30096,15 +30258,16 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
+<td>37</td>
 				
 			</tr>
 
 
 			<tr data-country="Erfurt">
 				<td class="rank">37</td>
-				<td>36</td>
+			
 				<td>Erfurt</td>
-				<td>213000</td>
+				<td>213,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -30115,15 +30278,16 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
+<td>36</td>
 				
 			</tr>
 
 
 			<tr data-country="Oberhausen">
 				<td class="rank">38</td>
-				<td>39</td>
+		
 				<td>Oberhausen</td>
-				<td>209000</td>
+				<td>209,000</td>
 <td>2</td>
 <td>0</td>	
 <td>0</td>
@@ -30134,15 +30298,16 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>39</td>
 				
 			</tr>
 
 
 			<tr data-country="Rostock">
 				<td class="rank">39</td>
-				<td>12</td>
+		
 				<td>Rostock</td>
-				<td>209000</td>
+				<td>209,000</td>
 <td>3</td>
 <td>0</td>	
 <td>1</td>
@@ -30153,15 +30318,16 @@
 <td>2</td>
 <td>5</td>
 <td>0</td>
+<td>12</td>
 				
 			</tr>
 
 
 			<tr data-country="Kassel">
 				<td class="rank">40</td>
-				<td>38</td>
+		
 				<td>Kassel</td>
-				<td>201000</td>
+				<td>201,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -30172,6 +30338,7 @@
 <td>2</td>
 <td>1</td>
 <td>0</td>
+<td>38</td>
 				
 			</tr>
 
@@ -30179,9 +30346,9 @@
 
 			<tr data-country="Hagen">
 				<td class="rank">41</td>
-				<td>43</td>
+	
 				<td>Hagen</td>
-				<td>188000</td>
+				<td>188,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -30192,15 +30359,16 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>43</td>
 				
 			</tr>
 
 
 			<tr data-country="Potsdam">
 				<td class="rank">42</td>
-				<td>40</td>
+			
 				<td>Potsdam</td>
-				<td>182000</td>
+				<td>182,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -30211,15 +30379,16 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
+<td>40</td>
 				
 			</tr>
 
 
 			<tr data-country="Saarbrücken">
 				<td class="rank">43</td>
-				<td>19</td>
+			
 				<td>Saarbrücken</td>
-				<td>179000</td>
+				<td>179,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -30230,14 +30399,15 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>19</td>
 			</tr>
 
 			
 			<tr data-country="Hamm">
 				<td class="rank">44</td>
-				<td>46</td>
+	
 				<td>Hamm</td>
-				<td>178000</td>
+				<td>178,000</td>
 <td>0</td>
 <td>0</td>	
 <td>1</td>
@@ -30248,15 +30418,16 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>46</td>
 				
 			</tr>
 
 			
 			<tr data-country="Ludwigshafen">
 				<td class="rank">45</td>
-				<td>44</td>
+			
 				<td>Ludwigshafen</td>
-				<td>172000</td>
+				<td>172,000</td>
 <td>1</td>
 <td>2</td>	
 <td>0</td>
@@ -30267,6 +30438,7 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>44</td>
 				
 			</tr>
 
@@ -30274,9 +30446,9 @@
 
 			<tr data-country="Mülheim">
 				<td class="rank">46</td>
-				<td>50</td>
+	
 				<td>Mülheim an der Ruhr</td>
-				<td>171000</td>
+				<td>171,000</td>
 <td>0</td>
 <td>0</td>	
 <td>0</td>
@@ -30287,15 +30459,16 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>50</td>
 				
 			</tr>
 
 
 			<tr data-country="Oldenburg">
 				<td class="rank">47</td>
-				<td>31</td>
+		
 				<td>Oldenburg</td>
-				<td>169000</td>
+				<td>169,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -30306,15 +30479,16 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
+<td>31</td>
 				
 			</tr>
 
 
 			<tr data-country="Osnabrück">
 				<td class="rank">48</td>
-				<td>4</td>
+	
 				<td>Osnabrück</td>
-				<td>164000</td>
+				<td>164,000</td>
 <td>2</td>
 <td>0</td>	
 <td>2</td>
@@ -30325,15 +30499,16 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
+<td>4</td>
 				
 			</tr>
 
 
 			<tr data-country="Leverkusen">
 				<td class="rank">49</td>
-				<td>48</td>
+		
 				<td>Leverkusen</td>
-				<td>163000</td>
+				<td>163,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -30344,15 +30519,16 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>48</td>
 				
 			</tr>
 
 
 			<tr data-country="Solingen">
 				<td class="rank">50</td>
-				<td>49</td>
+			
 				<td>Solingen</td>
-				<td>159000</td>
+				<td>159,000</td>
 <td>0</td>
 <td>1</td>	
 <td>0</td>
@@ -30363,6 +30539,7 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>49</td>
 				
 			</tr>
 
@@ -30378,50 +30555,13 @@
 	<h2>Overall Rankings</h2>
 	<table>
 		<tbody>
-			<tr class="noclick">
-	<td>
-		<svg class="invert-trigger" xmlns="http://www.w3.org/2000/svg" width="16.564" height="21.076" viewBox="0 0 16.564 21.076">
-	<g id="invert" transform="translate(-1012.701 -439.708)">
-		<path id="Path_80" data-name="Path 80" d="M1028.266,447.99H1013.7l7.282-7.282Z" transform="translate(0 0)" fill="#fff" stroke="#FE5CB2" stroke-linejoin="round" stroke-width="2"></path>
-		<path id="Path_81" data-name="Path 81" d="M1028.266,448.262H1013.7l7.282,7.282Z" transform="translate(0 4.24)" fill="#fff" stroke="#FE5CB2" stroke-linejoin="round" stroke-width="2"></path>
-	</g>
-</svg>
-	</td>
-
-	<td>Final Ranking<br> (out of 50)</td>
-
-	<td>City</td>
-
-	<td>Population</td>
-
-	<td>Sex<br />Shops</td>
-
-	<td>Swingerclubs</td>
-
-	<td>Gay<br />Pride Events</td>
-
-	<td>LGBT<br /> Events</td>
-
-	<td>LGBT Bars /<br /> Clubs</td>
-
-	<td>Brothels</td>
-
-	<td>Sex<br /> workers</td>
-
-	<td>Sexwork<br />  Organisations</td>
-
-	<td>Sex.<br> Health Organisations</td>
-
-	<td>HIV / STD Doctors<br> and Clinics</td>
-
-	
-</tr>
+			
 
 			<tr data-country="Berlin">
-				<td>8</td>
 				<td class="rank">1</td>
+
 				<td>Berlin</td>
-				<td>3600000</td>
+				<td>3,600,000</td>
 <td>32</td>
 <td>8</td>
 <td>6</td>
@@ -30432,50 +30572,53 @@
 <td>6</td>
 <td>11</td>
 <td>24</td>
+<td>8</td>
 				
 			</tr>
 
 			<tr data-country="Hamburg">
 				<td class="rank">2</td>
-				<td>22</td>
+
 				<td>Hamburg</td>
-				<td>1852000</td>
+				<td>1,852,000</td>
 <td>16</td>
 <td>8</td>	
-<td>6	</td>
+<td>6</td>
 <td>16</td>	
 <td>17</td>	
-<td>71	</td>
-<td>226	</td>
-<td>7	</td>
+<td>71</td>
+<td>226</td>
+<td>7</td>
 <td>8</td>
-<td>6	</td>
+<td>6</td>
+<td>22</td>
 				
 			</tr>
 
 			<tr data-country="Cologne">
 				<td class="rank">3</td>
-				<td>1</td>
+
 				<td>Cologne</td>
-				<td>1083000</td>
+				<td>1,083,000</td>
 <td>19</td>
 <td>6</td>	
 <td>9</td>
 <td>14</td>	
 <td>25</td>	
 <td>43</td>
-<td>587	</td>
+<td>587</td>
 <td>5	</td>
 <td>4</td>
 <td>7</td>
+<td>1</td>
 				
 			</tr>
 
 			<tr data-country="Dortmund">
 				<td class="rank">4</td>
-				<td>33</td>
+		
 				<td>Dortmund</td>
-				<td>587000</td>
+				<td>587,000</td>
 <td>4</td>
 <td>5</td>	
 <td>1</td>
@@ -30486,14 +30629,15 @@
 <td>2</td>
 <td>6</td>
 <td>1</td>
+<td>33</td>
 				
 			</tr>
 
 			<tr data-country="Dresden">
 				<td class="rank">5</td>
-				<td>17</td>
+			
 				<td>Dresden</td>
-				<td>556000</td>
+				<td>556,000</td>
 <td>5</td>
 <td>5</td>	
 <td>3</td>
@@ -30504,14 +30648,15 @@
 <td>1</td>
 <td>6</td>
 <td>1</td>
+<td>17</td>
 				
 			</tr>
 
 			<tr data-country="Hannover">
 				<td class="rank">6</td>
-				<td>13</td>
+			
 				<td>Hannover</td>
-				<td>534000</td>
+				<td>534,000</td>
 <td>3</td>
 <td>5</td>	
 <td>3</td>
@@ -30522,14 +30667,15 @@
 <td>4</td>
 <td>4</td>
 <td>2</td>
+<td>13</td>
 				
 			</tr>
 
 			<tr data-country="Frankfurt">
 				<td class="rank">7</td>
-				<td>9</td>
+			
 				<td>Frankfurt am Main</td>
-				<td>764000</td>
+				<td>764,000</td>
 <td>6</td>
 <td>4</td>	
 <td>5</td>
@@ -30540,14 +30686,15 @@
 <td>1</td>
 <td>2</td>
 <td>4</td>
+<td>9</td>
 				
 			</tr>
 
 			<tr data-country="Essen">
 				<td class="rank">8</td>
-				<td>35</td>
+		
 				<td>Essen</td>
-				<td>582000</td>
+				<td>582,000</td>
 <td>2</td>
 <td>4</td>	
 <td>1</td>
@@ -30558,14 +30705,15 @@
 <td>4</td>
 <td>4</td>
 <td>1</td>
+<td>35</td>
 				
 			</tr>
 
 			<tr data-country="Chemnitz">
 				<td class="rank">9</td>
-				<td>6</td>
+		
 				<td>Chemnitz</td>
-				<td>244000</td>
+				<td>244,000</td>
 <td>4</td>
 <td>4</td>	
 <td>1</td>
@@ -30576,14 +30724,15 @@
 <td>2</td>
 <td>3</td>
 <td>1</td>
+<td>6</td>
 				
 			</tr>
 
 			<tr data-country="Munich">
 				<td class="rank">10</td>
-				<td>11</td>
+		
 				<td>Munich</td>
-				<td>1488000</td>
+				<td>1,488,000</td>
 <td>13</td>
 <td>3</td>	
 <td>7</td>
@@ -30594,14 +30743,15 @@
 <td>2	</td>
 <td>8</td>
 <td>8	</td>
+<td>11</td>
 				
 			</tr>
 
 			<tr data-country="Stuttgart">
 				<td class="rank">11</td>
-				<td>10</td>
+		
 				<td>Stuttgart</td>
-				<td>630000</td>
+				<td>630,000</td>
 <td>6</td>
 <td>3</td>	
 <td>4</td>
@@ -30612,14 +30762,15 @@
 <td>2</td>
 <td>4</td>
 <td>2</td>
+<td>10</td>
 				
 			</tr>
 
 			<tr data-country="Nuremberg">
 				<td class="rank">12</td>
-				<td>24</td>
+	
 				<td>Nuremberg</td>
-				<td>515000</td>
+				<td>515,000</td>
 <td>3</td>
 <td>3</td>	
 <td>1</td>
@@ -30630,6 +30781,7 @@
 <td>3</td>
 <td>5</td>
 <td>1</td>
+<td>24</td>
 				
 			</tr>
 
@@ -30637,9 +30789,9 @@
 
 			<tr data-country="Leipzig">
 				<td class="rank">13</td>
-				<td>30</td>
+				
 				<td>Leipzig</td>
-				<td>597000</td>
+				<td>597,000</td>
 <td>3</td>
 <td>2</td>	
 <td>2</td>
@@ -30650,14 +30802,15 @@
 <td>1</td>
 <td>4</td>
 <td>1</td>
+<td>30</td>
 				
 			</tr>
 
 			<tr data-country="Bremen">
 				<td class="rank">14</td>
-				<td>15</td>
+			
 				<td>Bremen</td>
-				<td>566000</td>
+				<td>566,000</td>
 <td>5</td>
 <td>2</td>	
 <td>1</td>
@@ -30668,14 +30821,15 @@
 <td>2</td>
 <td>6</td>
 <td>3</td>
+<td>15</td>
 				
 			</tr>
 
 			<tr data-country="Karlsruhe">
 				<td class="rank">15</td>
-				<td>18</td>
+			
 				<td>Karlsruhe</td>
-				<td>308000</td>
+				<td>308,000</td>
 <td>5</td>
 <td>2</td>	
 <td>2</td>
@@ -30686,14 +30840,15 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>18</td>
 				
 			</tr>
 
 			<tr data-country="Mönchengladbach">
 				<td class="rank">16</td>
-				<td>34</td>
+			
 				<td>Mönchengladbach</td>
-				<td>259000</td>
+				<td>259,000</td>
 <td>1</td>
 <td>2</td>	
 <td>1</td>
@@ -30704,14 +30859,15 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>34</td>
 				
 			</tr>
 
 			<tr data-country="Ludwigshafen">
 				<td class="rank">17</td>
-				<td>44</td>
+				
 				<td>Ludwigshafen</td>
-				<td>172000</td>
+				<td>172,000</td>
 <td>1</td>
 <td>2</td>	
 <td>0</td>
@@ -30722,14 +30878,15 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>44</td>
 				
 			</tr>
 
 			<tr data-country="Dusseldorf">
 				<td class="rank">18</td>
-				<td>26</td>
+			
 				<td>Dusseldorf</td>
-				<td>620000</td>
+				<td>620,000</td>
 <td>4</td>
 <td>1</td>	
 <td>1</td>
@@ -30740,14 +30897,15 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
+<td>26</td>
 				
 			</tr>
 
 			<tr data-country="Duisburg">
 				<td class="rank">19</td>
-				<td>47</td>
+			
 				<td>Duisburg</td>
-				<td>495000</td>
+				<td>495,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -30758,14 +30916,15 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
+<td>47</td>
 				
 			</tr>
 
 			<tr data-country="Bochum">
 				<td class="rank">20</td>
-				<td>32</td>
+		
 				<td>Bochum</td>
-				<td>364000</td>
+				<td>364,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -30776,14 +30935,15 @@
 <td>1</td>
 <td>6</td>
 <td>0</td>
+<td>32</td>
 				
 			</tr>
 
 			<tr data-country="Wuppertal">
 				<td class="rank">21</td>
-				<td>29</td>
+			
 				<td>Wuppertal</td>
-				<td>355000</td>
+				<td>355,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -30794,14 +30954,15 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
+<td>29</td>
 				
 			</tr>
 
 			<tr data-country="Bielefeld">
 				<td class="rank">22</td>
-				<td>42</td>
+		
 				<td>Bielefeld</td>
-				<td>333000</td>
+				<td>333,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -30812,14 +30973,15 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>42</td>
 				
 			</tr>
 
 			<tr data-country="Muenster">
 				<td class="rank">23</td>
-				<td>28</td>
+			
 				<td>Muenster</td>
-				<td>316000</td>
+				<td>316,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -30830,14 +30992,15 @@
 <td>1</td>
 <td>5</td>
 <td>1</td>
+<td>28</td>
 				
 			</tr>
 
 			<tr data-country="Mannheim">
 				<td class="rank">24</td>
-				<td>2</td>
+			
 				<td>Mannheim</td>
-				<td>309000</td>
+				<td>309,000</td>
 <td>3</td>
 <td>1</td>	
 <td>2</td>
@@ -30848,14 +31011,15 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
+<td>2</td>
 				
 			</tr>
 
 			<tr data-country="Augsburg">
 				<td class="rank">25</td>
-				<td>14</td>
+			
 				<td>Augsburg</td>
-				<td>295000</td>
+				<td>295,000</td>
 <td>5</td>
 <td>1</td>	
 <td>1</td>
@@ -30866,6 +31030,7 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
+<td>14</td>
 				
 			</tr>
 
@@ -30873,9 +31038,9 @@
 
 			<tr data-country="Wiesbaden">
 				<td class="rank">26</td>
-				<td>7</td>
+				
 				<td>Wiesbaden</td>
-				<td>278000</td>
+				<td>278,000</td>
 <td>3</td>
 <td>1</td>	
 <td>1</td>
@@ -30886,14 +31051,15 @@
 <td>1</td>
 <td>2</td>
 <td>2</td>
+<td>7</td>
 				
 			</tr>
 
 			<tr data-country="Gelsenkirchen">
-				<td>27</td>
+			
 				<td class="rank">27</td>
 				<td>Gelsenkirchen</td>
-				<td>259000</td>
+				<td>259,000</td>
 <td>2</td>
 <td>1</td>	
 <td>0</td>
@@ -30904,14 +31070,15 @@
 <td>0</td>
 <td>0</td>
 <td>1</td>
+<td>27</td>
 				
 			</tr>
 
 			<tr data-country="Krefeld">
 				<td class="rank">28</td>
-				<td>41</td>
+			
 				<td>Krefeld</td>
-				<td>226000</td>
+				<td>226,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -30922,14 +31089,15 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>41</td>
 				
 			</tr>
 
 			<tr data-country="Mainz">
 				<td class="rank">29</td>
-				<td>16</td>
+				
 				<td>Mainz</td>
-				<td>217000</td>
+				<td>217,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -30940,14 +31108,15 @@
 <td>0</td>
 <td>1</td>
 <td>1</td>
+<td>16</td>
 				
 			</tr>
 
 			<tr data-country="Hagen">
 				<td class="rank">30</td>
-				<td>43</td>
+			
 				<td>Hagen</td>
-				<td>188000</td>
+				<td>188,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -30958,15 +31127,16 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>43</td>
 				
 			</tr>
 
 
 			<tr data-country="Oldenburg">
 				<td class="rank">31</td>
-				<td>31</td>
+			
 				<td>Oldenburg</td>
-				<td>169000</td>
+				<td>169,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -30977,14 +31147,15 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
+<td>31</td>
 				
 			</tr>
 
 			<tr data-country="Solingen">
 				<td class="rank">32</td>
-				<td>49</td>
+			
 				<td>Solingen</td>
-				<td>159000</td>
+				<td>159,000</td>
 <td>0</td>
 <td>1</td>	
 <td>0</td>
@@ -30995,14 +31166,15 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>49</td>
 				
 			</tr>
 
 			<tr data-country="Bonn">
 				<td class="rank">33</td>
-				<td>23</td>
+	
 				<td>Bonn</td>
-				<td>330000</td>
+				<td>330,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -31013,15 +31185,16 @@
 <td>0</td>
 <td>3</td>
 <td>2</td>
+<td>23</td>
 				
 			</tr>
 
 
 			<tr data-country="Braunschweig">
 				<td class="rank">34</td>
-				<td>21</td>
+			
 				<td>Braunschweig</td>
-				<td>248000</td>
+				<td>248,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -31032,14 +31205,15 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
+<td>21</td>
 				
 			</tr>
 
 			<tr data-country="Aachen">
 				<td class="rank">35</td>
-				<td>25</td>
+				
 				<td>Aachen</td>
-				<td>248000</td>
+				<td>248,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -31050,15 +31224,16 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
+<td>25</td>
 				
 			</tr>
 
 
 			<tr data-country="Keel">
 				<td class="rank">36</td>
-				<td>20</td>
+		
 				<td>Keel</td>
-				<td>246000</td>
+				<td>246,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -31069,14 +31244,15 @@
 <td>4</td>
 <td>3</td>
 <td>0</td>
+<td>20</td>
 				
 			</tr>
 
 			<tr data-country="Halle">
 				<td class="rank">37</td>
-				<td>45</td>
+		
 				<td>Halle (Saale)</td>
-				<td>237000</td>
+				<td>237,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -31087,6 +31263,7 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>45</td>
 				
 			</tr>
 			<!-- //top36 -->
@@ -31097,9 +31274,9 @@
 
 			<tr data-country="Magdeburg">
 				<td class="rank">38</td>
-				<td>5</td>
+				
 				<td>Magdeburg</td>
-				<td>235000</td>
+				<td>235,000</td>
 <td>4</td>
 <td>0</td>	
 <td>1</td>
@@ -31110,14 +31287,15 @@
 <td>3</td>
 <td>4</td>
 <td>1</td>
+<td>5</td>
 				
 			</tr>
 
 			<tr data-country="Freiburg">
 				<td class="rank">39</td>
-				<td>3</td>
+		
 				<td>Freiburg</td>
-				<td>230000</td>
+				<td>230,000</td>
 <td>1</td>
 <td>0</td>	
 <td>2</td>
@@ -31134,9 +31312,9 @@
 
 			<tr data-country="Lübeck">
 				<td class="rank">40</td>
-				<td>37</td>
+				
 				<td>Lübeck</td>
-				<td>215000</td>
+				<td>215,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -31147,14 +31325,15 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
+<td>37</td>
 				
 			</tr>
 
 			<tr data-country="Erfurt">
 				<td class="rank">41</td>
-				<td>36</td>
+		
 				<td>Erfurt</td>
-				<td>213000</td>
+				<td>213,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -31165,14 +31344,15 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
+<td>36</td>
 				
 			</tr>
 
 			<tr data-country="Oberhausen">
 				<td class="rank">42</td>
-				<td>39</td>
+	
 				<td>Oberhausen</td>
-				<td>209000</td>
+				<td>209,000</td>
 <td>2</td>
 <td>0</td>	
 <td>0</td>
@@ -31183,14 +31363,15 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>39</td>
 				
 			</tr>
 
 			<tr data-country="Rostock">
 				<td class="rank">43</td>
-				<td>12</td>
+	
 				<td>Rostock</td>
-				<td>209000</td>
+				<td>209,000</td>
 <td>3</td>
 <td>0</td>	
 <td>1</td>
@@ -31201,14 +31382,15 @@
 <td>2</td>
 <td>5</td>
 <td>0</td>
+<td>12</td>
 				
 			</tr>
 
 			<tr data-country="Kassel">
 				<td class="rank">44</td>
-				<td>38</td>
+			
 				<td>Kassel</td>
-				<td>201000</td>
+				<td>201,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -31219,14 +31401,15 @@
 <td>2</td>
 <td>1</td>
 <td>0</td>
+<td>38</td>
 				
 			</tr>
 
 			<tr data-country="Potsdam">
 				<td class="rank">45</td>
-				<td>40</td>
+			
 				<td>Potsdam</td>
-				<td>182000</td>
+				<td>182,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -31237,14 +31420,15 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
+<td>40</td>
 				
 			</tr>
 
 			<tr data-country="Saarbrücken">
 				<td class="rank">46</td>
-				<td>19</td>
+			
 				<td>Saarbrücken</td>
-				<td>179000</td>
+				<td>179,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -31255,14 +31439,15 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>19</td>
 				
 			</tr>
 
 			<tr data-country="Hamm">
 				<td class="rank">47</td>
-				<td>46</td>
+
 				<td>Hamm</td>
-				<td>178000</td>
+				<td>178,000</td>
 <td>0</td>
 <td>0</td>	
 <td>1</td>
@@ -31273,15 +31458,16 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>46</td>
 				
 			</tr>
 
 
 			<tr data-country="Mülheim">
 				<td class="rank">48</td>
-				<td>50</td>
+			
 				<td>Mülheim an der Ruhr</td>
-				<td>171000</td>
+				<td>171,000</td>
 <td>0</td>
 <td>0</td>	
 <td>0</td>
@@ -31292,15 +31478,16 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>50</td>
 				
 			</tr>
 
 
 			<tr data-country="Osnabrück">
 				<td class="rank">49</td>
-				<td>4</td>
+		
 				<td>Osnabrück</td>
-				<td>164000</td>
+				<td>164,000</td>
 <td>2</td>
 <td>0</td>	
 <td>2</td>
@@ -31311,14 +31498,15 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
+<td>4</td>
 				
 			</tr>
 
 			<tr data-country="Leverkusen">
 				<td class="rank">50</td>
-				<td>48</td>
+			
 				<td>Leverkusen</td>
-				<td>163000</td>
+				<td>163,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -31329,6 +31517,7 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>48</td>
 				
 			</tr>
 
@@ -31353,7 +31542,7 @@
 </svg>
 	</td>
 
-	<td>Final Ranking<br> (out of 50)</td>
+	
 
 	<td>City</td>
 
@@ -31379,33 +31568,37 @@
 
 	<td>HIV / STD Doctors<br> and Clinics</td>
 
+	<td>Final Ranking<br> (out of 50)</td>
+
 	
 </tr>
 
 			<tr data-country="Cologne">
 				<td class="rank">1</td>
-				<td>1</td>
+				
 				<td>Cologne</td>
 				
-				<td>1083000</td>
+				<td>1,083,000</td>
 <td>19</td>
 <td>6</td>	
 <td>9</td>
 <td>14</td>	
 <td>25</td>	
 <td>43</td>
-<td>587	</td>
+<td>587</td>
 <td>5	</td>
 <td>4</td>
 <td>7</td>
+<td>1</td>
+		
 			</tr>
 
 			<tr data-country="Munich">
 				<td class="rank">2</td>
-				<td>11</td>
+				
 				<td>Munich</td>
 				
-				<td>1488000</td>
+				<td>1,488,000</td>
 <td>13</td>
 <td>3</td>	
 <td>7</td>
@@ -31416,15 +31609,17 @@
 <td>2	</td>
 <td>8</td>
 <td>8	</td>
+<td>11</td>
+			
 				
 			</tr>
 
 			<tr data-country="Berlin">
 				<td class="rank">3</td>
-				<td>8</td>
+				
 				<td>Berlin</td>
 				
-				<td>3600000</td>
+				<td>3,600,000</td>
 <td>32</td>
 <td>8</td>
 <td>6</td>
@@ -31435,34 +31630,38 @@
 <td>6</td>
 <td>11</td>
 <td>24</td>
+<td>8</td>
+				
 				
 			</tr>
 
 			<tr data-country="Hamburg">
 				<td class="rank">4</td>
-				<td>22</td>
+				
 				<td>Hamburg</td>
 				
-				<td>1852000</td>
+				<td>1,852,000</td>
 <td>16</td>
 <td>8</td>	
-<td>6	</td>
+<td>6</td>
 <td>16</td>	
 <td>17</td>	
-<td>71	</td>
-<td>226	</td>
-<td>7	</td>
+<td>71</td>
+<td>226</td>
+<td>7</td>
 <td>8</td>
-<td>6	</td>
+<td>6</td>
+<td>22</td>
+	
 				
 			</tr>
 
 			<tr data-country="Frankfurt">
 				<td class="rank">5</td>
-				<td>9</td>
+				
 				<td>Frankfurt am Main</td>
 				
-				<td>764000</td>
+				<td>764,000</td>
 <td>6</td>
 <td>4</td>	
 <td>5</td>
@@ -31473,15 +31672,17 @@
 <td>1</td>
 <td>2</td>
 <td>4</td>
+<td>9</td>
+			
 				
 			</tr>
 
 			<tr data-country="Stuttgart">
 				<td class="rank">6</td>
-				<td>10</td>
+				
 				<td>Stuttgart</td>
 				
-				<td>630000</td>
+				<td>630,000</td>
 <td>6</td>
 <td>3</td>	
 <td>4</td>
@@ -31492,14 +31693,16 @@
 <td>2</td>
 <td>4</td>
 <td>2</td>
+<td>10</td>
+		
 			</tr>
 
 			<tr data-country="Dresden">
 				<td class="rank">7</td>
-				<td>17</td>
+				
 				<td>Dresden</td>
 				
-				<td>556000</td>
+				<td>556,000</td>
 <td>5</td>
 <td>5</td>	
 <td>3</td>
@@ -31510,16 +31713,17 @@
 <td>1</td>
 <td>6</td>
 <td>1</td>
-				
+<td>17</td>
+		
 				
 			</tr>
 
 			<tr data-country="Hannover">
 				<td class="rank">8</td>
-				<td>13</td>
+				
 				<td>Hannover</td>
 				
-				<td>534000</td>
+				<td>534,000</td>
 <td>3</td>
 <td>5</td>	
 <td>3</td>
@@ -31530,15 +31734,17 @@
 <td>4</td>
 <td>4</td>
 <td>2</td>
+<td>13</td>
+		
 				
 			</tr>
 
 			<tr data-country="Leipzig">
 				<td class="rank">9</td>
-				<td>30</td>
+				
 				<td>Leipzig</td>
 				
-				<td>597000</td>
+				<td>597,000</td>
 <td>3</td>
 <td>2</td>	
 <td>2</td>
@@ -31549,15 +31755,17 @@
 <td>1</td>
 <td>4</td>
 <td>1</td>
+<td>30</td>
+		
 				
 			</tr>
 
 			<tr data-country="Mannheim">
 				<td class="rank">10</td>
-				<td>2</td>
+				
 				<td>Mannheim</td>
 				
-				<td>309000</td>
+				<td>309,000</td>
 <td>3</td>
 <td>1</td>	
 <td>2</td>
@@ -31568,16 +31776,18 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
+<td>2</td>
+		
 				
 			</tr>
 
 			<tr data-country="Karlsruhe">
 
 				<td class="rank">11</td>
-				<td>18</td>
+				
 				<td>Karlsruhe</td>
 				
-				<td>308000</td>
+				<td>308,000</td>
 <td>5</td>
 <td>2</td>	
 <td>2</td>
@@ -31588,15 +31798,17 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>18</td>
+			
 				
 			</tr>
 
 			<tr data-country="Freiburg">
 				<td class="rank">12</td>
-				<td>3</td>
+				
 				<td>Freiburg</td>
 				
-				<td>230000</td>
+				<td>230,000</td>
 <td>1</td>
 <td>0</td>	
 <td>2</td>
@@ -31607,6 +31819,7 @@
 <td>3</td>
 <td>4</td>
 <td>2</td>
+		
 				
 			</tr>
 
@@ -31614,10 +31827,10 @@
 
 			<tr data-country="Osnabrück">
 				<td class="rank">13</td>
-				<td>4</td>
+				
 				<td>Osnabrück</td>
 				
-				<td>164000</td>
+				<td>164,000</td>
 <td>2</td>
 <td>0</td>	
 <td>2</td>
@@ -31628,15 +31841,17 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
+<td>4</td>
+	
 				
 			</tr>
 
 			<tr data-country="Dusseldorf">
 				<td class="rank">14</td>
-				<td>26</td>
+				
 				<td>Dusseldorf</td>
 				
-				<td>620000</td>
+				<td>620,000</td>
 <td>4</td>
 <td>1</td>	
 <td>1</td>
@@ -31647,15 +31862,16 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
-				
+<td>26</td>
+	
 			</tr>
 
 			<tr data-country="Dortmund">
 				<td class="rank">15</td>
-				<td>33</td>
+				
 				<td>Dortmund</td>
 				
-				<td>587000</td>
+				<td>587,000</td>
 <td>4</td>
 <td>5</td>	
 <td>1</td>
@@ -31666,16 +31882,17 @@
 <td>2</td>
 <td>6</td>
 <td>1</td>
-				
+<td>33</td>
+		
 			</tr>
 
 
 			<tr data-country="Essen">
 				<td class="rank">16</td>
-				<td>35</td>
+				
 				<td>Essen</td>
 				
-				<td>582000</td>
+				<td>582,000</td>
 <td>2</td>
 <td>4</td>	
 <td>1</td>
@@ -31686,15 +31903,17 @@
 <td>4</td>
 <td>4</td>
 <td>1</td>
+<td>35</td>
+		
 				
 			</tr>
 
 			<tr data-country="Bremen">
 				<td class="rank">17</td>
-				<td>15</td>
+				
 				<td>Bremen</td>
 				
-				<td>566000</td>
+				<td>566,000</td>
 <td>5</td>
 <td>2</td>	
 <td>1</td>
@@ -31705,15 +31924,16 @@
 <td>2</td>
 <td>6</td>
 <td>3</td>
-				
+<td>15</td>
+			
 			</tr>
 
 			<tr data-country="Nuremberg">
 				<td class="rank">18</td>
-				<td>24</td>
+				
 				<td>Nuremberg</td>
 				
-				<td>515000</td>
+				<td>515,000</td>
 <td>3</td>
 <td>3</td>	
 <td>1</td>
@@ -31724,15 +31944,16 @@
 <td>3</td>
 <td>5</td>
 <td>1</td>
+<td>24</td>
 				
 			</tr>
 
 			<tr data-country="Duisburg">
 				<td class="rank">19</td>
-				<td>47</td>
+				
 				<td>Duisburg</td>
 
-				<td>495000</td>
+				<td>495,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -31743,15 +31964,17 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
+<td>47</td>
+				
 				
 			</tr>
 
 			<tr data-country="Bochum">
 				<td class="rank">20</td>
-				<td>32</td>
+				
 				<td>Bochum</td>
 				
-				<td>364000</td>
+				<td>364,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -31762,15 +31985,17 @@
 <td>1</td>
 <td>6</td>
 <td>0</td>
+<td>32</td>
+		
 				
 			</tr>
 
 			<tr data-country="Wuppertal">
 				<td class="rank">21</td>
-				<td>29</td>
+				
 				<td>Wuppertal</td>
 				
-				<td>355000</td>
+				<td>355,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -31781,15 +32006,16 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
-				
+<td>29</td>
+			
 			</tr>
 
 			<tr data-country="Bielefeld">
 				<td class="rank">22</td>
-				<td>42</td>
+				
 				<td>Bielefeld</td>
 				
-				<td>333000</td>
+				<td>333,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -31800,15 +32026,16 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
-				
+<td>42</td>
+			
 			</tr>
 
 			<tr data-country="Bonn">
 				<td class="rank">23</td>
-				<td>23</td>
+				
 				<td>Bonn</td>
 				
-				<td>330000</td>
+				<td>330,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -31819,15 +32046,17 @@
 <td>0</td>
 <td>3</td>
 <td>2</td>
+<td>23</td>
+			
 				
 			</tr>
 
 			<tr data-country="Muenster">
 				<td class="rank">24</td>
-				<td>28</td>
+				
 				<td>Muenster</td>
 				
-				<td>316000</td>
+				<td>316,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -31838,17 +32067,18 @@
 <td>1</td>
 <td>5</td>
 <td>1</td>
-				
+<td>28</td>
+			
 			</tr>
 
 			<!-- //top 24 -->
 
 			<tr data-country="Augsburg">
 				<td class="rank">25</td>
-				<td>14</td>
+				
 				<td>Augsburg</td>
 				
-				<td>295000</td>
+				<td>295,000</td>
 <td>5</td>
 <td>1</td>	
 <td>1</td>
@@ -31859,15 +32089,17 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
+<td>14</td>
+				
 				
 			</tr>
 
 			<tr data-country="Wiesbaden">
 				<td class="rank">26</td>
-				<td>7</td>
+				
 				<td>Wiesbaden</td>
 				
-				<td>278000</td>
+				<td>278,000</td>
 <td>3</td>
 <td>1</td>	
 <td>1</td>
@@ -31878,15 +32110,17 @@
 <td>1</td>
 <td>2</td>
 <td>2</td>
+<td>7</td>
+				
 				
 			</tr>
 
 			<tr data-country="Mönchengladbach">
 				<td class="rank">27</td>
-				<td>34</td>
+				
 				<td>Mönchengladbach</td>
 				
-				<td>259000</td>
+				<td>259,000</td>
 <td>1</td>
 <td>2</td>	
 <td>1</td>
@@ -31897,14 +32131,16 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>34</td>
+			
 			</tr>
 
 			<tr data-country="Braunschweig">
 				<td class="rank">28</td>
-				<td>21</td>
+				
 				<td>Braunschweig</td>
 				
-				<td>248000</td>
+				<td>248,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -31915,15 +32151,17 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
+<td>21</td>
+				
 				
 			</tr>
 
 			<tr data-country="Aachen">
 				<td class="rank">29</td>
-				<td>25</td>
+				
 				<td>Aachen</td>
 				
-				<td>248000</td>
+				<td>248,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -31934,15 +32172,17 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
+<td>25</td>
+				
 				
 			</tr>
 
 			<tr data-country="Keel">
 				<td class="rank">30</td>
-				<td>20</td>
+				
 				<td>Keel</td>
 				
-				<td>246000</td>
+				<td>246,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -31953,16 +32193,18 @@
 <td>4</td>
 <td>3</td>
 <td>0</td>
+<td>20</td>
+			
 				
 			</tr>
 
 
 			<tr data-country="Chemnitz">
 				<td class="rank">31</td>
-				<td>6</td>
+				
 				<td>Chemnitz</td>
 				
-				<td>244000</td>
+				<td>244,000</td>
 <td>4</td>
 <td>4</td>	
 <td>1</td>
@@ -31973,15 +32215,17 @@
 <td>2</td>
 <td>3</td>
 <td>1</td>
+<td>6</td>
+				
 				
 			</tr>
 
 			<tr data-country="Halle">
 				<td class="rank">32</td>
-				<td>45</td>
+				
 				<td>Halle (Saale)</td>
 
-				<td>237000</td>
+				<td>237,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -31992,15 +32236,17 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>45</td>
+				
 				
 			</tr>
 
 			<tr data-country="Magdeburg">
 				<td class="rank">33</td>
-				<td>5</td>
+				
 				<td>Magdeburg</td>
 				
-				<td>235000</td>
+				<td>235,000</td>
 <td>4</td>
 <td>0</td>	
 <td>1</td>
@@ -32011,15 +32257,16 @@
 <td>3</td>
 <td>4</td>
 <td>1</td>
+<td>5</td>
 				
 			</tr>
 
 			<tr data-country="Mainz">
 				<td class="rank">34</td>
-				<td>16</td>
+				
 				<td>Mainz</td>
 				
-				<td>217000</td>
+				<td>217,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -32030,15 +32277,17 @@
 <td>0</td>
 <td>1</td>
 <td>1</td>
+<td>16</td>
+				
 				
 			</tr>
 
 			<tr data-country="Lübeck">
 				<td class="rank">35</td>
-				<td>37</td>
+				
 				<td>Lübeck</td>
 				
-				<td>215000</td>
+				<td>215,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -32049,15 +32298,16 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
+<td>37</td>
 				
 			</tr>
 
 			<tr data-country="Rostock">
 				<td class="rank">36</td>
-				<td>12</td>
+				
 				<td>Rostock</td>
 				
-				<td>209000</td>
+				<td>209,000</td>
 <td>3</td>
 <td>0</td>	
 <td>1</td>
@@ -32068,6 +32318,8 @@
 <td>2</td>
 <td>5</td>
 <td>0</td>
+<td>12</td>
+				
 				
 			</tr>
 			<!-- //top36 -->
@@ -32075,10 +32327,10 @@
 
 			<tr data-country="Kassel">
 				<td class="rank">37</td>
-				<td>38</td>
+				
 				<td>Kassel</td>
 				
-				<td>201000</td>
+				<td>201,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -32089,15 +32341,16 @@
 <td>2</td>
 <td>1</td>
 <td>0</td>
-				
+<td>38</td>
+			
 			</tr>
 
 			<tr data-country="Potsdam">
 				<td class="rank">38</td>
-				<td>40</td>
+				
 				<td>Potsdam</td>
 				
-				<td>182000</td>
+				<td>182,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -32108,15 +32361,17 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
+<td>40</td>
+				
 				
 			</tr>
 
 			<tr data-country="Saarbrücken">
 				<td class="rank">39</td>
-				<td>19</td>
+				
 				<td>Saarbrücken</td>
 				
-				<td>179000</td>
+				<td>179,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -32127,15 +32382,17 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>19</td>
+	
 				
 			</tr>
 
 			<tr data-country="Hamm">
 				<td class="rank">40</td>
-				<td>46</td>
+				
 				<td>Hamm</td>
 				
-				<td>178000</td>
+				<td>178,000</td>
 <td>0</td>
 <td>0</td>	
 <td>1</td>
@@ -32146,15 +32403,17 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>46</td>
+			
 				
 			</tr>
 
 			<tr data-country="Oldenburg">
 				<td class="rank">41</td>
-				<td>31</td>
+				
 				<td>Oldenburg</td>
 				
-				<td>169000</td>
+				<td>169,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -32165,16 +32424,18 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
+<td>31</td>
+			
 				
 			</tr>
 
 
 			<tr data-country="Gelsenkirchen">
 				<td class="rank">42</td>
-				<td>27</td>
+				
 				<td>Gelsenkirchen</td>
 				
-				<td>259000</td>
+				<td>259,000</td>
 <td>2</td>
 <td>1</td>	
 <td>0</td>
@@ -32185,14 +32446,16 @@
 <td>0</td>
 <td>0</td>
 <td>1</td>
+<td>27</td>
+		
 			</tr>
 
 			<tr data-country="Krefeld">
 				<td class="rank">43</td>
-				<td>41</td>
+				
 				<td>Krefeld</td>
 				
-				<td>226000</td>
+				<td>226,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -32203,15 +32466,17 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>41</td>
+		
 				
 			</tr>
 
 			<tr data-country="Erfurt">
 				<td class="rank">44</td>
-				<td>36</td>
+				
 				<td>Erfurt</td>
 				
-				<td>213000</td>
+				<td>213,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -32222,15 +32487,17 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
+<td>36</td>
+		
 				
 			</tr>
 
 			<tr data-country="Oberhausen">
 				<td class="rank">45</td>
-				<td>39</td>
+				
 				<td>Oberhausen</td>
 				
-				<td>209000</td>
+				<td>209,000</td>
 <td>2</td>
 <td>0</td>	
 <td>0</td>
@@ -32241,16 +32508,18 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>39</td>
+				
 				
 			</tr>
 
 
 			<tr data-country="Hagen">
 				<td class="rank">46</td>
-				<td>43</td>
+				
 				<td>Hagen</td>
 				
-				<td>188000</td>
+				<td>188,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -32261,15 +32530,17 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>43</td>
+	
 				
 			</tr>
 
 			<tr data-country="Ludwigshafen">
 				<td class="rank">47</td>
-				<td>44</td>
+				
 				<td>Ludwigshafen</td>
 				
-				<td>172000</td>
+				<td>172,000</td>
 <td>1</td>
 <td>2</td>	
 <td>0</td>
@@ -32280,15 +32551,17 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>44</td>
+				
 				
 			</tr>
 
 			<tr data-country="Mülheim">
 				<td class="rank">48</td>
-				<td>50</td>
+				
 				<td>Mülheim an der Ruhr</td>
 				
-				<td>171000</td>
+				<td>171,000</td>
 <td>0</td>
 <td>0</td>	
 <td>0</td>
@@ -32299,15 +32572,16 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
-				
+<td>50</td>
+			
 			</tr>
 
 			<tr data-country="Leverkusen">
 				<td class="rank">49</td>
-				<td>48</td>
+				
 				<td>Leverkusen</td>
 				
-				<td>163000</td>
+				<td>163,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -32318,6 +32592,8 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>48</td>
+				
 				
 			</tr>
 
@@ -32325,10 +32601,10 @@
 
 			<tr data-country="Solingen">
 				<td class="rank">50</td>
-				<td>49</td>
+				
 				<td>Solingen</td>
 				
-				<td>159000</td>
+				<td>159,000</td>
 <td>0</td>
 <td>1</td>	
 <td>0</td>
@@ -32339,6 +32615,8 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>49</td>
+			
 				
 			</tr>
 
@@ -32361,7 +32639,7 @@
 </svg>
 	</td>
 
-	<td>Final Ranking<br> (out of 50)</td>
+	
 
 	<td>City</td>
 
@@ -32387,14 +32665,16 @@
 
 	<td>HIV / STD Doctors<br> and Clinics</td>
 
+	<td>Final Ranking<br> (out of 50)</td>
+
 	
 </tr>
 
 			<tr data-country="Berlin">
 				<td class="rank">1</td>
-				<td>8</td>
+		
 				<td>Berlin</td>
-				<td>3600000</td>
+				<td>3,600,000</td>
 <td>32</td>
 <td>8</td>
 <td>6</td>
@@ -32405,50 +32685,53 @@
 <td>6</td>
 <td>11</td>
 <td>24</td>
+<td>8</td>
 				
 			</tr>
 
 			<tr data-country="Hamburg">
 				<td class="rank">2</td>
-				<td>22</td>
+		
 				<td>Hamburg</td>
-				<td>1852000</td>
+				<td>1,852,000</td>
 <td>16</td>
 <td>8</td>	
-<td>6	</td>
+<td>6</td>
 <td>16</td>	
 <td>17</td>	
-<td>71	</td>
-<td>226	</td>
-<td>7	</td>
+<td>71</td>
+<td>226</td>
+<td>7</td>
 <td>8</td>
-<td>6	</td>
+<td>6</td>
+<td>22</td>
 				
 			</tr>
 
 			<tr data-country="Cologne">
 				<td class="rank">3</td>
-				<td>1</td>
+	
 				<td>Cologne</td>
-				<td>1083000</td>
+				<td>1,083,000</td>
 <td>19</td>
 <td>6</td>	
 <td>9</td>
 <td>14</td>	
 <td>25</td>	
 <td>43</td>
-<td>587	</td>
+<td>587</td>
 <td>5	</td>
 <td>4</td>
 <td>7</td>
+<td>1</td>
 				
 			</tr>
 
 			<tr data-country="Munich">
 				<td class="rank">4</td>
-				<td>11</td>
+			>
 				<td>Munich</td>
-				<td>1488000</td>
+				<td>1,488,000</td>
 <td>13</td>
 <td>3</td>	
 <td>7</td>
@@ -32459,14 +32742,15 @@
 <td>2	</td>
 <td>8</td>
 <td>8	</td>
+<td>11</td>
 				
 			</tr>
 
 			<tr data-country="Mannheim">
 				<td class="rank">5</td>
-				<td>2</td>
+	
 				<td>Mannheim</td>
-				<td>309000</td>
+				<td>309,000</td>
 <td>3</td>
 <td>1</td>	
 <td>2</td>
@@ -32477,15 +32761,16 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
+<td>2</td>
 				
 			</tr>
 
 			
 			<tr data-country="Frankfurt">
 				<td class="rank">6</td>
-				<td>9</td>
+		
 				<td>Frankfurt am Main</td>
-				<td>764000</td>
+				<td>764,000</td>
 <td>6</td>
 <td>4</td>	
 <td>5</td>
@@ -32496,14 +32781,15 @@
 <td>1</td>
 <td>2</td>
 <td>4</td>
+<td>9</td>
 				
 			</tr>
 
 			<tr data-country="Dusseldorf">
 				<td class="rank">7</td>
-				<td>26</td>
+		
 				<td>Dusseldorf</td>
-				<td>620000</td>
+				<td>620,000</td>
 <td>4</td>
 <td>1</td>	
 <td>1</td>
@@ -32514,14 +32800,15 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
+<td>26</td>
 				
 			</tr>
 
 			<tr data-country="Stuttgart">
 				<td class="rank">8</td>
-				<td>10</td>
+
 				<td>Stuttgart</td>
-				<td>630000</td>
+				<td>630,000</td>
 <td>6</td>
 <td>3</td>	
 <td>4</td>
@@ -32532,14 +32819,15 @@
 <td>2</td>
 <td>4</td>
 <td>2</td>
+<td>10</td>
 				
 			</tr>
 
 			<tr data-country="Freiburg">
 				<td class="rank">9</td>
-				<td>3</td>
+
 				<td>Freiburg</td>
-				<td>230000</td>
+				<td>230,000</td>
 <td>1</td>
 <td>0</td>	
 <td>2</td>
@@ -32555,9 +32843,9 @@
 
 			<tr data-country="Leipzig">
 				<td class="rank">10</td>
-				<td>30</td>
+		
 				<td>Leipzig</td>
-				<td>597000</td>
+				<td>597,000</td>
 <td>3</td>
 <td>2</td>	
 <td>2</td>
@@ -32568,15 +32856,16 @@
 <td>1</td>
 <td>4</td>
 <td>1</td>
+<td>30</td>
 				
 			</tr>
 
 
 			<tr data-country="Bremen">
 				<td class="rank">11</td>
-				<td>15</td>
+
 				<td>Bremen</td>
-				<td>566000</td>
+				<td>566,000</td>
 <td>5</td>
 <td>2</td>	
 <td>1</td>
@@ -32587,14 +32876,15 @@
 <td>2</td>
 <td>6</td>
 <td>3</td>
+<td>15</td>
 				
 			</tr>
 
 			<tr data-country="Dresden">
 				<td class="rank">12</td>
-				<td>17</td>
+	
 				<td>Dresden</td>
-				<td>556000</td>
+				<td>556,000</td>
 <td>5</td>
 <td>5</td>	
 <td>3</td>
@@ -32605,6 +32895,7 @@
 <td>1</td>
 <td>6</td>
 <td>1</td>
+<td>17</td>
 				
 			</tr>
 
@@ -32612,9 +32903,9 @@
 
 			<tr data-country="Augsburg">
 				<td class="rank">13</td>
-				<td>14</td>
+
 				<td>Augsburg</td>
-				<td>295000</td>
+				<td>295,000</td>
 <td>5</td>
 <td>1</td>	
 <td>1</td>
@@ -32625,14 +32916,15 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
+<td>14</td>
 				
 			</tr>
 
 			<tr data-country="Dortmund">
 				<td class="rank">14</td>
-				<td>33</td>
+	
 				<td>Dortmund</td>
-				<td>587000</td>
+				<td>587,000</td>
 <td>4</td>
 <td>5</td>	
 <td>1</td>
@@ -32643,14 +32935,15 @@
 <td>2</td>
 <td>6</td>
 <td>1</td>
+<td>33</td>
 				
 			</tr>
 
 			<tr data-country="Nuremberg">
 				<td class="rank">15</td>
-				<td>24</td>
+
 				<td>Nuremberg</td>
-				<td>515000</td>
+				<td>515,000</td>
 <td>3</td>
 <td>3</td>	
 <td>1</td>
@@ -32661,14 +32954,15 @@
 <td>3</td>
 <td>5</td>
 <td>1</td>
+<td>24</td>
 				
 			</tr>
 
 			<tr data-country="Bonn">
 				<td class="rank">16</td>
-				<td>23</td>
+	
 				<td>Bonn</td>
-				<td>330000</td>
+				<td>330,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -32679,14 +32973,15 @@
 <td>0</td>
 <td>3</td>
 <td>2</td>
+<td>23</td>
 				
 			</tr>
 
 			<tr data-country="Essen">
 				<td class="rank">17</td>
-				<td>35</td>
+		
 				<td>Essen</td>
-				<td>582000</td>
+				<td>582,000</td>
 <td>2</td>
 <td>4</td>	
 <td>1</td>
@@ -32697,15 +32992,16 @@
 <td>4</td>
 <td>4</td>
 <td>1</td>
+<td>35</td>
 				
 				
 			</tr>
 
 			<tr data-country="Bochum">
 				<td class="rank">18</td>
-				<td>32</td>
+
 				<td>Bochum</td>
-				<td>364000</td>
+				<td>364,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -32716,15 +33012,16 @@
 <td>1</td>
 <td>6</td>
 <td>0</td>
+<td>32</td>
 				
 			</tr>
 
 
 			<tr data-country="Hannover">
 				<td class="rank">19</td>
-				<td>13</td>
+
 				<td>Hannover</td>
-				<td>534000</td>
+				<td>534,000</td>
 <td>3</td>
 <td>5</td>	
 <td>3</td>
@@ -32735,14 +33032,15 @@
 <td>4</td>
 <td>4</td>
 <td>2</td>
+<td>13</td>
 				
 			</tr>
 
 			<tr data-country="Muenster">
 				<td class="rank">20</td>
-				<td>28</td>
+
 				<td>Muenster</td>
-				<td>316000</td>
+				<td>316,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -32753,14 +33051,15 @@
 <td>1</td>
 <td>5</td>
 <td>1</td>
+<td>28</td>
 				
 			</tr>
 
 			<tr data-country="Keel">
 				<td class="rank">21</td>
-				<td>20</td>
+		
 				<td>Keel</td>
-				<td>246000</td>
+				<td>246,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -32771,14 +33070,15 @@
 <td>4</td>
 <td>3</td>
 <td>0</td>
+<td>20</td>
 				
 			</tr>
 
 			<tr data-country="Chemnitz">
 				<td class="rank">22</td>
-				<td>6</td>
+			
 				<td>Chemnitz</td>
-				<td>244000</td>
+				<td>244,000</td>
 <td>4</td>
 <td>4</td>	
 <td>1</td>
@@ -32789,13 +33089,14 @@
 <td>2</td>
 <td>3</td>
 <td>1</td>
+<td>6</td>
 				
 			</tr>
 
 			<tr data-country="Halle">
 				<td class="rank">23</td>
-				<td>45</td>
-				<td>237000</td>
+	
+				<td>237,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -32806,14 +33107,15 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>45</td>
 				
 			</tr>
 
 			<tr data-country="Magdeburg">
 				<td class="rank">24</td>
-				<td>5</td>
+		
 				<td>Magdeburg</td>
-				<td>235000</td>
+				<td>235,000</td>
 <td>4</td>
 <td>0</td>	
 <td>1</td>
@@ -32824,6 +33126,7 @@
 <td>3</td>
 <td>4</td>
 <td>1</td>
+<td>5</td>
 				
 			</tr>
 
@@ -32832,9 +33135,9 @@
 
 			<tr data-country="Krefeld">
 				<td class="rank">25</td>
-				<td>41</td>
+		
 				<td>Krefeld</td>
-				<td>226000</td>
+				<td>226,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -32845,14 +33148,15 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>41</td>
 				
 			</tr>
 
 			<tr data-country="Kassel">
 				<td class="rank">26</td>
-				<td>38</td>
+
 				<td>Kassel</td>
-				<td>201000</td>
+				<td>201,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -32863,14 +33167,15 @@
 <td>2</td>
 <td>1</td>
 <td>0</td>
+<td>38</td>
 				
 			</tr>
 
 			<tr data-country="Osnabrück">
 				<td class="rank">27</td>
-				<td>4</td>
+		
 				<td>Osnabrück</td>
-				<td>164000</td>
+				<td>164,000</td>
 <td>2</td>
 <td>0</td>	
 <td>2</td>
@@ -32881,14 +33186,15 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
+<td>4</td>
 				
 			</tr>
 
 			<tr data-country="Duisburg">
 				<td class="rank">28</td>
-				<td>47</td>
+			
 				<td>Duisburg</td>
-				<td>495000</td>
+				<td>495,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -32899,14 +33205,15 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
+<td>47</td>
 				
 			</tr>
 
 			<tr data-country="Wuppertal">
 				<td class="rank">29</td>
-				<td>29</td>
+	
 				<td>Wuppertal</td>
-				<td>355000</td>
+				<td>355,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -32917,12 +33224,13 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
+<td>29</td>
 			</tr>
 
 			<tr data-country="Bielefeld">
 				<td class="rank">30</td>
-				<td>42</td>
-				<td>333000</td>
+		
+				<td>333,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -32933,14 +33241,15 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>42</td>
 				
 			</tr>
 
 			<tr data-country="Karlsruhe">
 				<td class="rank">31</td>
-				<td>18</td>
+		
 				<td>Karlsruhe</td>
-				<td>308000</td>
+				<td>308,000</td>
 <td>5</td>
 <td>2</td>	
 <td>2</td>
@@ -32951,14 +33260,15 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>18</td>
 				
 			</tr>
 
 			<tr data-country="Wiesbaden">
 				<td class="rank">32</td>
-				<td>7</td>
+			
 				<td>Wiesbaden</td>
-				<td>278000</td>
+				<td>278,000</td>
 <td>3</td>
 <td>1</td>	
 <td>1</td>
@@ -32969,14 +33279,15 @@
 <td>1</td>
 <td>2</td>
 <td>2</td>
+<td>7</td>
 				
 			</tr>
 
 			<tr data-country="Mönchengladbach">
 				<td class="rank">33</td>
-				<td>34</td>
+		
 				<td>Mönchengladbach</td>
-				<td>259000</td>
+				<td>259,000</td>
 <td>1</td>
 <td>2</td>	
 <td>1</td>
@@ -32987,13 +33298,14 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>34</td>
 			</tr>
 
 			<tr data-country="Gelsenkirchen">
 				<td class="rank">34</td>
-				<td>27</td>
+		
 				<td>Gelsenkirchen</td>
-				<td>259000</td>
+				<td>259,000</td>
 <td>2</td>
 <td>1</td>	
 <td>0</td>
@@ -33004,14 +33316,15 @@
 <td>0</td>
 <td>0</td>
 <td>1</td>
+<td>27</td>
 				
 			</tr>
 
 			<tr data-country="Braunschweig">
 				<td class="rank">35</td>
-				<td>21</td>
+	
 				<td>Braunschweig</td>
-				<td>248000</td>
+				<td>248,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -33022,14 +33335,15 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
+<td>21</td>
 				
 			</tr>
 
 			<tr data-country="Aachen">
 				<td class="rank">36</td>
-				<td>25</td>
+		
 				<td>Aachen</td>
-				<td>248000</td>
+				<td>248,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -33040,6 +33354,7 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
+<td>25</td>
 				
 			</tr>
 
@@ -33048,9 +33363,9 @@
 
 			<tr data-country="Mainz">
 				<td class="rank">37</td>
-				<td>16</td>
+			
 				<td>Mainz</td>
-				<td>217000</td>
+				<td>217,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -33061,14 +33376,15 @@
 <td>0</td>
 <td>1</td>
 <td>1</td>
+<td>16</td>
 				
 			</tr>
 
 			<tr data-country="Lübeck">
 				<td class="rank">38</td>
-				<td>37</td>
+			
 				<td>Lübeck</td>
-				<td>215000</td>
+				<td>215,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -33079,14 +33395,15 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
+<td>37</td>
 				
 			</tr>
 
 			<tr data-country="Erfurt">
 				<td class="rank">39</td>
-				<td>36</td>
+		
 				<td>Erfurt</td>
-				<td>213000</td>
+				<td>213,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -33097,15 +33414,16 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
+<td>36</td>
 				
 			</tr>
 
 
 			<tr data-country="Rostock">
 				<td class="rank">40</td>
-				<td>12</td>
+		
 				<td>Rostock</td>
-				<td>209000</td>
+				<td>209,000</td>
 <td>3</td>
 <td>0</td>	
 <td>1</td>
@@ -33116,14 +33434,15 @@
 <td>2</td>
 <td>5</td>
 <td>0</td>
+<td>12</td>
 				
 			</tr>
 
 			<tr data-country="Oberhausen">
 				<td class="rank">41</td>
-				<td>39</td>
+		
 				<td>Oberhausen</td>
-				<td>209000</td>
+				<td>209,000</td>
 <td>2</td>
 <td>0</td>	
 <td>0</td>
@@ -33134,14 +33453,15 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>39</td>
 				
 			</tr>
 
 			<tr data-country="Hagen">
 				<td class="rank">42</td>
-				<td>43</td>
+	
 				<td>Hagen</td>
-				<td>188000</td>
+				<td>188,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -33152,14 +33472,15 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>43</td>
 				
 			</tr>
 
 			<tr data-country="Potsdam">
 				<td class="rank">43</td>
-				<td>40</td>
+		
 				<td>Potsdam</td>
-				<td>182000</td>
+				<td>182,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -33170,14 +33491,15 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
+<td>40</td>
 				
 			</tr>
 
 			<tr data-country="Saarbrücken">
 				<td class="rank">44</td>
-				<td>19</td>
+	
 				<td>Saarbrücken</td>
-				<td>179000</td>
+				<td>179,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -33188,14 +33510,15 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>19</td>
 				
 			</tr>
 
 			<tr data-country="Hamm">
 				<td class="rank">45</td>
-				<td>46</td>
+	
 				<td>Hamm</td>
-				<td>178000</td>
+				<td>178,000</td>
 <td>0</td>
 <td>0</td>	
 <td>1</td>
@@ -33206,14 +33529,15 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>46</td>
 				
 			</tr>
 
 			<tr data-country="Ludwigshafen">
 				<td class="rank">46</td>
-				<td>44</td>
+	
 				<td>Ludwigshafen</td>
-				<td>172000</td>
+				<td>172,000</td>
 <td>1</td>
 <td>2</td>	
 <td>0</td>
@@ -33224,14 +33548,15 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>44</td>
 				
 			</tr>
 
 			<tr data-country="Mülheim">
 				<td class="rank">47</td>
-				<td>50</td>
+	
 				<td>Mülheim an der Ruhr</td>
-				<td>171000</td>
+				<td>171,000</td>
 <td>0</td>
 <td>0</td>	
 <td>0</td>
@@ -33242,14 +33567,15 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>50</td>
 				
 			</tr>
 
 			<tr data-country="Oldenburg">
 				<td class="rank">48</td>
-				<td>31</td>
+	
 				<td>Oldenburg</td>
-				<td>169000</td>
+				<td>169,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -33260,14 +33586,15 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
+<td>31</td>
 				
 			</tr>
 
 			<tr data-country="Leverkusen">
 				<td class="rank">49</td>
-				<td>48</td>
+	
 				<td>Leverkusen</td>
-				<td>163000</td>
+				<td>163,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -33278,14 +33605,15 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>48</td>
 				
 			</tr>
 
 			<tr data-country="Solingen">
 				<td class="rank">50</td>
-				<td>49</td>
+			
 				<td>Solingen</td>
-				<td>159000</td>
+				<td>159,000</td>
 <td>0</td>
 <td>1</td>	
 <td>0</td>
@@ -33296,6 +33624,7 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>49</td>
 				
 			</tr>
 
@@ -33317,7 +33646,7 @@
 </svg>
 	</td>
 
-	<td>Final Ranking<br> (out of 50)</td>
+	
 
 	<td>City</td>
 
@@ -33343,14 +33672,16 @@
 
 	<td>HIV / STD Doctors<br> and Clinics</td>
 
+	<td>Final Ranking<br> (out of 50)</td>
+
 	
 </tr>
 
 			<tr data-country="Berlin">
 				<td class="rank">1</td>
-				<td>8</td>
+				
 				<td>Berlin</td>
-				<td>3600000</td>
+				<td>3,600,000</td>
 <td>32</td>
 <td>8</td>
 <td>6</td>
@@ -33361,50 +33692,50 @@
 <td>6</td>
 <td>11</td>
 <td>24</td>
+<td>8</td>
 				
 			</tr>
 
 			<tr data-country="Cologne">
 				<td class="rank">2</td>
-				<td>1</td>
 				<td>Cologne</td>
-				<td>1083000</td>
+				<td>1,083,000</td>
 <td>19</td>
 <td>6</td>	
 <td>9</td>
 <td>14</td>	
 <td>25</td>	
 <td>43</td>
-<td>587	</td>
+<td>587</td>
 <td>5	</td>
 <td>4</td>
 <td>7</td>
+<td>1</td>
 			</tr>
 
 			<tr data-country="Hamburg">
 				<td class="rank">3</td>
-				<td>22</td>
 				<td>Hamburg</td>
-				<td>1852000</td>
+				<td>1,852,000</td>
 <td>16</td>
 <td>8</td>	
-<td>6	</td>
+<td>6</td>
 <td>16</td>	
 <td>17</td>	
-<td>71	</td>
-<td>226	</td>
-<td>7	</td>
+<td>71</td>
+<td>226</td>
+<td>7</td>
 <td>8</td>
-<td>6	</td>
+<td>6</td>
+<td>22</td>
 				
 			</tr>
 
 
 			<tr data-country="Munich">
 				<td class="rank">4</td>
-				<td>11</td>
 				<td>Munich</td>
-				<td>1488000</td>
+				<td>1,488,000</td>
 <td>13</td>
 <td>3</td>	
 <td>7</td>
@@ -33415,14 +33746,14 @@
 <td>2	</td>
 <td>8</td>
 <td>8	</td>
+<td>11</td>
 				
 			</tr>
 
 			<tr data-country="Frankfurt">
 				<td class="rank">5</td>
-				<td>9</td>
 				<td>Frankfurt am Main</td>
-				<td>764000</td>
+				<td>764,000</td>
 <td>6</td>
 <td>4</td>	
 <td>5</td>
@@ -33433,14 +33764,15 @@
 <td>1</td>
 <td>2</td>
 <td>4</td>
+<td>9</td>
 				
 			</tr>
 
 			<tr data-country="Mannheim">
 				<td class="rank">6</td>
-				<td>2</td>
+			
 				<td>Mannheim</td>
-				<td>309000</td>
+				<td>309,000</td>
 <td>3</td>
 <td>1</td>	
 <td>2</td>
@@ -33451,14 +33783,15 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
+<td>2</td>
 				
 			</tr>
 
 			<tr data-country="Stuttgart">
 				<td class="rank">7</td>
-				<td>10</td>
+			
 				<td>Stuttgart</td>
-				<td>630000</td>
+				<td>630,000</td>
 <td>6</td>
 <td>3</td>	
 <td>4</td>
@@ -33469,14 +33802,15 @@
 <td>2</td>
 <td>4</td>
 <td>2</td>
+<td>10</td>
 				
 			</tr>
 
 			<tr data-country="Dresden">
 				<td class="rank">8</td>
-				<td>17</td>
+		
 				<td>Dresden</td>
-				<td>556000</td>
+				<td>556,000</td>
 <td>5</td>
 <td>5</td>	
 <td>3</td>
@@ -33487,15 +33821,16 @@
 <td>1</td>
 <td>6</td>
 <td>1</td>
+<td>17</td>
 				
 			</tr>
 
 
 			<tr data-country="Dusseldorf">
 				<td class="rank">9</td>
-				<td>26</td>
+			
 				<td>Dusseldorf</td>
-				<td>620000</td>
+				<td>620,000</td>
 <td>4</td>
 <td>1</td>	
 <td>1</td>
@@ -33506,14 +33841,15 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
+<td>26</td>
 				
 			</tr>
 
 			<tr data-country="Leipzig">
 				<td class="rank">10</td>
-				<td>30</td>
+			
 				<td>Leipzig</td>
-				<td>597000</td>
+				<td>597,000</td>
 <td>3</td>
 <td>2</td>	
 <td>2</td>
@@ -33524,14 +33860,15 @@
 <td>1</td>
 <td>4</td>
 <td>1</td>
+<td>30</td>
 				
 			</tr>
 
 			<tr data-country="Nuremberg">
 				<td class="rank">11</td>
-				<td>24</td>
+			
 				<td>Nuremberg</td>
-				<td>515000</td>
+				<td>515,000</td>
 <td>3</td>
 <td>3</td>	
 <td>1</td>
@@ -33542,14 +33879,15 @@
 <td>3</td>
 <td>5</td>
 <td>1</td>
+<td>24</td>
 				
 			</tr>
 
 			<tr data-country="Duisburg">
 				<td class="rank">12</td>
-				<td>47</td>
+			
 				<td>Duisburg</td>
-				<td>495000</td>
+				<td>495,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -33560,6 +33898,7 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
+<td>47</td>
 				
 			</tr>
 
@@ -33567,9 +33906,9 @@
 
 			<tr data-country="Bochum">
 				<td class="rank">13</td>
-				<td>32</td>
+	
 				<td>Bochum</td>
-				<td>364000</td>
+				<td>364,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -33580,14 +33919,15 @@
 <td>1</td>
 <td>6</td>
 <td>0</td>
+<td>32</td>
 				
 			</tr>
 
 			<tr data-country="Wuppertal">
 				<td class="rank">14</td>
-				<td>29</td>
+			
 				<td>Wuppertal</td>
-				<td>355000</td>
+				<td>355,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -33598,14 +33938,15 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
+<td>29</td>
 				
 			</tr>
 
 			<tr data-country="Essen">
 				<td class="rank">15</td>
-				<td>35</td>
+		
 				<td>Essen</td>
-				<td>582000</td>
+				<td>582,000</td>
 <td>2</td>
 <td>4</td>	
 <td>1</td>
@@ -33616,15 +33957,16 @@
 <td>4</td>
 <td>4</td>
 <td>1</td>
+<td>35</td>
 				
 				
 			</tr>
 
 			<tr data-country="Hannover">
 				<td class="rank">16</td>
-				<td>13</td>
+			
 				<td>Hannover</td>
-				<td>534000</td>
+				<td>534,000</td>
 <td>3</td>
 <td>5</td>	
 <td>3</td>
@@ -33635,14 +33977,15 @@
 <td>4</td>
 <td>4</td>
 <td>2</td>
+<td>13</td>
 				
 			</tr>
 
 			<tr data-country="Mönchengladbach">
 				<td class="rank">17</td>
-				<td>34</td>
+		
 				<td>Mönchengladbach</td>
-				<td>259000</td>
+				<td>259,000</td>
 <td>1</td>
 <td>2</td>	
 <td>1</td>
@@ -33653,14 +33996,15 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>34</td>
 				
 			</tr>
 
 			<tr data-country="Braunschweig">
 				<td class="rank">18</td>
-				<td>21</td>
+		
 				<td>Braunschweig</td>
-				<td>248000</td>
+				<td>248,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -33671,14 +34015,15 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
+<td>21</td>
 				
 			</tr>
 
 			<tr data-country="Erfurt">
 				<td class="rank">19</td>
-				<td>36</td>
+		
 				<td>Erfurt</td>
-				<td>213000</td>
+				<td>213,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -33689,14 +34034,15 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
+<td>36</td>
 				
 			</tr>
 
 			<tr data-country="Bremen">
 				<td class="rank">20</td>
-				<td>15</td>
+	
 				<td>Bremen</td>
-				<td>566000</td>
+				<td>566,000</td>
 <td>5</td>
 <td>2</td>	
 <td>1</td>
@@ -33707,14 +34053,15 @@
 <td>2</td>
 <td>6</td>
 <td>3</td>
+<td>15</td>
 				
 			</tr>
 
 			<tr data-country="Augsburg">
 				<td class="rank">21</td>
-				<td>14</td>
+		
 				<td>Augsburg</td>
-				<td>295000</td>
+				<td>295,000</td>
 <td>5</td>
 <td>1</td>	
 <td>1</td>
@@ -33725,14 +34072,15 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
+<td>14</td>
 				
 			</tr>
 
 			<tr data-country="Keel">
 				<td class="rank">22</td>
-				<td>20</td>
+	
 				<td>Keel</td>
-				<td>246000</td>
+				<td>246,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -33743,14 +34091,15 @@
 <td>4</td>
 <td>3</td>
 <td>0</td>
+<td>20</td>
 				
 			</tr>
 
 			<tr data-country="Krefeld">
 				<td class="rank">23</td>
-				<td>41</td>
+		
 				<td>Krefeld</td>
-				<td>226000</td>
+				<td>226,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -33761,14 +34110,15 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>41</td>
 				
 			</tr>
 
 			<tr data-country="Rostock">
 				<td class="rank">24</td>
-				<td>12</td>
+		
 				<td>Rostock</td>
-				<td>209000</td>
+				<td>209,000</td>
 <td>3</td>
 <td>0</td>	
 <td>1</td>
@@ -33779,6 +34129,7 @@
 <td>2</td>
 <td>5</td>
 <td>0</td>
+<td>12</td>
 				
 			</tr>
 
@@ -33786,9 +34137,9 @@
 
 			<tr data-country="Osnabrück">
 				<td class="rank">25</td>
-				<td>4</td>
+			
 				<td>Osnabrück</td>
-				<td>164000</td>
+				<td>164,000</td>
 <td>2</td>
 <td>0</td>	
 <td>2</td>
@@ -33799,14 +34150,15 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
+<td>4</td>
 				
 			</tr>
 
 			<tr data-country="Dortmund">
 				<td class="rank">26</td>
-				<td>33</td>
+		
 				<td>Dortmund</td>
-				<td>587000</td>
+				<td>587,000</td>
 <td>4</td>
 <td>5</td>	
 <td>1</td>
@@ -33817,14 +34169,15 @@
 <td>2</td>
 <td>6</td>
 <td>1</td>
+<td>33</td>
 				
 			</tr>
 
 			<tr data-country="Bielefeld">
 				<td class="rank">27</td>
-				<td>42</td>
+			
 				<td>Bielefeld</td>
-				<td>333000</td>
+				<td>333,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -33835,13 +34188,14 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>42</td>
 			</tr>
 
 			<tr data-country="Bonn">
 				<td class="rank">28</td>
-				<td>23</td>
+				
 				<td>Bonn</td>
-				<td>330000</td>
+				<td>330,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -33852,14 +34206,15 @@
 <td>0</td>
 <td>3</td>
 <td>2</td>
+<td>23</td>
 				
 			</tr>
 
 			<tr data-country="Gelsenkirchen">
 				<td class="rank">29</td>
-				<td>27</td>
+		
 				<td>Gelsenkirchen</td>
-				<td>259000</td>
+				<td>259,000</td>
 <td>2</td>
 <td>1</td>	
 <td>0</td>
@@ -33870,14 +34225,15 @@
 <td>0</td>
 <td>0</td>
 <td>1</td>
+<td>27</td>
 				
 			</tr>
 
 			<tr data-country="Aachen">
 				<td class="rank">30</td>
-				<td>25</td>
+		
 				<td>Aachen</td>
-				<td>248000</td>
+				<td>248,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -33888,14 +34244,15 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
+<td>25</td>
 				
 			</tr>
 
 			<tr data-country="Magdeburg">
 				<td class="rank">31</td>
-				<td>5</td>
+		
 				<td>Magdeburg</td>
-				<td>235000</td>
+				<td>235,000</td>
 <td>4</td>
 <td>0</td>	
 <td>1</td>
@@ -33906,15 +34263,16 @@
 <td>3</td>
 <td>4</td>
 <td>1</td>
+<td>5</td>
 				
 			</tr>
 
 
 			<tr data-country="Freiburg">
 				<td class="rank">32</td>
-				<td>3</td>
+		
 				<td>Freiburg</td>
-				<td>230000</td>
+				<td>230,000</td>
 <td>1</td>
 <td>0</td>	
 <td>2</td>
@@ -33930,9 +34288,9 @@
 
 			<tr data-country="Mainz">
 				<td class="rank">33</td>
-				<td>16</td>
+		
 				<td>Mainz</td>
-				<td>217000</td>
+				<td>217,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -33943,14 +34301,15 @@
 <td>0</td>
 <td>1</td>
 <td>1</td>
+<td>16</td>
 				
 			</tr>
 
 			<tr data-country="Oberhausen">
 				<td class="rank">34</td>
-				<td>39</td>
+				
 				<td>Oberhausen</td>
-				<td>209000</td>
+				<td>209,000</td>
 <td>2</td>
 <td>0</td>	
 <td>0</td>
@@ -33961,14 +34320,15 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>39</td>
 				
 			</tr>
 
 			<tr data-country="Saarbrücken">
 				<td class="rank">35</td>
-				<td>19</td>
+				
 				<td>Saarbrücken</td>
-				<td>179000</td>
+				<td>179,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -33979,15 +34339,16 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>19</td>
 				
 			</tr>
 
 
 			<tr data-country="Muenster">
 				<td class="rank">36</td>
-				<td>28</td>
+			
 				<td>Muenster</td>
-				<td>316000</td>
+				<td>316,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -33998,6 +34359,7 @@
 <td>1</td>
 <td>5</td>
 <td>1</td>
+<td>28</td>
 				
 			</tr>
 
@@ -34005,9 +34367,9 @@
 
 			<tr data-country="Karlsruhe">
 				<td class="rank">37</td>
-				<td>18</td>
+			
 				<td>Karlsruhe</td>
-				<td>308000</td>
+				<td>308,000</td>
 <td>5</td>
 <td>2</td>	
 <td>2</td>
@@ -34018,14 +34380,15 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>18</td>
 				
 			</tr>
 
 			<tr data-country="Wiesbaden">
 				<td class="rank">38</td>
-				<td>7</td>
+		
 				<td>Wiesbaden</td>
-				<td>278000</td>
+				<td>278,000</td>
 <td>3</td>
 <td>1</td>	
 <td>1</td>
@@ -34036,14 +34399,15 @@
 <td>1</td>
 <td>2</td>
 <td>2</td>
+<td>7</td>
 				
 			</tr>
 
 			<tr data-country="Chemnitz">
 				<td class="rank">39</td>
-				<td>6</td>
+	
 				<td>Chemnitz</td>
-				<td>244000</td>
+				<td>244,000</td>
 <td>4</td>
 <td>4</td>	
 <td>1</td>
@@ -34054,14 +34418,15 @@
 <td>2</td>
 <td>3</td>
 <td>1</td>
+<td>6</td>
 				
 			</tr>
 
 			<tr data-country="Halle">
 				<td class="rank">40</td>
-				<td>45</td>
+		
 				<td>Halle (Saale)</td>
-				<td>237000</td>
+				<td>237,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -34072,14 +34437,15 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>45</td>
 				
 			</tr>
 
 			<tr data-country="Lübeck">
 				<td class="rank">41</td>
-				<td>37</td>
+			
 				<td>Lübeck</td>
-				<td>215000</td>
+				<td>215,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -34090,14 +34456,15 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
+<td>37</td>
 				
 			</tr>
 
 			<tr data-country="Kassel">
 				<td class="rank">42</td>
-				<td>38</td>
+			
 				<td>Kassel</td>
-				<td>201000</td>
+				<td>201,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -34108,14 +34475,15 @@
 <td>2</td>
 <td>1</td>
 <td>0</td>
+<td>38</td>
 				
 			</tr>
 
 			<tr data-country="Potsdam">
 				<td class="rank">43</td>
-				<td>40</td>
+				
 				<td>Potsdam</td>
-				<td>182000</td>
+				<td>182,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -34126,14 +34494,15 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
+<td>40</td>
 				
 			</tr>
 
 			<tr data-country="Hamm">
 				<td class="rank">44</td>
-				<td>46</td>
+			
 				<td>Hamm</td>
-				<td>178000</td>
+				<td>178,000</td>
 <td>0</td>
 <td>0</td>	
 <td>1</td>
@@ -34144,15 +34513,16 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>46</td>
 				
 			</tr>
 
 			
 			<tr data-country="Hagen">
 				<td class="rank">45</td>
-				<td>43</td>
+			
 				<td>Hagen</td>
-				<td>188000</td>
+				<td>188,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -34163,15 +34533,16 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>43</td>
 				
 			</tr>
 
 
 			<tr data-country="Ludwigshafen">
 				<td class="rank">46</td>
-				<td>44</td>
+				
 				<td>Ludwigshafen</td>
-				<td>172000</td>
+				<td>172,000</td>
 <td>1</td>
 <td>2</td>	
 <td>0</td>
@@ -34182,14 +34553,15 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>44</td>
 				
 			</tr>
 
 			<tr data-country="Mülheim">
 				<td class="rank">47</td>
-				<td>50</td>
+			
 				<td>Mülheim an der Ruhr</td>
-				<td>171000</td>
+				<td>171,000</td>
 <td>0</td>
 <td>0</td>	
 <td>0</td>
@@ -34200,14 +34572,15 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>50</td>
 				
 			</tr>
 
 			<tr data-country="Oldenburg">
 				<td class="rank">48</td>
-				<td>31</td>
+				
 				<td>Oldenburg</td>
-				<td>169000</td>
+				<td>169,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -34218,13 +34591,14 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
+<td>31</td>
 			</tr>
 
 			<tr data-country="Leverkusen">
 				<td class="rank">49</td>
-				<td>48</td>
+
 				<td>Leverkusen</td>
-				<td>163000</td>
+				<td>163,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -34235,14 +34609,15 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>48</td>
 				
 			</tr>
 
 			<tr data-country="Solingen">
 				<td class="rank">50</td>
-				<td>49</td>
+				
 				<td>Solingen</td>
-				<td>159000</td>
+				<td>159,000</td>
 <td>0</td>
 <td>1</td>	
 <td>0</td>
@@ -34253,6 +34628,7 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>49</td>
 				
 			</tr>
 
@@ -34274,7 +34650,7 @@
 </svg>
 	</td>
 
-	<td>Final Ranking<br> (out of 50)</td>
+	
 
 	<td>City</td>
 
@@ -34300,14 +34676,16 @@
 
 	<td>HIV / STD Doctors<br> and Clinics</td>
 
+	<td>Final Ranking<br> (out of 50)</td>
+
 	
 </tr>
 
 			<tr data-country="Berlin">
 				<td class="rank">1</td>
-				<td>8</td>
+				
 				<td>Berlin</td>
-				<td>3600000</td>
+				<td>3,600,000</td>
 <td>32</td>
 <td>8</td>
 <td>6</td>
@@ -34318,14 +34696,16 @@
 <td>6</td>
 <td>11</td>
 <td>24</td>
+<td>8</td>
+
 				
 			</tr>
 
 			<tr data-country="Munich">
 				<td class="rank">2</td>
-				<td>11</td>
+				
 				<td>Munich</td>
-				<td>1488000</td>
+				<td>1,488,000</td>
 <td>13</td>
 <td>3</td>	
 <td>7</td>
@@ -34336,32 +34716,35 @@
 <td>2	</td>
 <td>8</td>
 <td>8	</td>
+<td>11</td>
+
 			</tr>
 
 			<tr data-country="Hamburg">
 				<td class="rank">3</td>
-				<td>22</td>
+				
 				<td>Hamburg</td>
-				<td>1852000</td>
+				<td>1,852,000</td>
 <td>16</td>
 <td>8</td>	
-<td>6	</td>
+<td>6</td>
 <td>16</td>	
 <td>17</td>	
-<td>71	</td>
-<td>226	</td>
-<td>7	</td>
+<td>71</td>
+<td>226</td>
+<td>7</td>
 <td>8</td>
-<td>6	</td>
+<td>6</td>
+<td>22</td>
 				
 				
 			</tr>
 
 			<tr data-country="Stuttgart">
 				<td class="rank">4</td>
-				<td>10</td>
+				
 				<td>Stuttgart</td>
-				<td>630000</td>
+				<td>630,000</td>
 <td>6</td>
 <td>3</td>	
 <td>4</td>
@@ -34372,15 +34755,16 @@
 <td>2</td>
 <td>4</td>
 <td>2</td>
-				
-				
+<td>10</td>
+		
+							
 			</tr>
 
 			<tr data-country="Hannover">
 				<td class="rank">5</td>
-				<td>13</td>
+				
 				<td>Hannover</td>
-				<td>534000</td>
+				<td>534,000</td>
 <td>3</td>
 <td>5</td>	
 <td>3</td>
@@ -34391,15 +34775,15 @@
 <td>4</td>
 <td>4</td>
 <td>2</td>
-				
-				
+<td>13</td>
+
 			</tr>
 
 			<tr data-country="Nuremberg">
 				<td class="rank">6</td>
-				<td>24</td>
+
 				<td>Nuremberg</td>
-				<td>515000</td>
+				<td>515,000</td>
 <td>3</td>
 <td>3</td>	
 <td>1</td>
@@ -34410,34 +34794,34 @@
 <td>3</td>
 <td>5</td>
 <td>1</td>
-				
-				
+<td>24</td>
+		
 			</tr>
 
 			<tr data-country="Cologne">
 				<td class="rank">7</td>
-				<td>1</td>
+				
 				<td>Cologne</td>
-				<td>1083000</td>
+				<td>1,083,000</td>
 <td>19</td>
 <td>6</td>	
 <td>9</td>
 <td>14</td>	
 <td>25</td>	
 <td>43</td>
-<td>587	</td>
+<td>587</td>
 <td>5	</td>
 <td>4</td>
 <td>7</td>
-				
-				
+<td>1</td>
+		
 			</tr>
 
 			<tr data-country="Frankfurt">
 				<td class="rank">8</td>
-				<td>9</td>
+				
 				<td>Frankfurt am Main</td>
-				<td>764000</td>
+				<td>764,000</td>
 <td>6</td>
 <td>4</td>	
 <td>5</td>
@@ -34448,14 +34832,15 @@
 <td>1</td>
 <td>2</td>
 <td>4</td>
-
+<td>9</td>
+			
 			</tr>
 
 			<tr data-country="Dusseldorf">
 				<td class="rank">9</td>
-				<td>26</td>
+				
 				<td>Dusseldorf</td>
-				<td>620000</td>
+				<td>620,000</td>
 <td>4</td>
 <td>1</td>	
 <td>1</td>
@@ -34466,15 +34851,15 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
-				
-				
+<td>26</td>
+		
 			</tr>
 
 			<tr data-country="Dresden">
 				<td class="rank">10</td>
-				<td>17</td>
+				
 				<td>Dresden</td>
-				<td>556000</td>
+				<td>556,000</td>
 <td>5</td>
 <td>5</td>	
 <td>3</td>
@@ -34485,15 +34870,16 @@
 <td>1</td>
 <td>6</td>
 <td>1</td>
-				
+<td>17</td>
+	
 				
 			</tr>
 
 			<tr data-country="Leipzig">
 				<td class="rank">11</td>
-				<td>30</td>
+				
 				<td>Leipzig</td>
-				<td>597000</td>
+				<td>597,000</td>
 <td>3</td>
 <td>2</td>	
 <td>2</td>
@@ -34504,15 +34890,15 @@
 <td>1</td>
 <td>4</td>
 <td>1</td>
-				
-				
+<td>30</td>
+		
 			</tr>
 
 			<tr data-country="Karlsruhe">
 				<td class="rank">12</td>
-				<td>18</td>
+				
 				<td>Karlsruhe</td>
-				<td>308000</td>
+				<td>308,000</td>
 <td>5</td>
 <td>2</td>	
 <td>2</td>
@@ -34523,17 +34909,17 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
-				
-				
+<td>18</td>
+	
 			</tr>
 
 			<!-- //top 12 -->
 
 			<tr data-country="Augsburg">
 				<td class="rank">13</td>
-				<td>14</td>
+				
 				<td>Augsburg</td>
-				<td>295000</td>
+				<td>295,000</td>
 <td>5</td>
 <td>1</td>	
 <td>1</td>
@@ -34544,15 +34930,16 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
-				
+<td>14</td>
+	
 				
 			</tr>
 
 			<tr data-country="Essen">
 				<td class="rank">14</td>
-				<td>35</td>
+				
 				<td>Essen</td>
-				<td>582000</td>
+				<td>582,000</td>
 <td>2</td>
 <td>4</td>	
 <td>1</td>
@@ -34563,16 +34950,16 @@
 <td>4</td>
 <td>4</td>
 <td>1</td>
-				
-				
+<td>35</td>
+
 			</tr>
 
 			<tr data-country="Chemnitz">
 				<td class="rank">15</td>
-				<td>6</td>
+				
 				<td>Chemnitz</td>
 				
-				<td>244000</td>
+				<td>244,000</td>
 <td>4</td>
 <td>4</td>	
 <td>1</td>
@@ -34583,15 +34970,16 @@
 <td>2</td>
 <td>3</td>
 <td>1</td>
-				
+<td>6</td>
+
 			</tr>
 
 			<tr data-country="Saarbrücken">
 				<td class="rank">16</td>
-				<td>19</td>
+				
 				<td>Saarbrücken</td>
 				
-				<td>179000</td>
+				<td>179,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -34602,15 +34990,16 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
-				
+<td>19</td>
+		
 			</tr>
 
 			<tr data-country="Bremen">
 				<td class="rank">17</td>
-				<td>15</td>
+				
 				<td>Bremen</td>
 				
-				<td>566000</td>
+				<td>566,000</td>
 <td>5</td>
 <td>2</td>	
 <td>1</td>
@@ -34621,14 +35010,15 @@
 <td>2</td>
 <td>6</td>
 <td>3</td>
-				
+<td>15</td>
+	
 			</tr>
 
 			<tr data-country="Dortmund">
 				<td class="rank">18</td>
-				<td>33</td>
+				
 				<td>Dortmund</td>
-				<td>587000</td>
+				<td>587,000</td>
 <td>4</td>
 <td>5</td>	
 <td>1</td>
@@ -34639,16 +35029,16 @@
 <td>2</td>
 <td>6</td>
 <td>1</td>
-				
-				
+<td>33</td>
+
 			</tr>
 
 			<tr data-country="Freiburg">
 				<td class="rank">19</td>
-				<td>3</td>
+				
 				<td>Freiburg</td>
 				
-				<td>230000</td>
+				<td>230,000</td>
 <td>1</td>
 <td>0</td>	
 <td>2</td>
@@ -34659,15 +35049,15 @@
 <td>3</td>
 <td>4</td>
 <td>2</td>
-				
+	
 			</tr>
 
 			<tr data-country="Duisburg">
 				<td class="rank">20</td>
-				<td>47</td>
+				
 				<td>Duisburg</td>
 				
-				<td>495000</td>
+				<td>495,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -34678,15 +35068,16 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
-				
+<td>47</td>
+		
 			</tr>
 
 			<tr data-country="Mönchengladbach">
 				<td class="rank">21</td>
-				<td>34</td>
+				
 				<td>Mönchengladbach</td>
 
-				<td>259000</td>
+				<td>259,000</td>
 <td>1</td>
 <td>2</td>	
 <td>1</td>
@@ -34697,17 +35088,16 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
-				
-				
+<td>34</td>
 				
 			</tr>
 
 			<tr data-country="Wiesbaden">
 				<td class="rank">22</td>
-				<td>7</td>
+				
 				<td>Wiesbaden</td>
 				
-				<td>278000</td>
+				<td>278,000</td>
 <td>3</td>
 <td>1</td>	
 <td>1</td>
@@ -34718,15 +35108,16 @@
 <td>1</td>
 <td>2</td>
 <td>2</td>
-
+<td>7</td>
+		
 			</tr>
 
 			<tr data-country="Wuppertal">
 				<td class="rank">23</td>
-				<td>29</td>
+				
 				<td>Wuppertal</td>
 				
-				<td>355000</td>
+				<td>355,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -34737,15 +35128,16 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
-				
+<td>29</td>
+
 			</tr>
 
 			<tr data-country="Muenster">
 				<td class="rank">24</td>
-				<td>28</td>
+				
 				<td>Muenster</td>
 				
-				<td>316000</td>
+				<td>316,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -34756,17 +35148,18 @@
 <td>1</td>
 <td>5</td>
 <td>1</td>
-				
+<td>28</td>
+
 			</tr>
 
 			<!-- //top 24-->
 
 			<tr data-country="Gelsenkirchen">
 				<td class="rank">25</td>
-				<td>27</td>
+				
 				<td>Gelsenkirchen</td>
 				
-				<td>259000</td>
+				<td>259,000</td>
 <td>2</td>
 <td>1</td>	
 <td>0</td>
@@ -34777,15 +35170,16 @@
 <td>0</td>
 <td>0</td>
 <td>1</td>
-				
+<td>27</td>
+	
 			</tr>
 
 			<tr data-country="Kassel">
 				<td class="rank">26</td>
-				<td>38</td>
+				
 				<td>Kassel</td>
 				
-				<td>201000</td>
+				<td>201,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -34796,15 +35190,16 @@
 <td>2</td>
 <td>1</td>
 <td>0</td>
-				
+<td>38</td>
+
 			</tr>
 
 			<tr data-country="Lübeck">
 				<td class="rank">27</td>
-				<td>37</td>
+				
 				<td>Lübeck</td>
 				
-				<td>215000</td>
+				<td>215,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -34815,15 +35210,16 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
-				
+<td>37</td>
+	
 			</tr>
 
 			<tr data-country="Bonn">
 				<td class="rank">28</td>
-				<td>23</td>
+				
 				<td>Bonn</td>
 				
-				<td>330000</td>
+				<td>330,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -34834,15 +35230,16 @@
 <td>0</td>
 <td>3</td>
 <td>2</td>
-				
+<td>23</td>
+
 			</tr>
 
 			<tr data-country="Braunschweig">
 				<td class="rank">29</td>
-				<td>21</td>
+				
 				<td>Braunschweig</td>
 				
-				<td>248000</td>
+				<td>248,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -34853,16 +35250,15 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
-				
+<td>21</td>
+
 			</tr>
 
 			<tr data-country="Keel">
 				<td class="rank">30</td>
-				<td>20</td>
+				
 				<td>Keel</td>
-				
-				
-				<td>246000</td>
+				<td>246,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -34873,13 +35269,15 @@
 <td>4</td>
 <td>3</td>
 <td>0</td>
+<td>20</td>
+			
 			</tr>
 
 			<tr data-country="Erfurt">
 				<td class="rank">31</td>
-				<td>36</td>
+				
 				<td>Erfurt</td>
-				<td>213000</td>
+				<td>213,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -34890,15 +35288,15 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
-				
-				
+<td>36</td>
+
 			</tr>
 
 			<tr data-country="Oldenburg">
 				<td class="rank">32</td>
-				<td>31</td>
+				
 				<td>Oldenburg</td>
-				<td>169000</td>
+				<td>169,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -34909,15 +35307,15 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
-				
+<td>31</td>
 
 			</tr>
 
 			<tr data-country="Mainz">
 				<td class="rank">33</td>
-				<td>16</td>
+
 				<td>Mainz</td>
-				<td>217000</td>
+				<td>217,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -34928,16 +35326,16 @@
 <td>0</td>
 <td>1</td>
 <td>1</td>
-				
-				
+<td>16</td>
+
 			</tr>
 
 			<tr data-country="Hamm">
 				<td class="rank">34</td>
-				<td>46</td>
+				
 				<td>Hamm</td>
 				
-				<td>178000</td>
+				<td>178,000</td>
 <td>0</td>
 <td>0</td>	
 <td>1</td>
@@ -34948,15 +35346,16 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
-				
+<td>46</td>
+	
 			</tr>
 
 			<tr data-country="Halle">
 				<td class="rank">35</td>
-				<td>45</td>
+				
 				<td>Halle (Saale)</td>
 				
-				<td>237000</td>
+				<td>237,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -34967,15 +35366,16 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
-				
+<td>45</td>
+
 			</tr>
 
 			<tr data-country="Magdeburg">
 				<td class="rank">36</td>
-				<td>5</td>
+				
 				<td>Magdeburg</td>
 				
-				<td>235000</td>
+				<td>235,000</td>
 <td>4</td>
 <td>0</td>	
 <td>1</td>
@@ -34986,6 +35386,8 @@
 <td>3</td>
 <td>4</td>
 <td>1</td>
+<td>5</td>
+	
 				
 			</tr>
 
@@ -34993,9 +35395,9 @@
 
 			<tr data-country="Oberhausen">
 				<td class="rank">37</td>
-				<td>39</td>
+				
 				<td>Oberhausen</td>
-				<td>209000</td>
+				<td>209,000</td>
 <td>2</td>
 <td>0</td>	
 <td>0</td>
@@ -35006,15 +35408,16 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
-				
+<td>39</td>
+
 				
 			</tr>
 
 			<tr data-country="Bochum">
 				<td class="rank">38</td>
-				<td>32</td>
+				
 				<td>Bochum</td>
-				<td>364000</td>
+				<td>364,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -35025,16 +35428,16 @@
 <td>1</td>
 <td>6</td>
 <td>0</td>
-				
+<td>32</td>
 				
 			</tr>
 
 			<tr data-country="Bielefeld">
 				<td class="rank">39</td>
-				<td>42</td>
+				
 				<td>Bielefeld</td>
 				
-				<td>333000</td>
+				<td>333,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -35045,15 +35448,16 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
-				
+<td>42</td>
+	
 			</tr>
 
 			<tr data-country="Osnabrück">
 				<td class="rank">40</td>
-				<td>4</td>
+				
 				<td>Osnabrück</td>
 				
-				<td>164000</td>
+				<td>164,000</td>
 <td>2</td>
 <td>0</td>	
 <td>2</td>
@@ -35064,15 +35468,16 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
-				
+<td>4</td>
+	
 			</tr>
 
 			<tr data-country="Aachen">
 				<td class="rank">41</td>
-				<td>25</td>
+				
 				<td>Aachen</td>
 				
-				<td>248000</td>
+				<td>248,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -35083,15 +35488,16 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
-				
+<td>25</td>
+	
 			</tr>
 
 			<tr data-country="Krefeld">
 				<td class="rank">42</td>
-				<td>41</td>
+				
 				<td>Krefeld</td>
 				
-				<td>226000</td>
+				<td>226,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -35102,15 +35508,16 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
-				
+<td>41</td>
+	
 			</tr>
 
 			<tr data-country="Hagen">
 				<td class="rank">43</td>
-				<td>43</td>
+				
 				<td>Hagen</td>
 				
-				<td>188000</td>
+				<td>188,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -35121,15 +35528,16 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
-				
+<td>43</td>
+
 			</tr>
 
 			<tr data-country="Ludwigshafen">
 				<td class="rank">44</td>
-				<td>44</td>
+				
 				<td>Ludwigshafen</td>
 				
-				<td>172000</td>
+				<td>172,000</td>
 <td>1</td>
 <td>2</td>	
 <td>0</td>
@@ -35140,15 +35548,16 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
-
+<td>44</td>
+	
 			</tr>
 
 			<tr data-country="Rostock">
 				<td class="rank">45</td>
-				<td>12</td>
+				
 				<td>Rostock</td>
 				
-				<td>209000</td>
+				<td>209,000</td>
 <td>3</td>
 <td>0</td>	
 <td>1</td>
@@ -35159,15 +35568,16 @@
 <td>2</td>
 <td>5</td>
 <td>0</td>
-				
+<td>12</td>
+	
 			</tr>
 
 			<tr data-country="Solingen">
 				<td class="rank">46</td>
-				<td>49</td>
+				
 				<td>Solingen</td>
 				
-				<td>159000</td>
+				<td>159,000</td>
 <td>0</td>
 <td>1</td>	
 <td>0</td>
@@ -35178,16 +35588,17 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>49</td>
 
 			</tr>
 
 
 			<tr data-country="Mannheim">
 				<td class="rank">47</td>
-				<td>2</td>
+				
 				<td>Mannheim</td>
 				
-				<td>309000</td>
+				<td>309,000</td>
 <td>3</td>
 <td>1</td>	
 <td>2</td>
@@ -35198,15 +35609,16 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
-				
+<td>2</td>
+
 			</tr>
 
 			<tr data-country="Leverkusen">
 				<td class="rank">48</td>
-				<td>48</td>
+				
 				<td>Leverkusen</td>
 				
-				<td>163000</td>
+				<td>163,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -35217,15 +35629,16 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
-				
+<td>48</td>
+	
 			</tr>
 
 			<tr data-country="Mülheim">
 				<td class="rank">49</td>
-				<td>50</td>
+				
 				<td>Mülheim an der Ruhr</td>
 				
-				<td>171000</td>
+				<td>171,000</td>
 <td>0</td>
 <td>0</td>	
 <td>0</td>
@@ -35236,17 +35649,16 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
-				
+<td>50</td>
+	
 			</tr>
 
-
-			
 			<tr data-country="Potsdam">
 				<td class="rank">50</td>
-				<td>40</td>
+				
 				<td>Potsdam</td>
 				
-				<td>182000</td>
+				<td>182,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -35257,7 +35669,8 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
-				
+<td>40</td>
+	
 			</tr>
 
 			
@@ -35279,7 +35692,7 @@
 </svg>
 	</td>
 
-	<td>Final Ranking<br> (out of 50)</td>
+	
 
 	<td>City</td>
 
@@ -35305,14 +35718,16 @@
 
 	<td>HIV / STD Doctors<br> and Clinics</td>
 
+	<td>Final Ranking<br> (out of 50)</td>
+
 	
 </tr>
 
 			<tr data-country="Berlin">
 				<td class="rank">1</td>
-				<td>8</td>
+			
 				<td>Berlin</td>
-				<td>3600000</td>
+				<td>3,600,000</td>
 <td>32</td>
 <td>8</td>
 <td>6</td>
@@ -35323,50 +35738,53 @@
 <td>6</td>
 <td>11</td>
 <td>24</td>
+<td>8</td>
 				
 			</tr>
 
 			<tr data-country="Cologne">
 				<td class="rank">2</td>
-				<td>1</td>
+			
 				<td>Cologne</td>
-				<td>1083000</td>
+				<td>1,083,000</td>
 <td>19</td>
 <td>6</td>	
 <td>9</td>
 <td>14</td>	
 <td>25</td>	
 <td>43</td>
-<td>587	</td>
+<td>587</td>
 <td>5	</td>
 <td>4</td>
 <td>7</td>
+<td>1</td>
 				
 			</tr>
 
 			<tr data-country="Hamburg">
 				<td class="rank">3</td>
-				<td>22</td>
+				
 				<td>Hamburg</td>
-				<td>1852000</td>
+				<td>1,852,000</td>
 <td>16</td>
 <td>8</td>	
-<td>6	</td>
+<td>6</td>
 <td>16</td>	
 <td>17</td>	
-<td>71	</td>
-<td>226	</td>
-<td>7	</td>
+<td>71</td>
+<td>226</td>
+<td>7</td>
 <td>8</td>
-<td>6	</td>
+<td>6</td>
+<td>22</td>
 				
 			</tr>
 
 			<tr data-country="Munich">
 				<td class="rank">4</td>
-				<td>11</td>
+	
 				<td>Munich</td>
-				<td>1488000</td>
+				<td>1,488,000</td>
 <td>13</td>
 <td>3</td>	
 <td>7</td>
@@ -35377,14 +35795,15 @@
 <td>2	</td>
 <td>8</td>
 <td>8	</td>
+<td>11</td>
 				
 			</tr>
 
 			<tr data-country="Frankfurt">
 				<td class="rank">5</td>
-				<td>9</td>
+				
 				<td>Frankfurt am Main</td>
-				<td>764000</td>
+				<td>764,000</td>
 <td>6</td>
 <td>4</td>	
 <td>5</td>
@@ -35395,14 +35814,15 @@
 <td>1</td>
 <td>2</td>
 <td>4</td>
+<td>9</td>
 				
 			</tr>
 
 			<tr data-country="Stuttgart">
 				<td class="rank">6</td>
-				<td>10</td>
+		
 				<td>Stuttgart</td>
-				<td>630000</td>
+				<td>630,000</td>
 <td>6</td>
 <td>3</td>	
 <td>4</td>
@@ -35413,14 +35833,15 @@
 <td>2</td>
 <td>4</td>
 <td>2</td>
+<td>10</td>
 				
 			</tr>
 
 			<tr data-country="Bremen">
 				<td class="rank">7</td>
-				<td>15</td>
+			
 				<td>Bremen</td>
-				<td>566000</td>
+				<td>566,000</td>
 <td>5</td>
 <td>2</td>	
 <td>1</td>
@@ -35431,14 +35852,15 @@
 <td>2</td>
 <td>6</td>
 <td>3</td>
+<td>15</td>
 				
 			</tr>
 
 			<tr data-country="Dresden">
 				<td class="rank">8</td>
-				<td>17</td>
+		
 				<td>Dresden</td>
-				<td>556000</td>
+				<td>556,000</td>
 <td>5</td>
 <td>5</td>	
 <td>3</td>
@@ -35449,16 +35871,16 @@
 <td>1</td>
 <td>6</td>
 <td>1</td>
+<td>17</td>
 				
 			</tr>
 
 
 			<tr data-country="Karlsruhe">
 				<td class="rank">9</td>
-				<td>18</td>
+	
 				<td>Karlsruhe</td>
-				<td>308000</td>
-				<td>308000</td>
+				<td>308,000</td>
 <td>5</td>
 <td>2</td>	
 <td>2</td>
@@ -35469,13 +35891,14 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>18</td>
 			</tr>
 
 			<tr data-country="Augsburg">
 				<td class="rank">10</td>
-				<td>14</td>
+		
 				<td>Augsburg</td>
-				<td>295000</td>
+				<td>295,000</td>
 <td>5</td>
 <td>1</td>	
 <td>1</td>
@@ -35486,14 +35909,15 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
+<td>14</td>
 				
 			</tr>
 
 			<tr data-country="Dusseldorf">
 				<td class="rank">11</td>
-				<td>26</td>
+		
 				<td>Dusseldorf</td>
-				<td>620000</td>
+				<td>620,000</td>
 <td>4</td>
 <td>1</td>	
 <td>1</td>
@@ -35504,14 +35928,15 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
+<td>26</td>
 				
 			</tr>
 
 			<tr data-country="Dortmund">
 				<td class="rank">12</td>
-				<td>33</td>
+	
 				<td>Dortmund</td>
-				<td>587000</td>
+				<td>587,000</td>
 <td>4</td>
 <td>5</td>	
 <td>1</td>
@@ -35522,6 +35947,7 @@
 <td>2</td>
 <td>6</td>
 <td>1</td>
+<td>33</td>
 				
 			</tr>
 
@@ -35529,8 +35955,8 @@
 
 			<tr data-country="Chemnitz">
 				<td class="rank">13</td>
-				<td>6</td>
-				<td>244000</td>
+				<td>Chemnitz</td>
+				<td>244,000</td>
 <td>4</td>
 <td>4</td>	
 <td>1</td>
@@ -35541,14 +35967,15 @@
 <td>2</td>
 <td>3</td>
 <td>1</td>
+<td>6</td>
 				
 			</tr>
 
 			<tr data-country="Magdeburg">
 				<td class="rank">14</td>
-				<td>5</td>
+			
 				<td>Magdeburg</td>
-				<td>235000</td>
+				<td>235,000</td>
 <td>4</td>
 <td>0</td>	
 <td>1</td>
@@ -35559,14 +35986,15 @@
 <td>3</td>
 <td>4</td>
 <td>1</td>
+<td>5</td>
 				
 			</tr>
 
 			<tr data-country="Leipzig">
 				<td class="rank">15</td>
-				<td>30</td>
+			
 				<td>Leipzig</td>
-				<td>597000</td>
+				<td>597,000</td>
 <td>3</td>
 <td>2</td>	
 <td>2</td>
@@ -35577,14 +36005,15 @@
 <td>1</td>
 <td>4</td>
 <td>1</td>
+<td>30</td>
 				
 			</tr>
 
 			<tr data-country="Hannover">
 				<td class="rank">16</td>
-				<td>13</td>
+	
 				<td>Hannover</td>
-				<td>534000</td>
+				<td>534,000</td>
 <td>3</td>
 <td>5</td>	
 <td>3</td>
@@ -35595,14 +36024,15 @@
 <td>4</td>
 <td>4</td>
 <td>2</td>
+<td>13</td>
 				
 			</tr>
 
 			<tr data-country="Nuremberg">
 				<td class="rank">17</td>
-				<td>24</td>
+		
 				<td>Nuremberg</td>
-				<td>515000</td>
+				<td>515,000</td>
 <td>3</td>
 <td>3</td>	
 <td>1</td>
@@ -35613,14 +36043,15 @@
 <td>3</td>
 <td>5</td>
 <td>1</td>
+<td>24</td>
 				
 			</tr>
 
 			<tr data-country="Mannheim">
 				<td class="rank">18</td>
-				<td>2</td>
+		
 				<td>Mannheim</td>
-				<td>309000</td>
+				<td>309,000</td>
 <td>3</td>
 <td>1</td>	
 <td>2</td>
@@ -35631,15 +36062,16 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
+<td>2</td>
 				
 			</tr>
 
 
 			<tr data-country="Wiesbaden">
 				<td class="rank">19</td>
-				<td>7</td>
+			
 				<td>Wiesbaden</td>
-				<td>278000</td>
+				<td>278,000</td>
 <td>3</td>
 <td>1</td>	
 <td>1</td>
@@ -35650,13 +36082,14 @@
 <td>1</td>
 <td>2</td>
 <td>2</td>
+<td>7</td>
 			</tr>
 
 			<tr data-country="Rostock">
 				<td class="rank">20</td>
-				<td>12</td>
+			
 				<td>Rostock</td>
-				<td>209000</td>
+				<td>209,000</td>
 <td>3</td>
 <td>0</td>	
 <td>1</td>
@@ -35667,14 +36100,15 @@
 <td>2</td>
 <td>5</td>
 <td>0</td>
+<td>12</td>
 				
 			</tr>
 
 			<tr data-country="Essen">
 				<td class="rank">21</td>
-				<td>35</td>
+		
 				<td>Essen</td>
-				<td>582000</td>
+				<td>582,000</td>
 <td>2</td>
 <td>4</td>	
 <td>1</td>
@@ -35685,15 +36119,16 @@
 <td>4</td>
 <td>4</td>
 <td>1</td>
+<td>35</td>
 				
 			</tr>
 
 
 			<tr data-country="Bochum">
 				<td class="rank">22</td>
-				<td>32</td>
+				
 				<td>Bochum</td>
-				<td>364000</td>
+				<td>364,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -35704,14 +36139,15 @@
 <td>1</td>
 <td>6</td>
 <td>0</td>
+<td>32</td>
 				
 			</tr>
 
 			<tr data-country="Bielefeld">
 				<td class="rank">23</td>
-				<td>42</td>
+	
 				<td>Bielefeld</td>
-				<td>333000</td>
+				<td>333,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -35722,14 +36158,15 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>42</td>
 				
 			</tr>
 
 			<tr data-country="Gelsenkirchen">
 				<td class="rank">24</td>
-				<td>27</td>
+		
 				<td>Gelsenkirchen</td>
-				<td>259000</td>
+				<td>259,000</td>
 <td>2</td>
 <td>1</td>	
 <td>0</td>
@@ -35740,6 +36177,7 @@
 <td>0</td>
 <td>0</td>
 <td>1</td>
+<td>27</td>
 				
 			</tr>
 			<!-- //top 24 -->
@@ -35747,9 +36185,9 @@
 
 			<tr data-country="Aachen">
 				<td class="rank">25</td>
-				<td>25</td>
+			
 				<td>Aachen</td>
-				<td>248000</td>
+				<td>248,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -35760,15 +36198,16 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
+<td>25</td>
 				
 			</tr>
 
 
 			<tr data-country="Keel">
 				<td class="rank">26</td>
-				<td>20</td>
+	
 				<td>Keel</td>
-				<td>246000</td>
+				<td>246,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -35779,15 +36218,16 @@
 <td>4</td>
 <td>3</td>
 <td>0</td>
+<td>20</td>
 				
 			</tr>
 
 
 			<tr data-country="Mainz">
 				<td class="rank">27</td>
-				<td>16</td>
+			
 				<td>Mainz</td>
-				<td>217000</td>
+				<td>217,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -35798,14 +36238,15 @@
 <td>0</td>
 <td>1</td>
 <td>1</td>
+<td>16</td>
 				
 			</tr>
 
 			<tr data-country="Oberhausen">
 				<td class="rank">28</td>
-				<td>39</td>
+
 				<td>Oberhausen</td>
-				<td>209000</td>
+				<td>209,000</td>
 <td>2</td>
 <td>0</td>	
 <td>0</td>
@@ -35816,14 +36257,15 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>39</td>
 				
 			</tr>
 
 			<tr data-country="Osnabrück">
 				<td class="rank">29</td>
-				<td>4</td>
+		
 				<td>Osnabrück</td>
-				<td>164000</td>
+				<td>164,000</td>
 <td>2</td>
 <td>0</td>	
 <td>2</td>
@@ -35834,14 +36276,15 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
+<td>4</td>
 				
 			</tr>
 
 			<tr data-country="Duisburg">
 				<td class="rank">30</td>
-				<td>47</td>
+			
 				<td>Duisburg</td>
-				<td>495000</td>
+				<td>495,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -35852,14 +36295,15 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
+<td>47</td>
 				
 			</tr>
 
 			<tr data-country="Wuppertal">
 				<td class="rank">31</td>
-				<td>29</td>
+			
 				<td>Wuppertal</td>
-				<td>355000</td>
+				<td>355,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -35870,13 +36314,14 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
+<td>29</td>
 			</tr>
 
 			<tr data-country="Bonn">
 				<td class="rank">32</td>
-				<td>23</td>
+			
 				<td>Bonn</td>
-				<td>330000</td>
+				<td>330,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -35887,14 +36332,15 @@
 <td>0</td>
 <td>3</td>
 <td>2</td>
+<td>23</td>
 				
 			</tr>
 
 			<tr data-country="Muenster">
 				<td class="rank">33</td>
-				<td>28</td>
+				
 				<td>Muenster</td>
-				<td>316000</td>
+				<td>316,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -35905,15 +36351,16 @@
 <td>1</td>
 <td>5</td>
 <td>1</td>
+<td>28</td>
 				
 			</tr>
 
 
 			<tr data-country="Mönchengladbach">
 				<td class="rank">34</td>
-				<td>34</td>
+		
 				<td>Mönchengladbach</td>
-				<td>259000</td>
+				<td>259,000</td>
 <td>1</td>
 <td>2</td>	
 <td>1</td>
@@ -35924,15 +36371,16 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>34</td>
 				
 			</tr>
 
 
 			<tr data-country="Braunschweig">
 				<td class="rank">35</td>
-				<td>21</td>
+				
 				<td>Braunschweig</td>
-				<td>248000</td>
+				<td>248,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -35943,15 +36391,16 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
+<td>21</td>
 				
 			</tr>
 
 
 			<tr data-country="Halle">
 				<td class="rank">36</td>
-				<td>45</td>
+		
 				<td>Halle (Saale)</td>
-				<td>237000</td>
+				<td>237,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -35962,15 +36411,16 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>45</td>
 			</tr>
 			<!-- //top36 -->
 
 
 			<tr data-country="Freiburg">
 				<td class="rank">37</td>
-				<td>3</td>
+			
 				<td>Freiburg</td>
-				<td>230000</td>
+				<td>230,000</td>
 <td>1</td>
 <td>0</td>	
 <td>2</td>
@@ -35986,9 +36436,9 @@
 
 			<tr data-country="Krefeld">
 				<td class="rank">38</td>
-				<td>41</td>
+				
 				<td>Krefeld</td>
-				<td>226000</td>
+				<td>226,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -35999,15 +36449,16 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>41</td>
 				
 			</tr>
 
 
 			<tr data-country="Lübeck">
 				<td class="rank">39</td>
-				<td>37</td>
+	
 				<td>Lübeck</td>
-				<td>215000</td>
+				<td>215,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -36018,14 +36469,15 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
+<td>37</td>
 				
 			</tr>
 
 			<tr data-country="Erfurt">
 				<td class="rank">40</td>
-				<td>36</td>
+			
 				<td>Erfurt</td>
-				<td>213000</td>
+				<td>213,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -36036,6 +36488,7 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
+<td>36</td>
 				
 			</tr>
 
@@ -36043,9 +36496,9 @@
 
 			<tr data-country="Kassel">
 				<td class="rank">41</td>
-				<td>38</td>
+		
 				<td>Kassel</td>
-				<td>201000</td>
+				<td>201,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -36056,15 +36509,16 @@
 <td>2</td>
 <td>1</td>
 <td>0</td>
+<td>38</td>
 			</tr>
 
 
 
 			<tr data-country="Hagen">
 				<td class="rank">42</td>
-				<td>43</td>
+				
 				<td>Hagen</td>
-				<td>188000</td>
+				<td>188,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -36075,15 +36529,16 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>43</td>
 				
 			</tr>
 
 
 			<tr data-country="Potsdam">
 				<td class="rank">43</td>
-				<td>40</td>
+		
 				<td>Potsdam</td>
-				<td>182000</td>
+				<td>182,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -36094,15 +36549,16 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
+<td>40</td>
 				
 			</tr>
 
 
 			<tr data-country="Saarbrücken">
 				<td class="rank">44</td>
-				<td>19</td>
+		
 				<td>Saarbrücken</td>
-				<td>179000</td>
+				<td>179,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -36113,6 +36569,7 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>19</td>
 				
 			</tr>
 
@@ -36120,9 +36577,9 @@
 
 			<tr data-country="Ludwigshafen">
 				<td class="rank">45</td>
-				<td>44</td>
+			
 				<td>Ludwigshafen</td>
-				<td>172000</td>
+				<td>172,000</td>
 <td>1</td>
 <td>2</td>	
 <td>0</td>
@@ -36133,6 +36590,7 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>44</td>
 				
 			</tr>
 
@@ -36140,9 +36598,9 @@
 
 			<tr data-country="Oldenburg">
 				<td class="rank">46</td>
-				<td>31</td>
+				
 				<td>Oldenburg</td>
-				<td>169000</td>
+				<td>169,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -36153,14 +36611,15 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
+<td>31</td>
 				
 			</tr>
 
 			<tr data-country="Leverkusen">
 				<td class="rank">47</td>
-				<td>48</td>
+		
 				<td>Leverkusen</td>
-				<td>163000</td>
+				<td>163,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -36171,14 +36630,15 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>48</td>
 				
 			</tr>
 
 			<tr data-country="Hamm">
 				<td class="rank">48</td>
-				<td>46</td>
+			
 				<td>Hamm</td>
-				<td>178000</td>
+				<td>178,000</td>
 <td>0</td>
 <td>0</td>	
 <td>1</td>
@@ -36189,14 +36649,15 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>46</td>
 				
 			</tr>
 
 			<tr data-country="Mülheim">
 				<td class="rank">49</td>
-				<td>50</td>
+			
 				<td>Mülheim an der Ruhr</td>
-				<td>171000</td>
+				<td>171,000</td>
 <td>0</td>
 <td>0</td>	
 <td>0</td>
@@ -36207,6 +36668,7 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>50</td>
 				
 			</tr>
 
@@ -36214,9 +36676,9 @@
 
 			<tr data-country="Solingen">
 				<td class="rank">50</td>
-				<td>49</td>
+		
 				<td>Solingen</td>
-				<td>159000</td>
+				<td>159,000</td>
 <td>0</td>
 <td>1</td>	
 <td>0</td>
@@ -36227,6 +36689,7 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>49</td>
 				
 			</tr>
 
@@ -36252,7 +36715,7 @@
 </svg>
 	</td>
 
-	<td>Final Ranking<br> (out of 50)</td>
+	
 
 	<td>City</td>
 
@@ -36278,32 +36741,35 @@
 
 	<td>HIV / STD Doctors<br> and Clinics</td>
 
+	<td>Final Ranking<br> (out of 50)</td>
+
 	
 </tr>
 
 			<tr data-country="Cologne">
 				<td class="rank">1</td>
-				<td>1</td>
+	
 				<td>Cologne</td>
-				<td>1083000</td>
+				<td>1,083,000</td>
 <td>19</td>
 <td>6</td>	
 <td>9</td>
 <td>14</td>	
 <td>25</td>	
 <td>43</td>
-<td>587	</td>
+<td>587</td>
 <td>5	</td>
 <td>4</td>
 <td>7</td>
+<td>1</td>
 				
 			</tr>
 
 			<tr data-country="Dusseldorf">
 				<td class="rank">2</td>
-				<td>26</td>
+	
 				<td>Dusseldorf</td>
-				<td>620000</td>
+				<td>620,000</td>
 <td>4</td>
 <td>1</td>	
 <td>1</td>
@@ -36314,14 +36780,15 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
+<td>26</td>
 				
 			</tr>
 
 			<tr data-country="Essen">
 				<td class="rank">3</td>
-				<td>35</td>
+		
 				<td>Essen</td>
-				<td>582000</td>
+				<td>582,000</td>
 <td>2</td>
 <td>4</td>	
 <td>1</td>
@@ -36332,15 +36799,16 @@
 <td>4</td>
 <td>4</td>
 <td>1</td>
+<td>35</td>
 				
 				
 			</tr>
 
 			<tr data-country="Berlin">
 				<td class="rank">4</td>
-				<td>8</td>
+			
 				<td>Berlin</td>
-				<td>3600000</td>
+				<td>3,600,000</td>
 <td>32</td>
 <td>8</td>
 <td>6</td>
@@ -36351,14 +36819,15 @@
 <td>6</td>
 <td>11</td>
 <td>24</td>
+<td>8</td>
 				
 			</tr>
 
 			<tr data-country="Munich">
 				<td class="rank">5</td>
-				<td>11</td>
+		
 				<td>Munich</td>
-				<td>1488000</td>
+				<td>1,488,000</td>
 <td>13</td>
 <td>3</td>	
 <td>7</td>
@@ -36369,14 +36838,15 @@
 <td>2	</td>
 <td>8</td>
 <td>8	</td>
+<td>11</td>
 				
 			</tr>
 
 			<tr data-country="Mülheim">
 				<td class="rank">6</td>
-				<td>50</td>
+			
 				<td>Mülheim an der Ruhr</td>
-				<td>171000</td>
+				<td>171,000</td>
 <td>0</td>
 <td>0</td>	
 <td>0</td>
@@ -36387,14 +36857,15 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>50</td>
 				
 			</tr>
 
 			<tr data-country="Frankfurt">
 				<td class="rank">7</td>
-				<td>9</td>
+			
 				<td>Frankfurt am Main</td>
-				<td>764000</td>
+				<td>764,000</td>
 <td>6</td>
 <td>4</td>	
 <td>5</td>
@@ -36405,13 +36876,14 @@
 <td>1</td>
 <td>2</td>
 <td>4</td>
+<td>9</td>
 			</tr>
 
 			<tr data-country="Bochum">
 				<td class="rank">8</td>
-				<td>32</td>
+			
 				<td>Bochum</td>
-				<td>364000</td>
+				<td>364,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -36422,13 +36894,14 @@
 <td>1</td>
 <td>6</td>
 <td>0</td>
+<td>32</td>
 			</tr>
 
 			<tr data-country="Mannheim">
 				<td class="rank">9</td>
-				<td>2</td>
+		
 				<td>Mannheim</td>
-				<td>309000</td>
+				<td>309,000</td>
 <td>3</td>
 <td>1</td>	
 <td>2</td>
@@ -36439,13 +36912,14 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
+<td>2</td>
 			</tr>
 
 			<tr data-country="Duisburg">
 				<td class="rank">10</td>
-				<td>47</td>
+				
 				<td>Duisburg</td>
-				<td>495000</td>
+				<td>495,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -36456,14 +36930,15 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
+<td>47</td>
 				
 			</tr>
 
 			<tr data-country="Oberhausen">
 				<td class="rank">11</td>
-				<td>39</td>
+		
 				<td>Oberhausen</td>
-				<td>209000</td>
+				<td>209,000</td>
 <td>2</td>
 <td>0</td>	
 <td>0</td>
@@ -36474,14 +36949,15 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>39</td>
 				
 			</tr>
 
 			<tr data-country="Karlsruhe">
 				<td class="rank">12</td>
-				<td>18</td>
+			
 				<td>Karlsruhe</td>
-				<td>308000</td>
+				<td>308,000</td>
 <td>5</td>
 <td>2</td>	
 <td>2</td>
@@ -36492,6 +36968,7 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>18</td>
 				
 			</tr>
 
@@ -36499,9 +36976,9 @@
 
 			<tr data-country="Dortmund">
 				<td class="rank">13</td>
-				<td>33</td>
+			
 				<td>Dortmund</td>
-				<td>587000</td>
+				<td>587,000</td>
 <td>4</td>
 <td>5</td>	
 <td>1</td>
@@ -36512,14 +36989,15 @@
 <td>2</td>
 <td>6</td>
 <td>1</td>
+<td>33</td>
 				
 			</tr>
 
 			<tr data-country="Nuremberg">
 				<td class="rank">14</td>
-				<td>24</td>
+		
 				<td>Nuremberg</td>
-				<td>515000</td>
+				<td>515,000</td>
 <td>3</td>
 <td>3</td>	
 <td>1</td>
@@ -36530,14 +37008,15 @@
 <td>3</td>
 <td>5</td>
 <td>1</td>
+<td>24</td>
 				
 			</tr>
 
 			<tr data-country="Stuttgart">
 				<td class="rank">15</td>
-				<td>10</td>
+			
 				<td>Stuttgart</td>
-				<td>630000</td>
+				<td>630,000</td>
 <td>6</td>
 <td>3</td>	
 <td>4</td>
@@ -36548,13 +37027,14 @@
 <td>2</td>
 <td>4</td>
 <td>2</td>
+<td>10</td>
 			</tr>
 
 			<tr data-country="Hannover">
 				<td class="rank">16</td>
-				<td>13</td>
+			
 				<td>Hannover</td>
-				<td>534000</td>
+				<td>534,000</td>
 <td>3</td>
 <td>5</td>	
 <td>3</td>
@@ -36565,14 +37045,15 @@
 <td>4</td>
 <td>4</td>
 <td>2</td>
+<td>13</td>
 				
 			</tr>
 
 			<tr data-country="Mönchengladbach">
 				<td class="rank">17</td>
-				<td>34</td>
+		
 				<td>Mönchengladbach</td>
-				<td>259000</td>
+				<td>259,000</td>
 <td>1</td>
 <td>2</td>	
 <td>1</td>
@@ -36583,14 +37064,15 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>34</td>
 				
 			</tr>
 
 			<tr data-country="Gelsenkirchen">
 				<td class="rank">18</td>
-				<td>27</td>
+			
 				<td>Gelsenkirchen</td>
-				<td>259000</td>
+				<td>259,000</td>
 <td>2</td>
 <td>1</td>	
 <td>0</td>
@@ -36601,14 +37083,15 @@
 <td>0</td>
 <td>0</td>
 <td>1</td>
+<td>27</td>
 				
 			</tr>
 
 			<tr data-country="Bremen">
 				<td class="rank">19</td>
-				<td>15</td>
+			
 				<td>Bremen</td>
-				<td>566000</td>
+				<td>566,000</td>
 <td>5</td>
 <td>2</td>	
 <td>1</td>
@@ -36619,14 +37102,15 @@
 <td>2</td>
 <td>6</td>
 <td>3</td>
+<td>15</td>
 				
 			</tr>
 
 			<tr data-country="Saarbrücken">
 				<td class="rank">20</td>
-				<td>19</td>
+			
 				<td>Saarbrücken</td>
-				<td>179000</td>
+				<td>179,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -36637,13 +37121,14 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>19</td>
 			</tr>
 
 			<tr data-country="Wiesbaden">
 				<td class="rank">21</td>
-				<td>7</td>
+			
 				<td>Wiesbaden</td>
-				<td>278000</td>
+				<td>278,000</td>
 <td>3</td>
 <td>1</td>	
 <td>1</td>
@@ -36654,14 +37139,15 @@
 <td>1</td>
 <td>2</td>
 <td>2</td>
+<td>7</td>
 				
 			</tr>
 
 			<tr data-country="Bielefeld">
 				<td class="rank">22</td>
-				<td>42</td>
+				
 				<td>Bielefeld</td>
-				<td>333000</td>
+				<td>333,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -36672,14 +37158,15 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>42</td>
 				
 			</tr>
 
 			<tr data-country="Wuppertal">
 				<td class="rank">23</td>
-				<td>29</td>
+		
 				<td>Wuppertal</td>
-				<td>355000</td>
+				<td>355,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -36690,24 +37177,26 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
+<td>29</td>
 				
 			</tr>
 
 			<tr data-country="Hamburg">
 				<td class="rank">24</td>
-				<td>22</td>
+				
 				<td>Hamburg</td>
-				<td>1852000</td>
+				<td>1,852,000</td>
 <td>16</td>
 <td>8</td>	
-<td>6	</td>
+<td>6</td>
 <td>16</td>	
 <td>17</td>	
-<td>71	</td>
-<td>226	</td>
-<td>7	</td>
+<td>71</td>
+<td>226</td>
+<td>7</td>
 <td>8</td>
-<td>6	</td>
+<td>6</td>
+<td>22</td>
 				
 			</tr>
 
@@ -36715,9 +37204,9 @@
 
 			<tr data-country="Leipzig">
 				<td class="rank">25</td>
-				<td>30</td>
+			
 				<td>Leipzig</td>
-				<td>597000</td>
+				<td>597,000</td>
 <td>3</td>
 <td>2</td>	
 <td>2</td>
@@ -36728,14 +37217,15 @@
 <td>1</td>
 <td>4</td>
 <td>1</td>
+<td>30</td>
 				
 			</tr>
 
 			<tr data-country="Oldenburg">
 				<td class="rank">26</td>
-				<td>31</td>
+		
 				<td>Oldenburg</td>
-				<td>169000</td>
+				<td>169,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -36746,14 +37236,15 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
+<td>31</td>
 				
 			</tr>
 
 			<tr data-country="Ludwigshafen">
 				<td class="rank">27</td>
-				<td>44</td>
+			
 				<td>Ludwigshafen</td>
-				<td>172000</td>
+				<td>172,000</td>
 <td>1</td>
 <td>2</td>	
 <td>0</td>
@@ -36764,13 +37255,14 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>44</td>
 			</tr>
 
 			<tr data-country="Mainz">
 				<td class="rank">28</td>
-				<td>16</td>
+				
 				<td>Mainz</td>
-				<td>217000</td>
+				<td>217,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -36781,14 +37273,15 @@
 <td>0</td>
 <td>1</td>
 <td>1</td>
+<td>16</td>
 				
 			</tr>
 
 			<tr data-country="Bonn">
 				<td class="rank">29</td>
-				<td>23</td>
+			
 				<td>Bonn</td>
-				<td>330000</td>
+				<td>330,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -36799,14 +37292,15 @@
 <td>0</td>
 <td>3</td>
 <td>2</td>
+<td>23</td>
 				
 			</tr>
 
 			<tr data-country="Osnabrück">
 				<td class="rank">30</td>
-				<td>4</td>
+		
 				<td>Osnabrück</td>
-				<td>164000</td>
+				<td>164,000</td>
 <td>2</td>
 <td>0</td>	
 <td>2</td>
@@ -36817,14 +37311,15 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
+<td>4</td>
 				
 			</tr>
 
 			<tr data-country="Kassel">
 				<td class="rank">31</td>
-				<td>38</td>
+			
 				<td>Kassel</td>
-				<td>201000</td>
+				<td>201,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -36835,14 +37330,15 @@
 <td>2</td>
 <td>1</td>
 <td>0</td>
+<td>38</td>
 				
 			</tr>
 
 			<tr data-country="Potsdam">
 				<td class="rank">32</td>
-				<td>40</td>
+		
 				<td>Potsdam</td>
-				<td>182000</td>
+				<td>182,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -36853,14 +37349,15 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
+<td>40</td>
 				
 			</tr>
 
 			<tr data-country="Freiburg">
 				<td class="rank">33</td>
-				<td>3</td>
+		
 				<td>Freiburg</td>
-				<td>230000</td>
+				<td>230,000</td>
 <td>1</td>
 <td>0</td>	
 <td>2</td>
@@ -36876,9 +37373,9 @@
 
 			<tr data-country="Muenster">
 				<td class="rank">34</td>
-				<td>28</td>
+				
 				<td>Muenster</td>
-				<td>316000</td>
+				<td>316,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -36889,14 +37386,15 @@
 <td>1</td>
 <td>5</td>
 <td>1</td>
+<td>28</td>
 				
 			</tr>
 
 			<tr data-country="Augsburg">
 				<td class="rank">35</td>
-				<td>14</td>
+		
 				<td>Augsburg</td>
-				<td>295000</td>
+				<td>295,000</td>
 <td>5</td>
 <td>1</td>	
 <td>1</td>
@@ -36907,14 +37405,15 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
+<td>14</td>
 				
 			</tr>
 
 			<tr data-country="Krefeld">
 				<td class="rank">36</td>
-				<td>41</td>
+		
 				<td>Krefeld</td>
-				<td>226000</td>
+				<td>226,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -36925,6 +37424,7 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>41</td>
 				
 			</tr>
 
@@ -36932,9 +37432,9 @@
 
 			<tr data-country="Aachen">
 				<td class="rank">37</td>
-				<td>25</td>
+				
 				<td>Aachen</td>
-				<td>248000</td>
+				<td>248,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -36945,14 +37445,15 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
+<td>25</td>
 				
 			</tr>
 
 			<tr data-country="Braunschweig">
 				<td class="rank">38</td>
-				<td>21</td>
+				
 				<td>Braunschweig</td>
-				<td>248000</td>
+				<td>248,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -36963,14 +37464,15 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
+<td>21</td>
 				
 			</tr>
 
 			<tr data-country="Magdeburg">
 				<td class="rank">39</td>
-				<td>5</td>
+			
 				<td>Magdeburg</td>
-				<td>235000</td>
+				<td>235,000</td>
 <td>4</td>
 <td>0</td>	
 <td>1</td>
@@ -36981,14 +37483,15 @@
 <td>3</td>
 <td>4</td>
 <td>1</td>
+<td>5</td>
 				
 			</tr>
 
 			<tr data-country="Erfurt">
 				<td class="rank">40</td>
-				<td>36</td>
+			
 				<td>Erfurt</td>
-				<td>213000</td>
+				<td>213,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -36999,14 +37502,15 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
+<td>36</td>
 				
 			</tr>
 
 			<tr data-country="Chemnitz">
 				<td class="rank">41</td>
-				<td>6</td>
+		
 				<td>Chemnitz</td>
-				<td>244000</td>
+				<td>244,000</td>
 <td>4</td>
 <td>4</td>	
 <td>1</td>
@@ -37017,14 +37521,15 @@
 <td>2</td>
 <td>3</td>
 <td>1</td>
+<td>6</td>
 				
 			</tr>
 
 			<tr data-country="Dresden">
 				<td class="rank">42</td>
-				<td>17</td>
+		
 				<td>Dresden</td>
-				<td>556000</td>
+				<td>556,000</td>
 <td>5</td>
 <td>5</td>	
 <td>3</td>
@@ -37035,14 +37540,15 @@
 <td>1</td>
 <td>6</td>
 <td>1</td>
+<td>17</td>
 				
 			</tr>
 
 			<tr data-country="Hamm">
 				<td class="rank">43</td>
-				<td>46</td>
+				
 				<td>Hamm</td>
-				<td>178000</td>
+				<td>178,000</td>
 <td>0</td>
 <td>0</td>	
 <td>1</td>
@@ -37053,14 +37559,15 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>46</td>
 				
 			</tr>
 
 			<tr data-country="Hagen">
 				<td class="rank">44</td>
-				<td>43</td>
+	
 				<td>Hagen</td>
-				<td>188000</td>
+				<td>188,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -37071,15 +37578,16 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>43</td>
 				
 			</tr>
 
 
 			<tr data-country="Leverkusen">
 				<td class="rank">45</td>
-				<td>48</td>
+		
 				<td>Leverkusen</td>
-				<td>163000</td>
+				<td>163,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -37090,14 +37598,15 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>48</td>
 				
 			</tr>
 
 			<tr data-country="Lübeck">
 				<td class="rank">46</td>
-				<td>37</td>
+				
 				<td>Lübeck</td>
-				<td>215000</td>
+				<td>215,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -37108,15 +37617,16 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
+<td>37</td>
 				
 			</tr>
 
 			
 			<tr data-country="Keel">
 				<td class="rank">47</td>
-				<td>20</td>
+			
 				<td>Keel</td>
-				<td>246000</td>
+				<td>246,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -37127,15 +37637,16 @@
 <td>4</td>
 <td>3</td>
 <td>0</td>
+<td>20</td>
 				
 			</tr>
 
 
 			<tr data-country="Halle">
 				<td class="rank">48</td>
-				<td>45</td>
+	
 				<td>Halle (Saale)</td>
-				<td>237000</td>
+				<td>237,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -37146,14 +37657,15 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>45</td>
 				
 			</tr>
 
 			<tr data-country="Solingen">
 				<td class="rank">49</td>
-				<td>49</td>
+	
 				<td>Solingen</td>
-				<td>159000</td>
+				<td>159,000</td>
 <td>0</td>
 <td>1</td>	
 <td>0</td>
@@ -37164,14 +37676,15 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>49</td>
 				
 			</tr>
 
 			<tr data-country="Rostock">
 				<td class="rank">50</td>
-				<td>12</td>
+			
 				<td>Rostock</td>
-				<td>209000</td>
+				<td>209,000</td>
 <td>3</td>
 <td>0</td>	
 <td>1</td>
@@ -37182,6 +37695,7 @@
 <td>2</td>
 <td>5</td>
 <td>0</td>
+<td>12</td>
 				
 			</tr>
 
@@ -37202,7 +37716,7 @@
 </svg>
 	</td>
 
-	<td>Final Ranking<br> (out of 50)</td>
+	
 
 	<td>City</td>
 
@@ -37228,32 +37742,35 @@
 
 	<td>HIV / STD Doctors<br> and Clinics</td>
 
+	<td>Final Ranking<br> (out of 50)</td>
+
 	
 </tr>
 
 			<tr data-country="Hamburg">
 				<td class="rank">1</td>
-				<td>22</td>
+	
 				<td>Hamburg</td>
-				<td>1852000</td>
+				<td>1,852,000</td>
 <td>16</td>
 <td>8</td>	
-<td>6	</td>
+<td>6</td>
 <td>16</td>	
 <td>17</td>	
-<td>71	</td>
-<td>226	</td>
-<td>7	</td>
+<td>71</td>
+<td>226</td>
+<td>7</td>
 <td>8</td>
-<td>6	</td>
+<td>6</td>
+<td>22</td>
 				
 			</tr>
 
 			<tr data-country="Berlin">
 				<td class="rank">2</td>
-				<td>8</td>
+			
 				<td>Berlin</td>
-				<td>3600000</td>
+				<td>3,600,000</td>
 <td>32</td>
 <td>8</td>
 <td>6</td>
@@ -37264,32 +37781,34 @@
 <td>6</td>
 <td>11</td>
 <td>24</td>
+<td>8</td>
 				
 			</tr>
 
 			<tr data-country="Cologne">
 				<td class="rank">3</td>
-				<td>1</td>
+		
 				<td>Cologne</td>
-				<td>1083000</td>
+				<td>1,083,000</td>
 <td>19</td>
 <td>6</td>	
 <td>9</td>
 <td>14</td>	
 <td>25</td>	
 <td>43</td>
-<td>587	</td>
+<td>587</td>
 <td>5	</td>
 <td>4</td>
 <td>7</td>
+<td>1</td>
 				
 			</tr>
 
 			<tr data-country="Essen">
 				<td class="rank">4</td>
-				<td>35</td>
+		
 				<td>Essen</td>
-				<td>582000</td>
+				<td>582,000</td>
 <td>2</td>
 <td>4</td>	
 <td>1</td>
@@ -37300,15 +37819,16 @@
 <td>4</td>
 <td>4</td>
 <td>1</td>
+<td>35</td>
 				
 				
 			</tr>
 
 			<tr data-country="Hannover">
 				<td class="rank">5</td>
-				<td>13</td>
+				
 				<td>Hannover</td>
-				<td>534000</td>
+				<td>534,000</td>
 <td>3</td>
 <td>5</td>	
 <td>3</td>
@@ -37319,14 +37839,15 @@
 <td>4</td>
 <td>4</td>
 <td>2</td>
+<td>13</td>
 				
 			</tr>
 
 			<tr data-country="Keel">
 				<td class="rank">6</td>
-				<td>20</td>
+	
 				<td>Keel</td>
-				<td>246000</td>
+				<td>246,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -37337,14 +37858,15 @@
 <td>4</td>
 <td>3</td>
 <td>0</td>
+<td>20</td>
 				
 			</tr>
 
 			<tr data-country="Nuremberg">
 				<td class="rank">7</td>
-				<td>24</td>
+			
 				<td>Nuremberg</td>
-				<td>515000</td>
+				<td>515,000</td>
 <td>3</td>
 <td>3</td>	
 <td>1</td>
@@ -37355,14 +37877,15 @@
 <td>3</td>
 <td>5</td>
 <td>1</td>
+<td>24</td>
 				
 			</tr>
 
 			<tr data-country="Magdeburg">
 				<td class="rank">8</td>
-				<td>5</td>
+				
 				<td>Magdeburg</td>
-				<td>235000</td>
+				<td>235,000</td>
 <td>4</td>
 <td>0</td>	
 <td>1</td>
@@ -37373,14 +37896,15 @@
 <td>3</td>
 <td>4</td>
 <td>1</td>
+<td>5</td>
 				
 			</tr>
 
 			<tr data-country="Freiburg">
 				<td class="rank">9</td>
-				<td>3</td>
+		
 				<td>Freiburg</td>
-				<td>230000</td>
+				<td>230,000</td>
 <td>1</td>
 <td>0</td>	
 <td>2</td>
@@ -37396,27 +37920,28 @@
 
 			<tr data-country="Munich">
 				<td class="rank">10</td>
-				<td>11</td>
+			
 				<td>Munich</td>
-				<td>1488000</td>
-				<td>13</td>
-				<td>3</td>	
-				<td>7</td>
-				<td>12</td>	
-				<td>14</td>	
-				<td>86</td>
-				<td>388	</td>
-				<td>2	</td>
-				<td>8</td>
-				<td>8	</td>
+				<td>1,488,000</td>
+<td>13</td>
+<td>3</td>	
+<td>7</td>
+<td>12</td>	
+<td>14</td>	
+<td>86</td>
+<td>388	</td>
+<td>2	</td>
+<td>8</td>
+<td>8	</td>
+<td>11</td>
 				
 			</tr>
 
 			<tr data-country="Stuttgart">
 				<td class="rank">11</td>
-				<td>10</td>
+			
 				<td>Stuttgart</td>
-				<td>630000</td>
+				<td>630,000</td>
 <td>6</td>
 <td>3</td>	
 <td>4</td>
@@ -37427,14 +37952,15 @@
 <td>2</td>
 <td>4</td>
 <td>2</td>
+<td>10</td>
 				
 			</tr>
 
 			<tr data-country="Dortmund">
 				<td class="rank">12</td>
-				<td>33</td>
+		
 				<td>Dortmund</td>
-				<td>587000</td>
+				<td>587,000</td>
 <td>4</td>
 <td>5</td>	
 <td>1</td>
@@ -37445,6 +37971,7 @@
 <td>2</td>
 <td>6</td>
 <td>1</td>
+<td>33</td>
 				
 			</tr>
 
@@ -37452,9 +37979,9 @@
 
 			<tr data-country="Bremen">
 				<td class="rank">13</td>
-				<td>15</td>
+		
 				<td>Bremen</td>
-				<td>566000</td>
+				<td>566,000</td>
 <td>5</td>
 <td>2</td>	
 <td>1</td>
@@ -37465,14 +37992,15 @@
 <td>2</td>
 <td>6</td>
 <td>3</td>
+<td>15</td>
 				
 			</tr>
 
 			<tr data-country="Chemnitz">
 				<td class="rank">14</td>
-				<td>6</td>
+		
 				<td>Chemnitz</td>
-				<td>244000</td>
+				<td>244,000</td>
 <td>4</td>
 <td>4</td>	
 <td>1</td>
@@ -37483,14 +38011,15 @@
 <td>2</td>
 <td>3</td>
 <td>1</td>
+<td>6</td>
 				
 			</tr>
 
 			<tr data-country="Rostock">
 				<td class="rank">15</td>
-				<td>12</td>
+		
 				<td>Rostock</td>
-				<td>209000</td>
+				<td>209,000</td>
 <td>3</td>
 <td>0</td>	
 <td>1</td>
@@ -37501,14 +38030,15 @@
 <td>2</td>
 <td>5</td>
 <td>0</td>
+<td>12</td>
 				
 			</tr>
 
 			<tr data-country="Kassel">
 				<td class="rank">16</td>
-				<td>38</td>
+		
 				<td>Kassel</td>
-				<td>201000</td>
+				<td>201,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -37519,14 +38049,15 @@
 <td>2</td>
 <td>1</td>
 <td>0</td>
+<td>38</td>
 				
 			</tr>
 
 			<tr data-country="Frankfurt">
 				<td class="rank">17</td>
-				<td>9</td>
+	
 				<td>Frankfurt am Main</td>
-				<td>764000</td>
+				<td>764,000</td>
 <td>6</td>
 <td>4</td>	
 <td>5</td>
@@ -37537,14 +38068,15 @@
 <td>1</td>
 <td>2</td>
 <td>4</td>
+<td>9</td>
 				
 			</tr>
 
 			<tr data-country="Leipzig">
 				<td class="rank">18</td>
-				<td>30</td>
+		
 				<td>Leipzig</td>
-				<td>597000</td>
+				<td>597,000</td>
 <td>3</td>
 <td>2</td>	
 <td>2</td>
@@ -37555,15 +38087,16 @@
 <td>1</td>
 <td>4</td>
 <td>1</td>
+<td>30</td>
 				
 			</tr>
 
 
 			<tr data-country="Dresden">
 				<td class="rank">19</td>
-				<td>17</td>
+			
 				<td>Dresden</td>
-				<td>556000</td>
+				<td>556,000</td>
 <td>5</td>
 <td>5</td>	
 <td>3</td>
@@ -37574,14 +38107,15 @@
 <td>1</td>
 <td>6</td>
 <td>1</td>
+<td>17</td>
 				
 			</tr>
 
 			<tr data-country="Duisburg">
 				<td class="rank">20</td>
-				<td>47</td>
+		
 				<td>Duisburg</td>
-				<td>495000</td>
+				<td>495,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -37592,14 +38126,15 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
+<td>47</td>
 				
 			</tr>
 
 			<tr data-country="Bochum">
 				<td class="rank">21</td>
-				<td>32</td>
+		
 				<td>Bochum</td>
-				<td>364000</td>
+				<td>364,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -37610,14 +38145,15 @@
 <td>1</td>
 <td>6</td>
 <td>0</td>
+<td>32</td>
 				
 			</tr>
 
 			<tr data-country="Bielefeld">
 				<td class="rank">22</td>
-				<td>42</td>
+		
 				<td>Bielefeld</td>
-				<td>333000</td>
+				<td>333,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -37628,32 +38164,34 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>42</td>
 				
 			</tr>
 
 			<tr data-country="Muenster">
 				<td class="rank">23</td>
-				<td>28</td>
+
 				<td>Muenster</td>
-				<td>316000</td>
-				<td>1</td>
-				<td>1</td>	
-				<td>1</td>
-				<td>1</td>	
-				<td>1</td>	
-				<td>13</td>
-				<td>152</td>
-				<td>1</td>
-				<td>5</td>
-				<td>1</td>
+				<td>316,000</td>
+<td>1</td>
+<td>1</td>	
+<td>1</td>
+<td>1</td>	
+<td>1</td>	
+<td>13</td>
+<td>152</td>
+<td>1</td>
+<td>5</td>
+<td>1</td>
+<td>28</td>
 				
 			</tr>
 
 			<tr data-country="Augsburg">
 				<td class="rank">24</td>
-				<td>14</td>
+		
 				<td>Augsburg</td>
-				<td>295000</td>
+				<td>295,000</td>
 <td>5</td>
 <td>1</td>	
 <td>1</td>
@@ -37664,6 +38202,7 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
+<td>14</td>
 				
 			</tr>
 
@@ -37671,27 +38210,28 @@
 
 			<tr data-country="Wiesbaden">
 				<td class="rank">25</td>
-				<td>7</td>
+			
 				<td>Wiesbaden</td>
-				<td>278000</td>
-				<td>3</td>
-				<td>1</td>	
-				<td>1</td>
-				<td>0</td>	
-				<td>1</td>	
-				<td>15</td>
-				<td>241</td>
-				<td>1</td>
-				<td>2</td>
-				<td>2</td>
+				<td>278,000</td>
+<td>3</td>
+<td>1</td>	
+<td>1</td>
+<td>0</td>	
+<td>1</td>	
+<td>15</td>
+<td>241</td>
+<td>1</td>
+<td>2</td>
+<td>2</td>
+<td>7</td>
 				
 			</tr>
 
 			<tr data-country="Lübeck">
 				<td class="rank">26</td>
-				<td>37</td>
+		
 				<td>Lübeck</td>
-				<td>215000</td>
+				<td>215,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -37702,14 +38242,15 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
+<td>37</td>
 				
 			</tr>
 
 			<tr data-country="Erfurt">
 				<td class="rank">27</td>
-				<td>36</td>
+		
 				<td>Erfurt</td>
-				<td>213000</td>
+				<td>213,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -37720,13 +38261,14 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
+<td>36</td>
 			</tr>
 
 			<tr data-country="Hagen">
 				<td class="rank">28</td>
-				<td>43</td>
+			
 				<td>Hagen</td>
-				<td>188000</td>
+				<td>188,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -37737,14 +38279,15 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>43</td>
 				
 			</tr>
 
 			<tr data-country="Saarbrücken">
 				<td class="rank">29</td>
-				<td>19</td>
+		
 				<td>Saarbrücken</td>
-				<td>179000</td>
+				<td>179,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -37755,14 +38298,15 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>19</td>
 				
 			</tr>
 
 			<tr data-country="Dusseldorf">
 				<td class="rank">30</td>
-				<td>26</td>
+				
 				<td>Dusseldorf</td>
-				<td>620000</td>
+				<td>620,000</td>
 <td>4</td>
 <td>1</td>	
 <td>1</td>
@@ -37773,14 +38317,15 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
+<td>26</td>
 				
 			</tr>
 
 			<tr data-country="Wuppertal">
 				<td class="rank">31</td>
-				<td>29</td>
+			
 				<td>Wuppertal</td>
-				<td>355000</td>
+				<td>355,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -37791,14 +38336,15 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
+<td>29</td>
 				
 			</tr>
 
 			<tr data-country="Bonn">
 				<td class="rank">32</td>
-				<td>23</td>
+		
 				<td>Bonn</td>
-				<td>330000</td>
+				<td>330,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -37809,15 +38355,16 @@
 <td>0</td>
 <td>3</td>
 <td>2</td>
+<td>23</td>
 				
 			</tr>
 
 			
 			<tr data-country="Mannheim">
 				<td class="rank">33</td>
-				<td>2</td>
+			
 				<td>Mannheim</td>
-				<td>309000</td>
+				<td>309,000</td>
 <td>3</td>
 <td>1</td>	
 <td>2</td>
@@ -37828,14 +38375,15 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
+<td>2</td>
 				
 			</tr>
 
 			<tr data-country="Karlsruhe">
 				<td class="rank">34</td>
-				<td>18</td>
+
 				<td>Karlsruhe</td>
-				<td>308000</td>
+				<td>308,000</td>
 <td>5</td>
 <td>2</td>	
 <td>2</td>
@@ -37846,14 +38394,15 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>18</td>
 				
 			</tr>
 
 			<tr data-country="Mönchengladbach">
 				<td class="rank">35</td>
-				<td>34</td>
+			
 				<td>Mönchengladbach</td>
-				<td>259000</td>
+				<td>259,000</td>
 <td>1</td>
 <td>2</td>	
 <td>1</td>
@@ -37864,14 +38413,15 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>34</td>
 				
 			</tr>
 
 			<tr data-country="Gelsenkirchen">
 				<td class="rank">36</td>
-				<td>27</td>
+		
 				<td>Gelsenkirchen</td>
-				<td>259000</td>
+				<td>259,000</td>
 <td>2</td>
 <td>1</td>	
 <td>0</td>
@@ -37882,6 +38432,7 @@
 <td>0</td>
 <td>0</td>
 <td>1</td>
+<td>27</td>
 				
 			</tr>
 
@@ -37891,9 +38442,9 @@
 
 			<tr data-country="Aachen">
 				<td class="rank">37</td>
-				<td>25</td>
+			
 				<td>Aachen</td>
-				<td>248000</td>
+				<td>248,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -37904,14 +38455,15 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
+<td>25</td>
 				
 			</tr>
 
 			<tr data-country="Braunschweig">
 				<td class="rank">38</td>
-				<td>21</td>
+			
 				<td>Braunschweig</td>
-				<td>248000</td>
+				<td>248,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -37922,14 +38474,15 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
+<td>21</td>
 				
 			</tr>
 
 			<tr data-country="Halle">
 				<td class="rank">39</td>
-				<td>45</td>
+			
 				<td>Halle (Saale)</td>
-				<td>237000</td>
+				<td>237,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -37940,14 +38493,15 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>45</td>
 				
 			</tr>
 
 			<tr data-country="Krefeld">
 				<td class="rank">40</td>
-				<td>41</td>
+
 				<td>Krefeld</td>
-				<td>226000</td>
+				<td>226,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -37958,14 +38512,15 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>41</td>
 				
 			</tr>
 
 			<tr data-country="Mainz">
 				<td class="rank">41</td>
-				<td>16</td>
+	
 				<td>Mainz</td>
-				<td>217000</td>
+				<td>217,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -37976,14 +38531,15 @@
 <td>0</td>
 <td>1</td>
 <td>1</td>
+<td>16</td>
 				
 			</tr>
 
 			<tr data-country="Oberhausen">
 				<td class="rank">42</td>
-				<td>39</td>
+			
 				<td>Oberhausen</td>
-				<td>209000</td>
+				<td>209,000</td>
 <td>2</td>
 <td>0</td>	
 <td>0</td>
@@ -37994,15 +38550,16 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>39</td>
 				
 			</tr>
 
 
 			<tr data-country="Potsdam">
 				<td class="rank">43</td>
-				<td>40</td>
+	
 				<td>Potsdam</td>
-				<td>182000</td>
+				<td>182,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -38013,14 +38570,15 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
+<td>40</td>
 				
 			</tr>
 
 			<tr data-country="Hamm">
 				<td class="rank">44</td>
-				<td>46</td>
+
 				<td>Hamm</td>
-				<td>178000</td>
+				<td>178,000</td>
 <td>0</td>
 <td>0</td>	
 <td>1</td>
@@ -38031,14 +38589,15 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>46</td>
 				
 			</tr>
 
 			<tr data-country="Ludwigshafen">
 				<td class="rank">45</td>
-				<td>44</td>
+	
 				<td>Ludwigshafen</td>
-				<td>172000</td>
+				<td>172,000</td>
 <td>1</td>
 <td>2</td>	
 <td>0</td>
@@ -38049,14 +38608,15 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>44</td>
 				
 			</tr>
 
 			<tr data-country="Mülheim">
 				<td class="rank">46</td>
-				<td>50</td>
+
 				<td>Mülheim an der Ruhr</td>
-				<td>171000</td>
+				<td>171,000</td>
 <td>0</td>
 <td>0</td>	
 <td>0</td>
@@ -38067,14 +38627,15 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>50</td>
 				
 			</tr>
 
 			<tr data-country="Oldenburg">
 				<td class="rank">47</td>
-				<td>31</td>
+		
 				<td>Oldenburg</td>
-				<td>169000</td>
+				<td>169,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -38085,15 +38646,16 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
+<td>31</td>
 				
 			</tr>
 
 
 			<tr data-country="Osnabrück">
 				<td class="rank">48</td>
-				<td>4</td>
+		
 				<td>Osnabrück</td>
-				<td>164000</td>
+				<td>164,000</td>
 <td>2</td>
 <td>0</td>	
 <td>2</td>
@@ -38104,15 +38666,16 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
+<td>4</td>
 				
 			</tr>
 
 
 			<tr data-country="Leverkusen">
 				<td class="rank">49</td>
-				<td>48</td>
+			
 				<td>Leverkusen</td>
-				<td>163000</td>
+				<td>163,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -38123,15 +38686,16 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>48</td>
 				
 			</tr>
 
 
 			<tr data-country="Solingen">
 				<td class="rank">50</td>
-				<td>49</td>
+				
 				<td>Solingen</td>
-				<td>159000</td>
+				<td>159,000</td>
 <td>0</td>
 <td>1</td>	
 <td>0</td>
@@ -38142,6 +38706,7 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>49</td>
 				
 			</tr>
 
@@ -38163,7 +38728,7 @@
 </svg>
 	</td>
 
-	<td>Final Ranking<br> (out of 50)</td>
+	
 
 	<td>City</td>
 
@@ -38189,14 +38754,16 @@
 
 	<td>HIV / STD Doctors<br> and Clinics</td>
 
+	<td>Final Ranking<br> (out of 50)</td>
+
 	
 </tr>
 
 			<tr data-country="Berlin">
 				<td class="rank">1</td>
-				<td>8</td>
+			
 				<td>Berlin</td>
-				<td>3600000</td>
+				<td>3,600,000</td>
 <td>32</td>
 <td>8</td>
 <td>6</td>
@@ -38207,32 +38774,34 @@
 <td>6</td>
 <td>11</td>
 <td>24</td>
+<td>8</td>
 				
 			</tr>
 
 			<tr data-country="Hamburg">
 				<td class="rank">2</td>
-				<td>22</td>
+			
 				<td>Hamburg</td>
-				<td>1852000</td>
+				<td>1,852,000</td>
 <td>16</td>
 <td>8</td>	
-<td>6	</td>
+<td>6</td>
 <td>16</td>	
 <td>17</td>	
-<td>71	</td>
-<td>226	</td>
-<td>7	</td>
+<td>71</td>
+<td>226</td>
+<td>7</td>
 <td>8</td>
-<td>6	</td>
+<td>6</td>
+<td>22</td>
 				
 			</tr>
 
 			<tr data-country="Munich">
 				<td class="rank">3</td>
-				<td>11</td>
+		
 				<td>Munich</td>
-				<td>1488000</td>
+				<td>1,488,000</td>
 <td>13</td>
 <td>3</td>	
 <td>7</td>
@@ -38243,14 +38812,15 @@
 <td>2	</td>
 <td>8</td>
 <td>8	</td>
+<td>11</td>
 				
 			</tr>
 
 			<tr data-country="Dortmund">
 				<td class="rank">4</td>
-				<td>33</td>
+			
 				<td>Dortmund</td>
-				<td>587000</td>
+				<td>587,000</td>
 <td>4</td>
 <td>5</td>	
 <td>1</td>
@@ -38261,14 +38831,15 @@
 <td>2</td>
 <td>6</td>
 <td>1</td>
+<td>33</td>
 				
 			</tr>
 
 			<tr data-country="Bremen">
 				<td class="rank">5</td>
-				<td>15</td>
+			
 				<td>Bremen</td>
-				<td>566000</td>
+				<td>566,000</td>
 <td>5</td>
 <td>2</td>	
 <td>1</td>
@@ -38279,14 +38850,15 @@
 <td>2</td>
 <td>6</td>
 <td>3</td>
+<td>15</td>
 				
 			</tr>
 
 			<tr data-country="Dresden">
 				<td class="rank">6</td>
-				<td>17</td>
+	
 				<td>Dresden</td>
-				<td>556000</td>
+				<td>556,000</td>
 <td>5</td>
 <td>5</td>	
 <td>3</td>
@@ -38297,14 +38869,15 @@
 <td>1</td>
 <td>6</td>
 <td>1</td>
+<td>17</td>
 				
 			</tr>
 
 			<tr data-country="Bochum">
 				<td class="rank">7</td>
-				<td>32</td>
+		
 				<td>Bochum</td>
-				<td>364000</td>
+				<td>364,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -38315,14 +38888,15 @@
 <td>1</td>
 <td>6</td>
 <td>0</td>
+<td>32</td>
 				
 			</tr>
 
 			<tr data-country="Nuremberg">
 				<td class="rank">8</td>
-				<td>24</td>
+		
 				<td>Nuremberg</td>
-				<td>515000</td>
+				<td>515,000</td>
 <td>3</td>
 <td>3</td>	
 <td>1</td>
@@ -38333,14 +38907,15 @@
 <td>3</td>
 <td>5</td>
 <td>1</td>
+<td>24</td>
 				
 			</tr>
 
 			<tr data-country="Muenster">
 				<td class="rank">9</td>
-				<td>28</td>
+		
 				<td>Muenster</td>
-				<td>316000</td>
+				<td>316,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -38351,14 +38926,15 @@
 <td>1</td>
 <td>5</td>
 <td>1</td>
+<td>28</td>
 				
 			</tr>
 
 			<tr data-country="Rostock">
 				<td class="rank">10</td>
-				<td>12</td>
+
 				<td>Rostock</td>
-				<td>209000</td>
+				<td>209,000</td>
 <td>3</td>
 <td>0</td>	
 <td>1</td>
@@ -38369,32 +38945,34 @@
 <td>2</td>
 <td>5</td>
 <td>0</td>
+<td>12</td>
 			</tr>
 
 
 			<tr data-country="Cologne">
 				<td class="rank">11</td>
-				<td>1</td>
+	
 				<td>Cologne</td>
-				<td>1083000</td>
+				<td>1,083,000</td>
 <td>19</td>
 <td>6</td>	
 <td>9</td>
 <td>14</td>	
 <td>25</td>	
 <td>43</td>
-<td>587	</td>
+<td>587</td>
 <td>5	</td>
 <td>4</td>
 <td>7</td>
+<td>1</td>
 				
 			</tr>
 
 			<tr data-country="Stuttgart">
 				<td class="rank">12</td>
-				<td>10</td>
+	
 				<td>Stuttgart</td>
-				<td>630000</td>
+				<td>630,000</td>
 <td>6</td>
 <td>3</td>	
 <td>4</td>
@@ -38405,6 +38983,7 @@
 <td>2</td>
 <td>4</td>
 <td>2</td>
+<td>10</td>
 				
 			</tr>
 
@@ -38412,9 +38991,9 @@
 
 			<tr data-country="Dusseldorf">
 				<td class="rank">13</td>
-				<td>26</td>
+		
 				<td>Dusseldorf</td>
-				<td>620000</td>
+				<td>620,000</td>
 <td>4</td>
 <td>1</td>	
 <td>1</td>
@@ -38425,14 +39004,15 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
+<td>26</td>
 				
 			</tr>
 
 			<tr data-country="Leipzig">
 				<td class="rank">14</td>
-				<td>30</td>
+			
 				<td>Leipzig</td>
-				<td>597000</td>
+				<td>597,000</td>
 <td>3</td>
 <td>2</td>	
 <td>2</td>
@@ -38443,13 +39023,14 @@
 <td>1</td>
 <td>4</td>
 <td>1</td>
+<td>30</td>
 			</tr>
 
 			<tr data-country="Essen">
 				<td class="rank">15</td>
-				<td>35</td>
+			>
 				<td>Essen</td>
-				<td>582000</td>
+				<td>582,000</td>
 <td>2</td>
 <td>4</td>	
 <td>1</td>
@@ -38460,14 +39041,15 @@
 <td>4</td>
 <td>4</td>
 <td>1</td>
+<td>35</td>
 				
 			</tr>
 
 			<tr data-country="Hannover">
 				<td class="rank">16</td>
-				<td>13</td>
+				
 				<td>Hannover</td>
-				<td>534000</td>
+				<td>534,000</td>
 <td>3</td>
 <td>5</td>	
 <td>3</td>
@@ -38478,14 +39060,15 @@
 <td>4</td>
 <td>4</td>
 <td>2</td>
+<td>13</td>
 				
 			</tr>
 
 			<tr data-country="Mannheim">
 				<td class="rank">17</td>
-				<td>2</td>
+		
 				<td>Mannheim</td>
-				<td>309000</td>
+				<td>309,000</td>
 <td>3</td>
 <td>1</td>	
 <td>2</td>
@@ -38496,14 +39079,15 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
+<td>2</td>
 				
 			</tr>
 
 			<tr data-country="Augsburg">
 				<td class="rank">18</td>
-				<td>14</td>
+			
 				<td>Augsburg</td>
-				<td>295000</td>
+				<td>295,000</td>
 <td>5</td>
 <td>1</td>	
 <td>1</td>
@@ -38514,14 +39098,15 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
+<td>14</td>
 				
 			</tr>
 
 			<tr data-country="Magdeburg">
 				<td class="rank">19</td>
-				<td>5</td>
+			
 				<td>Magdeburg</td>
-				<td>235000</td>
+				<td>235,000</td>
 <td>4</td>
 <td>0</td>	
 <td>1</td>
@@ -38532,14 +39117,15 @@
 <td>3</td>
 <td>4</td>
 <td>1</td>
+<td>5</td>
 				
 			</tr>
 
 			<tr data-country="Freiburg">
 				<td class="rank">20</td>
-				<td>3</td>
+			
 				<td>Freiburg</td>
-				<td>230000</td>
+				<td>230,000</td>
 <td>1</td>
 <td>0</td>	
 <td>2</td>
@@ -38555,9 +39141,9 @@
 
 			<tr data-country="Lübeck">
 				<td class="rank">21</td>
-				<td>37</td>
+			
 				<td>Lübeck</td>
-				<td>215000</td>
+				<td>215,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -38568,14 +39154,15 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
+<td>37</td>
 				
 			</tr>
 
 			<tr data-country="Potsdam">
 				<td class="rank">22</td>
-				<td>40</td>
+			
 				<td>Potsdam</td>
-				<td>182000</td>
+				<td>182,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -38586,14 +39173,15 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
+<td>40</td>
 				
 			</tr>
 
 			<tr data-country="Oldenburg">
 				<td class="rank">23</td>
-				<td>31</td>
+			
 				<td>Oldenburg</td>
-				<td>169000</td>
+				<td>169,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -38604,14 +39192,15 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
+<td>31</td>
 				
 			</tr>
 
 			<tr data-country="Wuppertal">
 				<td class="rank">24</td>
-				<td>29</td>
+			
 				<td>Wuppertal</td>
-				<td>355000</td>
+				<td>355,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -38622,6 +39211,7 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
+<td>29</td>
 				
 			</tr>
 
@@ -38629,9 +39219,9 @@
 
 			<tr data-country="Bielefeld">
 				<td class="rank">25</td>
-				<td>42</td>
+		
 				<td>Bielefeld</td>
-				<td>333000</td>
+				<td>333,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -38642,13 +39232,14 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>42</td>
 			</tr>
 
 			<tr data-country="Bonn">
 				<td class="rank">26</td>
-				<td>23</td>
+			
 				<td>Bonn</td>
-				<td>330000</td>
+				<td>330,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -38659,14 +39250,15 @@
 <td>0</td>
 <td>3</td>
 <td>2</td>
+<td>23</td>
 				
 			</tr>
 
 			<tr data-country="Karlsruhe">
 				<td class="rank">27</td>
-				<td>18</td>
+				
 				<td>Karlsruhe</td>
-				<td>308000</td>
+				<td>308,000</td>
 <td>5</td>
 <td>2</td>	
 <td>2</td>
@@ -38677,14 +39269,15 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>18</td>
 				
 			</tr>
 
 			<tr data-country="Braunschweig">
 				<td class="rank">28</td>
-				<td>21</td>
+
 				<td>Braunschweig</td>
-				<td>248000</td>
+				<td>248,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -38695,14 +39288,15 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
+<td>21</td>
 				
 			</tr>
 
 			<tr data-country="Keel">
 				<td class="rank">29</td>
-				<td>20</td>
+			
 				<td>Keel</td>
-				<td>246000</td>
+				<td>246,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -38713,15 +39307,16 @@
 <td>4</td>
 <td>3</td>
 <td>0</td>
+<td>20</td>
 				
 			</tr>
 
 
 			<tr data-country="Chemnitz">
 				<td class="rank">30</td>
-				<td>6</td>
+	
 				<td>Chemnitz</td>
-				<td>244000</td>
+				<td>244,000</td>
 <td>4</td>
 <td>4</td>	
 <td>1</td>
@@ -38732,14 +39327,15 @@
 <td>2</td>
 <td>3</td>
 <td>1</td>
+<td>6</td>
 				
 			</tr>
 
 			<tr data-country="Halle">
 				<td class="rank">31</td>
-				<td>45</td>
+				
 				<td>Halle (Saale)</td>
-				<td>237000</td>
+				<td>237,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -38750,14 +39346,15 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>45</td>
 				
 			</tr>
 
 			<tr data-country="Krefeld">
 				<td class="rank">32</td>
-				<td>41</td>
+			
 				<td>Krefeld</td>
-				<td>226000</td>
+				<td>226,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -38768,14 +39365,15 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>41</td>
 				
 			</tr>
 
 			<tr data-country="Hagen">
 				<td class="rank">33</td>
-				<td>43</td>
+			
 				<td>Hagen</td>
-				<td>188000</td>
+				<td>188,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -38786,14 +39384,15 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>43</td>
 				
 			</tr>
 
 			<tr data-country="Saarbrücken">
 				<td class="rank">34</td>
-				<td>19</td>
+				
 				<td>Saarbrücken</td>
-				<td>179000</td>
+				<td>179,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -38804,14 +39403,15 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>19</td>
 				
 			</tr>
 
 			<tr data-country="Ludwigshafen">
 				<td class="rank">35</td>
-				<td>44</td>
+		
 				<td>Ludwigshafen</td>
-				<td>172000</td>
+				<td>172,000</td>
 <td>1</td>
 <td>2</td>	
 <td>0</td>
@@ -38822,14 +39422,15 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>44</td>
 				
 			</tr>
 
 			<tr data-country="Frankfurt">
 				<td class="rank">36</td>
-				<td>9</td>
+		
 				<td>Frankfurt am Main</td>
-				<td>764000</td>
+				<td>764,000</td>
 <td>6</td>
 <td>4</td>	
 <td>5</td>
@@ -38840,15 +39441,16 @@
 <td>1</td>
 <td>2</td>
 <td>4</td>
+<td>9</td>
 				
 			</tr>
 			<!-- //top 36 -->
 
 			<tr data-country="Duisburg">
 				<td class="rank">37</td>
-				<td>47</td>
+			
 				<td>Duisburg</td>
-				<td>495000</td>
+				<td>495,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -38859,14 +39461,15 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
+<td>47</td>
 				
 			</tr>
 
 			<tr data-country="Wiesbaden">
 				<td class="rank">38</td>
-				<td>7</td>
+			
 				<td>Wiesbaden</td>
-				<td>278000</td>
+				<td>278,000</td>
 <td>3</td>
 <td>1</td>	
 <td>1</td>
@@ -38877,14 +39480,15 @@
 <td>1</td>
 <td>2</td>
 <td>2</td>
+<td>7</td>
 				
 			</tr>
 
 			<tr data-country="Mönchengladbach">
 				<td class="rank">39</td>
-				<td>34</td>
+			
 				<td>Mönchengladbach</td>
-				<td>259000</td>
+				<td>259,000</td>
 <td>1</td>
 <td>2</td>	
 <td>1</td>
@@ -38895,14 +39499,15 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>34</td>
 				
 			</tr>
 
 			<tr data-country="Aachen">
 				<td class="rank">40</td>
-				<td>25</td>
+				
 				<td>Aachen</td>
-				<td>248000</td>
+				<td>248,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -38913,14 +39518,15 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
+<td>25</td>
 				
 			</tr>
 
 			<tr data-country="Erfurt">
 				<td class="rank">41</td>
-				<td>36</td>
+	
 				<td>Erfurt</td>
-				<td>213000</td>
+				<td>213,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -38931,14 +39537,15 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
+<td>36</td>
 				
 			</tr>
 
 			<tr data-country="Oberhausen">
 				<td class="rank">42</td>
-				<td>39</td>
+	
 				<td>Oberhausen</td>
-				<td>209000</td>
+				<td>209,000</td>
 <td>2</td>
 <td>0</td>	
 <td>0</td>
@@ -38949,14 +39556,15 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>39</td>
 				
 			</tr>
 
 			<tr data-country="Hamm">
 				<td class="rank">43</td>
-				<td>46</td>
+		
 				<td>Hamm</td>
-				<td>178000</td>
+				<td>178,000</td>
 <td>0</td>
 <td>0</td>	
 <td>1</td>
@@ -38967,13 +39575,14 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>46</td>
 			</tr>
 
 			<tr data-country="Osnabrück">
 				<td class="rank">44</td>
-				<td>4</td>
+			
 				<td>Osnabrück</td>
-				<td>164000</td>
+				<td>164,000</td>
 <td>2</td>
 <td>0</td>	
 <td>2</td>
@@ -38984,13 +39593,14 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
+<td>4</td>
 			</tr>
 
 			<tr data-country="Leverkusen">
 				<td class="rank">45</td>
-				<td>48</td>
+		
 				<td>Leverkusen</td>
-				<td>163000</td>
+				<td>163,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -39001,14 +39611,15 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>48</td>
 				
 			</tr>
 
 			<tr data-country="Mainz">
 				<td class="rank">46</td>
-				<td>16</td>
+			
 				<td>Mainz</td>
-				<td>217000</td>
+				<td>217,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -39019,14 +39630,15 @@
 <td>0</td>
 <td>1</td>
 <td>1</td>
+<td>16</td>
 				
 			</tr>
 
 			<tr data-country="Kassel">
 				<td class="rank">47</td>
-				<td>38</td>
+		
 				<td>Kassel</td>
-				<td>201000</td>
+				<td>201,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -39037,14 +39649,15 @@
 <td>2</td>
 <td>1</td>
 <td>0</td>
+<td>38</td>
 				
 			</tr>
 
 			<tr data-country="Mülheim">
 				<td class="rank">48</td>
-				<td>50</td>
+		
 				<td>Mülheim an der Ruhr</td>
-				<td>171000</td>
+				<td>171,000</td>
 <td>0</td>
 <td>0</td>	
 <td>0</td>
@@ -39055,15 +39668,16 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>50</td>
 				
 			</tr>
 
 
 			<tr data-country="Solingen">
 				<td class="rank">49</td>
-				<td>49</td>
+		
 				<td>Solingen</td>
-				<td>159000</td>
+				<td>159,000</td>
 <td>0</td>
 <td>1</td>	
 <td>0</td>
@@ -39074,15 +39688,16 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>49</td>
 				
 			</tr>
 
 
 			<tr data-country="Gelsenkirchen">
 				<td class="rank">50</td>
-				<td>27</td>
+			
 				<td>Gelsenkirchen</td>
-				<td>259000</td>
+				<td>259,000</td>
 <td>2</td>
 <td>1</td>	
 <td>0</td>
@@ -39093,6 +39708,7 @@
 <td>0</td>
 <td>0</td>
 <td>1</td>
+<td>27</td>
 				
 			</tr>
 
@@ -39114,7 +39730,7 @@
 </svg>
 	</td>
 
-	<td>Final Ranking<br> (out of 50)</td>
+	
 
 	<td>City</td>
 
@@ -39140,15 +39756,16 @@
 
 	<td>HIV / STD Doctors<br> and Clinics</td>
 
+	<td>Final Ranking<br> (out of 50)</td>
+
 	
 </tr>
 
 			<tr data-country="Berlin">
 				<td class="rank">1</td>
 
-				<td>8</td>
 				<td>Berlin</td>
-				<td>3600000</td>
+				<td>3,600,000</td>
 <td>32</td>
 <td>8</td>
 <td>6</td>
@@ -39159,14 +39776,15 @@
 <td>6</td>
 <td>11</td>
 <td>24</td>
+<td>8</td>
 				
 			</tr>
 
 			<tr data-country="Munich">
 				<td class="rank">2</td>
-				<td>11</td>
+			
 				<td>Munich</td>
-				<td>1488000</td>
+				<td>1,488,000</td>
 <td>13</td>
 <td>3</td>	
 <td>7</td>
@@ -39177,51 +39795,54 @@
 <td>2	</td>
 <td>8</td>
 <td>8	</td>
+<td>11</td>
 				
 			</tr>
 
 			<tr data-country="Cologne">
 				<td class="rank">3</td>
-				<td>1</td>
+			
 				<td>Cologne</td>
-				<td>1083000</td>
+				<td>1,083,000</td>
 <td>19</td>
 <td>6</td>	
 <td>9</td>
 <td>14</td>	
 <td>25</td>	
 <td>43</td>
-<td>587	</td>
+<td>587</td>
 <td>5	</td>
 <td>4</td>
 <td>7</td>
+<td>1</td>
 
 				
 			</tr>
 
 			<tr data-country="Hamburg">
 				<td class="rank">4</td>
-				<td>22</td>
+				
 				<td>Hamburg</td>
-				<td>1852000</td>
+				<td>1,852,000</td>
 <td>16</td>
 <td>8</td>	
-<td>6	</td>
+<td>6</td>
 <td>16</td>	
 <td>17</td>	
-<td>71	</td>
-<td>226	</td>
-<td>7	</td>
+<td>71</td>
+<td>226</td>
+<td>7</td>
 <td>8</td>
-<td>6	</td>
+<td>6</td>
+<td>22</td>
 				
 			</tr>
 
 			<tr data-country="Frankfurt">
 				<td class="rank">5</td>
-				<td>9</td>
+		
 				<td>Frankfurt am Main</td>
-				<td>764000</td>
+				<td>764,000</td>
 <td>6</td>
 <td>4</td>	
 <td>5</td>
@@ -39232,14 +39853,15 @@
 <td>1</td>
 <td>2</td>
 <td>4</td>
+<td>9</td>
 				
 			</tr>
 
 			<tr data-country="Bremen">
 				<td class="rank">6</td>
-				<td>15</td>
+		
 				<td>Bremen</td>
-				<td>566000</td>
+				<td>566,000</td>
 <td>5</td>
 <td>2</td>	
 <td>1</td>
@@ -39250,14 +39872,15 @@
 <td>2</td>
 <td>6</td>
 <td>3</td>
+<td>15</td>
 				
 			</tr>
 
 			<tr data-country="Stuttgart">
 				<td class="rank">7</td>
-				<td>10</td>
+			
 				<td>Stuttgart</td>
-				<td>630000</td>
+				<td>630,000</td>
 <td>6</td>
 <td>3</td>	
 <td>4</td>
@@ -39268,14 +39891,15 @@
 <td>2</td>
 <td>4</td>
 <td>2</td>
+<td>10</td>
 				
 			</tr>
 
 			<tr data-country="Dusseldorf">
 				<td class="rank">8</td>
-				<td>26</td>
+		
 				<td>Dusseldorf</td>
-				<td>620000</td>
+				<td>620,000</td>
 <td>4</td>
 <td>1</td>	
 <td>1</td>
@@ -39286,14 +39910,15 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
+<td>26</td>
 				
 			</tr>
 
 			<tr data-country="Hannover">
 				<td class="rank">9</td>
-				<td>13</td>
+		
 				<td>Hannover</td>
-				<td>534000</td>
+				<td>534,000</td>
 <td>3</td>
 <td>5</td>	
 <td>3</td>
@@ -39304,14 +39929,15 @@
 <td>4</td>
 <td>4</td>
 <td>2</td>
+<td>13</td>
 				
 			</tr>
 
 			<tr data-country="Bonn">
 				<td class="rank">10</td>
-				<td>23</td>
+		
 				<td>Bonn</td>
-				<td>330000</td>
+				<td>330,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -39322,14 +39948,15 @@
 <td>0</td>
 <td>3</td>
 <td>2</td>
+<td>23</td>
 				
 			</tr>
 
 			<tr data-country="Mannheim">
 				<td class="rank">11</td>
-				<td>2</td>
+
 				<td>Mannheim</td>
-				<td>309000</td>
+				<td>309,000</td>
 <td>3</td>
 <td>1</td>	
 <td>2</td>
@@ -39340,14 +39967,15 @@
 <td>0</td>
 <td>4</td>
 <td>2</td>
+<td>2</td>
 				
 			</tr>
 
 			<tr data-country="Wiesbaden">
 				<td class="rank">12</td>
-				<td>7</td>
+			
 				<td>Wiesbaden</td>
-				<td>278000</td>
+				<td>278,000</td>
 <td>3</td>
 <td>1</td>	
 <td>1</td>
@@ -39358,6 +39986,7 @@
 <td>1</td>
 <td>2</td>
 <td>2</td>
+<td>7</td>
 				
 			</tr>
 
@@ -39365,9 +39994,9 @@
 
 			<tr data-country="Freiburg">
 				<td class="rank">13</td>
-				<td>3</td>
+	
 				<td>Freiburg</td>
-				<td>230000</td>
+				<td>230,000</td>
 <td>1</td>
 <td>0</td>	
 <td>2</td>
@@ -39383,9 +40012,9 @@
 
 			<tr data-country="Leipzig">
 				<td class="rank">14</td>
-				<td>30</td>
+			
 				<td>Leipzig</td>
-				<td>597000</td>
+				<td>597,000</td>
 <td>3</td>
 <td>2</td>	
 <td>2</td>
@@ -39396,14 +40025,15 @@
 <td>1</td>
 <td>4</td>
 <td>1</td>
+<td>30</td>
 				
 			</tr>
 
 			<tr data-country="Dortmund">
 				<td class="rank">15</td>
-				<td>33</td>
+
 				<td>Dortmund</td>
-				<td>587000</td>
+				<td>587,000</td>
 <td>4</td>
 <td>5</td>	
 <td>1</td>
@@ -39414,14 +40044,15 @@
 <td>2</td>
 <td>6</td>
 <td>1</td>
+<td>33</td>
 				
 			</tr>
 
 			<tr data-country="Essen">
 				<td class="rank">16</td>
-				<td>35</td>
+			
 				<td>Essen</td>
-				<td>582000</td>
+				<td>582,000</td>
 <td>2</td>
 <td>4</td>	
 <td>1</td>
@@ -39432,15 +40063,16 @@
 <td>4</td>
 <td>4</td>
 <td>1</td>
+<td>35</td>
 				
 				
 			</tr>
 
 			<tr data-country="Dresden">
 				<td class="rank">17</td>
-				<td>17</td>
+		
 				<td>Dresden</td>
-				<td>556000</td>
+				<td>556,000</td>
 <td>5</td>
 <td>5</td>	
 <td>3</td>
@@ -39451,14 +40083,15 @@
 <td>1</td>
 <td>6</td>
 <td>1</td>
+<td>17</td>
 				
 			</tr>
 
 			<tr data-country="Nuremberg">
 				<td class="rank">18</td>
-				<td>24</td>
+			
 				<td>Nuremberg</td>
-				<td>515000</td>
+				<td>515,000</td>
 <td>3</td>
 <td>3</td>	
 <td>1</td>
@@ -39469,14 +40102,15 @@
 <td>3</td>
 <td>5</td>
 <td>1</td>
+<td>24</td>
 				
 			</tr>
 
 			<tr data-country="Wuppertal">
 				<td class="rank">19</td>
-				<td>29</td>
+		
 				<td>Wuppertal</td>
-				<td>355000</td>
+				<td>355,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -39487,14 +40121,15 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
+<td>29</td>
 				
 			</tr>
 
 			<tr data-country="Muenster">
 				<td class="rank">20</td>
-				<td>28</td>
+		
 				<td>Muenster</td>
-				<td>316000</td>
+				<td>316,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -39505,14 +40140,15 @@
 <td>1</td>
 <td>5</td>
 <td>1</td>
+<td>28</td>
 				
 			</tr>
 
 			<tr data-country="Gelsenkirchen">
 				<td class="rank">21</td>
-				<td>27</td>
+
 				<td>Gelsenkirchen</td>
-				<td>259000</td>
+				<td>259,000</td>
 <td>2</td>
 <td>1</td>	
 <td>0</td>
@@ -39523,14 +40159,15 @@
 <td>0</td>
 <td>0</td>
 <td>1</td>
+<td>27</td>
 				
 			</tr>
 
 			<tr data-country="Braunschweig">
 				<td class="rank">22</td>
-				<td>21</td>
+	
 				<td>Braunschweig</td>
-				<td>248000</td>
+				<td>248,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -39541,14 +40178,15 @@
 <td>0</td>
 <td>3</td>
 <td>1</td>
+<td>21</td>
 				
 			</tr>
 
 			<tr data-country="Aachen">
 				<td class="rank">23</td>
-				<td>25</td>
+		
 				<td>Aachen</td>
-				<td>248000</td>
+				<td>248,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -39559,14 +40197,15 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
+<td>25</td>
 				
 			</tr>
 
 			<tr data-country="Chemnitz">
 				<td class="rank">24</td>
-				<td>6</td>
+		
 				<td>Chemnitz</td>
-				<td>244000</td>
+				<td>244,000</td>
 <td>4</td>
 <td>4</td>	
 <td>1</td>
@@ -39577,15 +40216,16 @@
 <td>2</td>
 <td>3</td>
 <td>1</td>
+<td>6</td>
 				
 			</tr>
 			<!-- //top 24 -->
 
 			<tr data-country="Magdeburg">
 				<td class="rank">25</td>
-				<td>5</td>
+	
 				<td>Magdeburg</td>
-				<td>235000</td>
+				<td>235,000</td>
 <td>4</td>
 <td>0</td>	
 <td>1</td>
@@ -39596,14 +40236,15 @@
 <td>3</td>
 <td>4</td>
 <td>1</td>
+<td>5</td>
 				
 			</tr>
 
 			<tr data-country="Mainz">
 				<td class="rank">26</td>
-				<td>16</td>
+		
 				<td>Mainz</td>
-				<td>217000</td>
+				<td>217,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -39614,14 +40255,15 @@
 <td>0</td>
 <td>1</td>
 <td>1</td>
+<td>16</td>
 				
 			</tr>
 
 			<tr data-country="Osnabrück">
 				<td class="rank">27</td>
-				<td>4</td>
+			
 				<td>Osnabrück</td>
-				<td>164000</td>
+				<td>164,000</td>
 <td>2</td>
 <td>0</td>	
 <td>2</td>
@@ -39632,14 +40274,15 @@
 <td>0</td>
 <td>2</td>
 <td>1</td>
+<td>4</td>
 				
 			</tr>
 
 			<tr data-country="Duisburg">
 				<td class="rank">28</td>
-				<td>47</td>
+	
 				<td>Duisburg</td>
-				<td>495000</td>
+				<td>495,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -39650,14 +40293,15 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
+<td>47</td>
 				
 			</tr>
 
 			<tr data-country="Bochum">
 				<td class="rank">29</td>
-				<td>32</td>
+		
 				<td>Bochum</td>
-				<td>364000</td>
+				<td>364,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -39668,14 +40312,15 @@
 <td>1</td>
 <td>6</td>
 <td>0</td>
+<td>32</td>
 				
 			</tr>
 
 			<tr data-country="Bielefeld">
 				<td class="rank">30</td>
-				<td>42</td>
+			
 				<td>Bielefeld</td>
-				<td>333000</td>
+				<td>333,000</td>
 <td>2</td>
 <td>1</td>	
 <td>1</td>
@@ -39686,15 +40331,16 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>42</td>
 				
 			</tr>
 
 
 			<tr data-country="Karlsruhe">
 				<td class="rank">31</td>
-				<td>18</td>
+		
 				<td>Karlsruhe</td>
-				<td>308000</td>
+				<td>308,000</td>
 <td>5</td>
 <td>2</td>	
 <td>2</td>
@@ -39705,15 +40351,16 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>18</td>
 				
 			</tr>
 
 
 			<tr data-country="Augsburg">
 				<td class="rank">32</td>
-				<td>14</td>
+		
 				<td>Augsburg</td>
-				<td>295000</td>
+				<td>295,000</td>
 <td>5</td>
 <td>1</td>	
 <td>1</td>
@@ -39724,15 +40371,16 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
+<td>14</td>
 				
 			</tr>
 
 
 			<tr data-country="Mönchengladbach">
 				<td class="rank">33</td>
-				<td>34</td>
+		
 				<td>Mönchengladbach</td>
-				<td>259000</td>
+				<td>259,000</td>
 <td>1</td>
 <td>2</td>	
 <td>1</td>
@@ -39743,14 +40391,15 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>34</td>
 				
 			</tr>
 
 			<tr data-country="Keel">
 				<td class="rank">34</td>
-				<td>20</td>
+			
 				<td>Keel</td>
-				<td>246000</td>
+				<td>246,000</td>
 <td>2</td>
 <td>0</td>	
 <td>1</td>
@@ -39761,15 +40410,16 @@
 <td>4</td>
 <td>3</td>
 <td>0</td>
+<td>20</td>
 				
 			</tr>
 
 
 			<tr data-country="Halle">
 				<td class="rank">35</td>
-				<td>45</td>
+			
 				<td>Halle (Saale)</td>
-				<td>237000</td>
+				<td>237,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -39780,15 +40430,16 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>45</td>
 				
 			</tr>
 
 
 			<tr data-country="Krefeld">
 				<td class="rank">36</td>
-				<td>41</td>
+			
 				<td>Krefeld</td>
-				<td>226000</td>
+				<td>226,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -39799,6 +40450,7 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>41</td>
 				
 			</tr>
 
@@ -39807,9 +40459,9 @@
 
 			<tr data-country="Lübeck">
 				<td class="rank">37</td>
-				<td>37</td>
+			
 				<td>Lübeck</td>
-				<td>215000</td>
+				<td>215,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -39820,15 +40472,16 @@
 <td>1</td>
 <td>4</td>
 <td>0</td>
+<td>37</td>
 				
 			</tr>
 
 
 			<tr data-country="Erfurt">
 				<td class="rank">38</td>
-				<td>36</td>
+		
 				<td>Erfurt</td>
-				<td>213000</td>
+				<td>213,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -39839,14 +40492,15 @@
 <td>1</td>
 <td>2</td>
 <td>0</td>
+<td>36</td>
 				
 			</tr>
 
 			<tr data-country="Rostock">
 				<td class="rank">39</td>
-				<td>12</td>
+		
 				<td>Rostock</td>
-				<td>209000</td>
+				<td>209,000</td>
 <td>3</td>
 <td>0</td>	
 <td>1</td>
@@ -39857,15 +40511,16 @@
 <td>2</td>
 <td>5</td>
 <td>0</td>
+<td>12</td>
 				
 			</tr>
 
 
 			<tr data-country="Oberhausen">
 				<td class="rank">40</td>
-				<td>39</td>
+			
 				<td>Oberhausen</td>
-				<td>209000</td>
+				<td>209,000</td>
 <td>2</td>
 <td>0</td>	
 <td>0</td>
@@ -39876,15 +40531,16 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>39</td>
 				
 			</tr>
 
 
 			<tr data-country="Kassel">
 				<td class="rank">41</td>
-				<td>38</td>
+	
 				<td>Kassel</td>
-				<td>201000</td>
+				<td>201,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -39895,14 +40551,15 @@
 <td>2</td>
 <td>1</td>
 <td>0</td>
+<td>38</td>
 				
 			</tr>
 
 			<tr data-country="Hagen">
 				<td class="rank">42</td>
-				<td>43</td>
+	
 				<td>Hagen</td>
-				<td>188000</td>
+				<td>188,000</td>
 <td>1</td>
 <td>1</td>	
 <td>0</td>
@@ -39913,15 +40570,16 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>43</td>
 				
 			</tr>
 
 
 			<tr data-country="Potsdam">
 				<td class="rank">43</td>
-				<td>40</td>
+		
 				<td>Potsdam</td>
-				<td>182000</td>
+				<td>182,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -39932,15 +40590,16 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
+<td>40</td>
 				
 			</tr>
 
 
 			<tr data-country="Saarbrücken">
 				<td class="rank">44</td>
-				<td>19</td>
+		
 				<td>Saarbrücken</td>
-				<td>179000</td>
+				<td>179,000</td>
 <td>1</td>
 <td>0</td>	
 <td>1</td>
@@ -39951,15 +40610,16 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>19</td>
 				
 			</tr>
 
 			
 			<tr data-country="Hamm">
 				<td class="rank">45</td>
-				<td>46</td>
+		
 				<td>Hamm</td>
-				<td>178000</td>
+				<td>178,000</td>
 <td>0</td>
 <td>0</td>	
 <td>1</td>
@@ -39970,15 +40630,16 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>46</td>
 				
 			</tr>
 
 			
 			<tr data-country="Ludwigshafen">
 				<td class="rank">46</td>
-				<td>44</td>
+			
 				<td>Ludwigshafen</td>
-				<td>172000</td>
+				<td>172,000</td>
 <td>1</td>
 <td>2</td>	
 <td>0</td>
@@ -39989,15 +40650,16 @@
 <td>0</td>
 <td>3</td>
 <td>0</td>
+<td>44</td>
 				
 			</tr>
 
 
 			<tr data-country="Mülheim">
 				<td class="rank">47</td>
-				<td>50</td>
+			
 				<td>Mülheim an der Ruhr</td>
-				<td>171000</td>
+				<td>171,000</td>
 <td>0</td>
 <td>0</td>	
 <td>0</td>
@@ -40008,15 +40670,16 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>50</td>
 				
 			</tr>
 
 
 			<tr data-country="Oldenburg">
 				<td class="rank">48</td>
-				<td>31</td>
+		
 				<td>Oldenburg</td>
-				<td>169000</td>
+				<td>169,000</td>
 <td>1</td>
 <td>1</td>	
 <td>1</td>
@@ -40027,15 +40690,16 @@
 <td>0</td>
 <td>4</td>
 <td>0</td>
+<td>31</td>
 				
 			</tr>
 
 
 			<tr data-country="Leverkusen">
 				<td class="rank">49</td>
-				<td>48</td>
+	
 				<td>Leverkusen</td>
-				<td>163000</td>
+				<td>163,000</td>
 <td>1</td>
 <td>0</td>	
 <td>0</td>
@@ -40046,15 +40710,16 @@
 <td>0</td>
 <td>2</td>
 <td>0</td>
+<td>48</td>
 				
 			</tr>
 
 
 			<tr data-country="Solingen">
 				<td class="rank">50</td>
-				<td>49</td>
+		
 				<td>Solingen</td>
-				<td>159000</td>
+				<td>159,000</td>
 <td>0</td>
 <td>1</td>	
 <td>0</td>
@@ -40065,6 +40730,7 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>49</td>
 				
 			</tr>
 
@@ -40165,7 +40831,7 @@
 						The demand for more sexual freedom may surprise some residents of liberal metropolises. Wasn't there a sexual revolution as early as the late 1960s? Didn't sex shops spread across the world in the 1970s and hasn’t the BDSM and fetish scene been an established part of society since the 1980s? Isn't the LGBTQI+ community more accepted these days than ever before? That may all be true, but there are still big differences from city to city and country to country when it comes to inclusivity. We are therefore introducing you to the 25 most sexually permissive cities in the world in a ranking based on our research.
 					</p>
 
-					<img src="img/article-image1.png" alt="" data-aos="zoom-in">
+					<img class="lazy" data-src="img/article-image1.png"  data-aos="zoom-in">
 
 					<div><h2 data-aos="fade-up">Our Approach</h2></div>
 					<p data-aos="fade-up">
@@ -40189,7 +40855,7 @@
 						Just by looking at recent German history, it quickly becomes clear how beneficial a liberal attitude of both the state and society is to the sexual freedom of movement of an individual. If you look at the history of the legal recognition of homosexuality in Germany over the past few decades, it is noticeable that until 1968 homosexual acts were considered criminal and punishable by law in both the FRG and the GDR. It was not until 2001 that homosexual partners were allowed to have so-called registered civil partnerships, which corresponded to a certain legal recognition. Furthermore, same-sex couples have only been allowed to marry in Germany since 2017.
 					</p>
 
-					<img src="img/article-image2.png" alt="" data-aos="zoom-in">
+					<img  class="lazy" data-src="img/article-image2.png" alt="" data-aos="zoom-in">
 
 					<div><h2 data-aos="fade-up">Sexual freedom of movement is relevant for many groups</h2></div>
 					<p data-aos="fade-up">
@@ -40236,7 +40902,7 @@
 			<div class="info-bg overlay-close-trigger"></div>
 			<div class="overlay-content"> 
 				<a class="overlay-close overlay-close-trigger"></a> 
-				<img src="img/logo-new.svg" alt="German Most Sexually Liberated Cities">
+				<img src="img/logo.png" alt="German Most Sexually Liberated Cities">
 				<h3>Methodology</h3>
 				<p>In order to compile a ranking of the cities that are most sexually liberal, all cities that host three or more LGBT events per year were examined for various factors. This includes the number of gay bars and sex shops, dealing with sex work, the number and size of the annual LGBT events as well as thelegal situation regarding contraceptives, changing the legal gender, same-sex marriages, pre-exposure prophylaxis ( PrEP) and and sexual discrimination. The selection of cities is based on the well-documented article “<a href="https://en.wikipedia.org/wiki/List_of_LGBT_events">List of LGBT events</a>” in the online encyclopedia Wikipedia.</p>
 				<p>The investigation was completed on September 23, 2021.</p>
@@ -40283,13 +40949,6 @@
 
 
 
-		<!-- Preloader -->
-		<div class="preloader__wrapper">
-			<div class="preloader"><span></span></div>
-			<div class="preloader__section preloader__section--left"></div> 
-			<div class="preloader__section preloader__section--right"></div>
-		</div>		
-		<!--// Preloader -->
 
 
 
@@ -40325,8 +40984,13 @@
 
 	<!-- jQuery IF NEEDED-->
 <script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="//cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.1/dist/lazyload.min.js"></script>
+
 <!-- All libs scripts -->
 <script src="js/libs.min.js"></script>
+
+
+
 <!-- Main file with scripts -->
 <script src="js/common.min.js"></script>
 </body>

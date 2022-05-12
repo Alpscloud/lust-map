@@ -10,10 +10,11 @@
 	transition all 0.3s ease
 	z-index 15
 	
-	p
-		font 18px $SemiBold
-		line-height 36px
-
+	&-text
+		font 16px $FuturaMed
+		line-height 1.4
+		color #212529
+			
 	&.active
 		right 0
 	
@@ -46,9 +47,10 @@
 	h2
 		position relative
 		padding-top 4px
-		font-size 48px
+		font-size 44px
 		line-height 1
-		color $alternate-text-color
+		color #212529
+		
 
 		&:after
 			content ''
@@ -85,15 +87,16 @@
 			display block
 			margin-bottom 10px
 			color $alternate-text-color
-			font 14px $FuturaMed
-			line-height 19px
-			margin-bottom 2px
+			line-height 1
+			font 12px $FuturaHeavy
+		
+			margin-bottom 10px
 		
 
 		.stat-value
 			display block
-			color $alternate-color
-			font 26px $FuturaMed
+			color #f83c7f
+			font 26px $FuturaHeavy
 			//word-break: break-all
 			hyphens auto
 		

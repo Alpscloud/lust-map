@@ -4,6 +4,15 @@
 	<!-- CONTENT WRAPPER -->
 	<div class="content__wrapper">
 
+		<!-- Preloader -->
+		<div class="preloader__wrapper">
+			<div class="preloader"><span></span></div>
+			<div class="preloader__section preloader__section--left"></div> 
+			<div class="preloader__section preloader__section--right"></div>
+		</div>		
+		<!--// Preloader -->
+
+
 		<!-- Header -->
 		{% include '../parts/sections/header.html' %}
 		<!-- //Header -->
@@ -55,7 +64,7 @@
 							<div class="mobile-show">
 								<div class="logo-wrapper">	
 
-									<img src="img/logo-new.svg" class="logo" alt="World's Most Sexually Liberated Cities">
+									<img src="img/logo.png" class="logo" alt="World's Most Sexually Liberated Cities">
 								</div>
 
 								<p class="intro-para" data-aos="fade-right">Wie sexpositiv ist Deutschland? Wir haben deutsche Großstädte hinsichtlich ihrer sexuellen Freizügigkeit untersucht und die sexpositivsten Städte in einem Ranking zusammengefasst. <a class="jump-to" data-target="info-section"><span>more</span></a>
@@ -100,17 +109,31 @@
 							</div>
 
 							<div class="internal-map-contain">
+								<button class="btn-zoom js-zoom-map-btn" type="button">
+									
+									<svg  viewBox="0 0 36 36"  xmlns="http://www.w3.org/2000/svg" class="btn-zoom__ic btn-zoom__ic-plus">
+										<path d="M14.625 6.75H12.375V12.375H6.75V14.625H12.375V20.25H14.625V14.625H20.25V12.375H14.625V6.75Z" />
+										<path d="M33.7219 28.1532L28.0207 22.4519L23.6354 20.6402C25.0955 18.5638 25.8778 16.0867 25.875 13.5483C25.875 6.72472 20.3236 1.17334 13.5 1.17334C6.67638 1.17334 1.125 6.72472 1.125 13.5483C1.125 20.372 6.67638 25.9233 13.5 25.9233C16.0605 25.9263 18.5582 25.1304 20.6451 23.6468L22.4521 28.0202L28.1531 33.7219C28.8916 34.4604 29.8932 34.8752 30.9375 34.8752C31.9818 34.8752 32.9834 34.4604 33.7219 33.7219C34.4603 32.9834 34.8752 31.9819 34.8752 30.9375C34.8752 29.8932 34.4603 28.8916 33.7219 28.1532V28.1532ZM3.375 13.5483C3.375 7.96553 7.91719 3.42334 13.5 3.42334C19.0828 3.42334 23.625 7.96553 23.625 13.5483C23.625 19.1312 19.0828 23.6733 13.5 23.6733C7.91719 23.6733 3.375 19.1312 3.375 13.5483ZM32.1308 32.1308C31.814 32.4468 31.3849 32.6243 30.9375 32.6243C30.4901 32.6243 30.061 32.4468 29.7442 32.1308L24.3603 26.7469L22.6802 22.6804L26.7469 24.3603L32.1309 29.7443C32.4469 30.061 32.6243 30.4902 32.6243 30.9376C32.6243 31.385 32.4468 31.8141 32.1308 32.1308Z" />
+									</svg>
+
+
+									<svg  viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" class="btn-zoom__ic btn-zoom__ic-minus">
+										<path d="M6.77417 12.3267H20.2742V14.5767H6.77417V12.3267Z" />
+										<path d="M33.7219 28.105L28.0207 22.4038L23.6354 20.5921C25.0956 18.5156 25.8778 16.0384 25.875 13.5C25.875 6.67638 20.3236 1.125 13.5 1.125C6.67638 1.125 1.125 6.67638 1.125 13.5C1.125 20.3236 6.67638 25.875 13.5 25.875C16.0605 25.8779 18.5582 25.0821 20.6451 23.5985L22.4521 27.9719L28.1531 33.6734C28.5188 34.0391 28.9528 34.3291 29.4305 34.527C29.9083 34.7249 30.4203 34.8268 30.9374 34.8268C31.4545 34.8268 31.9665 34.725 32.4442 34.5271C32.922 34.3293 33.3561 34.0392 33.7217 33.6736C34.0873 33.308 34.3774 32.8739 34.5753 32.3962C34.7732 31.9185 34.8751 31.4064 34.8751 30.8894C34.8751 30.3723 34.7733 29.8602 34.5754 29.3825C34.3775 28.9048 34.0875 28.4707 33.7219 28.105V28.105ZM3.375 13.5C3.375 7.91719 7.91719 3.375 13.5 3.375C19.0828 3.375 23.625 7.91719 23.625 13.5C23.625 19.0828 19.0828 23.625 13.5 23.625C7.91719 23.625 3.375 19.0828 3.375 13.5ZM32.1308 32.0825C31.814 32.3985 31.3849 32.5759 30.9375 32.5759C30.4901 32.5759 30.061 32.3985 29.7442 32.0825L24.3603 26.6985L22.6802 22.632L26.7469 24.312L32.1309 29.696C32.4469 30.0127 32.6243 30.4419 32.6243 30.8893C32.6243 31.3366 32.4468 31.7658 32.1308 32.0825V32.0825Z" />
+									</svg>
+
+								</button>
 								<div class="scale-visual">
-									<span class="scale-visual__text">High</span>
+									<span class="scale-visual__text">MOST</span>
 									<span class="scale-visual__line"></span>
-									<span class="scale-visual__text">Low</span>
+									<span class="scale-visual__text">LEAST</span>
 								</div>
 
 								<div class="map-visual">
 									{% include '../parts/components/maps/desktop.html' %}
 
 									<div class="map-scale">
-										<a class="overlay-close overlay-close-trigger"></a> 
+									
 										<div class="map-scale-container">
 											{% include '../parts/components/maps/mobile.html' %}
 										</div>
@@ -126,7 +149,7 @@
 							<div class="intro-contain mobile-hide">
 								<div class="logo-wrapper">	
 
-									<img src="img/logo-new.svg" class="logo" alt="World's Most Sexually Liberated Cities">
+									<img src="img/logo.png" class="logo" alt="World's Most Sexually Liberated Cities">
 								</div>
 
 								<p data-aos="fade-right" class="intro-para" data-aos-anchor=".data-col">
@@ -176,7 +199,7 @@
 						The demand for more sexual freedom may surprise some residents of liberal metropolises. Wasn't there a sexual revolution as early as the late 1960s? Didn't sex shops spread across the world in the 1970s and hasn’t the BDSM and fetish scene been an established part of society since the 1980s? Isn't the LGBTQI+ community more accepted these days than ever before? That may all be true, but there are still big differences from city to city and country to country when it comes to inclusivity. We are therefore introducing you to the 25 most sexually permissive cities in the world in a ranking based on our research.
 					</p>
 
-					<img src="img/article-image1.png" alt="" data-aos="zoom-in">
+					<img class="lazy" data-src="img/article-image1.png"  data-aos="zoom-in">
 
 					<div><h2 data-aos="fade-up">Our Approach</h2></div>
 					<p data-aos="fade-up">
@@ -200,7 +223,7 @@
 						Just by looking at recent German history, it quickly becomes clear how beneficial a liberal attitude of both the state and society is to the sexual freedom of movement of an individual. If you look at the history of the legal recognition of homosexuality in Germany over the past few decades, it is noticeable that until 1968 homosexual acts were considered criminal and punishable by law in both the FRG and the GDR. It was not until 2001 that homosexual partners were allowed to have so-called registered civil partnerships, which corresponded to a certain legal recognition. Furthermore, same-sex couples have only been allowed to marry in Germany since 2017.
 					</p>
 
-					<img src="img/article-image2.png" alt="" data-aos="zoom-in">
+					<img  class="lazy" data-src="img/article-image2.png" alt="" data-aos="zoom-in">
 
 					<div><h2 data-aos="fade-up">Sexual freedom of movement is relevant for many groups</h2></div>
 					<p data-aos="fade-up">
@@ -247,7 +270,7 @@
 			<div class="info-bg overlay-close-trigger"></div>
 			<div class="overlay-content"> 
 				<a class="overlay-close overlay-close-trigger"></a> 
-				<img src="img/logo-new.svg" alt="German Most Sexually Liberated Cities">
+				<img src="img/logo.png" alt="German Most Sexually Liberated Cities">
 				<h3>Methodology</h3>
 				<p>In order to compile a ranking of the cities that are most sexually liberal, all cities that host three or more LGBT events per year were examined for various factors. This includes the number of gay bars and sex shops, dealing with sex work, the number and size of the annual LGBT events as well as thelegal situation regarding contraceptives, changing the legal gender, same-sex marriages, pre-exposure prophylaxis ( PrEP) and and sexual discrimination. The selection of cities is based on the well-documented article “<a href="https://en.wikipedia.org/wiki/List_of_LGBT_events">List of LGBT events</a>” in the online encyclopedia Wikipedia.</p>
 				<p>The investigation was completed on September 23, 2021.</p>
@@ -294,13 +317,6 @@
 
 
 
-		<!-- Preloader -->
-		<div class="preloader__wrapper">
-			<div class="preloader"><span></span></div>
-			<div class="preloader__section preloader__section--left"></div> 
-			<div class="preloader__section preloader__section--right"></div>
-		</div>		
-		<!--// Preloader -->
 
 
 

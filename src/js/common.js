@@ -5,17 +5,7 @@ $(document).ready(function() {
 			timer; // for disable scroll
 	// ========= =========== =========== ===========
 
-	// Disable hover effect when client scrolles the page
-	$(window).on('scroll',function() {
-		clearTimeout(timer);
-		if(!body.hasClass('disable-hover')) {
-			body.addClass('disable-hover');
-		}
-
-		timer = setTimeout(function() {
-			body.removeClass('disable-hover');
-		}, 200);
-	});
+	
 
 	var activeSelect = $('.table-control').val();
 
@@ -1450,9 +1440,6 @@ $(document).ready(function() {
 	});
 
 
-
-
-
 	$('.country-close-trigger').on('click', function(e){
 		e.preventDefault();
 
@@ -1466,11 +1453,6 @@ $(document).ready(function() {
 
 		closeCityInformation();
 	});
-
-
-	
-
-	
 
 
 
@@ -1497,6 +1479,18 @@ $(document).ready(function() {
 		});
 	});
 
+	$('.st0').on('click', function(e) {
+		e.preventDefault();
+		$('.map-scale').addClass('active');
+		$('.js-close-zoom-map-btn').addClass('is-visible');
+	});
+
+	$('.js-close-zoom-map-btn').on('click', function(e) {
+		e.preventDefault();
+		$('.map-scale').removeClass('active');
+		$(this).removeClass('is-visible');
+	});
+
 
 	if (html < 768) {
 
@@ -1504,7 +1498,6 @@ $(document).ready(function() {
 
 
 		$('.map-scale-container').scrollTop((mapHeight - 450) / 2);
-		//$('.map-scale-container').addClass('is-hidden');
 
 
 	} else {
@@ -1514,11 +1507,11 @@ $(document).ready(function() {
 		});
 	}
 
-	$('.js-zoom-map-btn').on('click', function(e) {
-		e.preventDefault();
-		$(this).toggleClass('is-active');
-		$('.map-scale').toggleClass('active');
-	});
+	// $('.js-zoom-map-btn').on('click', function(e) {
+	// 	e.preventDefault();
+	// 	$(this).toggleClass('is-active');
+	// 	$('.map-scale').toggleClass('active');
+	// });
 
 
 	$('.btn-back').on('click', function(e) {

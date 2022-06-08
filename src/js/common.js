@@ -1,16 +1,16 @@
-$(document).ready(function() {
+$(document).ready(function () {
 	//  ========= Variables =========
 	var body = $('body'),
-			html = body.width(),
-			timer; // for disable scroll
+		html = body.width(),
+		timer; // for disable scroll
 	// ========= =========== =========== ===========
 
-	
+
 
 	var activeSelect = $('.table-control').val();
 
 
-	$('g[data-'+activeSelect+']').addClass('active-'+activeSelect+'');
+	$('g[data-' + activeSelect + ']').addClass('active-' + activeSelect + '');
 
 
 	var tableOffset = $('.table-container').offset().top;
@@ -18,30 +18,30 @@ $(document).ready(function() {
 
 	function scrollToTable() {
 
-		if (html > 1050) {return;}
-		
-		$('html, body').animate({scrollTop: tableOffset}, 600);
+		if (html > 1050) { return; }
+
+		$('html, body').animate({ scrollTop: tableOffset }, 600);
 	}
 
 
-	$(window).scroll(function(){
+	$(window).scroll(function () {
 		var scrolled = $(window).scrollTop();
-		if (scrolled > 10 && !$('.scroll-indicator').hasClass('hidden')){
-				$('.scroll-indicator').addClass('hidden');
+		if (scrolled > 10 && !$('.scroll-indicator').hasClass('hidden')) {
+			$('.scroll-indicator').addClass('hidden');
 		}
-		else if (scrolled < 10 && $('.scroll-indicator').hasClass('hidden')){
-				$('.scroll-indicator').removeClass('hidden');
+		else if (scrolled < 10 && $('.scroll-indicator').hasClass('hidden')) {
+			$('.scroll-indicator').removeClass('hidden');
 		}
 	});
 
 
-	$('.lus-toggle-open-js').on('click', function(e) {
+	$('.lus-toggle-open-js').on('click', function (e) {
 		e.preventDefault();
 
 		$('.lus-header--fix').addClass('active');
 	});
 
-	$('.lus-toggle-close-js').on('click', function(e) {
+	$('.lus-toggle-close-js').on('click', function (e) {
 		e.preventDefault();
 
 		$('.lus-header--fix').removeClass('active');
@@ -60,27 +60,27 @@ $(document).ready(function() {
 	});
 
 
-	if($('.bg-fade').length > 0){
+	if ($('.bg-fade').length > 0) {
 		var bgFade = $('.bg-fade');
 
-		$('.table-container').scroll(function(){
-				var scroll = $(this).scrollLeft();
+		$('.table-container').scroll(function () {
+			var scroll = $(this).scrollLeft();
 
-				$('.bg-fade').css({
-						'transform': 'translateX('+scroll+'px)'
-				});
+			$('.bg-fade').css({
+				'transform': 'translateX(' + scroll + 'px)'
+			});
 
-				if(scroll > 0 && !bgFade.hasClass('hidden')){
-						bgFade.addClass('hidden');
-				}
-				else if(scroll === 0 && bgFade.hasClass('hidden')){
-						bgFade.removeClass('hidden');
-				}
+			if (scroll > 0 && !bgFade.hasClass('hidden')) {
+				bgFade.addClass('hidden');
+			}
+			else if (scroll === 0 && bgFade.hasClass('hidden')) {
+				bgFade.removeClass('hidden');
+			}
 		});
 	}
 
 
-	$('.invert-trigger').on('click', function(e){
+	$('.invert-trigger').on('click', function (e) {
 		e.preventDefault();
 
 		var table = $(this).closest('table');
@@ -89,34 +89,34 @@ $(document).ready(function() {
 		table.find('tr:first').after(rows.get().reverse());
 	});
 
-	$('.expand-toggle').on('click', function(e){
+	$('.expand-toggle').on('click', function (e) {
 		e.preventDefault();
 
-		if($(this).hasClass('expanded')){
-				$(this).removeClass('expanded');
-				$(this).find('span').empty().append('View all');
-				$('.table-container').removeClass('expand');
+		if ($(this).hasClass('expanded')) {
+			$(this).removeClass('expanded');
+			$(this).find('span').empty().append('View all');
+			$('.table-container').removeClass('expand');
 		}
-		else{
-				$(this).addClass('expanded');
-				$(this).find('span').empty().append('View less');
-				$('.table-container').addClass('expand');
+		else {
+			$(this).addClass('expanded');
+			$(this).find('span').empty().append('View less');
+			$('.table-container').addClass('expand');
 		}
 	});
 
-	$('.jump-to').click(function(e) {
+	$('.jump-to').click(function (e) {
 		e.preventDefault();
 
 		var target = $(this).attr('data-target');
-		target = $('.'+target);
+		target = $('.' + target);
 		var scroll = target.offset().top;
 
 		$('html, body').animate({
-				scrollTop: scroll
-		 }, 1000);
+			scrollTop: scroll
+		}, 1000);
 	});
 
-	$('.info-trigger').on('click', function(e){
+	$('.info-trigger').on('click', function (e) {
 		e.preventDefault();
 
 		$('body').addClass('overlay-active');
@@ -124,13 +124,13 @@ $(document).ready(function() {
 	});
 
 
-	$('.overlay-close-trigger').on('click', function(e){
+	$('.overlay-close-trigger').on('click', function (e) {
 		e.preventDefault();
 
 		$('body').removeClass('overlay-active');
-	
+
 	});
-	
+
 
 	var cities = {
 
@@ -156,9 +156,9 @@ $(document).ready(function() {
 				title: 'Berlin',
 				text: "Wer sich die Frage nach der sexpositivsten Stadt Deutschlands stellt, der wird dabei sicherlich auch einmal an Berlin denken. Denn die deutsche Hauptstadt ist bereits seit den 1920er Jahren für seine rauschenden Feste und gesellschaftliche Freiheiten international bekannt. Berlin war um die Jahrtausendwende herum Veranstaltungsort der Loveparade, die mit über einer Million TeilnehmerInnen als größte Party der Welt galt. Zahlreiche weltberühmte Technoclubs befinden sich dort, allen voran etwa das Berghain oder das Watergate. In Berlin gibt es dazu seit jeher eine riesige Homosexuellenszene und mindestens 45 LGBTIQ* Lokalitäten. Es gibt mindestens 32 Sex-Shops in der Stadt und es finden 40 jährliche LGBTQI-Events in Berlin statt. Natürlich lockt dieses unvergleichliche Angebot regelmäßig eine hohe Zahl internationaler Gäste an. Zusätzlich ist eine sehr ausdifferenzierte BDSM- und Fetischszene in Berlin präsent. Verstecken muss sich in Berlin niemand, wenn er oder sie seine oder ihre Sexualität offen ausleben möchte, was eindeutig zum besonderen Flair der Stadt gehört. Die gesellschaftliche Offenheit ist dort ganz besonders ausgeprägt, was sich auch darin ausdrückt, dass in Berlin jedes Jahr mit der 'Venus' die wohl größte Erotik-Messe der Welt stattfindet. Außerdem ist Prostitution völlig legal in der Stadt und weit verbreitet, sexuelle Minderheiten werden von Anti-Diskriminierungsgesetzen geschützt. Alle Punkte zusammengezählt und gemessen an den Einwohnern landet Berlin in unserem Ranking auf dem 8. Platz."
 			}
-			
-			
-			
+
+
+
 		},
 
 		Hamburg: {
@@ -211,7 +211,7 @@ $(document).ready(function() {
 			finalRanking: 1,
 			sexShops: 19,
 			swingerClubs: 6,
-			gayPrides:9,
+			gayPrides: 9,
 			lbgtEvents: 14,
 			lgbtBars: 25,
 			brothels: 43,
@@ -602,7 +602,7 @@ $(document).ready(function() {
 			finalRanking: 2,
 			sexShops: 3,
 			swingerClubs: 1,
-			gayPrides:2,
+			gayPrides: 2,
 			lbgtEvents: 6,
 			lgbtBars: 13,
 			brothels: 3,
@@ -1290,7 +1290,7 @@ $(document).ready(function() {
 	};
 
 
-	$('.table-contain').find('tr:not(.noclick)').on('click', function(e){
+	$('.table-contain').find('tr:not(.noclick)').on('click', function (e) {
 		e.preventDefault();
 
 		var self = $(this);
@@ -1302,10 +1302,10 @@ $(document).ready(function() {
 		var maxHeight = $('.country-info').outerHeight();
 
 
-		
+
 		$('g[data-target]').removeClass('active');
-		$('g[data-target='+target+']').addClass('active');
-	
+		$('g[data-target=' + target + ']').addClass('active');
+
 
 		if ($('.country-info').length > 0) {
 
@@ -1318,7 +1318,7 @@ $(document).ready(function() {
 			$('.country-info').addClass('active');
 
 			$('.table-container').scrollLeft(0).addClass('country-overlay-open');
-			$('.expand-control').css('display','none');
+			$('.expand-control').css('display', 'none');
 
 
 		}
@@ -1329,7 +1329,7 @@ $(document).ready(function() {
 	});
 
 
-	
+
 
 
 
@@ -1344,7 +1344,7 @@ $(document).ready(function() {
 		cityInfo.find('.country-info-text').empty();
 
 
-		
+
 		var title;
 		var population = cities[city].population;
 		var finalRanking = cities[city].finalRanking;
@@ -1365,7 +1365,7 @@ $(document).ready(function() {
 		if (lang == 'de') {
 			title = cities[city].de.title;
 			text = cities[city].de.text;
-		} else  {
+		} else {
 			title = cities[city].en.title;
 			text = cities[city].en.text;
 		}
@@ -1386,8 +1386,8 @@ $(document).ready(function() {
 		cityInfo.find('.stat-value[data-sexworkorg]').text(sexWorkOrg);
 		cityInfo.find('.stat-value[data-sexhealth]').text(sexHealth);
 		cityInfo.find('.stat-value[data-hiv]').text(hiv);
-		
-		
+
+
 	}
 
 
@@ -1396,12 +1396,12 @@ $(document).ready(function() {
 		$(this).parents('.country-info').removeClass('active');
 
 		$('.country-info.active').removeClass('active');
-		$('.table-container').attr('style','').removeClass('country-overlay-open');
-		$('.expand-control').css('display','flex');
+		$('.table-container').attr('style', '').removeClass('country-overlay-open');
+		$('.expand-control').css('display', 'flex');
 	}
 
 
-	$('g[data-target]').on('click',  function(e) {
+	$('g[data-target]').on('click', function (e) {
 		e.preventDefault();
 
 		var self = $(this);
@@ -1421,7 +1421,7 @@ $(document).ready(function() {
 			self.addClass('active');
 		}
 
-		
+
 
 		$('.data-section .table-container').css({
 			'height': maxHeight,
@@ -1433,20 +1433,20 @@ $(document).ready(function() {
 		$('.country-info').addClass('active');
 
 		$('.table-container').scrollLeft(0).addClass('country-overlay-open');
-		$('.expand-control').css('display','none');
+		$('.expand-control').css('display', 'none');
 
 		scrollToTable();
 
 	});
 
 
-	$('.country-close-trigger').on('click', function(e){
+	$('.country-close-trigger').on('click', function (e) {
 		e.preventDefault();
 
 		closeCityInformation();
 	});
 
-	$('.map-scale .overlay-close').on('click', function(e) {
+	$('.map-scale .overlay-close').on('click', function (e) {
 		e.preventDefault();
 
 		$(this).parents('.map-scale').removeClass('active');
@@ -1456,36 +1456,89 @@ $(document).ready(function() {
 
 
 
-	$('.table-control').on('change', function(e){
+	$('.table-control').on('change', function (e) {
 		var target = $(this).val();
 		var count = 0;
 
 
 
 		$('.table-contain.active').removeClass('active');
-		$('.table-contain.'+'table-'+target).addClass('active');
+		$('.table-contain.' + 'table-' + target).addClass('active');
 
-		$('.map-visual').find('svg').each(function(){
+		$('.map-visual').find('svg').each(function () {
 			var self = $(this);
 
 			if (target == 'overall') {
 				self.find('g').removeClass();
 			} else {
-				self.find('g[data-'+target+']').removeClass();
-				self.find('g[data-'+target+']').addClass('active-'+target);
+				self.find('g[data-' + target + ']').removeClass();
+				self.find('g[data-' + target + ']').addClass('active-' + target);
 			}
 
-			
+
 		});
 	});
 
-	$('.st0').on('click', function(e) {
+
+
+	$('.st0').on('click', function (e) {
 		e.preventDefault();
+		var minimapBounding = $('.st0')[0].getBoundingClientRect();
+		var mapScaleBounding = $('.map-scale-container')[0].getBoundingClientRect();
+
+		var minimapParams = {
+			width: Math.round(minimapBounding.width),
+			height: Math.round(minimapBounding.height),
+		}
+
+		var mapScaleParams = {
+			width: Math.round(mapScaleBounding.width),
+			height: Math.round(mapScaleBounding.height),
+		}
+
+		var coord = {
+			x: e.offsetX,
+			y: e.offsetY
+		}
+
+		console.log(minimapParams)
+		console.log(mapScaleParams)
+
+
+		var mapScaleWidthPercent = coord.x * 100 / minimapParams.width
+		var mapScaleHeightPercent = coord.y * 100 / minimapParams.height
+		var newPercent = mapScaleHeightPercent >= 45 ? mapScaleHeightPercent * 1.8 : mapScaleHeightPercent
+
+		var transform = {
+			x: mapScaleParams.width / 100 * mapScaleWidthPercent,
+			y: mapScaleParams.height / 100 * newPercent
+		}
+
+		if (html < 768) {
+			if (mapScaleWidthPercent < 50) {
+				transform.x *= 1.5
+			} else if (mapScaleWidthPercent >= 50 && mapScaleWidthPercent < 70) {
+				transform.x *= 2
+			} else if (mapScaleWidthPercent >= 70) {
+				transform.x *= 2.5
+			}
+
+			if (mapScaleHeightPercent < 30) {
+				transform.y *= 1
+			} else if (mapScaleHeightPercent >= 30) {
+				transform.y *= 1.5
+			}
+
+			$('.map-scale-container')[0].scrollTo(transform.x, transform.y)
+		} else {
+			gsap.set($('.map-mobile'), { x: -transform.x, y: -transform.y })
+		}
+
 		$('.map-scale').addClass('active');
 		$('.js-close-zoom-map-btn').addClass('is-visible');
 	});
 
-	$('.js-close-zoom-map-btn').on('click', function(e) {
+	$('.js-close-zoom-map-btn').on('click', function (e) {
 		e.preventDefault();
 		$('.map-scale').removeClass('active');
 		$(this).removeClass('is-visible');
@@ -1501,7 +1554,7 @@ $(document).ready(function() {
 
 
 	} else {
-			Draggable.create('.map-mobile', {
+		Draggable.create('.map-mobile', {
 			bounds: '.map-scale-container',
 			inertia: true
 		});
@@ -1514,16 +1567,16 @@ $(document).ready(function() {
 	// });
 
 
-	$('.btn-back').on('click', function(e) {
+	$('.btn-back').on('click', function (e) {
 		e.preventDefault();
 		$('html').removeClass('is-fixed');
 		$('.fullscreen').removeClass('active');
 
-		
+
 	});
 
 
-	$('.ano-footer__title').on('click', function(e) {
+	$('.ano-footer__title').on('click', function (e) {
 		e.preventDefault();
 
 		$(this).toggleClass('active');
@@ -1537,7 +1590,7 @@ $(document).ready(function() {
 
 
 
-	setTimeout(function(){
+	setTimeout(function () {
 		$('body').addClass('is-loaded');
 	}, 1200);
 

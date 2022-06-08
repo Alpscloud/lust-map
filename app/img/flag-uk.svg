@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="20" viewBox="0 0 30 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_139" data-name="Rectangle 139" width="30" height="20" rx="2.79" transform="translate(-0.213)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="flag-uk" transform="translate(-527.974 -366.253)">
+    <rect id="Rectangle_133" data-name="Rectangle 133" width="30" height="20" rx="2.79" transform="translate(527.974 366.253)" fill="#0071bc"/>
+    <rect id="Rectangle_134" data-name="Rectangle 134" width="7.346" height="20" transform="translate(539.344 366.253)" fill="#fff"/>
+    <g id="Group_87" data-name="Group 87" transform="translate(528.187 366.253)">
+      <g id="Group_86" data-name="Group 86" clip-path="url(#clip-path)">
+        <g id="Group_85" data-name="Group 85" transform="translate(-2.587 -0.476)">
+          <rect id="Rectangle_135" data-name="Rectangle 135" width="37.368" height="4.04" transform="translate(0 17.375) rotate(-27.708)" fill="#fff"/>
+          <path id="Path_109" data-name="Path 109" d="M0,0H37.368V2.052H0Z" transform="translate(0.462 18.255) rotate(-27.708)" fill="#ed5565"/>
+          <rect id="Rectangle_137" data-name="Rectangle 137" width="37.368" height="4.04" transform="translate(33.083 20.952) rotate(-152.292)" fill="#fff"/>
+          <rect id="Rectangle_138" data-name="Rectangle 138" width="37.368" height="2.052" transform="translate(33.545 20.072) rotate(-152.292)" fill="#ed5565"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_140" data-name="Rectangle 140" width="29.787" height="5.468" transform="translate(528.187 373.519)" fill="#fff"/>
+    <rect id="Rectangle_141" data-name="Rectangle 141" width="29.787" height="2.869" transform="translate(528.187 374.819)" fill="#ed5565"/>
+    <rect id="Rectangle_142" data-name="Rectangle 142" width="4.344" height="20" transform="translate(540.845 366.253)" fill="#ed5565"/>
+  </g>
+</svg>

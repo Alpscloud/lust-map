@@ -1,0 +1,134 @@
+<svg class="map-visual" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1406.3 926.6" style="enable-background:new 0 0 1406.3 926.6;" xml:space="preserve">
+									<style type="text/css">
+										.st1{fill:#262626;}
+										.st2{fill:#FFFFFF;}
+										.st3{font-family:'Futura-Bold';}
+										.st4{font-size:20px;}
+										.st9{font-size:16px;}
+									</style>
+									<polygon id="shape-germany" class="st0" points="722.4,544.2 817,524.2 826.9,382 703.4,404.1 " fill="#f75a5d" />
+									<g>
+										<rect x="701.3" y="413" class="st1" width="133.8" height="46.7"/>
+										<text transform="matrix(1 0 0 1 717.5293 443.371)" class="st2 st3 st4">Germany</text>
+									</g>
+									<polygon id="shape-hungary" class="st5" points="878.6,549.3 953.9,546.6 953.9,571.2 863.7,593.9 " fill="#f4ddde" />
+									<g>
+										<rect x="887.2" y="559.1" class="st1" width="129.9" height="46.8"/>
+										<text transform="matrix(1 0 0 1 904.8691 589.4766)" class="st2 st3 st4">Hungary</text>
+									</g>
+									<polygon id="shape-france" class="st6" points="714.8,576.5 607,607.6 574.5,477.5 702.5,481.8 " fill="#f5d0d1" />
+									<g>
+										<rect x="596.4" y="512.3" class="st1" width="114" height="46.8"/>
+										<text transform="matrix(1 0 0 1 619.0435 542.6113)" class="st2 st3 st4">France</text>
+									</g>
+									<polygon id="shape-spain" class="st7" points="482,552.3 588.8,567.1 612.3,670.9 490.1,708.4 " fill="#f67f82" />
+									<g>
+										<rect x="523" y="614" class="st1" width="94.7" height="46.8"/>
+										<text transform="matrix(1 0 0 1 540.5443 644.3273)" class="st2 st3 st4">Spain</text>
+									</g>
+									<polygon id="shape-unitedstates" class="st8" points="122.3,277.7 426.6,304.8 395.2,473.9 185.9,456.4 " fill="#f6989a" />
+									<g>
+										<rect x="260.7" y="350.2" class="st1" width="61.1" height="37.4"/>
+										<text transform="matrix(1 0 0 1 274.6336 374.4156)" class="st2 st3 st9">USA</text>
+									</g>
+									<polygon id="shape-australia" class="st10" points="1279.3,839.4 1080,819.3 1103.3,706.7 1236.7,665.7 " fill="#f6797c" />
+									<g>
+										<rect x="1112.8" y="737.2" class="st1" width="133.8" height="46.8"/>
+										<text transform="matrix(1 0 0 1 1128.9385 767.5645)" class="st2 st3 st4">Australia</text>
+									</g>
+									<polygon id="shape-canada" class="st11" points="428.7,293.4 119.1,264.6 71.1,114 481,172.7 " fill="#f76063" />
+									<g>
+										<rect x="226.7" y="189.1" class="st1" width="118.4" height="46.8"/>
+										<text transform="matrix(1 0 0 1 244.0835 219.4707)" class="st2 st3 st4">Canada</text>
+									</g>
+									<polygon id="shape-portugal" class="st12" points="452.6,595.8 475.4,568.5 481.3,685.6 446,673.1 " fill="#f5b7b9" />
+									<g>
+										<rect x="387.5" y="607" class="st1" width="127.3" height="46.8"/>
+										<text transform="matrix(1 0 0 1 405.041 637.3301)" class="st2 st3 st4">Portugal</text>
+									</g>
+									<polygon id="shape-uk" class="st13" points="637.4,270.6 597,273.7 561.6,425.3 636,429.9 " fill="#f68c8e" />
+									<g>
+										<rect x="557" y="307.1" class="st1" width="66.9" height="46.7"/>
+										<text transform="matrix(1 0 0 1 574.3984 337.3621)" class="st2 st3 st4">UK</text>
+									</g>
+									<polygon id="shape-belgium" class="st14" points="685.8,447.4 658.8,439.8 647.4,468.7 682.4,471.1 " fill="#f76769" />
+									<g>
+										<rect x="570.6" y="414" class="st1" width="115.7" height="46.7"/>
+										<text transform="matrix(1 0 0 1 584.7444 444.3618)" class="st2 st3 st4">Belgium</text>
+									</g>
+									<polygon id="shape-luxembourg" class="st15" points="700.4,450.4 692.6,450.4 688.9,471.9 703.4,472.9 " fill="#f69fa1" />
+									<g>
+										<rect x="655.3" y="461" class="st1" width="166.1" height="46.7"/>
+										<text transform="matrix(1 0 0 1 672.6001 491.2617)" class="st2 st3 st4">Luxembourg</text>
+									</g>
+									<polygon id="shape-denmark" class="st16" points="808.5,375.9 787.5,311.9 755.1,311.9 754.2,386.4 " fill="#f69294" />
+									<g>
+										<rect x="702.5" y="311.5" class="st1" width="125.4" height="46.7"/>
+										<text transform="matrix(1 0 0 1 716.5465 341.8058)" class="st2 st3 st4">Denmark</text>
+									</g>
+									<polygon id="shape-estonia" class="st17" points="1003.8,256.8 950.4,268.2 941.6,290.9 1008.2,303.2 " fill="#f5abad" />
+									<g>
+										<rect x="917.5" y="245.4" class="st1" width="114.8" height="46.7"/>
+										<text transform="matrix(1 0 0 1 937.6357 275.7197)" class="st2 st3 st4">Estonia</text>
+									</g>
+									<polygon id="shape-newzealand" class="st18" points="1334.8,818.5 1272.1,877.2 1299.4,898.9 1334.8,863.5 " fill="#f66d70" />
+									<g>
+										<rect x="1206" y="846.1" class="st1" width="182.1" height="46.8"/>
+										<text transform="matrix(1 0 0 1 1223.0488 876.4202)" class="st2 st3 st4">New Zealand</text>
+									</g>
+									<polygon id="shape-latvia" class="st19" points="925,294.4 1013.4,317.2 1022.2,340 920.6,340.8 " fill="#f4d6d8" />
+									<g>
+										<rect x="918.9" y="314.8" class="st1" width="105" height="46.7"/>
+										<text transform="matrix(1 0 0 1 939.0303 345.1758)" class="st2 st3 st4">Latvia</text>
+									</g>
+									<polygon id="shape-sweden" class="st20" points="826.9,368.9 966.1,44 873.3,27.3 797.1,299.7 " fill="#f5c4c5" />
+									<g>
+										<rect x="766.5" y="147.2" class="st1" width="123.9" height="46.7"/>
+										<text transform="matrix(1 0 0 1 786.6426 177.502)" class="st2 st3 st4">Sweden</text>
+									</g>
+									<polygon id="shape-netherlands" class="st21" points="693.8,404.8 665.8,407.4 659.6,428.4 695.5,439.8 " fill="#f75457" />
+									<g>
+										<rect x="591.1" y="362.8" class="st1" width="166.1" height="46.7"/>
+										<text transform="matrix(1 0 0 1 608.4094 393.1463)" class="st2 st3 st4">Netherlands</text>
+									</g>
+									<polygon id="shape-poland" class="st22" points="965.3,394.2 838.4,394.2 831.2,460.8 943.8,502.4 " fill="#f5c4c5" />
+									<g>
+										<rect x="844" y="398.9" class="st1" width="108.5" height="46.7"/>
+										<text transform="matrix(1 0 0 1 861.4424 429.2959)" class="st2 st3 st4">Poland</text>
+									</g>
+									<polygon id="shape-finland" class="st23" points="1017.8,205.1 913.6,244.5 972.3,47.5 1003.8,65 " fill="#f68688" />
+									<g>
+										<rect x="955.8" y="122.6" class="st1" width="123.9" height="46.8"/>
+										<text transform="matrix(1 0 0 1 975.9434 152.9316)" class="st2 st3 st4">Finland</text>
+									</g>
+									<polygon id="shape-czechrepublic" class="st24" points="888.3,493.7 840.9,474.8 838.3,515.1 878.6,523 " fill="#f5b1b3" />
+									<g>
+										<rect x="833.8" y="454.1" class="st1" width="189.4" height="46.7"/>
+										<text transform="matrix(1 0 0 1 851.1982 484.3809)" class="st2 st3 st4">Czech Republic</text>
+									</g>
+									<polygon id="shape-austria" class="st26" points="768.2,545.8 844.4,527.4 863.7,557.1 795.4,565.9 " fill="#f67376" />
+									<g>
+										<rect x="768.2" y="517" class="st1" width="91.5" height="37.4"/>
+										<text transform="matrix(1 0 0 1 782.3901 541.2291)" class="st2 st3 st9">Austria</text>
+									</g>
+									<polygon id="shape-slovakia" class="st27" points="952.1,515.1 898.7,497.6 883.8,537.9 938.1,537 " fill="#f4e3e4" />
+									<g>
+										<rect x="890.7" y="508.5" class="st1" width="126.5" height="46.7"/>
+										<text transform="matrix(1 0 0 1 908.0618 538.8145)" class="st2 st3 st4">Slovakia</text>
+									</g>
+									<polygon id="shape-greece" class="st28" points="1029.2,682.4 924.1,745.4 952.1,813.7 981,803.2 " fill="#f4e9ea" />
+									<g>
+										<rect x="909.4" y="727.2" class="st1" width="109.4" height="46.8"/>
+										<text transform="matrix(1 0 0 1 926.8008 757.5645)" class="st2 st3 st4">Greece</text>
+									</g>
+									<polygon id="shape-italy" class="st29" points="860.2,741.9 878.6,728.8 786.6,576.4 724.4,599.2 " fill="#f5bebf" />
+									<g>
+										<rect x="773.6" y="637.4" class="st1" width="80.7" height="46.8"/>
+										<text transform="matrix(1 0 0 1 791.0264 667.7246)" class="st2 st3 st4">Italy</text>
+									</g>
+									<polygon id="shape-slovenia" class="st25" points="854.9,567.6 801.5,573.8 813.8,597.4 853.2,593.9 " fill="#f5a5a7" />
+									<g>
+										<rect x="758.2" y="578.3" class="st1" width="126.5" height="46.8"/>
+										<text transform="matrix(1 0 0 1 775.6393 608.6105)" class="st2 st3 st4">Slovenia</text>
+									</g>
+								</svg>

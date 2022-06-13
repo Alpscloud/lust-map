@@ -1,0 +1,298 @@
+{% include '../parts/head.html' %}
+<body>
+	
+	<!-- CONTENT WRAPPER -->
+	<div class="content__wrapper">
+
+		<!-- Preloader -->
+		<div class="preloader__wrapper">
+			<div class="preloader"><span></span></div>
+			<div class="preloader__section preloader__section--left"></div> 
+			<div class="preloader__section preloader__section--right"></div>
+		</div>		
+		<!--// Preloader -->
+
+
+		<!-- Header -->
+		{% include '../parts/sections/header.html' %}
+		<!-- //Header -->
+
+		<!-- Main -->
+		<div class="swbi_content">
+
+			{% include '../parts/components/scroll-down.html' %}
+
+
+
+			<section class="data-section">
+				<div class="site-width container">
+					<div class="columns">
+						<div class="col map-col" >
+
+							<div class="links-contain">
+								<div class="languages">
+									<span class="language-link">
+										<img src="img/flag-uk.svg" alt="">
+										<span>EN</span>
+									</span>
+
+									<a href="index.html" class="language-link">
+										<img src="img/flag-germany.svg" alt="">
+										<span>DE</span>
+									</a>
+								</div>
+
+								<a class="info-trigger">i</a>
+							</div>
+
+							<div class="mobile-show">
+								<div class="logo-wrapper">	
+
+									<img src="img/logo.png" class="logo" alt="World's Most Sexually Liberated Cities">
+								</div>
+
+								<p class="intro-para" data-aos="fade-right">The well-being of sex workers varies greatly from country to country. To find out how your country compares, simply interact with the map below or scroll down for our key findings and methodology. <a class="jump-to" data-target="info-section"><span>more</span></a>
+								</p>
+							</div>
+
+							<div class="control-row">
+								<div class="dd-contain">
+									<span>Showing</span>
+									<select class="table-control">
+										<option value="finalranking" selected>Final Ranking (out of 50)</option>
+										<option value="swingerclubs">Swingerclubs</option>
+										<option value="gayprides">Gay Pride Events</option>
+										<option value="lgbtevents">LGBT events</option>
+										<option value="lgbtbars">LGBT Bars / Clubs</option>
+										<option value="brothels">Brothels</option>
+										<option value="sexshops">Sex shops</option>
+										<option value="sexworkers">Sex workers</option>
+										<option value="sexworkorg">Sexwork Organisations</option>
+										<option value="sexhealth">Sex. Health Organisations</option>
+										<option value="hiv">HIV / STD Doctors and Clinics</option>
+										<option value="overall" >Population</option>
+										
+									</select>
+								</div>
+
+								<div class="links-contain">
+									<div class="languages">
+										<span class="language-link">
+											<img src="img/flag-uk.svg" alt="">
+											<span>EN</span>
+										</span>
+
+										<a href="index.html" class="language-link">
+											<img src="img/flag-germany.svg" alt="">
+											<span>DE</span>
+										</a>
+									</div>
+
+									<a class="info-trigger">i</a>
+								</div>
+							</div>
+
+							<div class="internal-map-contain">
+								<!-- btn zoom -->
+								<a class="overlay-close overlay-close-trigger js-close-zoom-map-btn"></a>
+								<div class="scale-visual">
+									<span class="scale-visual__text">MOST</span>
+									<span class="scale-visual__line"></span>
+									<span class="scale-visual__text">LEAST</span>
+								</div>
+
+								<div class="map-visual">
+									{% include '../parts/components/maps/desktop.html' %}
+
+									<div class="map-scale">
+										
+										<div class="map-scale-container">
+											{% include '../parts/components/maps/mobile.html' %} 
+										</div>
+									</div>
+								</div>
+
+								
+
+							</div>
+						</div>
+
+						<div class="col data-col">
+							<div class="intro-contain mobile-hide">
+								<div class="logo-wrapper">	
+
+									<img src="img/logo.png" class="logo" alt="World's Most Sexually Liberated Cities">
+								</div>
+
+								<p data-aos="fade-right" class="intro-para" data-aos-anchor=".data-col">The well-being of sex workers varies greatly from country to country. To find out how your country compares, simply interact with the map below or scroll down for our key findings and methodology. <a class="jump-to" data-target="info-section"><span>more</span></a></p>
+							</div>
+
+							<div class="table-container" data-aos="fade-right" data-aos-anchor=".data-col">
+
+								{% include '../parts/components/table/en/table-finalranking.html' %}
+								{% include '../parts/components/table/en/table-overall.html' %}
+								{% include '../parts/components/table/en/table-swingerclubs.html' %}
+								{% include '../parts/components/table/en/table-gayprides.html' %}
+								{% include '../parts/components/table/en/table-lgbtevents.html' %}
+								{% include '../parts/components/table/en/table-lgbtbars.html' %}
+								{% include '../parts/components/table/en/table-brothels.html' %}
+								{% include '../parts/components/table/en/table-sexshops.html' %}
+								{% include '../parts/components/table/en/table-sexworkers.html' %}
+								{% include '../parts/components/table/en/table-sexworkorg.html' %}
+								{% include '../parts/components/table/en/table-sexhealth.html' %}
+								{% include '../parts/components/table/en/table-hiv.html' %}
+
+
+								<!-- Info -->
+								{% include '../parts/components/info/info.html' %}
+
+
+								<div class="bg-fade"></div>
+							</div>
+
+							<div class="expand-control" data-aos="fade-up" data-aos-anchor=".data-col" data-aos-delay="100">
+								<a class="expand-toggle">
+									<img src="img/icon-view.svg" alt="">
+									<span>View all</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="info-section">
+				<div class="site-width">
+					<div><h2 data-aos="fade-up">Background</h2></div>
+
+					<p data-aos="fade-up">
+						The demand for more sexual freedom may surprise some residents of liberal metropolises. Wasn't there a sexual revolution as early as the late 1960s? Didn't sex shops spread across the world in the 1970s and hasn’t the BDSM and fetish scene been an established part of society since the 1980s? Isn't the LGBTQI+ community more accepted these days than ever before? That may all be true, but there are still big differences from city to city and country to country when it comes to inclusivity. We are therefore introducing you to the 25 most sexually permissive cities in the world in a ranking based on our research.
+					</p>
+
+					<img class="lazy" data-src="img/article-image1.png"  data-aos="zoom-in">
+
+					<div><h2 data-aos="fade-up">Our Approach</h2></div>
+					<p data-aos="fade-up">
+						In order to achieve reliable results, we have incorporated extensive data from a range of categories into our list of the most sexually liberal cities in the world. We looked in detail at each city and their particular strengths and weaknesses regarding sexual permissiveness.
+					</p>
+					<p data-aos="fade-up">
+						This includes the number of gay bars and whether homosexual marriages are allowed, permission for gender reassignment, the number of annual LGBTQI+ events such as gay pride parades, access to contraceptives and PrEP medication, whether there are anti-discrimination and sex worker protection laws in place and whether sex work is legalised.
+					</p>
+					<p data-aos="fade-up">
+						We awarded points for each parameter and the higher the value, the higher the placement in our ranking. As such, some interesting results have emerged. You can find out more about each city in our Top 25 by clicking on the map or in the list.
+					</p>
+					<div><h2 data-aos="fade-up">Why is sexual freedom so important?</h2></div>
+
+					<p data-aos="fade-up">
+						In considering this study, of course, the question arises as to why sexual permissiveness is an important value to investigate. Quite simply: sexual permissiveness, also known as sex positivity, is a factor in which the state of development of many areas of society coincides. Because it says a lot about a society in general when minorities such as the LGBTQI community or women are restricted in their development opportunities. Such restrictions can be justified both with so-called traditional values ​​and also with political arguments. As the feminist movements of the 20th century have shown, the emancipation of genders or minority orientations is always connected with the acceptance of sexual permissiveness.
+					</p>
+
+					<div><h2 data-aos="fade-up">Sexual freedom of movement is not a matter of course</h2></div>
+
+					<p data-aos="fade-up">
+						Just by looking at recent German history, it quickly becomes clear how beneficial a liberal attitude of both the state and society is to the sexual freedom of movement of an individual. If you look at the history of the legal recognition of homosexuality in Germany over the past few decades, it is noticeable that until 1968 homosexual acts were considered criminal and punishable by law in both the FRG and the GDR. It was not until 2001 that homosexual partners were allowed to have so-called registered civil partnerships, which corresponded to a certain legal recognition. Furthermore, same-sex couples have only been allowed to marry in Germany since 2017.
+					</p>
+
+					<img  class="lazy" data-src="img/article-image2.png" alt="" data-aos="zoom-in">
+
+					<div><h2 data-aos="fade-up">Sexual freedom of movement is relevant for many groups</h2></div>
+					<p data-aos="fade-up">
+						The situation is similar when it comes to the sexual self-determination of women: until 1970 homosexual or sexually active girls and women were admitted to so-called educational homes, where they were often mistreated. Abortion has only been decriminalized since 1974, but is still fundamentally illegal to this day. Until 1986, mentally handicapped people in Germany were also sterilized as a matter of course without their consent. And horrifyingly, up until 1997, rape within a marriage was still legal and until 2016 rape was generally only considered as such if the victim had resisted violently, which experience has shown is often not the case when victims are paralysed with fear. So, what can we conclude from this?
+					</p>
+
+					<div><h2 data-aos="fade-up">Freedom and sexual freedom are inseparable</h2></div>
+					<p data-aos="fade-up">
+						Based on the developments we have seen in German law and society, it is easy to see how closely sexual freedom and the general freedom of the individual are related. Only when consensual sexuality is not demonised or classed as illegal can the individual enjoy freedom in a society. Anyone who conforms to typical social norms - for example as a heterosexual, white man without unusual erotic desires - may not be particularly affected by restrictions on sexual freedom. However, this does not necessarily apply to the female population of Germany, which makes up 51% of the total population, nor the 7.4% of people who feel part of the LGBTQI+ community in the country. At this point you can already clearly see that a majority of the German population benefits from laws that guarantee a relatively high degree of sexual freedom and self-determination. We hope that our ranking can be a decision-making aid for all those who are looking for a place to live, where they can find their happiness and live as free from discrimination as possible.
+					</p>
+
+					<div><h2 data-aos="fade-up">The winners</h2></div>
+					<p data-aos="fade-up">
+						There are prominent names at the top of our ranking. The US east coast metropolis New York City lands in first place on points. Although there are some restrictions in the USA, for example in the area of sex work, the overwhelming freedom and opportunities on offer in “NYC” ensure top results. Cologne ranks in second place and thus once again underlines its liberal image and international reputation, even coming in ahead of capital city Berlin in third place, followed by Madrid and Los Angeles. This means that two German cities are represented in the top 5. Incidentally, the world's first sex shop was opened in this country in 1962, by entrepreneur and pilot Beate Uhse. Germany's performance in this ranking is probably also due to her pioneering work in liberalising the country. While the performance of New York City and Los Angeles may not be unexpected, Madrid’s position in fourth place may be more surprising. However, despite Catholicism being the main religion in Spain, Madrid itself is home to a huge adult entertainment industry and more liberal attitudes.
+					</p>
+
+
+					<p data-aos="fade-up">
+						Further down in our ranking, West Hollywood is in 20th place. With just under 40,000 inhabitants, the comparatively small city impresses with its very high number of gay bars and sex shops and has grown in recent years as a real capital of the international LGBTQI+ scene. Behind it is the beautiful Rome at number 21, where a very special attitude to life between lust and spirituality has always been established. Miami ranks 22nd, with the US metropolis combining freedom and liberality in an endless summer that is second to none. 23rd place also goes to the USA, to Dallas. Who would have thought that a city in Texas, with its conservative reputation, would make it into this ranking? But Dallas rates highly against our parameters and, like anywhere, there are freedom-loving people in Texas who like to be sexually permissive.
+					</p>
+
+					<p data-aos="fade-up">
+						Place 24 in the ranking goes to Chile, more precisely to the capital Santiago. Many freedoms there are still relatively new, such as the recognition of homosexual partnerships, but hardly any other city has developed so positively recently. The 25th and last place in our ranking goes to wonderful Vancouver in Canada. With Vancouver’s inclusion in the list it quickly becomes clear that just because a city is 'at the bottom' of the ranking does not mean that it is not sexually liberal, just that the competition is tough! Surely a good sign for many people in this world...
+					</p>
+					<p data-aos="fade-up">
+						Would you have expected these results or do you feel that there is a city missing from the ranking? Then please let us know via <a href="https://twitter.com/LustMagOfficial" target="_blank">https://twitter.com/LustMagOfficial</a>
+					</p>
+
+					<div><h2 data-aos="fade-up">Methodology</h2></div>
+
+					<p data-aos="fade-up">
+						Curious as to how we calculated these results? <a href="https://lustmag.com/wp-content/uploads/2021/10/Methodik-–-Most-Sexually-Liberal-Lust.pdf" style="text-decoration:underline;">Click here</a> to see our full methodology (opens a PDF)
+					</p>
+
+
+				</div>
+
+
+			</section>
+		</div>
+		<!-- //Main -->
+
+		<div class="info-overlay">
+			<div class="info-bg overlay-close-trigger"></div>
+			<div class="overlay-content"> 
+				<a class="overlay-close overlay-close-trigger"></a> 
+				<img src="img/logo.png" alt="German Most Sexually Liberated Cities">
+
+				<h2>Methodology</h2>
+				<p>In order to create a ranking of the most sex-positive cities in Germany, the country's 50 largest cities were examined for various factors. This includes the number of sex shops, swingers clubs, gay bars, gay pride and LGBTAIQ+ events. The treatment of sex workers was also taken into account in the study by determining the number of sex workers, sex work organizations and the number of local brothels. In addition, the topic of health and education played an important role in the study. For this purpose, the number of sexual counseling and health offers as well as the number of PrEP accompanying offers on site were determined.</p>
+				<p>The investigation was completed on April 30, 2022.</p>
+
+				<h2>Factors, definitions and sources</h2>
+				<h3>Research area 1: Sex-positive lifestyle Sex</h3>
+				<p><b>shops:</b> Information on the number of sex shops was taken from the recommendation <a href="https://www.yelp.de/berlin" target="_blank">portal Yelp</a>.</p>
+				<p><b>Swinger clubs:</b> Information about the number of swinger clubs was taken from the dating portal <a href="https://www.joyclub.de/swingerclubs/" target="_blank">Joyclub</a>. With more than 1500 registered clubs and institutions, the local swinger club database is one of the largest in Europe.</p>
+
+				<h3>Research Field 2: LGBTIAQ+</h3>
+				<p><b>Gay Pride Events:</b> Information about the number of gay pride events was taken from Google's local event overview.</p>
+				<p><b>LGBTIAQ+ Events:</b> Information on the number of local LGBTIAQ+ events was taken from Google's local events overview.</p>
+				<p><b>LGBTIAQ+ bars and clubs:</b>  Information about the number of LGBTIAQ+ bars and clubs was taken from queer information and scene media. These include the websites of <a href="https://www.inqueery.de/" target="_blank">inqueery</a>, <a href="https://www.patroc.com/" target="_blank">Patroc</a> and <a href="https://www.travelgay.com/" target="_blank">travelgay</a>. </p>
+
+				<h3>Research field 3: Sex work</h3>
+				<p><b>Brothels:</b> Information about the number of brothels was taken from the red light directory <a href="http://www.lustmap.de/" target="_blank">lustmap</a> .</p>
+				<p><b>Sex workers:</b> Information about the number of sex workers on site was taken from the erotic advertising <a href="https://erobella.com/" target="_blank">portal Erobella</a> . With more than 10,000 registered sex workers, the portal is one of the largest escort websites in Germany.</p>
+				<p><b>Organisations:</b> Information on the number of organizations working on behalf of sex workers was obtained from two sources: the <a href="https://www.berufsverband-sexarbeit.de/index.php/wichtige-adressen/#tab-id-3" target="_blank">Sex Workers Association</a> portal <a href="http://www.services4sexworkers.eu/s4swi/services/country/?name=Germany" target="_blank">Services4Sexworkers</a>. Both sites are among the most important information portals for sex workers on the internet.</p>
+
+				<h3>Research Area 4: Sexual Health Health</h3>
+
+				<p><b>Organizations:</b> Information on local health organizations working on STDs, HIV and sexuality was provided to the <a href="https://www.kompass.hiv/" target="_blank">HIV Compass</a> removed. We would like to thank the <a href="https://www.aidshilfe.de/" target="_blank">Deutsche Aidshilfe</a> for making the material available. </p>
+
+				<p><b>PrEP:</b> PrEP is an HIV prevention prophylaxis for people who are HIV negative but are at increased risk of contracting HIV. Information on doctors and institutions that are particularly dedicated to this topic was taken from the German Association of Resident Doctors in the Care of HIV-Infected eV (<a href="https://www.dagnae.de/wp-content/uploads/2021/07/PrEP_%C3%9Cbersicht-080721.pdf" target="_blank">dagnä</a>) . </p>
+
+				<h2>Calculation and scoring</h2>
+				<p>In order to calculate a ranking, all the results of the examined influencing factors were standardized on a point scale from 0 to 100, with population sizes also taken into account (i.e. all results were divided by total population, thus creating a per capita score). The city that performed best in each factor received a score of 100. The city that performed worst in each factor received a score of 0. All other cities ranked in between according to their score.</p>
+				<p>Finally, an additional coefficient was applied to each individual factor based on its perceived importance. Then all points were added up, resulting in the final rankings.</p>
+
+			</div>
+		</div>
+
+
+
+		
+
+
+
+
+
+
+
+		<!-- Footer -->
+		{% include '../parts/sections/footer.html' %}
+		<!-- //Footer -->
+
+	</div>
+	<!-- //CONTENT WRAPPER -->
+
+	{% include '../parts/scripts.html' %}
+
+</body>
+
+</html>
